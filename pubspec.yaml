@@ -1,6 +1,15 @@
-name: dcubo_iconify
+name: dcubo_iconify_workspace
+publish_to: none
 
 environment:
-  sdk: '>=3.0.0 <4.0.0'
+  sdk: '>=3.6.0 <4.0.0'
 dev_dependencies:
   melos: ^6.3.2
+  very_good_analysis: ^6.0.0
+
+workspace:
+- packages/dcubo_iconify
+    
+scripts:
+  analyze:
+    exec: dart analyze .

@@ -1,8 +1,0 @@
-name: dcubo_iconify
-
-packages:
-  - packages/*
-    
-scripts:
-  analyze:
-    exec: dart analyze .

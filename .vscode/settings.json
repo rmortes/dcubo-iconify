@@ -11,6 +11,7 @@
   },
   "terminal.integrated.defaultProfile.osx": "nix",
   "cSpell.words": [
-    "Iconify"
+    "Iconify",
+    "mocktail"
   ],
 }
