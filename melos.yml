@@ -1,4 +1,4 @@
-name: iconify
+name: dcubo_iconify
 
 packages:
   - packages/*
