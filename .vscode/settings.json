@@ -1,0 +1,13 @@
+{
+  "nixEnvSelector.nixFile": "${workspaceFolder}/shell.nix",
+  "terminal.integrated.profiles.osx": {
+    "nix": {
+      "path": "zsh",
+      "args": [
+        "-lic",
+        "nix-shell"
+      ]
+    },
+  },
+  "terminal.integrated.defaultProfile.osx": "nix",
+}
