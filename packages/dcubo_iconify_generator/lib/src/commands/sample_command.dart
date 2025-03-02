@@ -98,6 +98,12 @@ class SampleCommand extends Command<int> {
         }
       }
 
+      // 2.2 If there are no icons, skip
+      if (iconSetData.icons.isEmpty) {
+        progress.fail('Skipping ${set.name}, no icons found');
+        continue;
+      }
+
       // 3. Get the files and folders to process
       final templateUri = Uri.file(templatePath);
       final newFolder = await render(templatePath, iconSetData);

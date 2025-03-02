@@ -215,7 +215,7 @@ class IconSetData {
     return IconSetData(
       prefix: json['prefix'] as String,
       info: IconSetDataInfo.fromJson(json['info'] as Map<String, dynamic>),
-      lastModified: json['lastModified'] as int,
+      lastModified: json['lastModified'] as int? ?? 0,
       // Should be a list
       icons: (json['icons'] as Map<String, dynamic>)
           .map(
