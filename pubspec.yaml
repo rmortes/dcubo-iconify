@@ -8,8 +8,12 @@ dev_dependencies:
   melos: "^6.3.2"
   very_good_analysis: "^6.0.0"
 workspace:
+  - "packages/dcubo_iconify_bitcoin_icons"
   - "packages/dcubo_iconify_academicons"
   - "packages/dcubo_iconify_devicon_plain"
+  - "packages/dcubo_iconify_bi"
+  - "packages/dcubo_iconify_basil"
+  - "packages/dcubo_iconify_aws"
   - "packages/dcubo_iconify_akar_icons"
   - "packages/dcubo_iconify"
   - "packages/dcubo_iconify_arcticons"
