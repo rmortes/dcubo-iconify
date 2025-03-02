@@ -1,0 +1,12 @@
+/// Iconify icons for {{ prefix }}.
+library;
+
+/// Class to access the icon data for {{ info.name }}.
+/// All icons are stored as static const strings.
+/// This class contains the icons that start with "B".
+class Iconify{{ className }}IconSetB {
+  {% for icon in startingBIcons %}
+  /// ![preview]({{ icon.iconPreview }})
+  static const {{ icon.variableName }} = '{{ icon.body }}';
+  {% endfor %}
+}

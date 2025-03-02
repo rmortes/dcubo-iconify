@@ -3,8 +3,9 @@ library;
 
 /// Class to access the icon data for {{ info.name }}.
 /// All icons are stored as static const strings.
-class Iconify{{ className }}IconSet {
-  {% for icon in icons %}
+/// This class contains the icons that start with "D".
+class Iconify{{ className }}IconSetD {
+  {% for icon in startingDIcons %}
   /// ![preview]({{ icon.iconPreview }})
   static const {{ icon.variableName }} = '{{ icon.body }}';
   {% endfor %}
