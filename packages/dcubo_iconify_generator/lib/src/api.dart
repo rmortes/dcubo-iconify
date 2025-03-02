@@ -158,13 +158,13 @@ class IconData {
     return IconData(
       name: json['name'] as String,
       body: json['body'] as String,
-      width: json['width'] as int?,
+      width: json['width'] as num?,
     );
   }
 
   final String name;
   final String body;
-  final int? width;
+  final num? width;
 
   @override
   String toString() {
