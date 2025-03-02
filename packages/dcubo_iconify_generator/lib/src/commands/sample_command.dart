@@ -21,12 +21,24 @@ class SampleCommand extends Command<int> {
   SampleCommand({
     required Logger logger,
   }) : _logger = logger {
-    argParser.addFlag(
-      'yes',
-      help: 'Skip confirmation prompt',
-      abbr: 'y',
-      negatable: false,
-    );
+    argParser
+      ..addFlag(
+        'yes',
+        help: 'Skip confirmation prompt',
+        abbr: 'y',
+        negatable: false,
+      )
+      ..addFlag(
+        'release',
+        help: 'Generate the release version of the package',
+        abbr: 'r',
+        negatable: false,
+      )
+      ..addFlag(
+        'force',
+        help: 'Force generation of the package, even if it is up to date',
+        abbr: 'f',
+      );
   }
 
   @override
@@ -71,9 +83,24 @@ class SampleCommand extends Command<int> {
         globalResults?.option('token') ?? '',
       );
 
+      // 2.1 If the iconset data lastModified and the local
+      // lastModified are the same, skip
+      final localLastModified = await getPackageLastModifiedOrNull(
+        'packages/dcubo_iconify_${iconSetData.fileName}',
+      );
+      if (localLastModified != null &&
+          localLastModified == iconSetData.lastModified) {
+        if (argResults?.flag('force') != true) {
+          progress.fail('Skipping ${set.name}, already up to date');
+          continue;
+        } else {
+          _logger.warn('Forcing generation of ${set.name}');
+        }
+      }
+
       // 3. Get the files and folders to process
       final templateUri = Uri.file(templatePath);
-      final newFolder = render(templatePath, iconSetData);
+      final newFolder = await render(templatePath, iconSetData);
       final templateFolders = getAllFolders(templateUri);
       final templateFiles = getTemplateFiles(templateUri);
 
@@ -81,7 +108,7 @@ class SampleCommand extends Command<int> {
       for (final folder in templateFolders) {
         final templatePath = folder.pathSegments.join('/');
         // 4.1 Replace all variables in the folder name
-        final newFolderPath = render(templatePath, iconSetData);
+        final newFolderPath = await render(templatePath, iconSetData);
 
         progress.update('Creating $newFolderPath');
         await Directory(newFolderPath).create(recursive: true);
@@ -101,11 +128,11 @@ class SampleCommand extends Command<int> {
       for (final file in templateFiles) {
         final templatePath = file.pathSegments.join('/');
         final newFilePath =
-            render(templatePath, iconSetData).replaceAll('.tem', '');
+            (await render(templatePath, iconSetData)).replaceAll('.tem', '');
         progress.update('Creating $newFilePath');
         // 5.1 Write the files after rendering the template
         final templateFileContent = await File(templatePath).readAsString();
-        final newFileContent = render(templateFileContent, iconSetData);
+        final newFileContent = await render(templateFileContent, iconSetData);
         final newFile = await File(newFilePath).create(recursive: true);
         await newFile.writeAsString(newFileContent);
       }
@@ -119,10 +146,24 @@ class SampleCommand extends Command<int> {
       );
 
       // 7. Move the folder to the target path
-      final targetPath = render(templateTargetPath, iconSetData);
+      final targetPath = await render(templateTargetPath, iconSetData);
       progress.update('Moving to $targetPath');
-      await Directory(targetPath).delete(recursive: true);
+      // Delete the target path if it exists
+      if (Directory(targetPath).existsSync()) {
+        await Directory(targetPath).delete(recursive: true);
+      }
       await Directory(newFolder).rename(targetPath);
+
+      // 8. If the release flag is set, run `pub publish`
+      print(argResults?.flag('release'));
+      if (argResults?.flag('release') ?? false) {
+        progress.update('Publishing');
+        await Process.run(
+          'flutter',
+          ['pub', 'publish', '-f'],
+          workingDirectory: targetPath,
+        );
+      }
 
       progress.complete('${set.name} generated');
     }

@@ -1,4 +1,4 @@
-import 'package:dcubo_iconify/iconify.dart';
+import 'package:dcubo_iconify/src/iconify.dart';
 import 'package:flutter_test/flutter_test.dart';
 
 void main() {

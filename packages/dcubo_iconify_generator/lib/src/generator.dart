@@ -57,10 +57,17 @@ List<Uri> getNonTemplateFiles(Uri path) {
   return files;
 }
 
-String render(String source, IconSetData data) {
+Future<String> render(String source, IconSetData data) async {
   final env = Environment();
   final template = env.fromString(source);
-  return template.render(data.toMap());
+  final dataMap = data.toMap();
+  return template.render({
+    ...dataMap,
+    'version': data.info.version ??
+        await bumpPackageSemverOrNull(
+            'packages/dcubo_iconify_${data.fileName}/') ??
+        '0.1.0',
+  });
 }
 
 Future<dynamic> updateWorkspace() async {
@@ -94,4 +101,48 @@ Future<dynamic> updateWorkspace() async {
       'workspace': workspacePackages.map((name) => 'packages/$name').toList(),
     }),
   );
+}
+
+/// This function either returns a String with the semver of the package
+/// or null if the package is not found
+Future<String?> getPackageSemverOrNull(String path) async {
+  final pubspec = File('$path/pubspec.yaml');
+  if (!pubspec.existsSync()) {
+    return null;
+  }
+  final pubspecContent = loadYaml(await pubspec.readAsString());
+  return pubspecContent['version'] as String?;
+}
+
+/// This function either returns a String with the semver of the package
+/// bumped by one minor version or null if the package is not found
+/// or the version is not a valid semver
+Future<String?> bumpPackageSemverOrNull(String path) async {
+  final semver = await getPackageSemverOrNull(path);
+  if (semver == null) {
+    return null;
+  }
+  // Do not use Version.parse here because it throws an exception
+  final parts = semver.split('.');
+  if (parts.length != 3) {
+    return null;
+  }
+  final major = int.tryParse(parts[0]);
+  final minor = int.tryParse(parts[1]);
+  final patch = int.tryParse(parts[2]);
+  if (major == null || minor == null || patch == null) {
+    return null;
+  }
+  return '$major.${minor + 1}.$patch';
+}
+
+/// This function either returns an int with the lastModified time of a
+/// package or null if the package is not found
+Future<int?> getPackageLastModifiedOrNull(String path) async {
+  final pubspec = File('$path/pubspec.yaml');
+  if (!pubspec.existsSync()) {
+    return null;
+  }
+  final pubspecContent = loadYaml(await pubspec.readAsString());
+  return pubspecContent['lastModified'] as int?;
 }

@@ -1,7 +1,9 @@
 name: dcubo_iconify_{{ fileName }}
 description: Iconify icons for {{ info.name }}.
-version: 0.1.0+1
-publish_to: none
+version: {{ version }}
+lastModified: {{ lastModified }}
+repository: https://github.com/rmortes/dcubo-iconify/
+issue_tracker: https://github.com/rmortes/dcubo-iconify/issues
 resolution: workspace
 
 environment:
