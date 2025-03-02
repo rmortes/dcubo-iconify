@@ -66,8 +66,8 @@ class IconSetDataInfo {
     required this.licenseSpdx,
     required this.licenseUrl,
     required this.height,
-    required this.category,
     required this.palette,
+    this.category,
     this.samples,
     this.displayHeight,
     this.version,
@@ -87,7 +87,7 @@ class IconSetDataInfo {
       samples: (json['samples'] as List<dynamic>?)?.cast<String>(),
       height: json['height'] as int,
       displayHeight: json['displayHeight'] as int?,
-      category: json['category'] as String,
+      category: json['category'] as String?,
       tags: (json['tags'] as List<dynamic>?)?.cast<String>(),
       palette: json['palette'] as bool,
     );
@@ -104,7 +104,7 @@ class IconSetDataInfo {
   final List<String>? samples;
   final int height;
   final int? displayHeight;
-  final String category;
+  final String? category;
   final List<String>? tags;
   final bool palette;
 
