@@ -183,10 +183,16 @@ class IconData {
 
   /// This getter turns the `name` from kebab-case
   /// to camelCase for use as a Dart variable name
-  String get variableName => name.replaceAllMapped(
-        RegExp(r'-(\w)'),
-        (match) => match.group(1)!.toUpperCase(),
-      );
+  String get variableName {
+    var n = name.replaceAllMapped(
+      RegExp(r'-(\w)'),
+      (match) => match.group(1)!.toUpperCase(),
+    );
+    if (n.startsWith(RegExp(r'[0-9]'))) {
+      n = 'i$n';
+    }
+    return n;
+  }
 
   /// This getter returns a base64 encoded SVG string
   /// that can be used to preview the icon in vscode
