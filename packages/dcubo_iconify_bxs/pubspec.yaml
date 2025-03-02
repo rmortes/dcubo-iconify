@@ -1,0 +1,10 @@
+name: dcubo_iconify_bxs
+description: Iconify icons for BoxIcons Solid.
+version: 2.1.4
+lastModified: 1722793024
+repository: https://github.com/rmortes/dcubo-iconify/
+issue_tracker: https://github.com/rmortes/dcubo-iconify/issues
+resolution: workspace
+
+environment:
+  sdk: ^3.6.0
