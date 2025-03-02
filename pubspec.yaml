@@ -18,6 +18,7 @@ workspace:
   - "packages/dcubo_iconify"
   - "packages/dcubo_iconify_arcticons"
   - "packages/dcubo_iconify_ant_design"
+  - "packages/dcubo_iconify_bpmn"
 scripts:
   analyze:
     exec: "dart analyze ."

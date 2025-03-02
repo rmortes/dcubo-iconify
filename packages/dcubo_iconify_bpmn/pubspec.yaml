@@ -1,0 +1,10 @@
+name: dcubo_iconify_bpmn
+description: Iconify icons for BPMN.
+version: 0.10.0
+lastModified: 1722792999
+repository: https://github.com/rmortes/dcubo-iconify/
+issue_tracker: https://github.com/rmortes/dcubo-iconify/issues
+resolution: workspace
+
+environment:
+  sdk: ^3.6.0
