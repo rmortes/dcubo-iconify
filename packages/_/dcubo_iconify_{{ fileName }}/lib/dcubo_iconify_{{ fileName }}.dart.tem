@@ -1,0 +1,11 @@
+/// Iconify icons for {{ prefix }}.
+library;
+
+/// Class to access the icon data for {{ info.name }}.
+/// All icons are stored as static const strings.
+class Iconify{{ className }}IconSet {
+  {% for icon in icons %}
+  /// ![preview]({{ icon.iconPreview }})
+  static const {{ icon.variableName }} = '{{ icon.body }}';
+  {% endfor %}
+}

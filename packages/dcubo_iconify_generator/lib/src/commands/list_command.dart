@@ -19,7 +19,7 @@ class ListCommand extends Command<int> {
 
   @override
   Future<int> run() async {
-    final sets = await getIconSets();
+    final sets = await getIconSets(globalResults?.option('token') ?? '');
     for (final set in sets) {
       _logger.info(set.name);
     }

@@ -36,6 +36,10 @@ class DcuboIconifyGeneratorCommandRunner extends CompletionCommandRunner<int> {
       ..addFlag(
         'verbose',
         help: 'Noisy logging, including all shell commands executed.',
+      )
+      ..addOption(
+        'token',
+        help: 'GitHub token to use for API requests',
       );
 
     // Add sub commands
