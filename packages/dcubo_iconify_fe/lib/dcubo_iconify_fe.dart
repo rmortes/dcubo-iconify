@@ -1,0 +1,1026 @@
+/// Iconify icons for fe.
+library;
+
+/// Class to access the icon data for Feather Icon.
+/// All icons are stored as static const strings.
+class IconifyFeatherIconIconSet {
+  /// ![preview](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjxwYXRoIGZpbGw9ImN1cnJlbnRDb2xvciIgZmlsbC1ydWxlPSJldmVub2RkIiBkPSJNMTEgMTlhMSAxIDAgMCAxLTIgMFY4YTEgMSAwIDEgMSAyIDB6bS00IDBhMSAxIDAgMCAxLTIgMHYtN2ExIDEgMCAwIDEgMiAwem02IDB2LTlhMSAxIDAgMCAxIDIgMHY5YTEgMSAwIDAgMS0yIDBtNC0xNGExIDEgMCAwIDEgMiAwdjE0YTEgMSAwIDAgMS0yIDB6Ii8+PC9zdmc+)
+  static const activity =
+      '<path fill="currentColor" fill-rule="evenodd" d="M11 19a1 1 0 0 1-2 0V8a1 1 0 1 1 2 0zm-4 0a1 1 0 0 1-2 0v-7a1 1 0 0 1 2 0zm6 0v-9a1 1 0 0 1 2 0v9a1 1 0 0 1-2 0m4-14a1 1 0 0 1 2 0v14a1 1 0 0 1-2 0z"/>';
+
+  /// ![preview](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjxwYXRoIGZpbGw9ImN1cnJlbnRDb2xvciIgZmlsbC1ydWxlPSJldmVub2RkIiBkPSJNOCAxNmg4YTEgMSAwIDAgMSAwIDJIN2ExIDEgMCAwIDEtMS0xVjRINWExIDEgMCAxIDEgMC0yaDJhMSAxIDAgMCAxIDEgMXY5aDguNzc1TDE4IDdWNS4wMDFjMS4xNDUgMCAyIC44OTQgMiAxLjk5OXEwIC4yMi0uMDUuNDM0bC0xLjE1MSA1Yy0uMjEuOTE1LTEuMDUyIDEuNTY2LTIuMDI0IDEuNTY2SDguMDczTDggMTMuOTk5em0tLjUgNmExLjUgMS41IDAgMSAxIDAtM2ExLjUgMS41IDAgMCAxIDAgM205IDBhMS41IDEuNSAwIDEgMSAwLTNhMS41IDEuNSAwIDAgMSAwIDNNMTQgNWgxYTEgMSAwIDAgMSAwIDJoLTF2MWExIDEgMCAwIDEtMiAwVjdoLTFhMSAxIDAgMCAxIDAtMmgxVjRhMSAxIDAgMCAxIDIgMHoiLz48L3N2Zz4=)
+  static const addCart =
+      '<path fill="currentColor" fill-rule="evenodd" d="M8 16h8a1 1 0 0 1 0 2H7a1 1 0 0 1-1-1V4H5a1 1 0 1 1 0-2h2a1 1 0 0 1 1 1v9h8.775L18 7V5.001c1.145 0 2 .894 2 1.999q0 .22-.05.434l-1.151 5c-.21.915-1.052 1.566-2.024 1.566H8.073L8 13.999zm-.5 6a1.5 1.5 0 1 1 0-3a1.5 1.5 0 0 1 0 3m9 0a1.5 1.5 0 1 1 0-3a1.5 1.5 0 0 1 0 3M14 5h1a1 1 0 0 1 0 2h-1v1a1 1 0 0 1-2 0V7h-1a1 1 0 0 1 0-2h1V4a1 1 0 0 1 2 0z"/>';
+
+  /// ![preview](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjxwYXRoIGZpbGw9ImN1cnJlbnRDb2xvciIgZmlsbC1ydWxlPSJldmVub2RkIiBkPSJNNC44IDE5aDE0LjRjLjQ0MiAwIC44LjQ0OC44IDFzLS4zNTggMS0uOCAxSDQuOGMtLjQ0MiAwLS44LS40NDgtLjgtMXMuMzU4LTEgLjgtMW02LjItNGEyIDIgMCAxIDEtNCAwVjVhMiAyIDAgMSAxIDQgMHptNiAwYTIgMiAwIDEgMS00IDBWOWEyIDIgMCAxIDEgNCAweiIvPjwvc3ZnPg==)
+  static const alignBottom =
+      '<path fill="currentColor" fill-rule="evenodd" d="M4.8 19h14.4c.442 0 .8.448.8 1s-.358 1-.8 1H4.8c-.442 0-.8-.448-.8-1s.358-1 .8-1m6.2-4a2 2 0 1 1-4 0V5a2 2 0 1 1 4 0zm6 0a2 2 0 1 1-4 0V9a2 2 0 1 1 4 0z"/>';
+
+  /// ![preview](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjxwYXRoIGZpbGw9ImN1cnJlbnRDb2xvciIgZmlsbC1ydWxlPSJldmVub2RkIiBkPSJNMTEgMTN2LTJINi4yODZDNS4wMjMgMTEgNCAxMC4xMDUgNCA5czEuMDIzLTIgMi4yODYtMkgxMVYzYTEgMSAwIDAgMSAyIDB2NGg0LjcxNEMxOC45NzcgNyAyMCA3Ljg5NSAyMCA5cy0xLjAyMyAyLTIuMjg2IDJIMTN2MmgzYTIgMiAwIDEgMSAwIDRoLTN2NGExIDEgMCAwIDEtMiAwdi00SDhhMiAyIDAgMSAxIDAtNHoiLz48L3N2Zz4=)
+  static const alignCenter =
+      '<path fill="currentColor" fill-rule="evenodd" d="M11 13v-2H6.286C5.023 11 4 10.105 4 9s1.023-2 2.286-2H11V3a1 1 0 0 1 2 0v4h4.714C18.977 7 20 7.895 20 9s-1.023 2-2.286 2H13v2h3a2 2 0 1 1 0 4h-3v4a1 1 0 0 1-2 0v-4H8a2 2 0 1 1 0-4z"/>';
+
+  /// ![preview](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjxwYXRoIGZpbGw9ImN1cnJlbnRDb2xvciIgZmlsbC1ydWxlPSJldmVub2RkIiBkPSJNNyAyMWExIDEgMCAwIDEtMiAwVjNhMSAxIDAgMSAxIDIgMHptNC0xMmEyIDIgMCAxIDEgMC00aDZhMiAyIDAgMSAxIDAgNHptMCAzaDRhMiAyIDAgMSAxIDAgNGgtNGEyIDIgMCAxIDEgMC00Ii8+PC9zdmc+)
+  static const alignLeft =
+      '<path fill="currentColor" fill-rule="evenodd" d="M7 21a1 1 0 0 1-2 0V3a1 1 0 1 1 2 0zm4-12a2 2 0 1 1 0-4h6a2 2 0 1 1 0 4zm0 3h4a2 2 0 1 1 0 4h-4a2 2 0 1 1 0-4"/>';
+
+  /// ![preview](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjxwYXRoIGZpbGw9ImN1cnJlbnRDb2xvciIgZmlsbC1ydWxlPSJldmVub2RkIiBkPSJNMTcgMjFhMSAxIDAgMCAxLTIgMFYzYTEgMSAwIDAgMSAyIDB6TTExIDVhMiAyIDAgMSAxIDAgNEg1YTIgMiAwIDEgMSAwLTR6bTAgN2EyIDIgMCAxIDEgMCA0SDdhMiAyIDAgMSAxIDAtNHoiLz48L3N2Zz4=)
+  static const alignRight =
+      '<path fill="currentColor" fill-rule="evenodd" d="M17 21a1 1 0 0 1-2 0V3a1 1 0 0 1 2 0zM11 5a2 2 0 1 1 0 4H5a2 2 0 1 1 0-4zm0 7a2 2 0 1 1 0 4H7a2 2 0 1 1 0-4z"/>';
+
+  /// ![preview](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjxwYXRoIGZpbGw9ImN1cnJlbnRDb2xvciIgZmlsbC1ydWxlPSJldmVub2RkIiBkPSJNNC44IDNoMTQuNGMuNDQyIDAgLjguNDQ4LjggMXMtLjM1OCAxLS44IDFINC44QzQuMzU4IDUgNCA0LjU1MiA0IDRzLjM1OC0xIC44LTFNNyA5YTIgMiAwIDEgMSA0IDB2MTBhMiAyIDAgMSAxLTQgMHptNiAwYTIgMiAwIDEgMSA0IDB2NmEyIDIgMCAxIDEtNCAweiIvPjwvc3ZnPg==)
+  static const alignTop =
+      '<path fill="currentColor" fill-rule="evenodd" d="M4.8 3h14.4c.442 0 .8.448.8 1s-.358 1-.8 1H4.8C4.358 5 4 4.552 4 4s.358-1 .8-1M7 9a2 2 0 1 1 4 0v10a2 2 0 1 1-4 0zm6 0a2 2 0 1 1 4 0v6a2 2 0 1 1-4 0z"/>';
+
+  /// ![preview](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjxwYXRoIGZpbGw9ImN1cnJlbnRDb2xvciIgZmlsbC1ydWxlPSJldmVub2RkIiBkPSJNMTcgMTN2MmEyIDIgMCAxIDEtNCAwdi0yaC0ydjQuNzE0QzExIDE4Ljk3NyAxMC4xMDUgMjAgOSAyMHMtMi0xLjAyMy0yLTIuMjg2VjEzSDNhMSAxIDAgMCAxIDAtMmg0VjYuMjg2QzcgNS4wMjMgNy44OTUgNCA5IDRzMiAxLjAyMyAyIDIuMjg2VjExaDJWOWEyIDIgMCAxIDEgNCAwdjJoNGExIDEgMCAwIDEgMCAyeiIvPjwvc3ZnPg==)
+  static const alignVertically =
+      '<path fill="currentColor" fill-rule="evenodd" d="M17 13v2a2 2 0 1 1-4 0v-2h-2v4.714C11 18.977 10.105 20 9 20s-2-1.023-2-2.286V13H3a1 1 0 0 1 0-2h4V6.286C7 5.023 7.895 4 9 4s2 1.023 2 2.286V11h2V9a2 2 0 1 1 4 0v2h4a1 1 0 0 1 0 2z"/>';
+
+  /// ![preview](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjxwYXRoIGZpbGw9ImN1cnJlbnRDb2xvciIgZmlsbC1ydWxlPSJldmVub2RkIiBkPSJNMTIgMjJDNi40NzcgMjIgMiAxNy41MjMgMiAxMlM2LjQ3NyAyIDEyIDJzMTAgNC40NzcgMTAgMTBzLTQuNDc3IDEwLTEwIDEwbTAtMmE4IDggMCAxIDAgMC0xNmE4IDggMCAwIDAgMCAxNm00LTNoLTEuMzM5cy0uNDE3LTIuNjY3LTIuNjYxLTIuNjY3UzkuMzMzIDE3IDkuMzMzIDE3SDhhNCA0IDAgMSAxIDggMG0tNS40OTQtOC4wMWExLjUgMS41IDAgMSAxLTEuNTItLjQxNkw3LjMzIDcuOTdhLjUuNSAwIDAgMSAuMzQyLS45NGwyLjgyIDEuMDI2YS41LjUgMCAwIDEgLjAxNS45MzRtMi44OTcgMGEuNDk5LjQ5OSAwIDAgMSAuMDE2LS45MzRsMi44Mi0xLjAyNmEuNS41IDAgMSAxIC4zNDIuOTRsLTEuNjU5LjYwM2ExLjUgMS41IDAgMSAxLTEuNTE5LjQxNyIvPjwvc3ZnPg==)
+  static const angry =
+      '<path fill="currentColor" fill-rule="evenodd" d="M12 22C6.477 22 2 17.523 2 12S6.477 2 12 2s10 4.477 10 10s-4.477 10-10 10m0-2a8 8 0 1 0 0-16a8 8 0 0 0 0 16m4-3h-1.339s-.417-2.667-2.661-2.667S9.333 17 9.333 17H8a4 4 0 1 1 8 0m-5.494-8.01a1.5 1.5 0 1 1-1.52-.416L7.33 7.97a.5.5 0 0 1 .342-.94l2.82 1.026a.5.5 0 0 1 .015.934m2.897 0a.499.499 0 0 1 .016-.934l2.82-1.026a.5.5 0 1 1 .342.94l-1.659.603a1.5 1.5 0 1 1-1.519.417"/>';
+
+  /// ![preview](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjxwYXRoIGZpbGw9ImN1cnJlbnRDb2xvciIgZmlsbC1ydWxlPSJldmVub2RkIiBkPSJNMTYgMTZoNHY0aC00em0tNiAwaDR2NGgtNHptLTYgMGg0djRINHptMTItNmg0djRoLTR6bS02IDBoNHY0aC00em0tNiAwaDR2NEg0em0xMi02aDR2NGgtNHptLTYgMGg0djRoLTR6TTQgNGg0djRINHoiLz48L3N2Zz4=)
+  static const appMenu =
+      '<path fill="currentColor" fill-rule="evenodd" d="M16 16h4v4h-4zm-6 0h4v4h-4zm-6 0h4v4H4zm12-6h4v4h-4zm-6 0h4v4h-4zm-6 0h4v4H4zm12-6h4v4h-4zm-6 0h4v4h-4zM4 4h4v4H4z"/>';
+
+  /// ![preview](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjxwYXRoIGZpbGw9ImN1cnJlbnRDb2xvciIgZD0ibTkuNjk0IDhsLTEgNkg2djZoMTJ2LTZoLTIuNjk0bC0xLTZ6TTEwIDN2M2g0VjNhMSAxIDAgMCAxIDIgMHYzbDEgNmgxYTIgMiAwIDAgMSAyIDJ2NmEyIDIgMCAwIDEtMiAySDZhMiAyIDAgMCAxLTItMnYtNmEyIDIgMCAwIDEgMi0yaDFsMS02VjNhMSAxIDAgMSAxIDIgME04IDE2aDh2Mkg4eiIvPjwvc3ZnPg==)
+  static const apron =
+      '<path fill="currentColor" d="m9.694 8l-1 6H6v6h12v-6h-2.694l-1-6zM10 3v3h4V3a1 1 0 0 1 2 0v3l1 6h1a2 2 0 0 1 2 2v6a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2v-6a2 2 0 0 1 2-2h1l1-6V3a1 1 0 1 1 2 0M8 16h8v2H8z"/>';
+
+  /// ![preview](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjxwYXRoIGZpbGw9ImN1cnJlbnRDb2xvciIgZmlsbC1ydWxlPSJldmVub2RkIiBkPSJtNiA3bDYgNmw2LTZsMiAybC04IDhsLTgtOHoiLz48L3N2Zz4=)
+  static const arrowDown =
+      '<path fill="currentColor" fill-rule="evenodd" d="m6 7l6 6l6-6l2 2l-8 8l-8-8z"/>';
+
+  /// ![preview](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjxwYXRoIGZpbGw9ImN1cnJlbnRDb2xvciIgZmlsbC1ydWxlPSJldmVub2RkIiBkPSJtMTUgNGwyIDJsLTYgNmw2IDZsLTIgMmwtOC04eiIvPjwvc3ZnPg==)
+  static const arrowLeft =
+      '<path fill="currentColor" fill-rule="evenodd" d="m15 4l2 2l-6 6l6 6l-2 2l-8-8z"/>';
+
+  /// ![preview](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjxwYXRoIGZpbGw9ImN1cnJlbnRDb2xvciIgZmlsbC1ydWxlPSJldmVub2RkIiBkPSJtOS4wMDUgNGw4IDhsLTggOEw3IDE4bDYuMDA1LTZMNyA2eiIvPjwvc3ZnPg==)
+  static const arrowRight =
+      '<path fill="currentColor" fill-rule="evenodd" d="m9.005 4l8 8l-8 8L7 18l6.005-6L7 6z"/>';
+
+  /// ![preview](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjxwYXRoIGZpbGw9ImN1cnJlbnRDb2xvciIgZmlsbC1ydWxlPSJldmVub2RkIiBkPSJtNCAxNWw4LThsOCA4bC0yIDJsLTYtNmwtNiA2eiIvPjwvc3ZnPg==)
+  static const arrowUp =
+      '<path fill="currentColor" fill-rule="evenodd" d="m4 15l8-8l8 8l-2 2l-6-6l-6 6z"/>';
+
+  /// ![preview](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjxwYXRoIGZpbGw9ImN1cnJlbnRDb2xvciIgZmlsbC1ydWxlPSJldmVub2RkIiBkPSJNNiAxNlY4SDRhMSAxIDAgMSAxIDAtMmgyVjRhMSAxIDAgMSAxIDIgMHYyaDhWNGExIDEgMCAwIDEgMiAwdjJoMmExIDEgMCAwIDEgMCAyaC0ydjhoMmExIDEgMCAwIDEgMCAyaC0ydjJhMSAxIDAgMCAxLTIgMHYtMkg4djJhMSAxIDAgMCAxLTIgMHYtMkg0YTEgMSAwIDAgMSAwLTJ6bTIgMGg4VjhIOHoiLz48L3N2Zz4=)
+  static const artboard =
+      '<path fill="currentColor" fill-rule="evenodd" d="M6 16V8H4a1 1 0 1 1 0-2h2V4a1 1 0 1 1 2 0v2h8V4a1 1 0 0 1 2 0v2h2a1 1 0 0 1 0 2h-2v8h2a1 1 0 0 1 0 2h-2v2a1 1 0 0 1-2 0v-2H8v2a1 1 0 0 1-2 0v-2H4a1 1 0 0 1 0-2zm2 0h8V8H8z"/>';
+
+  /// ![preview](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjxwYXRoIGZpbGw9ImN1cnJlbnRDb2xvciIgZmlsbC1ydWxlPSJldmVub2RkIiBkPSJNMTggMjBhMiAyIDAgMCAxLTIgMkg4YTIgMiAwIDAgMS0yLTJWNGEyIDIgMCAwIDEgMi0yaDhhMiAyIDAgMCAxIDIgMnptLTYgMGE0IDQgMCAxIDAgMC04YTQgNCAwIDAgMCAwIDhNOCA0djZoOFY0em00IDE0YTIgMiAwIDEgMCAwLTRhMiAyIDAgMCAwIDAgNCIvPjwvc3ZnPg==)
+  static const audioPlayer =
+      '<path fill="currentColor" fill-rule="evenodd" d="M18 20a2 2 0 0 1-2 2H8a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2zm-6 0a4 4 0 1 0 0-8a4 4 0 0 0 0 8M8 4v6h8V4zm4 14a2 2 0 1 0 0-4a2 2 0 0 0 0 4"/>';
+
+  /// ![preview](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjxwYXRoIGZpbGw9ImN1cnJlbnRDb2xvciIgZmlsbC1ydWxlPSJldmVub2RkIiBkPSJNMTIgMTJjMC0uMTA3LjAyMy0uMjE2LjA3Mi0uMzE2YS42LjYgMCAwIDEgLjIyMS0uMjUzbDYuODYtNC4zNWMuMjc2LS4xNzQuNjIzLS4wNi43NzUuMjU0YS43LjcgMCAwIDEgLjA3Mi4zMTZ2OC42OThjMCAuMzYtLjI1NS42NTEtLjU3LjY1MWEuNS41IDAgMCAxLS4yNzctLjA4MmwtNi44Ni00LjM0OUEuNjcuNjcgMCAwIDEgMTIgMTJ2NC4zNWMwIC4zNi0uMjU1LjY1MS0uNTcuNjUxYS41LjUgMCAwIDEtLjI3Ny0uMDgybC02Ljg2LTQuMzQ5Yy0uMjc1LS4xNzQtLjM3NC0uNTctLjIyMS0uODg1YS42LjYgMCAwIDEgLjIyMS0uMjUzbDYuODYtNC4zNWMuMjc2LS4xNzQuNjIzLS4wNi43NzUuMjU0YS43LjcgMCAwIDEgLjA3Mi4zMTZ6Ii8+PC9zdmc+)
+  static const backward =
+      '<path fill="currentColor" fill-rule="evenodd" d="M12 12c0-.107.023-.216.072-.316a.6.6 0 0 1 .221-.253l6.86-4.35c.276-.174.623-.06.775.254a.7.7 0 0 1 .072.316v8.698c0 .36-.255.651-.57.651a.5.5 0 0 1-.277-.082l-6.86-4.349A.67.67 0 0 1 12 12v4.35c0 .36-.255.651-.57.651a.5.5 0 0 1-.277-.082l-6.86-4.349c-.275-.174-.374-.57-.221-.885a.6.6 0 0 1 .221-.253l6.86-4.35c.276-.174.623-.06.775.254a.7.7 0 0 1 .072.316z"/>';
+
+  /// ![preview](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjxwYXRoIGZpbGw9ImN1cnJlbnRDb2xvciIgZmlsbC1ydWxlPSJldmVub2RkIiBkPSJNMyAxNmgxOHYySDN6bTAtNWgxOHYySDN6bTAtNWgxOHYySDN6Ii8+PC9zdmc+)
+  static const bar =
+      '<path fill="currentColor" fill-rule="evenodd" d="M3 16h18v2H3zm0-5h18v2H3zm0-5h18v2H3z"/>';
+
+  /// ![preview](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjxwYXRoIGZpbGw9ImN1cnJlbnRDb2xvciIgZmlsbC1ydWxlPSJldmVub2RkIiBkPSJNNSAxOWgxNWExIDEgMCAwIDEgMCAySDRhMSAxIDAgMCAxLTEtMXYtOGExIDEgMCAwIDEgMiAwem01LTRhMSAxIDAgMCAxLTIgMFY2YTEgMSAwIDEgMSAyIDB6bTIgMFY4YTEgMSAwIDAgMSAyIDB2N2ExIDEgMCAwIDEtMiAwbTQtMTFhMSAxIDAgMCAxIDIgMHYxMWExIDEgMCAwIDEtMiAweiIvPjwvc3ZnPg==)
+  static const barChart =
+      '<path fill="currentColor" fill-rule="evenodd" d="M5 19h15a1 1 0 0 1 0 2H4a1 1 0 0 1-1-1v-8a1 1 0 0 1 2 0zm5-4a1 1 0 0 1-2 0V6a1 1 0 1 1 2 0zm2 0V8a1 1 0 0 1 2 0v7a1 1 0 0 1-2 0m4-11a1 1 0 0 1 2 0v11a1 1 0 0 1-2 0z"/>';
+
+  /// ![preview](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjxwYXRoIGZpbGw9ImN1cnJlbnRDb2xvciIgZmlsbC1ydWxlPSJldmVub2RkIiBkPSJNMTcgMTZ2M2MwIDEuMS0uOSAyLTIgMkg1Yy0xLjEgMC0yLS45LTItMlY1YTIgMiAwIDAgMSAyLTJoMTBhMiAyIDAgMCAxIDIgMnYyaDJhMiAyIDAgMCAxIDIgMnY1YTIgMiAwIDAgMS0yIDJ6TTUgNXYzaDEwVjV6bTAgNXY5aDEwdi05em00IDZhMSAxIDAgMCAxLTIgMHYtM2ExIDEgMCAwIDEgMiAwem00IDBhMSAxIDAgMCAxLTIgMHYtM2ExIDEgMCAwIDEgMiAwem00LTdoMnY1aC0yeiIvPjwvc3ZnPg==)
+  static const beer =
+      '<path fill="currentColor" fill-rule="evenodd" d="M17 16v3c0 1.1-.9 2-2 2H5c-1.1 0-2-.9-2-2V5a2 2 0 0 1 2-2h10a2 2 0 0 1 2 2v2h2a2 2 0 0 1 2 2v5a2 2 0 0 1-2 2zM5 5v3h10V5zm0 5v9h10v-9zm4 6a1 1 0 0 1-2 0v-3a1 1 0 0 1 2 0zm4 0a1 1 0 0 1-2 0v-3a1 1 0 0 1 2 0zm4-7h2v5h-2z"/>';
+
+  /// ![preview](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjxwYXRoIGZpbGw9ImN1cnJlbnRDb2xvciIgZD0iTTEyIDcuNTI5TDUgNS4wOXYxMC4zNzJsNyAzLjI1MXpNNS42MzIgMy4xMDhMMTIgNS4zMjZsNi4zNjgtMi4yMThjMS4wNDctLjM2NSAyLjE4LjIyNyAyLjUzIDEuMzIyYy4wNjcuMjEzLjEwMi40MzYuMTAyLjY2djEwLjM3MmMwIC44MjYtLjQ2NSAxLjU3NC0xLjE4OCAxLjkxTDEyIDIxbC03LjgxMi0zLjYyOEMzLjQ2NSAxNy4wMzYgMyAxNi4yODggMyAxNS40NjJWNS4wOUMzIDMuOTM2IDMuODk1IDMgNSAzYy4yMTUgMCAuNDI5LjAzNy42MzIuMTA4Ii8+PC9zdmc+)
+  static const beginner =
+      '<path fill="currentColor" d="M12 7.529L5 5.09v10.372l7 3.251zM5.632 3.108L12 5.326l6.368-2.218c1.047-.365 2.18.227 2.53 1.322c.067.213.102.436.102.66v10.372c0 .826-.465 1.574-1.188 1.91L12 21l-7.812-3.628C3.465 17.036 3 16.288 3 15.462V5.09C3 3.936 3.895 3 5 3c.215 0 .429.037.632.108"/>';
+
+  /// ![preview](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjxwYXRoIGZpbGw9ImN1cnJlbnRDb2xvciIgZmlsbC1ydWxlPSJldmVub2RkIiBkPSJNMTUgMTh2MWEzIDMgMCAwIDEtNiAwdi0xSDVjLS41NSAwLTEtLjQ1LTEtMXMuNDUtMSAxLTFoMXYtNmE2IDYgMCAwIDEgNS01LjkxN1YzYTEgMSAwIDAgMSAyIDB2MS4wODNjMi44MzguNDc2IDUgMi45NDQgNSA1LjkxN3Y2aDFjLjU1IDAgMSAuNDUgMSAxcy0uNDUgMS0xIDF6bS03LTJoOHYtNmE0IDQgMCAxIDAtOCAwem00IDRhMSAxIDAgMCAwIDEtMXYtMWgtMnYxYTEgMSAwIDAgMCAxIDEiLz48L3N2Zz4=)
+  static const bell =
+      '<path fill="currentColor" fill-rule="evenodd" d="M15 18v1a3 3 0 0 1-6 0v-1H5c-.55 0-1-.45-1-1s.45-1 1-1h1v-6a6 6 0 0 1 5-5.917V3a1 1 0 0 1 2 0v1.083c2.838.476 5 2.944 5 5.917v6h1c.55 0 1 .45 1 1s-.45 1-1 1zm-7-2h8v-6a4 4 0 1 0-8 0zm4 4a1 1 0 0 0 1-1v-1h-2v1a1 1 0 0 0 1 1"/>';
+
+  /// ![preview](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjxwYXRoIGZpbGw9ImN1cnJlbnRDb2xvciIgZD0iTTE3IDEwYTQgNCAwIDAgMSA0IDR2NWEyIDIgMCAwIDEtMiAySDVhMiAyIDAgMCAxLTItMnYtNWE0IDQgMCAwIDEgNC00VjdoMnYzaDJWN2gydjNoMlY3aDJ6TTcgMTJhMiAyIDAgMCAwLTIgMnYxaDE0di0xYTIgMiAwIDAgMC0yLTJ6bS0yIDV2MmgxNHYtMnpNNyA0YTEgMSAwIDAgMCAxLTFhMSAxIDAgMCAxIDEgMXYxYTEgMSAwIDEgMS0yIDB6bTQgMGExIDEgMCAwIDAgMS0xYTEgMSAwIDAgMSAxIDF2MWExIDEgMCAwIDEtMiAwem00IDBhMSAxIDAgMCAwIDEtMWExIDEgMCAwIDEgMSAxdjFhMSAxIDAgMCAxLTIgMHoiLz48L3N2Zz4=)
+  static const birthdayCake =
+      '<path fill="currentColor" d="M17 10a4 4 0 0 1 4 4v5a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-5a4 4 0 0 1 4-4V7h2v3h2V7h2v3h2V7h2zM7 12a2 2 0 0 0-2 2v1h14v-1a2 2 0 0 0-2-2zm-2 5v2h14v-2zM7 4a1 1 0 0 0 1-1a1 1 0 0 1 1 1v1a1 1 0 1 1-2 0zm4 0a1 1 0 0 0 1-1a1 1 0 0 1 1 1v1a1 1 0 0 1-2 0zm4 0a1 1 0 0 0 1-1a1 1 0 0 1 1 1v1a1 1 0 0 1-2 0z"/>';
+
+  /// ![preview](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjxwYXRoIGZpbGw9ImN1cnJlbnRDb2xvciIgZmlsbC1ydWxlPSJldmVub2RkIiBkPSJNNSAyMFY0YzAtMS4xLjktMiAyLTJoNWMzIDAgNS45NjYgMS40IDYgNC45MTljMCAxLjgzOC0uOTMxIDMuNzMtMi41MzIgNC4zMjR2LjEzNWMyLjAzMy41MTQgMy41MzIgMi4wMjcgMy41MzIgNC43M2MwIDEuMDIyLS4yMDMgMS45MDUtLjU3MyAyLjY1M0MxNy4zMzcgMjAuOTYgMTUuMDkgMjIgMTIgMjJIN2MtMS4xIDAtMi0uOS0yLTJtMy0xaDRjMi41NjYgMCA0LTEuMiA0LTNzLTEuNDA4LTMtNC0zSDh6bTAtOWgzYzIuMzg4IDAgNC0uODUgNC0yLjU1UzEzLjUgNSAxMC45OTYgNUg4eiIvPjwvc3ZnPg==)
+  static const bold =
+      '<path fill="currentColor" fill-rule="evenodd" d="M5 20V4c0-1.1.9-2 2-2h5c3 0 5.966 1.4 6 4.919c0 1.838-.931 3.73-2.532 4.324v.135c2.033.514 3.532 2.027 3.532 4.73c0 1.022-.203 1.905-.573 2.653C17.337 20.96 15.09 22 12 22H7c-1.1 0-2-.9-2-2m3-1h4c2.566 0 4-1.2 4-3s-1.408-3-4-3H8zm0-9h3c2.388 0 4-.85 4-2.55S13.5 5 10.996 5H8z"/>';
+
+  /// ![preview](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjxwYXRoIGZpbGw9ImN1cnJlbnRDb2xvciIgZmlsbC1ydWxlPSJldmVub2RkIiBkPSJNMTggMmgtOEw2IDEzaDRsLTIgOWw5LTEzaC00Ljk5NXoiLz48L3N2Zz4=)
+  static const bolt =
+      '<path fill="currentColor" fill-rule="evenodd" d="M18 2h-8L6 13h4l-2 9l9-13h-4.995z"/>';
+
+  /// ![preview](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjxwYXRoIGZpbGw9ImN1cnJlbnRDb2xvciIgZD0ibTEzIDE2LjAwNmw3LS4wNDdWNS45OTJsLTUuMTcuMDA3bC0xLjgxNCAxLjgxNHptLTItOC4xOTNMOS4xNzkgNi4wMzhMNCA2LjAwM3Y5Ljk1Nmw3IC4wNDd6bS0xLTMuNzdMMTIgNmwyLTJsNS45OTctLjAwOEEyIDIgMCAwIDEgMjIgNS45ODl2OS45N2EyIDIgMCAwIDEtMS45ODYgMkwxNCAxOGwtMS45OTYgMkwxMCAxOGwtNi4wMTQtLjA0MWEyIDIgMCAwIDEtMS45ODYtMlY2LjAwM2EyIDIgMCAwIDEgMi0yeiIvPjwvc3ZnPg==)
+  static const book =
+      '<path fill="currentColor" d="m13 16.006l7-.047V5.992l-5.17.007l-1.814 1.814zm-2-8.193L9.179 6.038L4 6.003v9.956l7 .047zm-1-3.77L12 6l2-2l5.997-.008A2 2 0 0 1 22 5.989v9.97a2 2 0 0 1-1.986 2L14 18l-1.996 2L10 18l-6.014-.041a2 2 0 0 1-1.986-2V6.003a2 2 0 0 1 2-2z"/>';
+
+  /// ![preview](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjxwYXRoIGZpbGw9ImN1cnJlbnRDb2xvciIgZD0iTTE4IDRINnYxNC43NjRsNi0zbDYgM3pNNiAyaDEyYTIgMiAwIDAgMSAyIDJ2MThsLTgtNGwtOCA0VjRhMiAyIDAgMCAxIDItMm04IDRoMnY2aC0yeiIvPjwvc3ZnPg==)
+  static const bookmark =
+      '<path fill="currentColor" d="M18 4H6v14.764l6-3l6 3zM6 2h12a2 2 0 0 1 2 2v18l-8-4l-8 4V4a2 2 0 0 1 2-2m8 4h2v6h-2z"/>';
+
+  /// ![preview](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjxwYXRoIGZpbGw9ImN1cnJlbnRDb2xvciIgZD0iTTE3IDE5di04LjY4OWwuOTk5LS41NzdBMiAyIDAgMCAwIDE5IDhWN2EyIDIgMCAwIDAtMi0ySDdhMiAyIDAgMCAwLTIgMnYxYzAgLjcyMy4zODYgMS4zNzcgMS4wMDEgMS43MzRMNyAxMC4zMVYxOXptMiAwYTIgMiAwIDAgMS0yIDJIN2EyIDIgMCAwIDEtMi0ydi03LjUzNUE0IDQgMCAwIDEgMyA4VjdhNCA0IDAgMCAxIDQtNGgxMGE0IDQgMCAwIDEgNCA0djFjMCAxLjQ4LS44MDQgMi43NzMtMiAzLjQ2NXoiLz48L3N2Zz4=)
+  static const bread =
+      '<path fill="currentColor" d="M17 19v-8.689l.999-.577A2 2 0 0 0 19 8V7a2 2 0 0 0-2-2H7a2 2 0 0 0-2 2v1c0 .723.386 1.377 1.001 1.734L7 10.31V19zm2 0a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2v-7.535A4 4 0 0 1 3 8V7a4 4 0 0 1 4-4h10a4 4 0 0 1 4 4v1c0 1.48-.804 2.773-2 3.465z"/>';
+
+  /// ![preview](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjxwYXRoIGZpbGw9ImN1cnJlbnRDb2xvciIgZD0iTTQgMTB2OGgxNnYtOHptMC00djJoMlY2em00IDB2MmgxMlY2ek00IDRoMTZhMiAyIDAgMCAxIDIgMnYxMmEyIDIgMCAwIDEtMiAySDRhMiAyIDAgMCAxLTItMlY2YTIgMiAwIDAgMSAyLTIiLz48L3N2Zz4=)
+  static const browser =
+      '<path fill="currentColor" d="M4 10v8h16v-8zm0-4v2h2V6zm4 0v2h12V6zM4 4h16a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2"/>';
+
+  /// ![preview](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjxwYXRoIGZpbGw9ImN1cnJlbnRDb2xvciIgZmlsbC1ydWxlPSJldmVub2RkIiBkPSJNNS4yNjEgMTYuMDExQTIgMiAwIDAgMCA3Ljk5IDE4Ljc0QTIuNSAyLjUgMCAwIDEgNS41IDIxSDN2LTIuNWEyLjUgMi41IDAgMCAxIDIuMjYxLTIuNDg5TTE5IDNjMS4xIDAgMiAxLjAwNiAyIDJMOCAxOGwtMi0yeiIvPjwvc3ZnPg==)
+  static const brush =
+      '<path fill="currentColor" fill-rule="evenodd" d="M5.261 16.011A2 2 0 0 0 7.99 18.74A2.5 2.5 0 0 1 5.5 21H3v-2.5a2.5 2.5 0 0 1 2.261-2.489M19 3c1.1 0 2 1.006 2 2L8 18l-2-2z"/>';
+
+  /// ![preview](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjxwYXRoIGZpbGw9ImN1cnJlbnRDb2xvciIgZmlsbC1ydWxlPSJldmVub2RkIiBkPSJNNiAxNUg0YTEgMSAwIDAgMSAwLTJoMnYtMS4zMzdhMSAxIDAgMCAxLTEtLjI0OUwzLjU4NiAxMEExIDEgMCAwIDEgNSA4LjU4NmwxLjEzNiAxLjEzNmE2IDYgMCAwIDEgMi42NjUtMy44TDcuNTg2IDQuNzA4QTEgMSAwIDAgMSA5IDMuMjkzbDEuODIzIDEuODIyYTYgNiAwIDAgMSAyLjM1NCAwTDE1IDMuMjkzYTEgMSAwIDAgMSAxLjQxNCAxLjQxNEwxNS4yIDUuOTIzYTYgNiAwIDAgMSAyLjY2NSAzLjhMMTkgOC41ODVBMSAxIDAgMCAxIDIwLjQxNCAxMEwxOSAxMS40MTRhMSAxIDAgMCAxLTEgLjI1VjEzaDJhMSAxIDAgMCAxIDAgMmgtMnEtLjAwMi43MjYtLjE2NSAxLjQwNGExIDEgMCAwIDEgMS4xNjUuMTgyTDIwLjQxNCAxOEExIDEgMCAwIDEgMTkgMTkuNDE0TDE3LjU4NiAxOGExIDEgMCAwIDEtLjIxNi0uMzIxQTYgNiAwIDAgMSAxMiAyMWE2IDYgMCAwIDEtNS4zNy0zLjMyMWExIDEgMCAwIDEtLjIxNi4zMjFMNSAxOS40MTRBMSAxIDAgMSAxIDMuNTg2IDE4TDUgMTYuNTg2YTEgMSAwIDAgMSAxLjE2NS0uMTgyQTYgNiAwIDAgMSA2IDE1bTkuODc0LTVIOC4xMjZhNC4wMDIgNC4wMDIgMCAwIDEgNy43NDggMG0wIDZhNC4wMDIgNC4wMDIgMCAwIDEtNy43NDggMHoiLz48L3N2Zz4=)
+  static const bug =
+      '<path fill="currentColor" fill-rule="evenodd" d="M6 15H4a1 1 0 0 1 0-2h2v-1.337a1 1 0 0 1-1-.249L3.586 10A1 1 0 0 1 5 8.586l1.136 1.136a6 6 0 0 1 2.665-3.8L7.586 4.708A1 1 0 0 1 9 3.293l1.823 1.822a6 6 0 0 1 2.354 0L15 3.293a1 1 0 0 1 1.414 1.414L15.2 5.923a6 6 0 0 1 2.665 3.8L19 8.585A1 1 0 0 1 20.414 10L19 11.414a1 1 0 0 1-1 .25V13h2a1 1 0 0 1 0 2h-2q-.002.726-.165 1.404a1 1 0 0 1 1.165.182L20.414 18A1 1 0 0 1 19 19.414L17.586 18a1 1 0 0 1-.216-.321A6 6 0 0 1 12 21a6 6 0 0 1-5.37-3.321a1 1 0 0 1-.216.321L5 19.414A1 1 0 1 1 3.586 18L5 16.586a1 1 0 0 1 1.165-.182A6 6 0 0 1 6 15m9.874-5H8.126a4.002 4.002 0 0 1 7.748 0m0 6a4.002 4.002 0 0 1-7.748 0z"/>';
+
+  /// ![preview](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjxwYXRoIGZpbGw9ImN1cnJlbnRDb2xvciIgZD0iTTYgMmgxMmEyIDIgMCAwIDEgMiAydjE4SDRWNGEyIDIgMCAwIDEgMi0ybTAgMThoNHYtNGg0djRoNFY0SDZ6bTctMTRoM3YzaC0zem0tNSA1aDN2M0g4em01IDBoM3YzaC0zek04IDZoM3YzSDh6Ii8+PC9zdmc+)
+  static const building =
+      '<path fill="currentColor" d="M6 2h12a2 2 0 0 1 2 2v18H4V4a2 2 0 0 1 2-2m0 18h4v-4h4v4h4V4H6zm7-14h3v3h-3zm-5 5h3v3H8zm5 0h3v3h-3zM8 6h3v3H8z"/>';
+
+  /// ![preview](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjxwYXRoIGZpbGw9ImN1cnJlbnRDb2xvciIgZD0iTTE2IDE5SDhhMiAyIDAgMSAxLTQgMFY1YTIgMiAwIDAgMSAyLTJoMTJhMiAyIDAgMCAxIDIgMnYxNGEyIDIgMCAxIDEtNCAwbTEtNGExIDEgMCAxIDAgMC0yYTEgMSAwIDAgMCAwIDJNNyAxNWExIDEgMCAxIDAgMC0yYTEgMSAwIDAgMCAwIDJNNiA1djZoMTJWNXoiLz48L3N2Zz4=)
+  static const bus =
+      '<path fill="currentColor" d="M16 19H8a2 2 0 1 1-4 0V5a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v14a2 2 0 1 1-4 0m1-4a1 1 0 1 0 0-2a1 1 0 0 0 0 2M7 15a1 1 0 1 0 0-2a1 1 0 0 0 0 2M6 5v6h12V5z"/>';
+
+  /// ![preview](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjxwYXRoIGZpbGw9ImN1cnJlbnRDb2xvciIgZmlsbC1ydWxlPSJldmVub2RkIiBkPSJNMTQgNC4zNDFjMi4zMy44MjQgNCAzLjA0NyA0IDUuNjU5djloLjVhMS41IDEuNSAwIDAgMSAwIDNoLTEzYTEuNSAxLjUgMCAwIDEgMC0zSDZ2LTlhNiA2IDAgMCAxIDQtNS42NTlWNGEyIDIgMCAxIDEgNCAwek0xNiAxMXYzaC0zdi0zem0wLTJoLTNWNmE0LjE4IDQuMTggMCAwIDEgMyAzbS04IDJoM3YzSDh6bTAtMmE0LjE4IDQuMTggMCAwIDEgMy0zdjN6bTggN3YzaC0zdi0zem0tOCAwaDN2M0g4eiIvPjwvc3ZnPg==)
+  static const cage =
+      '<path fill="currentColor" fill-rule="evenodd" d="M14 4.341c2.33.824 4 3.047 4 5.659v9h.5a1.5 1.5 0 0 1 0 3h-13a1.5 1.5 0 0 1 0-3H6v-9a6 6 0 0 1 4-5.659V4a2 2 0 1 1 4 0zM16 11v3h-3v-3zm0-2h-3V6a4.18 4.18 0 0 1 3 3m-8 2h3v3H8zm0-2a4.18 4.18 0 0 1 3-3v3zm8 7v3h-3v-3zm-8 0h3v3H8z"/>';
+
+  /// ![preview](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjxwYXRoIGZpbGw9ImN1cnJlbnRDb2xvciIgZmlsbC1ydWxlPSJldmVub2RkIiBkPSJNOCA0aDhWMmgydjJoMWEyIDIgMCAwIDEgMiAydjE0YTIgMiAwIDAgMS0yIDJINWEyIDIgMCAwIDEtMi0yVjZhMiAyIDAgMCAxIDItMmgxVjJoMnpNNSA4djEyaDE0Vjh6bTIgM2gydjJIN3ptNCAwaDJ2MmgtMnptNCAwaDJ2MmgtMnptMCA0aDJ2MmgtMnptLTQgMGgydjJoLTJ6bS00IDBoMnYySDd6Ii8+PC9zdmc+)
+  static const calendar =
+      '<path fill="currentColor" fill-rule="evenodd" d="M8 4h8V2h2v2h1a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2h1V2h2zM5 8v12h14V8zm2 3h2v2H7zm4 0h2v2h-2zm4 0h2v2h-2zm0 4h2v2h-2zm-4 0h2v2h-2zm-4 0h2v2H7z"/>';
+
+  /// ![preview](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjxwYXRoIGZpbGw9ImN1cnJlbnRDb2xvciIgZmlsbC1ydWxlPSJldmVub2RkIiBkPSJNNSAyMWEyIDIgMCAwIDEtMi0yVjVhMiAyIDAgMCAxIDItMmgxNGEyIDIgMCAwIDEgMiAydjE0YTIgMiAwIDAgMS0yIDJ6TTE3IDV2MmgyVjV6bS01IDEyYTUgNSAwIDEgMCAwLTEwYTUgNSAwIDAgMCAwIDEwbTAtMmEzIDMgMCAxIDAgMC02YTMgMyAwIDAgMCAwIDYiLz48L3N2Zz4=)
+  static const camera =
+      '<path fill="currentColor" fill-rule="evenodd" d="M5 21a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2zM17 5v2h2V5zm-5 12a5 5 0 1 0 0-10a5 5 0 0 0 0 10m0-2a3 3 0 1 0 0-6a3 3 0 0 0 0 6"/>';
+
+  /// ![preview](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjxwYXRoIGZpbGw9ImN1cnJlbnRDb2xvciIgZD0iTTMgMTh2LTVhMiAyIDAgMCAxIDItMlY4YTQgNCAwIDAgMSA0LTRoNmE0IDQgMCAwIDEgNCA0djNhMiAyIDAgMCAxIDIgMnY1YTIgMiAwIDEgMS00IDBIN2EyIDIgMCAxIDEtNCAwTTkgNmEyIDIgMCAwIDAtMiAydjNoMTBWOGEyIDIgMCAwIDAtMi0yem0tMyA5YTEgMSAwIDEgMCAwLTJhMSAxIDAgMCAwIDAgMm0xMiAwYTEgMSAwIDEgMCAwLTJhMSAxIDAgMCAwIDAgMiIvPjwvc3ZnPg==)
+  static const car =
+      '<path fill="currentColor" d="M3 18v-5a2 2 0 0 1 2-2V8a4 4 0 0 1 4-4h6a4 4 0 0 1 4 4v3a2 2 0 0 1 2 2v5a2 2 0 1 1-4 0H7a2 2 0 1 1-4 0M9 6a2 2 0 0 0-2 2v3h10V8a2 2 0 0 0-2-2zm-3 9a1 1 0 1 0 0-2a1 1 0 0 0 0 2m12 0a1 1 0 1 0 0-2a1 1 0 0 0 0 2"/>';
+
+  /// ![preview](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjxwYXRoIGZpbGw9ImN1cnJlbnRDb2xvciIgZmlsbC1ydWxlPSJldmVub2RkIiBkPSJNOCAxNmg4YTEgMSAwIDAgMSAwIDJIN2ExIDEgMCAwIDEtMS0xVjRINWExIDEgMCAxIDEgMC0yaDJhMSAxIDAgMCAxIDEgMXYyLjAwMUw4LjA3MyA1aDkuODU0QzE5LjA3MiA1IDIwIDUuODk1IDIwIDdxMCAuMjItLjA1LjQzNGwtMS4xNTEgNWMtLjIxLjkxNS0xLjA1MiAxLjU2Ni0yLjAyNCAxLjU2Nkg4LjA3M0w4IDEzLjk5OXptLS41IDZhMS41IDEuNSAwIDEgMSAwLTNhMS41IDEuNSAwIDAgMSAwIDNtOSAwYTEuNSAxLjUgMCAxIDEgMC0zYTEuNSAxLjUgMCAwIDEgMCAzTTggN3Y1aDguODMxTDE4IDd6Ii8+PC9zdmc+)
+  static const cart =
+      '<path fill="currentColor" fill-rule="evenodd" d="M8 16h8a1 1 0 0 1 0 2H7a1 1 0 0 1-1-1V4H5a1 1 0 1 1 0-2h2a1 1 0 0 1 1 1v2.001L8.073 5h9.854C19.072 5 20 5.895 20 7q0 .22-.05.434l-1.151 5c-.21.915-1.052 1.566-2.024 1.566H8.073L8 13.999zm-.5 6a1.5 1.5 0 1 1 0-3a1.5 1.5 0 0 1 0 3m9 0a1.5 1.5 0 1 1 0-3a1.5 1.5 0 0 1 0 3M8 7v5h8.831L18 7z"/>';
+
+  /// ![preview](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjxwYXRoIGZpbGw9ImN1cnJlbnRDb2xvciIgZmlsbC1ydWxlPSJldmVub2RkIiBkPSJtNiAxMGwtMiAybDYgNkwyMCA4bC0yLTJsLTggOHoiLz48L3N2Zz4=)
+  static const check =
+      '<path fill="currentColor" fill-rule="evenodd" d="m6 10l-2 2l6 6L20 8l-2-2l-8 8z"/>';
+
+  /// ![preview](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjxwYXRoIGZpbGw9ImN1cnJlbnRDb2xvciIgZD0iTTEyIDIyQzYuNDc3IDIyIDIgMTcuNTIzIDIgMTJTNi40NzcgMiAxMiAyczEwIDQuNDc3IDEwIDEwcy00LjQ3NyAxMC0xMCAxME04IDEwbC0yIDJsNSA1bDctN2wtMi0ybC01IDV6Ii8+PC9zdmc+)
+  static const checkCircle =
+      '<path fill="currentColor" d="M12 22C6.477 22 2 17.523 2 12S6.477 2 12 2s10 4.477 10 10s-4.477 10-10 10M8 10l-2 2l5 5l7-7l-2-2l-5 5z"/>';
+
+  /// ![preview](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjxwYXRoIGZpbGw9ImN1cnJlbnRDb2xvciIgZD0iTTEyIDIwYTggOCAwIDEgMCAwLTE2YTggOCAwIDAgMCAwIDE2bTAgMkM2LjQ3NyAyMiAyIDE3LjUyMyAyIDEyUzYuNDc3IDIgMTIgMnMxMCA0LjQ3NyAxMCAxMHMtNC40NzcgMTAtMTAgMTBNOCAxMGwtMiAybDUgNWw3LTdsLTItMmwtNSA1eiIvPjwvc3ZnPg==)
+  static const checkCircleO =
+      '<path fill="currentColor" d="M12 20a8 8 0 1 0 0-16a8 8 0 0 0 0 16m0 2C6.477 22 2 17.523 2 12S6.477 2 12 2s10 4.477 10 10s-4.477 10-10 10M8 10l-2 2l5 5l7-7l-2-2l-5 5z"/>';
+
+  /// ![preview](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjxwYXRoIGZpbGw9ImN1cnJlbnRDb2xvciIgZmlsbC1ydWxlPSJldmVub2RkIiBkPSJNNC4yNTIgMTRINGEyIDIgMCAxIDEgMC00aC4yNTJjLjE4OS0uNzM0LjQ4LTEuNDI3Ljg1Ni0yLjA2NGwtLjE4LS4xNzlhMiAyIDAgMSAxIDIuODMtMi44MjhsLjE3OC4xNzlBOCA4IDAgMCAxIDEwIDQuMjUyVjRhMiAyIDAgMSAxIDQgMHYuMjUyYy43MzQuMTg5IDEuNDI3LjQ4IDIuMDY0Ljg1NmwuMTc5LS4xOGEyIDIgMCAxIDEgMi44MjggMi44M2wtLjE3OS4xNzhjLjM3Ny42MzcuNjY3IDEuMzMuODU2IDIuMDY0SDIwYTIgMiAwIDEgMSAwIDRoLS4yNTJhOCA4IDAgMCAxLS44NTYgMi4wNjRsLjE4LjE3OWEyIDIgMCAxIDEtMi44MyAyLjgyOGwtLjE3OC0uMTc5YTggOCAwIDAgMS0yLjA2NC44NTZWMjBhMiAyIDAgMSAxLTQgMHYtLjI1MmE4IDggMCAwIDEtMi4wNjQtLjg1NmwtLjE3OS4xOGEyIDIgMCAxIDEtMi44MjgtMi44M2wuMTc5LS4xNzhBOCA4IDAgMCAxIDQuMjUyIDE0TTkgMTBsLTIgMmw0IDRsNi02bC0yLTJsLTQgNHoiLz48L3N2Zz4=)
+  static const checkVerified =
+      '<path fill="currentColor" fill-rule="evenodd" d="M4.252 14H4a2 2 0 1 1 0-4h.252c.189-.734.48-1.427.856-2.064l-.18-.179a2 2 0 1 1 2.83-2.828l.178.179A8 8 0 0 1 10 4.252V4a2 2 0 1 1 4 0v.252c.734.189 1.427.48 2.064.856l.179-.18a2 2 0 1 1 2.828 2.83l-.179.178c.377.637.667 1.33.856 2.064H20a2 2 0 1 1 0 4h-.252a8 8 0 0 1-.856 2.064l.18.179a2 2 0 1 1-2.83 2.828l-.178-.179a8 8 0 0 1-2.064.856V20a2 2 0 1 1-4 0v-.252a8 8 0 0 1-2.064-.856l-.179.18a2 2 0 1 1-2.828-2.83l.179-.178A8 8 0 0 1 4.252 14M9 10l-2 2l4 4l6-6l-2-2l-4 4z"/>';
+
+  /// ![preview](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjxwYXRoIGZpbGw9ImN1cnJlbnRDb2xvciIgZmlsbC1ydWxlPSJldmVub2RkIiBkPSJNMTIgMjJDNi40NzcgMjIgMiAxNy41MjMgMiAxMlM2LjQ3NyAyIDEyIDJzMTAgNC40NzcgMTAgMTBzLTQuNDc3IDEwLTEwIDEwbTgtMTBhOCA4IDAgMSAwLTE2IDBhOCA4IDAgMCAwIDE2IDBtLTQtMWExIDEgMCAwIDEgMCAyaC0zYy0xLjEgMC0yLS45LTItMlY3YTEgMSAwIDAgMSAyIDB2NHoiLz48L3N2Zz4=)
+  static const clock =
+      '<path fill="currentColor" fill-rule="evenodd" d="M12 22C6.477 22 2 17.523 2 12S6.477 2 12 2s10 4.477 10 10s-4.477 10-10 10m8-10a8 8 0 1 0-16 0a8 8 0 0 0 16 0m-4-1a1 1 0 0 1 0 2h-3c-1.1 0-2-.9-2-2V7a1 1 0 0 1 2 0v4z"/>';
+
+  /// ![preview](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjxwYXRoIGZpbGw9ImN1cnJlbnRDb2xvciIgZmlsbC1ydWxlPSJldmVub2RkIiBkPSJNMTAuNjU3IDEyLjA3MUw1IDYuNDE0TDYuNDE0IDVsNS42NTcgNS42NTdMMTcuNzI4IDVsMS40MTQgMS40MTRsLTUuNjU3IDUuNjU3bDUuNjU3IDUuNjU3bC0xLjQxNCAxLjQxNGwtNS42NTctNS42NTdsLTUuNjU3IDUuNjU3TDUgMTcuNzI4eiIvPjwvc3ZnPg==)
+  static const close =
+      '<path fill="currentColor" fill-rule="evenodd" d="M10.657 12.071L5 6.414L6.414 5l5.657 5.657L17.728 5l1.414 1.414l-5.657 5.657l5.657 5.657l-1.414 1.414l-5.657-5.657l-5.657 5.657L5 17.728z"/>';
+
+  /// ![preview](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjxwYXRoIGZpbGw9ImN1cnJlbnRDb2xvciIgZD0ibTEyLjcxMyA5LjcybC0xLjA3MyAxLjU0MmwtMS42MDYtLjk3NUEyIDIgMCAwIDAgNyAxMnYySDVhMSAxIDAgMCAwIDAgMmgxMWE0IDQgMCAxIDAtMy4yODctNi4yOE0xNiA2YTYgNiAwIDEgMSAwIDEySDVhMyAzIDAgMCAxIDAtNmE0IDQgMCAwIDEgNi4wNzEtMy40MjNBNiA2IDAgMCAxIDE2IDYiLz48L3N2Zz4=)
+  static const cloud =
+      '<path fill="currentColor" d="m12.713 9.72l-1.073 1.542l-1.606-.975A2 2 0 0 0 7 12v2H5a1 1 0 0 0 0 2h11a4 4 0 1 0-3.287-6.28M16 6a6 6 0 1 1 0 12H5a3 3 0 0 1 0-6a4 4 0 0 1 6.071-3.423A6 6 0 0 1 16 6"/>';
+
+  /// ![preview](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjxwYXRoIGZpbGw9ImN1cnJlbnRDb2xvciIgZD0iTTEzIDE5aDNhMSAxIDAgMCAxIDAgMkg4YTEgMSAwIDAgMSAwLTJoM3YtNi43NUw0LjggNy42QTIgMiAwIDAgMSA0IDZWNWEyIDIgMCAwIDEgMi0yaDEyYTIgMiAwIDAgMSAyIDJ2MWEyIDIgMCAwIDEtLjggMS42TDEzIDEyLjI1ek02IDV2MWw2IDRsNi00VjV6Ii8+PC9zdmc+)
+  static const cocktail =
+      '<path fill="currentColor" d="M13 19h3a1 1 0 0 1 0 2H8a1 1 0 0 1 0-2h3v-6.75L4.8 7.6A2 2 0 0 1 4 6V5a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v1a2 2 0 0 1-.8 1.6L13 12.25zM6 5v1l6 4l6-4V5z"/>';
+
+  /// ![preview](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjxwYXRoIGZpbGw9ImN1cnJlbnRDb2xvciIgZmlsbC1ydWxlPSJldmVub2RkIiBkPSJtMjEuMDA0IDExLjY1N2wtNS42NTcgNS42NTdsLTEuNDE0LTEuNDE1bDQuMjQyLTQuMjQybC00LjI0Mi00LjI0M0wxNS4zNDcgNnptLTE1LjE3NiAwbDQuMjQzIDQuMjQybC0xLjQxNCAxLjQxNUwzIDExLjY1N0w4LjY1NyA2bDEuNDE0IDEuNDE0eiIvPjwvc3ZnPg==)
+  static const code =
+      '<path fill="currentColor" fill-rule="evenodd" d="m21.004 11.657l-5.657 5.657l-1.414-1.415l4.242-4.242l-4.242-4.243L15.347 6zm-15.176 0l4.243 4.242l-1.414 1.415L3 11.657L8.657 6l1.414 1.414z"/>';
+
+  /// ![preview](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjxwYXRoIGZpbGw9ImN1cnJlbnRDb2xvciIgZmlsbC1ydWxlPSJldmVub2RkIiBkPSJNMjIgMTUuMDQ3YTEgMSAwIDAgMS0uMDA4LjExMmwtLjAwNi4wMzdsLS4wMTYuMDcycS0uMDA1LjAyMi0uMDEzLjA0MmwtLjAyMi4wNjNsLS4wMi4wNDJxLS4wMTMuMDMtLjAyOC4wNTdsLS4wMjUuMDRhMSAxIDAgMCAxLS4xMDguMTM1bC0uMDM1LjAzNGwtLjA0OS4wNGwtLjAzOC4wM2wtLjAxNS4wMWwtOS4xNCA2LjA5NWEuODYuODYgMCAwIDEtLjk1NCAwbC05LjE0LTYuMDk0bC0uMDE0LS4wMWExIDEgMCAwIDEtLjA4OC0uMDcxcS0uMDE4LS4wMTYtLjAzNC0uMDM0cS0uMDIzLS4wMjItLjA0My0uMDQ2YTEgMSAwIDAgMS0uMDY2LS4wOWExIDEgMCAwIDEtLjA1NC0uMDk2bC0uMDE5LS4wNDJsLS4wMjItLjA2M3EtLjAwOC0uMDItLjAxMy0uMDQycS0uMDA5LS4wMzUtLjAxNS0uMDcybC0uMDA3LS4wMzdBMSAxIDAgMCAxIDIgMTUuMDQ3VjguOTUzcTAtLjA1Ny4wMDgtLjExMmwuMDA3LS4wMzdxLjAwNS0uMDM3LjAxNS0uMDcybC4wMTMtLjA0MmEuOC44IDAgMCAxIC4xMzEtLjI1NGwuMDMtLjAzN2wuMDQzLS4wNDZsLjAzNC0uMDM0YTEgMSAwIDAgMSAuMDg4LS4wN2wuMDE0LS4wMWw5LjE0LTYuMDk1YS44Ni44NiAwIDAgMSAuOTU0IDBsOS4xNCA2LjA5NGwuMDE1LjAxbC4wMzguMDNsLjA1LjA0MWwuMDM0LjAzNGEuNy43IDAgMCAxIC4xMDguMTM2bC4wMjUuMDRsLjAyOS4wNTZsLjAxOS4wNDJsLjAyMi4wNjNxLjAwOC4wMi4wMTMuMDQycS4wMS4wMzUuMDE2LjA3MmwuMDA2LjAzN2ExIDEgMCAwIDEgLjAwOC4xMTJ6TTMuNzE5IDEwLjU2MnYyLjg3Nkw1Ljg2OSAxMnptNy40MjItMi4wODhWNC40NjVsLTYuNzM0IDQuNDlsMy4wMDggMi4wMTF6bTguNDUyLjQ4TDEyLjg2IDQuNDY1djQuMDA5bDMuNzI2IDIuNDkyek00LjQwNyAxNS4wNDZsNi43MzQgNC40ODl2LTQuMDA5bC0zLjcyNi0yLjQ5MnptOC40NTMuNDh2NC4wMDlsNi43MzMtNC40OWwtMy4wMDctMi4wMXpNMTIgOS45NjZMOC45NiAxMkwxMiAxNC4wMzNMMTUuMDQgMTJ6bTguMjgxIDMuNDcydi0yLjg3NkwxOC4xMzEgMTJ6Ii8+PC9zdmc+)
+  static const codepen =
+      '<path fill="currentColor" fill-rule="evenodd" d="M22 15.047a1 1 0 0 1-.008.112l-.006.037l-.016.072q-.005.022-.013.042l-.022.063l-.02.042q-.013.03-.028.057l-.025.04a1 1 0 0 1-.108.135l-.035.034l-.049.04l-.038.03l-.015.01l-9.14 6.095a.86.86 0 0 1-.954 0l-9.14-6.094l-.014-.01a1 1 0 0 1-.088-.071q-.018-.016-.034-.034q-.023-.022-.043-.046a1 1 0 0 1-.066-.09a1 1 0 0 1-.054-.096l-.019-.042l-.022-.063q-.008-.02-.013-.042q-.009-.035-.015-.072l-.007-.037A1 1 0 0 1 2 15.047V8.953q0-.057.008-.112l.007-.037q.005-.037.015-.072l.013-.042a.8.8 0 0 1 .131-.254l.03-.037l.043-.046l.034-.034a1 1 0 0 1 .088-.07l.014-.01l9.14-6.095a.86.86 0 0 1 .954 0l9.14 6.094l.015.01l.038.03l.05.041l.034.034a.7.7 0 0 1 .108.136l.025.04l.029.056l.019.042l.022.063q.008.02.013.042q.01.035.016.072l.006.037a1 1 0 0 1 .008.112zM3.719 10.562v2.876L5.869 12zm7.422-2.088V4.465l-6.734 4.49l3.008 2.011zm8.452.48L12.86 4.465v4.009l3.726 2.492zM4.407 15.046l6.734 4.489v-4.009l-3.726-2.492zm8.453.48v4.009l6.733-4.49l-3.007-2.01zM12 9.966L8.96 12L12 14.033L15.04 12zm8.281 3.472v-2.876L18.131 12z"/>';
+
+  /// ![preview](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjxwYXRoIGZpbGw9ImN1cnJlbnRDb2xvciIgZmlsbC1ydWxlPSJldmVub2RkIiBkPSJNNCAxN2gxNmExIDEgMCAwIDEgMCAySDRhMSAxIDAgMCAxIDAtMk0xNyA3aDFhMiAyIDAgMSAxIDAgNGgtMWwtLjEtLjAwMkE1IDUgMCAwIDEgMTIgMTVoLTJhNSA1IDAgMCAxLTUtNVY3YTIgMiAwIDAgMSAyLTJoOGEyIDIgMCAwIDEgMiAyTTcgN3YzYTMgMyAwIDAgMCAzIDNoMmEzIDMgMCAwIDAgMy0zVjd6Ii8+PC9zdmc+)
+  static const coffee =
+      '<path fill="currentColor" fill-rule="evenodd" d="M4 17h16a1 1 0 0 1 0 2H4a1 1 0 0 1 0-2M17 7h1a2 2 0 1 1 0 4h-1l-.1-.002A5 5 0 0 1 12 15h-2a5 5 0 0 1-5-5V7a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2M7 7v3a3 3 0 0 0 3 3h2a3 3 0 0 0 3-3V7z"/>';
+
+  /// ![preview](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjxwYXRoIGZpbGw9ImN1cnJlbnRDb2xvciIgZD0iTTQgNGgxNmEyIDIgMCAwIDEgMiAydjEyYTIgMiAwIDAgMS0yIDJINGEyIDIgMCAwIDEtMi0yVjZhMiAyIDAgMCAxIDItMm0xMiAydjEyaDRWNnpNNCA2djEyaDRWNnptNiAwdjEyaDRWNnoiLz48L3N2Zz4=)
+  static const columns =
+      '<path fill="currentColor" d="M4 4h16a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2m12 2v12h4V6zM4 6v12h4V6zm6 0v12h4V6z"/>';
+
+  /// ![preview](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjxwYXRoIGZpbGw9ImN1cnJlbnRDb2xvciIgZmlsbC1ydWxlPSJldmVub2RkIiBkPSJNNy4yNjggMTguNzMyTDUgMjF2LTQuMTU3Yy0xLjI1LTEuNDYtMi0zLjMxOS0yLTUuMzQzQzMgNi44MDYgNy4wMyAzIDEyIDNzOSAzLjgwNiA5IDguNXMtNC4wMyA4LjUtOSA4LjVhOS4zNSA5LjM1IDAgMCAxLTQuNzMyLTEuMjY4Ii8+PC9zdmc+)
+  static const comment =
+      '<path fill="currentColor" fill-rule="evenodd" d="M7.268 18.732L5 21v-4.157c-1.25-1.46-2-3.319-2-5.343C3 6.806 7.03 3 12 3s9 3.806 9 8.5s-4.03 8.5-9 8.5a9.35 9.35 0 0 1-4.732-1.268"/>';
+
+  /// ![preview](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjxwYXRoIGZpbGw9ImN1cnJlbnRDb2xvciIgZD0iTTUgMjF2LTQuMTU3Yy0xLjI1LTEuNDYtMi0zLjMxOS0yLTUuMzQzQzMgNi44MDYgNy4wMyAzIDEyIDNzOSAzLjgwNiA5IDguNXMtNC4wMyA4LjUtOSA4LjVhOS4zNSA5LjM1IDAgMCAxLTQuNzMyLTEuMjY4em03LTNjMy44NjYgMCA3LTIuOTEgNy02LjVTMTUuODY2IDUgMTIgNXMtNyAyLjkxLTcgNi41UzguMTM0IDE4IDEyIDE4Ii8+PC9zdmc+)
+  static const commentO =
+      '<path fill="currentColor" d="M5 21v-4.157c-1.25-1.46-2-3.319-2-5.343C3 6.806 7.03 3 12 3s9 3.806 9 8.5s-4.03 8.5-9 8.5a9.35 9.35 0 0 1-4.732-1.268zm7-3c3.866 0 7-2.91 7-6.5S15.866 5 12 5s-7 2.91-7 6.5S8.134 18 12 18"/>';
+
+  /// ![preview](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjxwYXRoIGZpbGw9ImN1cnJlbnRDb2xvciIgZD0iTTUgMjF2LTQuMTU3Yy0xLjI1LTEuNDYtMi0zLjMxOS0yLTUuMzQzQzMgNi44MDYgNy4wMyAzIDEyIDNzOSAzLjgwNiA5IDguNXMtNC4wMyA4LjUtOSA4LjVhOS4zNSA5LjM1IDAgMCAxLTQuNzMyLTEuMjY4em03LTNjMy44NjYgMCA3LTIuOTEgNy02LjVTMTUuODY2IDUgMTIgNXMtNyAyLjkxLTcgNi41UzguMTM0IDE4IDEyIDE4bS0yLjUtNWExLjUgMS41IDAgMSAxIDAtM2ExLjUgMS41IDAgMCAxIDAgM201IDBhMS41IDEuNSAwIDEgMSAwLTNhMS41IDEuNSAwIDAgMSAwIDMiLz48L3N2Zz4=)
+  static const commenting =
+      '<path fill="currentColor" d="M5 21v-4.157c-1.25-1.46-2-3.319-2-5.343C3 6.806 7.03 3 12 3s9 3.806 9 8.5s-4.03 8.5-9 8.5a9.35 9.35 0 0 1-4.732-1.268zm7-3c3.866 0 7-2.91 7-6.5S15.866 5 12 5s-7 2.91-7 6.5S8.134 18 12 18m-2.5-5a1.5 1.5 0 1 1 0-3a1.5 1.5 0 0 1 0 3m5 0a1.5 1.5 0 1 1 0-3a1.5 1.5 0 0 1 0 3"/>';
+
+  /// ![preview](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjxwYXRoIGZpbGw9ImN1cnJlbnRDb2xvciIgZmlsbC1ydWxlPSJldmVub2RkIiBkPSJNNC4zNjggMTQuNjMyTDMgMTZ2LTIuOEE1LjY0IDUuNjQgMCAwIDEgMiAxMGMwLTMuMzE0IDIuOTEtNiA2LjUtNmMzLjI1NCAwIDUuOTUgMi4yMDcgNi40MjUgNS4wODhBNi42IDYuNiAwIDAgMSAxNiA5YzMuMzE0IDAgNiAyLjQ2MiA2IDUuNWMwIDEuMTI1LS4zNjggMi4xNy0xIDMuMDQxVjIwbC0xLjIyNS0xLjIyNUE2LjMyIDYuMzIgMCAwIDEgMTYgMjBjLTIuODI1IDAtNS4xOTQtMS43OS01LjgzMS00LjJjLS41MzMuMTMtMS4wOTIuMi0xLjY2OS4yYTYuOCA2LjggMCAwIDEtNC4xMzItMS4zNjhNOC41IDE0YzIuNTIgMCA0LjUtMS44MjggNC41LTRzLTEuOTgtNC00LjUtNFM0IDcuODI4IDQgMTBzMS45OCA0IDQuNSA0bTMuNTQ2IDEuMDNDMTIuMzM2IDE2LjY4NyAxMy45NzIgMTggMTYgMThjMi4yNCAwIDQtMS42IDQtMy41UzE4LjI0IDExIDE2IDExcS0uNTg1LjAwMi0xLjExNy4xMzhjLS4zMzggMS42MjYtMS4zODcgMy4wMTgtMi44MzcgMy44OTEiLz48L3N2Zz4=)
+  static const comments =
+      '<path fill="currentColor" fill-rule="evenodd" d="M4.368 14.632L3 16v-2.8A5.64 5.64 0 0 1 2 10c0-3.314 2.91-6 6.5-6c3.254 0 5.95 2.207 6.425 5.088A6.6 6.6 0 0 1 16 9c3.314 0 6 2.462 6 5.5c0 1.125-.368 2.17-1 3.041V20l-1.225-1.225A6.32 6.32 0 0 1 16 20c-2.825 0-5.194-1.79-5.831-4.2c-.533.13-1.092.2-1.669.2a6.8 6.8 0 0 1-4.132-1.368M8.5 14c2.52 0 4.5-1.828 4.5-4s-1.98-4-4.5-4S4 7.828 4 10s1.98 4 4.5 4m3.546 1.03C12.336 16.687 13.972 18 16 18c2.24 0 4-1.6 4-3.5S18.24 11 16 11q-.585.002-1.117.138c-.338 1.626-1.387 3.018-2.837 3.891"/>';
+
+  /// ![preview](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjxwYXRoIGZpbGw9ImN1cnJlbnRDb2xvciIgZmlsbC1ydWxlPSJldmVub2RkIiBkPSJNMTggMTJoLTZWNmwyIDJsMy0zbDIgMmwtMyAzek02IDEyaDZ2NmwtMi0ybC0zIDNsLTItMmwzLTN6Ii8+PC9zdmc+)
+  static const compress =
+      '<path fill="currentColor" fill-rule="evenodd" d="M18 12h-6V6l2 2l3-3l2 2l-3 3zM6 12h6v6l-2-2l-3 3l-2-2l3-3z"/>';
+
+  /// ![preview](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjxwYXRoIGZpbGw9ImN1cnJlbnRDb2xvciIgZD0iTTQgNGgxNmEyIDIgMCAwIDEgMiAydjEyYTIgMiAwIDAgMS0yIDJINGEyIDIgMCAwIDEtMi0yVjZhMiAyIDAgMCAxIDItMm0wIDJ2M2gxNlY2em0wIDV2N2gxNnYtN3ptMiAzdjJoNHYtMnptNiAwdjJoNHYtMnoiLz48L3N2Zz4=)
+  static const creditCard =
+      '<path fill="currentColor" d="M4 4h16a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2m0 2v3h16V6zm0 5v7h16v-7zm2 3v2h4v-2zm6 0v2h4v-2z"/>';
+
+  /// ![preview](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjxwYXRoIGZpbGw9ImN1cnJlbnRDb2xvciIgZmlsbC1ydWxlPSJldmVub2RkIiBkPSJNMTYgMjB2LTJIOGMtMS4xIDAtMi0uOS0yLTJWOEg0YTEgMSAwIDEgMSAwLTJoMlY0YTEgMSAwIDEgMSAyIDB2Mmg5bDItMmwxIDFsLTIgMnY5aDJhMSAxIDAgMCAxIDAgMmgtMnYyYTEgMSAwIDAgMS0yIDBtMC00VjlsLTcgN3pNOCA4djdsNy03eiIvPjwvc3ZnPg==)
+  static const crop =
+      '<path fill="currentColor" fill-rule="evenodd" d="M16 20v-2H8c-1.1 0-2-.9-2-2V8H4a1 1 0 1 1 0-2h2V4a1 1 0 1 1 2 0v2h9l2-2l1 1l-2 2v9h2a1 1 0 0 1 0 2h-2v2a1 1 0 0 1-2 0m0-4V9l-7 7zM8 8v7l7-7z"/>';
+
+  /// ![preview](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjxwYXRoIGZpbGw9ImN1cnJlbnRDb2xvciIgZmlsbC1ydWxlPSJldmVub2RkIiBkPSJNOS41IDEyYTEuNSAxLjUgMCAxIDAgMC0zYTEuNSAxLjUgMCAwIDAgMCAzbTUuNSA0YTMgMyAwIDAgMC02IDBoMXMuMzE3LTIgMi0yczEuOTk2IDIgMS45OTYgMnptLS41LTRhMS41IDEuNSAwIDEgMCAwLTNhMS41IDEuNSAwIDAgMCAwIDNNMTIgMjBhOCA4IDAgMSAwIDAtMTZhOCA4IDAgMCAwIDAgMTZtMCAyQzYuNDc3IDIyIDIgMTcuNTIzIDIgMTJTNi40NzcgMiAxMiAyczEwIDQuNDc3IDEwIDEwcy00LjQ3NyAxMC0xMCAxMG00LTdhMSAxIDAgMCAwIDEtMXEwLS41NTItMS0ycS0xIDEuNDQ4LTEgMmExIDEgMCAwIDAgMSAxIi8+PC9zdmc+)
+  static const cry =
+      '<path fill="currentColor" fill-rule="evenodd" d="M9.5 12a1.5 1.5 0 1 0 0-3a1.5 1.5 0 0 0 0 3m5.5 4a3 3 0 0 0-6 0h1s.317-2 2-2s1.996 2 1.996 2zm-.5-4a1.5 1.5 0 1 0 0-3a1.5 1.5 0 0 0 0 3M12 20a8 8 0 1 0 0-16a8 8 0 0 0 0 16m0 2C6.477 22 2 17.523 2 12S6.477 2 12 2s10 4.477 10 10s-4.477 10-10 10m4-7a1 1 0 0 0 1-1q0-.552-1-2q-1 1.448-1 2a1 1 0 0 0 1 1"/>';
+
+  /// ![preview](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjxwYXRoIGZpbGw9ImN1cnJlbnRDb2xvciIgZmlsbC1ydWxlPSJldmVub2RkIiBkPSJNOSAxM3Y4YTEgMSAwIDAgMS0yIDB2LThhMiAyIDAgMCAxLTItMlY0YTIgMiAwIDAgMSAyLTJ2NmgyVjJhMiAyIDAgMCAxIDIgMnY3YTIgMiAwIDAgMS0yIDJtOS05djE3YTEgMSAwIDAgMS0yIDB2LTZoLTFhMiAyIDAgMCAxLTItMlY0YTIgMiAwIDAgMSAyLTJoMWEyIDIgMCAwIDEgMiAyIi8+PC9zdmc+)
+  static const cutlery =
+      '<path fill="currentColor" fill-rule="evenodd" d="M9 13v8a1 1 0 0 1-2 0v-8a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2v6h2V2a2 2 0 0 1 2 2v7a2 2 0 0 1-2 2m9-9v17a1 1 0 0 1-2 0v-6h-1a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h1a2 2 0 0 1 2 2"/>';
+
+  /// ![preview](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjxwYXRoIGZpbGw9ImN1cnJlbnRDb2xvciIgZD0iTTExIDlIN2EzIDMgMCAwIDAgMCA2aDR2Mkg3QTUgNSAwIDAgMSA3IDdoNHptMiA2aDRhMyAzIDAgMCAwIDAtNmgtNFY3aDRhNSA1IDAgMCAxIDAgMTBoLTR6bTAtNGgyYTEgMSAwIDAgMSAwIDJoLTJ6bS00IDBoMnYySDlhMSAxIDAgMCAxIDAtMiIvPjwvc3ZnPg==)
+  static const deleteLink =
+      '<path fill="currentColor" d="M11 9H7a3 3 0 0 0 0 6h4v2H7A5 5 0 0 1 7 7h4zm2 6h4a3 3 0 0 0 0-6h-4V7h4a5 5 0 0 1 0 10h-4zm0-4h2a1 1 0 0 1 0 2h-2zm-4 0h2v2H9a1 1 0 0 1 0-2"/>';
+
+  /// ![preview](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjxwYXRoIGZpbGw9ImN1cnJlbnRDb2xvciIgZmlsbC1ydWxlPSJldmVub2RkIiBkPSJNMTMgMThoMmExIDEgMCAwIDEgMCAySDlhMSAxIDAgMCAxIDAtMmgydi0ySDRhMiAyIDAgMCAxLTItMlY2YTIgMiAwIDAgMSAyLTJoMTZhMiAyIDAgMCAxIDIgMnY4YTIgMiAwIDAgMS0yIDJoLTd6TTQgNnY4aDE2VjZ6Ii8+PC9zdmc+)
+  static const desktop =
+      '<path fill="currentColor" fill-rule="evenodd" d="M13 18h2a1 1 0 0 1 0 2H9a1 1 0 0 1 0-2h2v-2H4a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2h16a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2h-7zM4 6v8h16V6z"/>';
+
+  /// ![preview](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjxwYXRoIGZpbGw9ImN1cnJlbnRDb2xvciIgZD0ibTEyIDE3Ljg3Nmw2LjYyNi03Ljk1MkwxNi4xNjQgNUg3LjgzNkw1LjM3NCA5LjkyNHpNNi42IDNoMTAuOGwzLjYgNy4yTDEyIDIxTDMgMTAuMnoiLz48L3N2Zz4=)
+  static const diamond =
+      '<path fill="currentColor" d="m12 17.876l6.626-7.952L16.164 5H7.836L5.374 9.924zM6.6 3h10.8l3.6 7.2L12 21L3 10.2z"/>';
+
+  /// ![preview](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjxwYXRoIGZpbGw9ImN1cnJlbnRDb2xvciIgZmlsbC1ydWxlPSJldmVub2RkIiBkPSJNMTUgMTV2NGEyIDIgMCAwIDEtMiAySDVhMiAyIDAgMCAxLTItMnYtOGEyIDIgMCAwIDEgMi0yaDRWNWEyIDIgMCAwIDEgMi0yaDhhMiAyIDAgMCAxIDIgMnY4YTIgMiAwIDAgMS0yIDJ6bS00LTZoNHY0aDRWNWgtOHptLTYgMnY4aDh2LTRIOXYtNHoiLz48L3N2Zz4=)
+  static const difference =
+      '<path fill="currentColor" fill-rule="evenodd" d="M15 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-8a2 2 0 0 1 2-2h4V5a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2zm-4-6h4v4h4V5h-8zm-6 2v8h8v-4H9v-4z"/>';
+
+  /// ![preview](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjxwYXRoIGZpbGw9ImN1cnJlbnRDb2xvciIgZmlsbC1ydWxlPSJldmVub2RkIiBkPSJNMTIgMjJjNS41MjMgMCAxMC00LjQ3NyAxMC0xMFMxNy41MjMgMiAxMiAyUzIgNi40NzcgMiAxMnM0LjQ3NyAxMCAxMCAxMG0tNC45MDYtMy42OEwxOC4zMiA3LjA5NEE4IDggMCAwIDEgNy4wOTQgMTguMzJNNS42OCAxNi45MDZBOCA4IDAgMCAxIDE2LjkwNiA1LjY4eiIvPjwvc3ZnPg==)
+  static const disabled =
+      '<path fill="currentColor" fill-rule="evenodd" d="M12 22c5.523 0 10-4.477 10-10S17.523 2 12 2S2 6.477 2 12s4.477 10 10 10m-4.906-3.68L18.32 7.094A8 8 0 0 1 7.094 18.32M5.68 16.906A8 8 0 0 1 16.906 5.68z"/>';
+
+  /// ![preview](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjxwYXRoIGZpbGw9ImN1cnJlbnRDb2xvciIgZmlsbC1ydWxlPSJldmVub2RkIiBkPSJNMTIgMjJDNi40NzcgMjIgMiAxNy41MjMgMiAxMlM2LjQ3NyAyIDEyIDJzMTAgNC40NzcgMTAgMTBzLTQuNDc3IDEwLTEwIDEwbTAtMmE4IDggMCAxIDAgMC0xNmE4IDggMCAwIDAgMCAxNm00LTNoLTEuMzM5cy0uNDE3LTIuNjY3LTIuNjYxLTIuNjY3UzkuMzMzIDE3IDkuMzMzIDE3SDhhNCA0IDAgMSAxIDggMG0tMi4yMzQtNy44MDhMMTMgOVY4bDQgMXYxbC0xLjIzNy0uMzFhMS41IDEuNSAwIDEgMS0xLjk5Ny0uNW0tNS41My40OTlMNyAxMFY5bDQtMXYxbC0uNzY2LjE5MmExLjUgMS41IDAgMSAxLTEuOTk3LjQ5OSIvPjwvc3ZnPg==)
+  static const disappointed =
+      '<path fill="currentColor" fill-rule="evenodd" d="M12 22C6.477 22 2 17.523 2 12S6.477 2 12 2s10 4.477 10 10s-4.477 10-10 10m0-2a8 8 0 1 0 0-16a8 8 0 0 0 0 16m4-3h-1.339s-.417-2.667-2.661-2.667S9.333 17 9.333 17H8a4 4 0 1 1 8 0m-2.234-7.808L13 9V8l4 1v1l-1.237-.31a1.5 1.5 0 1 1-1.997-.5m-5.53.499L7 10V9l4-1v1l-.766.192a1.5 1.5 0 1 1-1.997.499"/>';
+
+  /// ![preview](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjxwYXRoIGZpbGw9ImN1cnJlbnRDb2xvciIgZmlsbC1ydWxlPSJldmVub2RkIiBkPSJNNyAyMWExIDEgMCAwIDEtMiAwVjNhMSAxIDAgMSAxIDIgMHptMTIgMGExIDEgMCAwIDEtMiAwVjNhMSAxIDAgMCAxIDIgMHptLTUtNGEyIDIgMCAxIDEtNCAwVjdhMiAyIDAgMSAxIDQgMHoiLz48L3N2Zz4=)
+  static const distributeHorizontally =
+      '<path fill="currentColor" fill-rule="evenodd" d="M7 21a1 1 0 0 1-2 0V3a1 1 0 1 1 2 0zm12 0a1 1 0 0 1-2 0V3a1 1 0 0 1 2 0zm-5-4a2 2 0 1 1-4 0V7a2 2 0 1 1 4 0z"/>';
+
+  /// ![preview](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjxwYXRoIGZpbGw9ImN1cnJlbnRDb2xvciIgZmlsbC1ydWxlPSJldmVub2RkIiBkPSJNNyAxMGgxMGEyIDIgMCAxIDEgMCA0SDdhMiAyIDAgMSAxIDAtNG0tNCA3aDE4YTEgMSAwIDAgMSAwIDJIM2ExIDEgMCAwIDEgMC0yTTMgNWgxOGExIDEgMCAwIDEgMCAySDNhMSAxIDAgMSAxIDAtMiIvPjwvc3ZnPg==)
+  static const distributeVertically =
+      '<path fill="currentColor" fill-rule="evenodd" d="M7 10h10a2 2 0 1 1 0 4H7a2 2 0 1 1 0-4m-4 7h18a1 1 0 0 1 0 2H3a1 1 0 0 1 0-2M3 5h18a1 1 0 0 1 0 2H3a1 1 0 1 1 0-2"/>';
+
+  /// ![preview](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjxwYXRoIGZpbGw9ImN1cnJlbnRDb2xvciIgZD0iTTE1IDRINnYxNmgxMlY3aC0zek02IDJoMTBsNCA0djE0YTIgMiAwIDAgMS0yIDJINmEyIDIgMCAwIDEtMi0yVjRhMiAyIDAgMCAxIDItMm0yIDloOHYySDh6bTAgNGg4djJIOHoiLz48L3N2Zz4=)
+  static const document =
+      '<path fill="currentColor" d="M15 4H6v16h12V7h-3zM6 2h10l4 4v14a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2m2 9h8v2H8zm0 4h8v2H8z"/>';
+
+  /// ![preview](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjxwYXRoIGZpbGw9ImN1cnJlbnRDb2xvciIgZmlsbC1ydWxlPSJldmVub2RkIiBkPSJNMTIgMTZhNCA0IDAgMSAwIDAtOGE0IDQgMCAwIDAgMCA4bTAgNkM2LjQ3NyAyMiAyIDE3LjUyMyAyIDEyUzYuNDc3IDIgMTIgMnMxMCA0LjQ3NyAxMCAxMHMtNC40NzcgMTAtMTAgMTBtMC0xOGgydjJoLTJ6bTYgNWgydjJoLTJ6TTUgMTRhMSAxIDAgMSAwIDAtMmExIDEgMCAwIDAgMCAybTQtN2ExIDEgMCAxIDAgMC0yYTEgMSAwIDAgMCAwIDJtOCAxYTEgMSAwIDEgMCAwLTJhMSAxIDAgMCAwIDAgMm0yIDdhMSAxIDAgMSAwIDAtMmExIDEgMCAwIDAgMCAybS00IDJoMnYyaC0yem0tNCAzYTEgMSAwIDEgMCAwLTJhMSAxIDAgMCAwIDAgMm0tNS00aDJ2Mkg2ek01IDhoMnYySDV6Ii8+PC9zdmc+)
+  static const donut =
+      '<path fill="currentColor" fill-rule="evenodd" d="M12 16a4 4 0 1 0 0-8a4 4 0 0 0 0 8m0 6C6.477 22 2 17.523 2 12S6.477 2 12 2s10 4.477 10 10s-4.477 10-10 10m0-18h2v2h-2zm6 5h2v2h-2zM5 14a1 1 0 1 0 0-2a1 1 0 0 0 0 2m4-7a1 1 0 1 0 0-2a1 1 0 0 0 0 2m8 1a1 1 0 1 0 0-2a1 1 0 0 0 0 2m2 7a1 1 0 1 0 0-2a1 1 0 0 0 0 2m-4 2h2v2h-2zm-4 3a1 1 0 1 0 0-2a1 1 0 0 0 0 2m-5-4h2v2H6zM5 8h2v2H5z"/>';
+
+  /// ![preview](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjxwYXRoIGZpbGw9ImN1cnJlbnRDb2xvciIgZmlsbC1ydWxlPSJldmVub2RkIiBkPSJNNSAxOWgxNGExIDEgMCAwIDEgMCAySDVhMSAxIDAgMCAxIDAtMm04LTUuODI1bDMuMjQzLTMuMjQybDEuNDE0IDEuNDE0TDEyIDE3LjAwNGwtNS42NTctNS42NTdsMS40MTQtMS40MTRMMTEgMTMuMTc1VjJoMnoiLz48L3N2Zz4=)
+  static const download =
+      '<path fill="currentColor" fill-rule="evenodd" d="M5 19h14a1 1 0 0 1 0 2H5a1 1 0 0 1 0-2m8-5.825l3.243-3.242l1.414 1.414L12 17.004l-5.657-5.657l1.414-1.414L11 13.175V2h2z"/>';
+
+  /// ![preview](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjxwYXRoIGZpbGw9ImN1cnJlbnRDb2xvciIgZmlsbC1ydWxlPSJldmVub2RkIiBkPSJtNSA4bDcgOGw3LTh6Ii8+PC9zdmc+)
+  static const dropDown =
+      '<path fill="currentColor" fill-rule="evenodd" d="m5 8l7 8l7-8z"/>';
+
+  /// ![preview](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjxwYXRoIGZpbGw9ImN1cnJlbnRDb2xvciIgZmlsbC1ydWxlPSJldmVub2RkIiBkPSJtMTYgNWwtOCA3bDggN3oiLz48L3N2Zz4=)
+  static const dropLeft =
+      '<path fill="currentColor" fill-rule="evenodd" d="m16 5l-8 7l8 7z"/>';
+
+  /// ![preview](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjxwYXRoIGZpbGw9ImN1cnJlbnRDb2xvciIgZmlsbC1ydWxlPSJldmVub2RkIiBkPSJNOCA1djE0bDgtN3oiLz48L3N2Zz4=)
+  static const dropRight =
+      '<path fill="currentColor" fill-rule="evenodd" d="M8 5v14l8-7z"/>';
+
+  /// ![preview](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjxwYXRoIGZpbGw9ImN1cnJlbnRDb2xvciIgZmlsbC1ydWxlPSJldmVub2RkIiBkPSJtMTIgOGw3IDhINXoiLz48L3N2Zz4=)
+  static const dropUp =
+      '<path fill="currentColor" fill-rule="evenodd" d="m12 8l7 8H5z"/>';
+
+  /// ![preview](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjxwYXRoIGZpbGw9ImN1cnJlbnRDb2xvciIgZmlsbC1ydWxlPSJldmVub2RkIiBkPSJNNSAyMGgxNGExIDEgMCAwIDEgMCAySDVhMSAxIDAgMCAxIDAtMm0tMS01TDE0IDVsMyAzTDcgMThINHpNMTUgNGwyLTJsMyAzbC0yLjAwMSAyLjAwMXoiLz48L3N2Zz4=)
+  static const edit =
+      '<path fill="currentColor" fill-rule="evenodd" d="M5 20h14a1 1 0 0 1 0 2H5a1 1 0 0 1 0-2m-1-5L14 5l3 3L7 18H4zM15 4l2-2l3 3l-2.001 2.001z"/>';
+
+  /// ![preview](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjxwYXRoIGZpbGw9ImN1cnJlbnRDb2xvciIgZmlsbC1ydWxlPSJldmVub2RkIiBkPSJNNyAxNmgxMGExIDEgMCAwIDEgMCAySDdhMSAxIDAgMCAxIDAtMm01Ljk3My05LjU2NWw0LjgzIDYuMDQ4Yy4zNTkuNDQ4LjIxNCAxLjA1NC0uMzI0IDEuMzUzYTEuMzQgMS4zNCAwIDAgMS0uNjQ4LjE2NEg3LjE2OUM2LjUyMyAxNCA2IDEzLjU2MyA2IDEzLjAyNGMwLS4xOTMuMDY4LS4zODEuMTk2LS41NDFsNC44MzEtNi4wNDhjLjM1OC0uNDQ5IDEuMDg0LS41NyAxLjYyMi0uMjcxcS4xOTQuMTA4LjMyNC4yNyIvPjwvc3ZnPg==)
+  static const eject =
+      '<path fill="currentColor" fill-rule="evenodd" d="M7 16h10a1 1 0 0 1 0 2H7a1 1 0 0 1 0-2m5.973-9.565l4.83 6.048c.359.448.214 1.054-.324 1.353a1.34 1.34 0 0 1-.648.164H7.169C6.523 14 6 13.563 6 13.024c0-.193.068-.381.196-.541l4.831-6.048c.358-.449 1.084-.57 1.622-.271q.194.108.324.27"/>';
+
+  /// ![preview](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjxwYXRoIGZpbGw9ImN1cnJlbnRDb2xvciIgZmlsbC1ydWxlPSJldmVub2RkIiBkPSJNMTggMTRhMiAyIDAgMSAxIDAtNGEyIDIgMCAwIDEgMCA0TTYgMTRhMiAyIDAgMSAxIDAtNGEyIDIgMCAwIDEgMCA0bTYgMGEyIDIgMCAxIDEgMC00YTIgMiAwIDAgMSAwIDQiLz48L3N2Zz4=)
+  static const elipsisH =
+      '<path fill="currentColor" fill-rule="evenodd" d="M18 14a2 2 0 1 1 0-4a2 2 0 0 1 0 4M6 14a2 2 0 1 1 0-4a2 2 0 0 1 0 4m6 0a2 2 0 1 1 0-4a2 2 0 0 1 0 4"/>';
+
+  /// ![preview](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjxwYXRoIGZpbGw9ImN1cnJlbnRDb2xvciIgZmlsbC1ydWxlPSJldmVub2RkIiBkPSJNMTIgMjBhMiAyIDAgMSAxIDAtNGEyIDIgMCAwIDEgMCA0bTAtNmEyIDIgMCAxIDEgMC00YTIgMiAwIDAgMSAwIDRtMC02YTIgMiAwIDEgMSAwLTRhMiAyIDAgMCAxIDAgNCIvPjwvc3ZnPg==)
+  static const elipsisV =
+      '<path fill="currentColor" fill-rule="evenodd" d="M12 20a2 2 0 1 1 0-4a2 2 0 0 1 0 4m0-6a2 2 0 1 1 0-4a2 2 0 0 1 0 4m0-6a2 2 0 1 1 0-4a2 2 0 0 1 0 4"/>';
+
+  /// ![preview](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjxwYXRoIGZpbGw9ImN1cnJlbnRDb2xvciIgZmlsbC1ydWxlPSJldmVub2RkIiBkPSJNMTMuMTcgN2EzLjAwMSAzLjAwMSAwIDAgMSA1LjY2IDBIMjFhMSAxIDAgMCAxIDAgMmgtMi4xN2EzLjAwMSAzLjAwMSAwIDAgMS01LjY2IDBIM2ExIDEgMCAxIDEgMC0yem0tOCA4YTMuMDAxIDMuMDAxIDAgMCAxIDUuNjYgMEgyMWExIDEgMCAwIDEgMCAySDEwLjgzYTMuMDAxIDMuMDAxIDAgMCAxLTUuNjYgMEgzYTEgMSAwIDAgMSAwLTJ6TTE2IDlhMSAxIDAgMSAwIDAtMmExIDEgMCAwIDAgMCAybS04IDhhMSAxIDAgMSAwIDAtMmExIDEgMCAwIDAgMCAyIi8+PC9zdmc+)
+  static const equalizer =
+      '<path fill="currentColor" fill-rule="evenodd" d="M13.17 7a3.001 3.001 0 0 1 5.66 0H21a1 1 0 0 1 0 2h-2.17a3.001 3.001 0 0 1-5.66 0H3a1 1 0 1 1 0-2zm-8 8a3.001 3.001 0 0 1 5.66 0H21a1 1 0 0 1 0 2H10.83a3.001 3.001 0 0 1-5.66 0H3a1 1 0 0 1 0-2zM16 9a1 1 0 1 0 0-2a1 1 0 0 0 0 2m-8 8a1 1 0 1 0 0-2a1 1 0 0 0 0 2"/>';
+
+  /// ![preview](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjxwYXRoIGZpbGw9ImN1cnJlbnRDb2xvciIgZmlsbC1ydWxlPSJldmVub2RkIiBkPSJNMTggNHYxNmEyIDIgMCAwIDEtMiAySDhhMiAyIDAgMCAxLTItMlY0YTIgMiAwIDAgMSAyLTJoOGEyIDIgMCAwIDEgMiAyTTggNHY0aDhWNHoiLz48L3N2Zz4=)
+  static const eraser =
+      '<path fill="currentColor" fill-rule="evenodd" d="M18 4v16a2 2 0 0 1-2 2H8a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2M8 4v4h8V4z"/>';
+
+  /// ![preview](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjxwYXRoIGZpbGw9ImN1cnJlbnRDb2xvciIgZmlsbC1ydWxlPSJldmVub2RkIiBkPSJNMTQgNGg2djZsLTItMmwtNCA0bC0yLTJsNC00em0tNCAxNkg0di02bDIgMmw0LTRsMiAybC00IDR6Ii8+PC9zdmc+)
+  static const expand =
+      '<path fill="currentColor" fill-rule="evenodd" d="M14 4h6v6l-2-2l-4 4l-2-2l4-4zm-4 16H4v-6l2 2l4-4l2 2l-4 4z"/>';
+
+  /// ![preview](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjxwYXRoIGZpbGw9ImN1cnJlbnRDb2xvciIgZmlsbC1ydWxlPSJldmVub2RkIiBkPSJNMTMgNS44MjhWMTdoLTJWNS44MjhMNy43NTcgOS4wNzFMNi4zNDMgNy42NTdMMTIgMmw1LjY1NyA1LjY1N2wtMS40MTQgMS40MTR6TTQgMTZoMnY0aDEydi00aDJ2NGMwIDEuMS0uOSAyLTIgMkg2Yy0xLjEgMC0yLS45NjMtMi0yeiIvPjwvc3ZnPg==)
+  static const export =
+      '<path fill="currentColor" fill-rule="evenodd" d="M13 5.828V17h-2V5.828L7.757 9.071L6.343 7.657L12 2l5.657 5.657l-1.414 1.414zM4 16h2v4h12v-4h2v4c0 1.1-.9 2-2 2H6c-1.1 0-2-.963-2-2z"/>';
+
+  /// ![preview](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjxwYXRoIGZpbGw9ImN1cnJlbnRDb2xvciIgZmlsbC1ydWxlPSJldmVub2RkIiBkPSJNMiAxMmMuOTQ1LTQuNTY0IDUuMDYzLTggMTAtOHM5LjA1NSAzLjQzNiAxMCA4Yy0uOTQ1IDQuNTY0LTUuMDYzIDgtMTAgOHMtOS4wNTUtMy40MzYtMTAtOG0xMCA1YTUgNSAwIDEgMCAwLTEwYTUgNSAwIDAgMCAwIDEwbTAtMmEzIDMgMCAxIDAgMC02YTMgMyAwIDAgMCAwIDYiLz48L3N2Zz4=)
+  static const eye =
+      '<path fill="currentColor" fill-rule="evenodd" d="M2 12c.945-4.564 5.063-8 10-8s9.055 3.436 10 8c-.945 4.564-5.063 8-10 8s-9.055-3.436-10-8m10 5a5 5 0 1 0 0-10a5 5 0 0 0 0 10m0-2a3 3 0 1 0 0-6a3 3 0 0 0 0 6"/>';
+
+  /// ![preview](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjxwYXRoIGZpbGw9ImN1cnJlbnRDb2xvciIgZmlsbC1ydWxlPSJldmVub2RkIiBkPSJNMTUuNzI1IDIydi03Ljc0NWgyLjZsLjM4OS0zLjAxOGgtMi45OVY5LjMxYzAtLjg3NC4yNDMtMS40NyAxLjQ5Ny0xLjQ3aDEuNTk4di0yLjdhMjEgMjEgMCAwIDAtMi4zMy0uMTJjLTIuMzA0IDAtMy44ODEgMS40MDctMy44ODEgMy45OXYyLjIyN0gxMHYzLjAxOGgyLjYwN1YyMkgzLjEwNEMyLjQ5NCAyMiAyIDIxLjUwNiAyIDIwLjg5NlYzLjEwNEMyIDIuNDk0IDIuNDk0IDIgMy4xMDQgMmgxNy43OTJDMjEuNTA2IDIgMjIgMi40OTQgMjIgMy4xMDR2MTcuNzkyYzAgLjYxLS40OTQgMS4xMDQtMS4xMDQgMS4xMDR6Ii8+PC9zdmc+)
+  static const facebook =
+      '<path fill="currentColor" fill-rule="evenodd" d="M15.725 22v-7.745h2.6l.389-3.018h-2.99V9.31c0-.874.243-1.47 1.497-1.47h1.598v-2.7a21 21 0 0 0-2.33-.12c-2.304 0-3.881 1.407-3.881 3.99v2.227H10v3.018h2.607V22H3.104C2.494 22 2 21.506 2 20.896V3.104C2 2.494 2.494 2 3.104 2h17.792C21.506 2 22 2.494 22 3.104v17.792c0 .61-.494 1.104-1.104 1.104z"/>';
+
+  /// ![preview](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjxwYXRoIGZpbGw9ImN1cnJlbnRDb2xvciIgZmlsbC1ydWxlPSJldmVub2RkIiBkPSJNNSAxMmMwLS4xMDcuMDIzLS4yMTYuMDcyLS4zMTZhLjYuNiAwIDAgMSAuMjIxLS4yNTNsNi44Ni00LjM1Yy4yNzYtLjE3NC42MjMtLjA2Ljc3NS4yNTRhLjcuNyAwIDAgMSAuMDcyLjMxNlYxMmMwLS4xMDYuMDIzLS4yMTUuMDcyLS4zMTVhLjYuNiAwIDAgMSAuMjIxLS4yNTNsNi44Ni00LjM1Yy4yNzYtLjE3NC42MjMtLjA2Ljc3NS4yNTRhLjcuNyAwIDAgMSAuMDcyLjMxNnY4LjY5OGMwIC4zNi0uMjU1LjY1MS0uNTcuNjUxYS41LjUgMCAwIDEtLjI3Ny0uMDgybC02Ljg2LTQuMzQ5QS42Ny42NyAwIDAgMSAxMyAxMnY0LjM1YzAgLjM2LS4yNTUuNjUxLS41Ny42NTFhLjUuNSAwIDAgMS0uMjc3LS4wODJsLTYuODYtNC4zNDlBLjY3LjY3IDAgMCAxIDUgMTJ2NGMwIC41NTItLjUgMS0xIDFzLTEtLjQ0OC0xLTFWOGExIDEgMCAxIDEgMiAweiIvPjwvc3ZnPg==)
+  static const fastBackward =
+      '<path fill="currentColor" fill-rule="evenodd" d="M5 12c0-.107.023-.216.072-.316a.6.6 0 0 1 .221-.253l6.86-4.35c.276-.174.623-.06.775.254a.7.7 0 0 1 .072.316V12c0-.106.023-.215.072-.315a.6.6 0 0 1 .221-.253l6.86-4.35c.276-.174.623-.06.775.254a.7.7 0 0 1 .072.316v8.698c0 .36-.255.651-.57.651a.5.5 0 0 1-.277-.082l-6.86-4.349A.67.67 0 0 1 13 12v4.35c0 .36-.255.651-.57.651a.5.5 0 0 1-.277-.082l-6.86-4.349A.67.67 0 0 1 5 12v4c0 .552-.5 1-1 1s-1-.448-1-1V8a1 1 0 1 1 2 0z"/>';
+
+  /// ![preview](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjxwYXRoIGZpbGw9ImN1cnJlbnRDb2xvciIgZD0iTTE5IDEyYzAgLjIyOC0uMTA2LjQ1LS4yOTMuNTdsLTYuODYgNC4zNDhhLjUuNSAwIDAgMS0uMjc3LjA4MmMtLjMxNSAwLS41Ny0uMjkxLS41Ny0uNjUxdi00LjM1YzAgLjIzLS4xMDYuNDUxLS4yOTMuNTdsLTYuODYgNC4zNUEuNS41IDAgMCAxIDMuNTcgMTdjLS4zMTUgMC0uNTctLjI5MS0uNTctLjY1MVY3LjY1MWMwLS4xMS4wMjUtLjIyLjA3Mi0uMzE2Yy4xNTItLjMxNC41LS40MjguNzc1LS4yNTNsNi44NiA0LjM0OWMuMDkzLjA1OS4xNy4xNDcuMjIxLjI1M2MuMDQ5LjEuMDcyLjIwOS4wNzIuMzE1VjcuNjUxYzAtLjExLjAyNS0uMjIuMDcyLS4zMTZjLjE1Mi0uMzE0LjUtLjQyOC43NzUtLjI1M2w2Ljg2IDQuMzQ5Yy4wOTMuMDU5LjE3LjE0Ny4yMjEuMjUzYy4wNDkuMS4wNzIuMjA5LjA3Mi4zMTVWOGExIDEgMCAwIDEgMiAwdjhjMCAuNTUyLS41IDEtMSAxcy0xLS40NDgtMS0xeiIvPjwvc3ZnPg==)
+  static const fastForward =
+      '<path fill="currentColor" d="M19 12c0 .228-.106.45-.293.57l-6.86 4.348a.5.5 0 0 1-.277.082c-.315 0-.57-.291-.57-.651v-4.35c0 .23-.106.451-.293.57l-6.86 4.35A.5.5 0 0 1 3.57 17c-.315 0-.57-.291-.57-.651V7.651c0-.11.025-.22.072-.316c.152-.314.5-.428.775-.253l6.86 4.349c.093.059.17.147.221.253c.049.1.072.209.072.315V7.651c0-.11.025-.22.072-.316c.152-.314.5-.428.775-.253l6.86 4.349c.093.059.17.147.221.253c.049.1.072.209.072.315V8a1 1 0 0 1 2 0v8c0 .552-.5 1-1 1s-1-.448-1-1z"/>';
+
+  /// ![preview](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjxwYXRoIGZpbGw9ImN1cnJlbnRDb2xvciIgZmlsbC1ydWxlPSJldmVub2RkIiBkPSJNNS45OTMgMTcuODc3UTYgMTcuOTM3IDYgMTh2M2ExIDEgMCAwIDEtMiAwdi0zQzQgOS4xNjMgMTEuMTYzIDIgMjAgMmMwIDguMTYyLTYuMTExIDE0Ljg5Ni0xNC4wMDcgMTUuODc3bS4xNzQtMi4wNDRBMTQuMDEgMTQuMDEgMCAwIDAgMTcuODMzIDQuMTY3QTE0LjAxIDE0LjAxIDAgMCAwIDYuMTY3IDE1LjgzMyIvPjwvc3ZnPg==)
+  static const feather =
+      '<path fill="currentColor" fill-rule="evenodd" d="M5.993 17.877Q6 17.937 6 18v3a1 1 0 0 1-2 0v-3C4 9.163 11.163 2 20 2c0 8.162-6.111 14.896-14.007 15.877m.174-2.044A14.01 14.01 0 0 0 17.833 4.167A14.01 14.01 0 0 0 6.167 15.833"/>';
+
+  /// ![preview](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjxwYXRoIGZpbGw9ImN1cnJlbnRDb2xvciIgZmlsbC1ydWxlPSJldmVub2RkIiBkPSJNNiAxOWExIDEgMCAxIDAgMC0yYTEgMSAwIDAgMCAwIDJtMCAyYTMgMyAwIDEgMSAwLTZhMyAzIDAgMCAxIDAgNm0xMi45NzEgMEMxOC40NzMgMTIuNDA4IDExLjU5MiA1LjUyNyAzIDUuMDI5VjNjOS45NDEgMCAxOCA4LjA1OSAxOCAxOHptLTUuMDEyIDBDMTMuNDc4IDE1LjE3IDguODI5IDEwLjUyMiAzIDEwLjA0MVY4YzcuMTggMCAxMyA1LjgyIDEzIDEzeiIvPjwvc3ZnPg==)
+  static const feed =
+      '<path fill="currentColor" fill-rule="evenodd" d="M6 19a1 1 0 1 0 0-2a1 1 0 0 0 0 2m0 2a3 3 0 1 1 0-6a3 3 0 0 1 0 6m12.971 0C18.473 12.408 11.592 5.527 3 5.029V3c9.941 0 18 8.059 18 18zm-5.012 0C13.478 15.17 8.829 10.522 3 10.041V8c7.18 0 13 5.82 13 13z"/>';
+
+  /// ![preview](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjxwYXRoIGZpbGw9ImN1cnJlbnRDb2xvciIgZmlsbC1ydWxlPSJldmVub2RkIiBkPSJNNiAyaDEwbDQgNHYxNGEyIDIgMCAwIDEtMiAySDZhMiAyIDAgMCAxLTItMlY0YTIgMiAwIDAgMSAyLTJtOS4xNzIgMkg2djE2aDEyVjYuODI4aC0yLjgyOHoiLz48L3N2Zz4=)
+  static const file =
+      '<path fill="currentColor" fill-rule="evenodd" d="M6 2h10l4 4v14a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2m9.172 2H6v16h12V6.828h-2.828z"/>';
+
+  /// ![preview](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjxwYXRoIGZpbGw9ImN1cnJlbnRDb2xvciIgZmlsbC1ydWxlPSJldmVub2RkIiBkPSJNNiAyaDEwbDQgNHYxNGEyIDIgMCAwIDEtMiAySDZhMiAyIDAgMCAxLTItMlY0YTIgMiAwIDAgMSAyLTJtOS4xNzIgMkg2djE2aDEyVjYuODI4aC0yLjgyOHpNMTUgMTQuMDg1VjExaC00djUuNWExLjUgMS41IDAgMSAxLTEtMS40MTVWMTBhMSAxIDAgMCAxIDEtMWg0YTEgMSAwIDAgMSAxIDF2NS41YTEuNSAxLjUgMCAxIDEtMS0xLjQxNSIvPjwvc3ZnPg==)
+  static const fileAudio =
+      '<path fill="currentColor" fill-rule="evenodd" d="M6 2h10l4 4v14a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2m9.172 2H6v16h12V6.828h-2.828zM15 14.085V11h-4v5.5a1.5 1.5 0 1 1-1-1.415V10a1 1 0 0 1 1-1h4a1 1 0 0 1 1 1v5.5a1.5 1.5 0 1 1-1-1.415"/>';
+
+  /// ![preview](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjxwYXRoIGZpbGw9ImN1cnJlbnRDb2xvciIgZmlsbC1ydWxlPSJldmVub2RkIiBkPSJNNiAyaDEwbDQgNHYxNGEyIDIgMCAwIDEtMiAySDZhMiAyIDAgMCAxLTItMlY0YTIgMiAwIDAgMSAyLTJtOSAySDZ2MTZoMTJWN2gtM3ptLTggOGgzbDIgMmwyLTJoM2wtMyAzbDMgM2gtM2wtMi0ybC0yIDJIN2wzLTN6Ii8+PC9zdmc+)
+  static const fileExcel =
+      '<path fill="currentColor" fill-rule="evenodd" d="M6 2h10l4 4v14a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2m9 2H6v16h12V7h-3zm-8 8h3l2 2l2-2h3l-3 3l3 3h-3l-2-2l-2 2H7l3-3z"/>';
+
+  /// ![preview](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjxwYXRoIGZpbGw9ImN1cnJlbnRDb2xvciIgZmlsbC1ydWxlPSJldmVub2RkIiBkPSJNNiAyaDEwbDQgNHYxNGEyIDIgMCAwIDEtMiAySDZhMiAyIDAgMCAxLTItMlY0YTIgMiAwIDAgMSAyLTJtOS4xNzIgMkg2djE2aDEyVjYuODI4aC0yLjgyOHpNMTUgMTRhMSAxIDAgMSAxIDAtMmExIDEgMCAwIDEgMCAybS03IDJsMy4wNy0zTDE0IDE2bDEtMWwxIDF2Mkg4eiIvPjwvc3ZnPg==)
+  static const fileImage =
+      '<path fill="currentColor" fill-rule="evenodd" d="M6 2h10l4 4v14a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2m9.172 2H6v16h12V6.828h-2.828zM15 14a1 1 0 1 1 0-2a1 1 0 0 1 0 2m-7 2l3.07-3L14 16l1-1l1 1v2H8z"/>';
+
+  /// ![preview](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjxwYXRoIGZpbGw9ImN1cnJlbnRDb2xvciIgZmlsbC1ydWxlPSJldmVub2RkIiBkPSJNNiAyaDEwbDQgNHYxNGEyIDIgMCAwIDEtMiAySDZhMiAyIDAgMCAxLTItMlY0YTIgMiAwIDAgMSAyLTJtOS4xNzIgMkg2djE2aDEyVjYuODI4aC0yLjgyOHpNMTIgMTNhMSAxIDAgMCAxIDEgMXYzYTEgMSAwIDAgMS0xIDFIOWExIDEgMCAwIDEtMS0xdi0zYTEgMSAwIDAgMSAxLTF6bTEgMi41bDMtMS41djN6Ii8+PC9zdmc+)
+  static const fileMovie =
+      '<path fill="currentColor" fill-rule="evenodd" d="M6 2h10l4 4v14a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2m9.172 2H6v16h12V6.828h-2.828zM12 13a1 1 0 0 1 1 1v3a1 1 0 0 1-1 1H9a1 1 0 0 1-1-1v-3a1 1 0 0 1 1-1zm1 2.5l3-1.5v3z"/>';
+
+  /// ![preview](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjxwYXRoIGZpbGw9ImN1cnJlbnRDb2xvciIgZmlsbC1ydWxlPSJldmVub2RkIiBkPSJNNiAyaDEwbDQgNHYxNGEyIDIgMCAwIDEtMiAySDZhMiAyIDAgMCAxLTItMlY0YTIgMiAwIDAgMSAyLTJtOS4xNzIgMkg2djE2aDEyVjYuODI4aC0yLjgyOHpNMTAgMTZ2Mkg4di04aDVhMyAzIDAgMCAxIDAgNnptMC00djJoM2ExIDEgMCAwIDAgMC0yeiIvPjwvc3ZnPg==)
+  static const filePowerpoint =
+      '<path fill="currentColor" fill-rule="evenodd" d="M6 2h10l4 4v14a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2m9.172 2H6v16h12V6.828h-2.828zM10 16v2H8v-8h5a3 3 0 0 1 0 6zm0-4v2h3a1 1 0 0 0 0-2z"/>';
+
+  /// ![preview](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjxwYXRoIGZpbGw9ImN1cnJlbnRDb2xvciIgZmlsbC1ydWxlPSJldmVub2RkIiBkPSJNNiAyaDEwbDQgNHYxNGEyIDIgMCAwIDEtMiAySDZhMiAyIDAgMCAxLTItMlY0YTIgMiAwIDAgMSAyLTJtOSAySDZ2MTZoMTJWN2gtM3ptLTggOGgybDEgM2wxLTNoMmwxIDNsMS0zaDJsLTIgNmgtMmwtMS0zbC0xIDNIOXoiLz48L3N2Zz4=)
+  static const fileWord =
+      '<path fill="currentColor" fill-rule="evenodd" d="M6 2h10l4 4v14a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2m9 2H6v16h12V7h-3zm-8 8h2l1 3l1-3h2l1 3l1-3h2l-2 6h-2l-1-3l-1 3H9z"/>';
+
+  /// ![preview](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjxwYXRoIGZpbGw9ImN1cnJlbnRDb2xvciIgZmlsbC1ydWxlPSJldmVub2RkIiBkPSJNNiAyaDEwbDQgNHYxNGEyIDIgMCAwIDEtMiAySDZhMiAyIDAgMCAxLTItMlY0YTIgMiAwIDAgMSAyLTJtOS4xNzIgMkg2djE2aDEyVjYuODI4aC0yLjgyOHpNOCA0aDJ2Mkg4em0yIDJoMnYyaC0yek04IDhoMnYySDh6bTIgMmgydjJoLTJ6bS0xIDRsMS0xbDEgMXY0SDl6Ii8+PC9zdmc+)
+  static const fileZip =
+      '<path fill="currentColor" fill-rule="evenodd" d="M6 2h10l4 4v14a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2m9.172 2H6v16h12V6.828h-2.828zM8 4h2v2H8zm2 2h2v2h-2zM8 8h2v2H8zm2 2h2v2h-2zm-1 4l1-1l1 1v4H9z"/>';
+
+  /// ![preview](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjxwYXRoIGZpbGw9ImN1cnJlbnRDb2xvciIgZD0iTTE4IDUuOTdWNEg2djEuOTdsNiA0LjI4NnpNMTMgMTJ2OGwtMiAyVjEyTDQuODM4IDcuNTk4QTIgMiAwIDAgMSA0IDUuOTcxVjRhMiAyIDAgMCAxIDItMmgxMmEyIDIgMCAwIDEgMiAydjEuOTdhMiAyIDAgMCAxLS44MzggMS42Mjh6Ii8+PC9zdmc+)
+  static const filter =
+      '<path fill="currentColor" d="M18 5.97V4H6v1.97l6 4.286zM13 12v8l-2 2V12L4.838 7.598A2 2 0 0 1 4 5.971V4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v1.97a2 2 0 0 1-.838 1.628z"/>';
+
+  /// ![preview](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjxwYXRoIGZpbGw9ImN1cnJlbnRDb2xvciIgZmlsbC1ydWxlPSJldmVub2RkIiBkPSJNNiAxMnY5YTEgMSAwIDAgMS0yIDBWNGMwLTEuMS45LTIgMi0yaDZjMS4xIDAgMS45OTkuOSAxLjk5OSAySDE4YTIgMiAwIDAgMSAyIDJ2NmEyIDIgMCAwIDEtMiAyaC01YTIgMiAwIDAgMS0xLjk5Ny0yem0wLTh2Nmg3djJoNS4wMDJWNkgxMlY0eiIvPjwvc3ZnPg==)
+  static const flag =
+      '<path fill="currentColor" fill-rule="evenodd" d="M6 12v9a1 1 0 0 1-2 0V4c0-1.1.9-2 2-2h6c1.1 0 1.999.9 1.999 2H18a2 2 0 0 1 2 2v6a2 2 0 0 1-2 2h-5a2 2 0 0 1-1.997-2zm0-8v6h7v2h5.002V6H12V4z"/>';
+
+  /// ![preview](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjxwYXRoIGZpbGw9ImN1cnJlbnRDb2xvciIgZD0iTTExIDVoOGEyIDIgMCAwIDEgMiAydjEyYTIgMiAwIDAgMS0yIDJINWEyIDIgMCAwIDEtMi0yVjVjMC0xLjEuOS0yIDItMmg0ek01IDd2MTJoMTRWN3oiLz48L3N2Zz4=)
+  static const folder =
+      '<path fill="currentColor" d="M11 5h8a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5c0-1.1.9-2 2-2h4zM5 7v12h14V7z"/>';
+
+  /// ![preview](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjxwYXRoIGZpbGw9ImN1cnJlbnRDb2xvciIgZD0iTTExIDVoOGEyIDIgMCAwIDEgMiAydjEyYTIgMiAwIDAgMS0yIDJINWEyIDIgMCAwIDEtMi0yVjVjMC0xLjEuOS0yIDItMmg0em0tMiA2djhoMTB2LTh6TTUgN3YxMmgyVjloMTJWN3oiLz48L3N2Zz4=)
+  static const folderOpen =
+      '<path fill="currentColor" d="M11 5h8a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5c0-1.1.9-2 2-2h4zm-2 6v8h10v-8zM5 7v12h2V9h12V7z"/>';
+
+  /// ![preview](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjxwYXRoIGZpbGw9ImN1cnJlbnRDb2xvciIgZmlsbC1ydWxlPSJldmVub2RkIiBkPSJNOSA3LjgzVjEyaDNhMyAzIDAgMCAwIDMtM1Y3LjgzYTMuMDAxIDMuMDAxIDAgMSAxIDIgMFY5YTUgNSAwIDAgMS01IDVIOXYyLjE3YTMuMDAxIDMuMDAxIDAgMSAxLTIgMFY3LjgzYTMuMDAxIDMuMDAxIDAgMSAxIDIgME04IDIwYTEgMSAwIDEgMCAwLTJhMSAxIDAgMCAwIDAgMm04LTE0YTEgMSAwIDEgMCAwLTJhMSAxIDAgMCAwIDAgMk04IDZhMSAxIDAgMSAwIDAtMmExIDEgMCAwIDAgMCAyIi8+PC9zdmc+)
+  static const fork =
+      '<path fill="currentColor" fill-rule="evenodd" d="M9 7.83V12h3a3 3 0 0 0 3-3V7.83a3.001 3.001 0 1 1 2 0V9a5 5 0 0 1-5 5H9v2.17a3.001 3.001 0 1 1-2 0V7.83a3.001 3.001 0 1 1 2 0M8 20a1 1 0 1 0 0-2a1 1 0 0 0 0 2m8-14a1 1 0 1 0 0-2a1 1 0 0 0 0 2M8 6a1 1 0 1 0 0-2a1 1 0 0 0 0 2"/>';
+
+  /// ![preview](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjxwYXRoIGZpbGw9ImN1cnJlbnRDb2xvciIgZD0iTTEyIDEyVjcuNjVjMC0uMTEuMDI1LS4yMi4wNzItLjMxNmMuMTUyLS4zMTQuNS0uNDI4Ljc3NS0uMjUzbDYuODYgNC4zNDljLjA5My4wNTkuMTcuMTQ3LjIyMS4yNTNjLjE1My4zMTQuMDU0LjcxLS4yMjEuODg1bC02Ljg2IDQuMzVhLjUuNSAwIDAgMS0uMjc3LjA4MWMtLjMxNSAwLS41Ny0uMjkxLS41Ny0uNjUxemMwIC4yMy0uMTA2LjQ1MS0uMjkzLjU3bC02Ljg2IDQuMzVhLjUuNSAwIDAgMS0uMjc3LjA4Yy0uMzE1IDAtLjU3LS4yOTEtLjU3LS42NTFWNy42NTFjMC0uMTEuMDI1LS4yMi4wNzItLjMxNmMuMTUyLS4zMTQuNS0uNDI4Ljc3NS0uMjUzbDYuODYgNC4zNDljLjA5My4wNTkuMTcuMTQ3LjIyMS4yNTNjLjA0OS4xLjA3Mi4yMDkuMDcyLjMxNSIvPjwvc3ZnPg==)
+  static const forward =
+      '<path fill="currentColor" d="M12 12V7.65c0-.11.025-.22.072-.316c.152-.314.5-.428.775-.253l6.86 4.349c.093.059.17.147.221.253c.153.314.054.71-.221.885l-6.86 4.35a.5.5 0 0 1-.277.081c-.315 0-.57-.291-.57-.651zc0 .23-.106.451-.293.57l-6.86 4.35a.5.5 0 0 1-.277.08c-.315 0-.57-.291-.57-.651V7.651c0-.11.025-.22.072-.316c.152-.314.5-.428.775-.253l6.86 4.349c.093.059.17.147.221.253c.049.1.072.209.072.315"/>';
+
+  /// ![preview](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjxwYXRoIGZpbGw9ImN1cnJlbnRDb2xvciIgZmlsbC1ydWxlPSJldmVub2RkIiBkPSJNMTIgMjBhOCA4IDAgMSAwIDAtMTZhOCA4IDAgMCAwIDAgMTZtMCAyQzYuNDc3IDIyIDIgMTcuNTIzIDIgMTJTNi40NzcgMiAxMiAyczEwIDQuNDc3IDEwIDEwcy00LjQ3NyAxMC0xMCAxMG00LTVhNCA0IDAgMSAwLTggMHptLTEuNS02YTEuNSAxLjUgMCAxIDAgMC0zYTEuNSAxLjUgMCAwIDAgMCAzbS01IDBhMS41IDEuNSAwIDEgMCAwLTNhMS41IDEuNSAwIDAgMCAwIDMiLz48L3N2Zz4=)
+  static const frowing =
+      '<path fill="currentColor" fill-rule="evenodd" d="M12 20a8 8 0 1 0 0-16a8 8 0 0 0 0 16m0 2C6.477 22 2 17.523 2 12S6.477 2 12 2s10 4.477 10 10s-4.477 10-10 10m4-5a4 4 0 1 0-8 0zm-1.5-6a1.5 1.5 0 1 0 0-3a1.5 1.5 0 0 0 0 3m-5 0a1.5 1.5 0 1 0 0-3a1.5 1.5 0 0 0 0 3"/>';
+
+  /// ![preview](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjxwYXRoIGZpbGw9ImN1cnJlbnRDb2xvciIgZD0iTTEzIDE4LjI2OGEyIDIgMCAxIDEtMiAwdi0yLjMzOUE3LjAwMiA3LjAwMiAwIDAgMSAxMiAyYTcgNyAwIDAgMSAxIDEzLjkzek0xMiAxNGE1IDUgMCAxIDAgMC0xMGE1IDUgMCAwIDAgMCAxMCIvPjwvc3ZnPg==)
+  static const fryingPan =
+      '<path fill="currentColor" d="M13 18.268a2 2 0 1 1-2 0v-2.339A7.002 7.002 0 0 1 12 2a7 7 0 0 1 1 13.93zM12 14a5 5 0 1 0 0-10a5 5 0 0 0 0 10"/>';
+
+  /// ![preview](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjxwYXRoIGZpbGw9ImN1cnJlbnRDb2xvciIgZmlsbC1ydWxlPSJldmVub2RkIiBkPSJNMTMgMTVoLTJhNSA1IDAgMSAxLTQtOGgxMGE1IDUgMCAxIDEtNCA4bS01LTR2LTFhMSAxIDAgMSAwLTIgMHYxSDVhMSAxIDAgMCAwIDAgMmgxdjFhMSAxIDAgMCAwIDIgMHYtMWgxYTEgMSAwIDAgMCAwLTJ6bTkgMGExIDEgMCAxIDAgMC0yYTEgMSAwIDAgMCAwIDJtLTEgM2ExIDEgMCAxIDAgMC0yYTEgMSAwIDAgMCAwIDJtMy0xYTEgMSAwIDEgMCAwLTJhMSAxIDAgMCAwIDAgMiIvPjwvc3ZnPg==)
+  static const gamepad =
+      '<path fill="currentColor" fill-rule="evenodd" d="M13 15h-2a5 5 0 1 1-4-8h10a5 5 0 1 1-4 8m-5-4v-1a1 1 0 1 0-2 0v1H5a1 1 0 0 0 0 2h1v1a1 1 0 0 0 2 0v-1h1a1 1 0 0 0 0-2zm9 0a1 1 0 1 0 0-2a1 1 0 0 0 0 2m-1 3a1 1 0 1 0 0-2a1 1 0 0 0 0 2m3-1a1 1 0 1 0 0-2a1 1 0 0 0 0 2"/>';
+
+  /// ![preview](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjxwYXRoIGZpbGw9ImN1cnJlbnRDb2xvciIgZD0iTTExIDE5LjkzOGE3Ljk2IDcuOTYgMCAwIDEtMy45MDYtMS42MThsLTEuNDU4IDEuNDU4bC0xLjQxNC0xLjQxNGwxLjQ1OC0xLjQ1OEE3Ljk2IDcuOTYgMCAwIDEgNC4wNjIgMTNIMnYtMmgyLjA2MkE3Ljk2IDcuOTYgMCAwIDEgNS42OCA3LjA5NEw0LjIyMiA1LjYzNmwxLjQxNC0xLjQxNEw3LjA5NCA1LjY4QTcuOTYgNy45NiAwIDAgMSAxMSA0LjA2MlYyaDJ2Mi4wNjJhNy45NiA3Ljk2IDAgMCAxIDMuOTA2IDEuNjE4bDEuNDU4LTEuNDU4bDEuNDE0IDEuNDE0bC0xLjQ1OCAxLjQ1OEE3Ljk2IDcuOTYgMCAwIDEgMTkuOTM4IDExSDIydjJoLTIuMDYyYTcuOTYgNy45NiAwIDAgMS0xLjYxOCAzLjkwNmwxLjQ1OCAxLjQ1OGwtMS40MTQgMS40MTRsLTEuNDU4LTEuNDU4QTcuOTYgNy45NiAwIDAgMSAxMyAxOS45MzhWMjJoLTJ6TTEyIDE3YTUgNSAwIDEgMCAwLTEwYTUgNSAwIDAgMCAwIDEwIi8+PC9zdmc+)
+  static const gear =
+      '<path fill="currentColor" d="M11 19.938a7.96 7.96 0 0 1-3.906-1.618l-1.458 1.458l-1.414-1.414l1.458-1.458A7.96 7.96 0 0 1 4.062 13H2v-2h2.062A7.96 7.96 0 0 1 5.68 7.094L4.222 5.636l1.414-1.414L7.094 5.68A7.96 7.96 0 0 1 11 4.062V2h2v2.062a7.96 7.96 0 0 1 3.906 1.618l1.458-1.458l1.414 1.414l-1.458 1.458A7.96 7.96 0 0 1 19.938 11H22v2h-2.062a7.96 7.96 0 0 1-1.618 3.906l1.458 1.458l-1.414 1.414l-1.458-1.458A7.96 7.96 0 0 1 13 19.938V22h-2zM12 17a5 5 0 1 0 0-10a5 5 0 0 0 0 10"/>';
+
+  /// ![preview](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjxwYXRoIGZpbGw9ImN1cnJlbnRDb2xvciIgZmlsbC1ydWxlPSJldmVub2RkIiBkPSJNMTkgMTJ2OGEyIDIgMCAwIDEtMiAySDdhMiAyIDAgMCAxLTItMnYtOGEyIDIgMCAwIDEtMi0yVjhhMiAyIDAgMCAxIDItMmgxLjE3QTMgMyAwIDEgMSAxMiA1YTMgMyAwIDEgMSA1LjgzIDFIMTlhMiAyIDAgMCAxIDIgMnYyYTIgMiAwIDAgMS0yIDJtLTgtNEg1djJoNnptMiAwdjJoNlY4em0tNiA0djhoMTB2LTh6bTItNmgxVjVhMSAxIDAgMSAwLTEgMW02IDBhMSAxIDAgMSAwLTEtMXYxeiIvPjwvc3ZnPg==)
+  static const gift =
+      '<path fill="currentColor" fill-rule="evenodd" d="M19 12v8a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2v-8a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h1.17A3 3 0 1 1 12 5a3 3 0 1 1 5.83 1H19a2 2 0 0 1 2 2v2a2 2 0 0 1-2 2m-8-4H5v2h6zm2 0v2h6V8zm-6 4v8h10v-8zm2-6h1V5a1 1 0 1 0-1 1m6 0a1 1 0 1 0-1-1v1z"/>';
+
+  /// ![preview](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjxwYXRoIGZpbGw9ImN1cnJlbnRDb2xvciIgZmlsbC1ydWxlPSJldmVub2RkIiBkPSJNMjEuNjIzIDExLjExTDEyLjg5IDIuMzc2YTEuMjkgMS4yOSAwIDAgMC0xLjgyMSAwTDkuMjU2IDQuMTkxbDIuMyAyLjNhMS41MyAxLjUzIDAgMCAxIDEuOTM3IDEuOTVsMi4yMTcgMi4yMTdhMS41MzIgMS41MzIgMCAxIDEtLjkxOC44NjRsLTIuMDY4LTIuMDY4djUuNDQxYTEuNTMzIDEuNTMzIDAgMSAxLTEuMjYtLjA0NVY5LjM2YTEuNTMgMS41MyAwIDAgMS0uODMyLTIuMDFMOC4zNjUgNS4wODFsLTUuOTg4IDUuOTg3YTEuMjkgMS4yOSAwIDAgMCAwIDEuODIybDguNzMzIDguNzMyYTEuMjkgMS4yOSAwIDAgMCAxLjgyMSAwbDguNjkyLTguNjkyYTEuMjkgMS4yOSAwIDAgMCAwLTEuODIyIi8+PC9zdmc+)
+  static const git =
+      '<path fill="currentColor" fill-rule="evenodd" d="M21.623 11.11L12.89 2.376a1.29 1.29 0 0 0-1.821 0L9.256 4.191l2.3 2.3a1.53 1.53 0 0 1 1.937 1.95l2.217 2.217a1.532 1.532 0 1 1-.918.864l-2.068-2.068v5.441a1.533 1.533 0 1 1-1.26-.045V9.36a1.53 1.53 0 0 1-.832-2.01L8.365 5.081l-5.988 5.987a1.29 1.29 0 0 0 0 1.822l8.733 8.732a1.29 1.29 0 0 0 1.821 0l8.692-8.692a1.29 1.29 0 0 0 0-1.822"/>';
+
+  /// ![preview](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjxwYXRoIGZpbGw9ImN1cnJlbnRDb2xvciIgZmlsbC1ydWxlPSJldmVub2RkIiBkPSJNMTIgMkM2LjQ3NSAyIDIgNi40NzUgMiAxMmE5Ljk5IDkuOTkgMCAwIDAgNi44MzggOS40ODhjLjUuMDg3LjY4Ny0uMjEzLjY4Ny0uNDc2YzAtLjIzNy0uMDEzLTEuMDI0LS4wMTMtMS44NjJjLTIuNTEyLjQ2My0zLjE2Mi0uNjEyLTMuMzYyLTEuMTc1Yy0uMTEzLS4yODgtLjYtMS4xNzUtMS4wMjUtMS40MTNjLS4zNS0uMTg3LS44NS0uNjUtLjAxMy0uNjYyYy43ODgtLjAxMyAxLjM1LjcyNSAxLjUzOCAxLjAyNWMuOSAxLjUxMiAyLjMzOCAxLjA4NyAyLjkxMi44MjVjLjA4OC0uNjUuMzUtMS4wODcuNjM4LTEuMzM3Yy0yLjIyNS0uMjUtNC41NS0xLjExMy00LjU1LTQuOTM4YzAtMS4wODguMzg3LTEuOTg3IDEuMDI1LTIuNjg3Yy0uMS0uMjUtLjQ1LTEuMjc1LjEtMi42NWMwIDAgLjgzNy0uMjYzIDIuNzUgMS4wMjRhOS4zIDkuMyAwIDAgMSAyLjUtLjMzN2MuODUgMCAxLjcuMTEyIDIuNS4zMzdjMS45MTItMS4zIDIuNzUtMS4wMjQgMi43NS0xLjAyNGMuNTUgMS4zNzUuMiAyLjQuMSAyLjY1Yy42MzcuNyAxLjAyNSAxLjU4NyAxLjAyNSAyLjY4N2MwIDMuODM4LTIuMzM3IDQuNjg4LTQuNTYyIDQuOTM4Yy4zNjIuMzEyLjY3NS45MTIuNjc1IDEuODVjMCAxLjMzNy0uMDEzIDIuNDEyLS4wMTMgMi43NWMwIC4yNjIuMTg4LjU3NC42ODguNDc0QTEwLjAyIDEwLjAyIDAgMCAwIDIyIDEyYzAtNS41MjUtNC40NzUtMTAtMTAtMTAiLz48L3N2Zz4=)
+  static const github =
+      '<path fill="currentColor" fill-rule="evenodd" d="M12 2C6.475 2 2 6.475 2 12a9.99 9.99 0 0 0 6.838 9.488c.5.087.687-.213.687-.476c0-.237-.013-1.024-.013-1.862c-2.512.463-3.162-.612-3.362-1.175c-.113-.288-.6-1.175-1.025-1.413c-.35-.187-.85-.65-.013-.662c.788-.013 1.35.725 1.538 1.025c.9 1.512 2.338 1.087 2.912.825c.088-.65.35-1.087.638-1.337c-2.225-.25-4.55-1.113-4.55-4.938c0-1.088.387-1.987 1.025-2.687c-.1-.25-.45-1.275.1-2.65c0 0 .837-.263 2.75 1.024a9.3 9.3 0 0 1 2.5-.337c.85 0 1.7.112 2.5.337c1.912-1.3 2.75-1.024 2.75-1.024c.55 1.375.2 2.4.1 2.65c.637.7 1.025 1.587 1.025 2.687c0 3.838-2.337 4.688-4.562 4.938c.362.312.675.912.675 1.85c0 1.337-.013 2.412-.013 2.75c0 .262.188.574.688.474A10.02 10.02 0 0 0 22 12c0-5.525-4.475-10-10-10"/>';
+
+  /// ![preview](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjxwYXRoIGZpbGw9ImN1cnJlbnRDb2xvciIgZmlsbC1ydWxlPSJldmVub2RkIiBkPSJNMjAuMzc1IDguMTc0Yy4xNjMtLjQuNjg4LTEuOTg3LS4xNjMtNC4xMzdjMCAwLTEuMzEyLS40MTMtNC4zIDEuNjI1Yy0xLjI1LS4zNS0yLjU4Ny0uNC0zLjkxMi0uNHMtMi42NjIuMDUtMy45MTIuNGMtMi45ODgtMi4wNS00LjMtMS42MjUtNC4zLTEuNjI1Yy0uODUgMi4xNS0uMzI1IDMuNzM3LS4xNjMgNC4xMzdDMi42MTIgOS4yNjIgMiAxMC42NjIgMiAxMi4zNjJjMCA2LjQzNyA0LjE2MyA3Ljg4NyA5Ljk3NSA3Ljg4N2M1LjgxMyAwIDEwLjAyNS0xLjQ1IDEwLjAyNS03Ljg4N2MwLTEuNy0uNjEzLTMuMS0xLjYyNS00LjE4OE0xMiAxOS4wMjRjLTQuMTI1IDAtNy40NzUtLjE4Ny03LjQ3NS00LjE4N2MwLS45NS40NzUtMS44NSAxLjI3NS0yLjU4OGMxLjMzOC0xLjIyNSAzLjYyNS0uNTc1IDYuMi0uNTc1YzIuNTg4IDAgNC44NS0uNjUgNi4yLjU3NWMuODEzLjczOCAxLjI3NSAxLjYyNSAxLjI3NSAyLjU4OGMwIDMuOTg3LTMuMzUgNC4xODctNy40NzUgNC4xODdtLTMuMTM3LTYuMjYyYy0uODI1IDAtMS41IDEtMS41IDIuMjI1cy42NzQgMi4yMzcgMS41IDIuMjM3Yy44MjUgMCAxLjUtMSAxLjUtMi4yMzdzLS42NzUtMi4yMjUtMS41LTIuMjI1bTYuMjc1IDBjLS44MjUgMC0xLjUuOTg3LTEuNSAyLjIyNXMuNjc1IDIuMjM3IDEuNSAyLjIzN3MxLjUtMSAxLjUtMi4yMzdzLS42NjMtMi4yMjUtMS41LTIuMjI1Ii8+PC9zdmc+)
+  static const githubAlt =
+      '<path fill="currentColor" fill-rule="evenodd" d="M20.375 8.174c.163-.4.688-1.987-.163-4.137c0 0-1.312-.413-4.3 1.625c-1.25-.35-2.587-.4-3.912-.4s-2.662.05-3.912.4c-2.988-2.05-4.3-1.625-4.3-1.625c-.85 2.15-.325 3.737-.163 4.137C2.612 9.262 2 10.662 2 12.362c0 6.437 4.163 7.887 9.975 7.887c5.813 0 10.025-1.45 10.025-7.887c0-1.7-.613-3.1-1.625-4.188M12 19.024c-4.125 0-7.475-.187-7.475-4.187c0-.95.475-1.85 1.275-2.588c1.338-1.225 3.625-.575 6.2-.575c2.588 0 4.85-.65 6.2.575c.813.738 1.275 1.625 1.275 2.588c0 3.987-3.35 4.187-7.475 4.187m-3.137-6.262c-.825 0-1.5 1-1.5 2.225s.674 2.237 1.5 2.237c.825 0 1.5-1 1.5-2.237s-.675-2.225-1.5-2.225m6.275 0c-.825 0-1.5.987-1.5 2.225s.675 2.237 1.5 2.237s1.5-1 1.5-2.237s-.663-2.225-1.5-2.225"/>';
+
+  /// ![preview](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjxwYXRoIGZpbGw9ImN1cnJlbnRDb2xvciIgZmlsbC1ydWxlPSJldmVub2RkIiBkPSJNMiAxMkMyIDYuNDc3IDYuNDc3IDIgMTIgMnMxMCA0LjQ3NyAxMCAxMHMtNC40NzcgMTAtMTAgMTBTMiAxNy41MjMgMiAxMm0yIDBhOCA4IDAgMSAwIDE2IDBhOCA4IDAgMCAwLTE2IDBtNC4yNTItMS41NTJjLjI0My0uNTA4LjY0My0xLjk0OC45MzItMS45NDhjLjI4OCAwIC4xODMuNzIzLjQ0MS43ODZjLjIxNy4wNTMuMDUtLjMyMy42NTMtLjM5czEuMjYuMzAyIDEuMjYuMzAycy43MTIuMTc3IDEuMzY5IDBjMCAwLS4zNDctLjUyNi4wNzgtLjY5OGMuNDI0LS4xNzIgMS4wMDIuNDY0IDEuMDIzLjg3NXMtLjk0NC42ODctLjk0NC42ODdsLjk0NC41NjdzLjI3Ny0uODc4Ljg2Ny0uODg3Yy41MjUtLjAxIDEuMTgzLjk1Ljg3NSAxLjM4M3MtLjUwNi4xMzUtLjUwNi4xMzVzLS45NC45NTItMS4yMzYgMS4xMjNjLS4yOTUuMTctLjcwOCAwLS43MDggMHMtLjE3NS4zMjQgMCAuNDczYy4zNTUuMzY2IDEuMjc3LjczIDEuMjc3LjczczIuODM1LjQ2MSAyLjkyMyAxLjAzOXMtMi4yNTYgMy41LTIuNjI1IDMuNUgxNGMtLjM1Ny0uNjMuNTc3LTIuNjQ0LjU3Ny0yLjY0NHMtLjQ4LS41MzItLjU3Ny0uODU2cy4xODYtLjg5NC4xODYtLjg5NGwtMS4yNzktLjU4OXMtLjY4IDAtMS4wMTctLjI2N3MtLjUxNS0xLjc1LS41MTUtMS43NWwtMS4yMi0uODk0cy0xLjA2IDEuMzQ2LTEuNDA1IDEuMTc0Yy0uMzQ2LS4xNzItLjc0LS40NS0uNDk4LS45NTdtNi41Ny0yLjA5OGMtLjg0NCAwLTIuODc1LTEuMDc0LTIuNTM0LTEuNjVjMC0uODI2IDIuMTM1LS43MDIgMi41OTMtLjcwMnMxLjU4LjM1NCAyLjIwMy44NWMuNjIzLjQ5NS0uMjYzIDEuMjAzLS41NzIgMS41MDJjLS4zMS4zLS44NDUgMC0xLjY5IDAiLz48L3N2Zz4=)
+  static const globe =
+      '<path fill="currentColor" fill-rule="evenodd" d="M2 12C2 6.477 6.477 2 12 2s10 4.477 10 10s-4.477 10-10 10S2 17.523 2 12m2 0a8 8 0 1 0 16 0a8 8 0 0 0-16 0m4.252-1.552c.243-.508.643-1.948.932-1.948c.288 0 .183.723.441.786c.217.053.05-.323.653-.39s1.26.302 1.26.302s.712.177 1.369 0c0 0-.347-.526.078-.698c.424-.172 1.002.464 1.023.875s-.944.687-.944.687l.944.567s.277-.878.867-.887c.525-.01 1.183.95.875 1.383s-.506.135-.506.135s-.94.952-1.236 1.123c-.295.17-.708 0-.708 0s-.175.324 0 .473c.355.366 1.277.73 1.277.73s2.835.461 2.923 1.039s-2.256 3.5-2.625 3.5H14c-.357-.63.577-2.644.577-2.644s-.48-.532-.577-.856s.186-.894.186-.894l-1.279-.589s-.68 0-1.017-.267s-.515-1.75-.515-1.75l-1.22-.894s-1.06 1.346-1.405 1.174c-.346-.172-.74-.45-.498-.957m6.57-2.098c-.844 0-2.875-1.074-2.534-1.65c0-.826 2.135-.702 2.593-.702s1.58.354 2.203.85c.623.495-.263 1.203-.572 1.502c-.31.3-.845 0-1.69 0"/>';
+
+  /// ![preview](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjxwYXRoIGZpbGw9ImN1cnJlbnRDb2xvciIgZD0iTTExLjk5IDEzLjl2LTMuNzJoOS4zNmMuMTQuNjMuMjUgMS4yMi4yNSAyLjA1YzAgNS43MS0zLjgzIDkuNzctOS42IDkuNzdjLTUuNTIgMC0xMC00LjQ4LTEwLTEwUzYuNDggMiAxMiAyYzIuNyAwIDQuOTYuOTkgNi42OSAyLjYxbC0yLjg0IDIuNzZjLS43Mi0uNjgtMS45OC0xLjQ4LTMuODUtMS40OGMtMy4zMSAwLTYuMDEgMi43NS02LjAxIDYuMTJzMi43IDYuMTIgNi4wMSA2LjEyYzMuODMgMCA1LjI0LTIuNjUgNS41LTQuMjJoLTUuNTF6Ii8+PC9zdmc+)
+  static const google =
+      '<path fill="currentColor" d="M11.99 13.9v-3.72h9.36c.14.63.25 1.22.25 2.05c0 5.71-3.83 9.77-9.6 9.77c-5.52 0-10-4.48-10-10S6.48 2 12 2c2.7 0 4.96.99 6.69 2.61l-2.84 2.76c-.72-.68-1.98-1.48-3.85-1.48c-3.31 0-6.01 2.75-6.01 6.12s2.7 6.12 6.01 6.12c3.83 0 5.24-2.65 5.5-4.22h-5.51z"/>';
+
+  /// ![preview](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjxwYXRoIGZpbGw9ImN1cnJlbnRDb2xvciIgZmlsbC1ydWxlPSJldmVub2RkIiBkPSJNOC4zNjQgMTEuNDU1aDYuMDA5Yy4wNTQuMzE4LjEuNjM2LjEgMS4wNTRjMCAzLjYzNi0yLjQzNyA2LjIxOC02LjExIDYuMjE4QTYuMzYgNi4zNiAwIDAgMSAyIDEyLjM2NEE2LjM2IDYuMzYgMCAwIDEgOC4zNjQgNmMxLjcxOCAwIDMuMTU0LjYyNyA0LjI2MyAxLjY2NEwxMC45IDkuMzI3Yy0uNDczLS40NTQtMS4zLS45ODItMi41MzYtLjk4MmMtMi4xNzMgMC0zLjk0NiAxLjgtMy45NDYgNC4wMTljMCAyLjIxOCAxLjc3MyA0LjAxOCAzLjk0NiA0LjAxOGMyLjUxOCAwIDMuNDYzLTEuODEgMy42MDktMi43NDZoLTMuNjF6bTEzLjYzNiAwdjEuODE4aC0xLjgxOHYxLjgxOGgtMS44MTh2LTEuODE4aC0xLjgxOXYtMS44MThoMS44MTlWOS42MzZoMS44MTh2MS44MTl6Ii8+PC9zdmc+)
+  static const googlePlus =
+      '<path fill="currentColor" fill-rule="evenodd" d="M8.364 11.455h6.009c.054.318.1.636.1 1.054c0 3.636-2.437 6.218-6.11 6.218A6.36 6.36 0 0 1 2 12.364A6.36 6.36 0 0 1 8.364 6c1.718 0 3.154.627 4.263 1.664L10.9 9.327c-.473-.454-1.3-.982-2.536-.982c-2.173 0-3.946 1.8-3.946 4.019c0 2.218 1.773 4.018 3.946 4.018c2.518 0 3.463-1.81 3.609-2.746h-3.61zm13.636 0v1.818h-1.818v1.818h-1.818v-1.818h-1.819v-1.818h1.819V9.636h1.818v1.819z"/>';
+
+  /// ![preview](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjxwYXRoIGZpbGw9ImN1cnJlbnRDb2xvciIgZmlsbC1ydWxlPSJldmVub2RkIiBkPSJNMTAgMTVoNFY5aC00em0wIDJ2M2ExIDEgMCAwIDEtMiAwdi0zSDVhMSAxIDAgMCAxIDAtMmgzVjlINWExIDEgMCAxIDEgMC0yaDNWNGExIDEgMCAxIDEgMiAwdjNoNFY0YTEgMSAwIDAgMSAyIDB2M2gzYTEgMSAwIDAgMSAwIDJoLTN2NmgzYTEgMSAwIDAgMSAwIDJoLTN2M2ExIDEgMCAwIDEtMiAwdi0zeiIvPjwvc3ZnPg==)
+  static const hash =
+      '<path fill="currentColor" fill-rule="evenodd" d="M10 15h4V9h-4zm0 2v3a1 1 0 0 1-2 0v-3H5a1 1 0 0 1 0-2h3V9H5a1 1 0 1 1 0-2h3V4a1 1 0 1 1 2 0v3h4V4a1 1 0 0 1 2 0v3h3a1 1 0 0 1 0 2h-3v6h3a1 1 0 0 1 0 2h-3v3a1 1 0 0 1-2 0v-3z"/>';
+
+  /// ![preview](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjxwYXRoIGZpbGw9ImN1cnJlbnRDb2xvciIgZmlsbC1ydWxlPSJldmVub2RkIiBkPSJNMTkgMTNhMiAyIDAgMCAxIDIgMnY0YTIgMiAwIDEgMS00IDB2LTlhNSA1IDAgMCAwLTEwIDB2OWEyIDIgMCAxIDEtNCAwdi00YTIgMiAwIDAgMSAyLTJ2LTNhNyA3IDAgMSAxIDE0IDB6Ii8+PC9zdmc+)
+  static const headphone =
+      '<path fill="currentColor" fill-rule="evenodd" d="M19 13a2 2 0 0 1 2 2v4a2 2 0 1 1-4 0v-9a5 5 0 0 0-10 0v9a2 2 0 1 1-4 0v-4a2 2 0 0 1 2-2v-3a7 7 0 1 1 14 0z"/>';
+
+  /// ![preview](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjxwYXRoIGZpbGw9ImN1cnJlbnRDb2xvciIgZmlsbC1ydWxlPSJldmVub2RkIiBkPSJNMTIgMjBjLTIuMjA1LS40OC05LTQuMjQtOS0xMWE1IDUgMCAwIDEgOS0zYTUgNSAwIDAgMSA5IDNjMCA2Ljc2LTYuNzk1IDEwLjUyLTkgMTEiLz48L3N2Zz4=)
+  static const heart =
+      '<path fill="currentColor" fill-rule="evenodd" d="M12 20c-2.205-.48-9-4.24-9-11a5 5 0 0 1 9-3a5 5 0 0 1 9 3c0 6.76-6.795 10.52-9 11"/>';
+
+  /// ![preview](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjxwYXRoIGZpbGw9ImN1cnJlbnRDb2xvciIgZmlsbC1ydWxlPSJldmVub2RkIiBkPSJNMTIgMjBjLTIuMjA1LS40OC05LTQuMjQtOS0xMWE1IDUgMCAwIDEgOS0zYTUgNSAwIDAgMSA5IDNjMCA2Ljc2LTYuNzk1IDEwLjUyLTkgMTFtMC0yYzMuMTItLjkzIDctNC44MDUgNy05YTMgMyAwIDAgMC0zLTNxLTEuOTU3IDAtNCAyLjVROS45NTcgNiA4IDZhMyAzIDAgMCAwLTMgM2MwIDQuMTk1IDMuODggOC4wNyA3IDkiLz48L3N2Zz4=)
+  static const heartO =
+      '<path fill="currentColor" fill-rule="evenodd" d="M12 20c-2.205-.48-9-4.24-9-11a5 5 0 0 1 9-3a5 5 0 0 1 9 3c0 6.76-6.795 10.52-9 11m0-2c3.12-.93 7-4.805 7-9a3 3 0 0 0-3-3q-1.957 0-4 2.5Q9.957 6 8 6a3 3 0 0 0-3 3c0 4.195 3.88 8.07 7 9"/>';
+
+  /// ![preview](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjxwYXRoIGZpbGw9ImN1cnJlbnRDb2xvciIgZD0ibTEyIDUuNTYxbC03IDUuNlYxOWg1di00aDR2NGg1di03LjM1OGExIDEgMCAwIDAtLjM3NS0uNzgxek0xMiAzbDcuODc0IDYuM0EzIDMgMCAwIDEgMjEgMTEuNjQxVjE5YTIgMiAwIDAgMS0yIDJINWEyIDIgMCAwIDEtMi0ydi03LjgzOUEyIDIgMCAwIDEgMy43NSA5LjZ6Ii8+PC9zdmc+)
+  static const home =
+      '<path fill="currentColor" d="m12 5.561l-7 5.6V19h5v-4h4v4h5v-7.358a1 1 0 0 0-.375-.781zM12 3l7.874 6.3A3 3 0 0 1 21 11.641V19a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-7.839A2 2 0 0 1 3.75 9.6z"/>';
+
+  /// ![preview](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjxwYXRoIGZpbGw9ImN1cnJlbnRDb2xvciIgZmlsbC1ydWxlPSJldmVub2RkIiBkPSJtMTMgMTMuMTc1bDMuMjQzLTMuMjQybDEuNDE0IDEuNDE0TDEyIDE3LjAwNGwtNS42NTctNS42NTdsMS40MTQtMS40MTRMMTEgMTMuMTc1VjJoMnpNNCAxNmgydjRoMTJ2LTRoMnY0YzAgMS4xLS45IDItMiAySDZjLTEuMSAwLTItLjk2My0yLTJ6Ii8+PC9zdmc+)
+  static const import =
+      '<path fill="currentColor" fill-rule="evenodd" d="m13 13.175l3.243-3.242l1.414 1.414L12 17.004l-5.657-5.657l1.414-1.414L11 13.175V2h2zM4 16h2v4h12v-4h2v4c0 1.1-.9 2-2 2H6c-1.1 0-2-.963-2-2z"/>';
+
+  /// ![preview](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjxwYXRoIGZpbGw9ImN1cnJlbnRDb2xvciIgZD0iTTEyIDIwYTggOCAwIDEgMCAwLTE2YTggOCAwIDAgMCAwIDE2bTAgMkM2LjQ3NyAyMiAyIDE3LjUyMyAyIDEyUzYuNDc3IDIgMTIgMnMxMCA0LjQ3NyAxMCAxMHMtNC40NzcgMTAtMTAgMTBtLTEtMTF2Nmgydi02em0wLTRoMnYyaC0yeiIvPjwvc3ZnPg==)
+  static const info =
+      '<path fill="currentColor" d="M12 20a8 8 0 1 0 0-16a8 8 0 0 0 0 16m0 2C6.477 22 2 17.523 2 12S6.477 2 12 2s10 4.477 10 10s-4.477 10-10 10m-1-11v6h2v-6zm0-4h2v2h-2z"/>';
+
+  /// ![preview](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjxwYXRoIGZpbGw9ImN1cnJlbnRDb2xvciIgZD0iTTExIDlIN2EzIDMgMCAwIDAgMCA2aDR2Mkg3QTUgNSAwIDAgMSA3IDdoNHptMiA2aDRhMyAzIDAgMCAwIDAtNmgtNFY3aDRhNSA1IDAgMCAxIDAgMTBoLTR6bS00LTRoNmExIDEgMCAwIDEgMCAySDlhMSAxIDAgMCAxIDAtMiIvPjwvc3ZnPg==)
+  static const insertLink =
+      '<path fill="currentColor" d="M11 9H7a3 3 0 0 0 0 6h4v2H7A5 5 0 0 1 7 7h4zm2 6h4a3 3 0 0 0 0-6h-4V7h4a5 5 0 0 1 0 10h-4zm-4-4h6a1 1 0 0 1 0 2H9a1 1 0 0 1 0-2"/>';
+
+  /// ![preview](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjxwYXRoIGZpbGw9ImN1cnJlbnRDb2xvciIgZmlsbC1ydWxlPSJldmVub2RkIiBkPSJNMTIgMmMtMi43MTYgMC0zLjA1Ni4wMTItNC4xMjMuMDZjLTEuMDY0LjA0OS0xLjc5MS4yMTgtMi40MjcuNDY1YTQuOSA0LjkgMCAwIDAtMS43NzIgMS4xNTNBNC45IDQuOSAwIDAgMCAyLjUyNSA1LjQ1Yy0uMjQ3LjYzNi0uNDE2IDEuMzYzLS40NjUgMi40MjdDMi4wMTEgOC45NDQgMiA5LjI4NCAyIDEycy4wMTEgMy4wNTYuMDYgNC4xMjNjLjA0OSAxLjA2NC4yMTggMS43OTEuNDY1IDIuNDI3YTQuOSA0LjkgMCAwIDAgMS4xNTMgMS43NzJhNC45IDQuOSAwIDAgMCAxLjc3MiAxLjE1M2MuNjM2LjI0NyAxLjM2My40MTYgMi40MjcuNDY1YzEuMDY3LjA0OCAxLjQwNy4wNiA0LjEyMy4wNnMzLjA1Ni0uMDEyIDQuMTIzLS4wNmMxLjA2NC0uMDQ5IDEuNzkxLS4yMTggMi40MjctLjQ2NWE0LjkgNC45IDAgMCAwIDEuNzcyLTEuMTUzYTQuOSA0LjkgMCAwIDAgMS4xNTMtMS43NzJjLjI0Ny0uNjM2LjQxNi0xLjM2My40NjUtMi40MjdjLjA0OC0xLjA2Ny4wNi0xLjQwNy4wNi00LjEyM3MtLjAxMi0zLjA1Ni0uMDYtNC4xMjNjLS4wNDktMS4wNjQtLjIxOC0xLjc5MS0uNDY1LTIuNDI3YTQuOSA0LjkgMCAwIDAtMS4xNTMtMS43NzJhNC45IDQuOSAwIDAgMC0xLjc3Mi0xLjE1M2MtLjYzNi0uMjQ3LTEuMzYzLS40MTYtMi40MjctLjQ2NUMxNS4wNTYgMi4wMTIgMTQuNzE2IDIgMTIgMm0wIDEuODAyYzIuNjcgMCAyLjk4Ni4wMSA0LjA0LjA1OGMuOTc2LjA0NSAxLjUwNS4yMDcgMS44NTguMzQ0Yy40NjYuMTgyLjguMzk5IDEuMTUuNzQ4Yy4zNS4zNS41NjYuNjg0Ljc0OCAxLjE1Yy4xMzYuMzUzLjMuODgyLjM0NCAxLjg1N2MuMDQ4IDEuMDU1LjA1OCAxLjM3LjA1OCA0LjA0MWMwIDIuNjctLjAxIDIuOTg2LS4wNTggNC4wNGMtLjA0NS45NzYtLjIwOCAxLjUwNS0uMzQ0IDEuODU4YTMuMSAzLjEgMCAwIDEtLjc0OCAxLjE1Yy0uMzUuMzUtLjY4NC41NjYtMS4xNS43NDhjLS4zNTMuMTM2LS44ODIuMy0xLjg1Ny4zNDRjLTEuMDU0LjA0OC0xLjM3LjA1OC00LjA0MS4wNThjLTIuNjcgMC0yLjk4Ny0uMDEtNC4wNC0uMDU4Yy0uOTc2LS4wNDUtMS41MDUtLjIwOC0xLjg1OC0uMzQ0YTMuMSAzLjEgMCAwIDEtMS4xNS0uNzQ4YTMuMSAzLjEgMCAwIDEtLjc0OC0xLjE1Yy0uMTM3LS4zNTMtLjMtLjg4Mi0uMzQ0LTEuODU3Yy0uMDQ4LTEuMDU1LS4wNTgtMS4zNy0uMDU4LTQuMDQxYzAtMi42Ny4wMS0yLjk4Ni4wNTgtNC4wNGMuMDQ1LS45NzYuMjA3LTEuNTA1LjM0NC0xLjg1OGMuMTgyLS40NjYuMzk5LS44Ljc0OC0xLjE1Yy4zNS0uMzUuNjg0LS41NjYgMS4xNS0uNzQ4Yy4zNTMtLjEzNy44ODItLjMgMS44NTctLjM0NGMxLjA1NS0uMDQ4IDEuMzctLjA1OCA0LjA0MS0uMDU4bTAgMTEuNTMxYTMuMzMzIDMuMzMzIDAgMSAxIDAtNi42NjZhMy4zMzMgMy4zMzMgMCAwIDEgMCA2LjY2Nm0wLTguNDY4YTUuMTM1IDUuMTM1IDAgMSAwIDAgMTAuMjdhNS4xMzUgNS4xMzUgMCAwIDAgMC0xMC4yN202LjUzOC0uMjAzYTEuMiAxLjIgMCAxIDEtMi40IDBhMS4yIDEuMiAwIDAgMSAyLjQgMCIvPjwvc3ZnPg==)
+  static const instagram =
+      '<path fill="currentColor" fill-rule="evenodd" d="M12 2c-2.716 0-3.056.012-4.123.06c-1.064.049-1.791.218-2.427.465a4.9 4.9 0 0 0-1.772 1.153A4.9 4.9 0 0 0 2.525 5.45c-.247.636-.416 1.363-.465 2.427C2.011 8.944 2 9.284 2 12s.011 3.056.06 4.123c.049 1.064.218 1.791.465 2.427a4.9 4.9 0 0 0 1.153 1.772a4.9 4.9 0 0 0 1.772 1.153c.636.247 1.363.416 2.427.465c1.067.048 1.407.06 4.123.06s3.056-.012 4.123-.06c1.064-.049 1.791-.218 2.427-.465a4.9 4.9 0 0 0 1.772-1.153a4.9 4.9 0 0 0 1.153-1.772c.247-.636.416-1.363.465-2.427c.048-1.067.06-1.407.06-4.123s-.012-3.056-.06-4.123c-.049-1.064-.218-1.791-.465-2.427a4.9 4.9 0 0 0-1.153-1.772a4.9 4.9 0 0 0-1.772-1.153c-.636-.247-1.363-.416-2.427-.465C15.056 2.012 14.716 2 12 2m0 1.802c2.67 0 2.986.01 4.04.058c.976.045 1.505.207 1.858.344c.466.182.8.399 1.15.748c.35.35.566.684.748 1.15c.136.353.3.882.344 1.857c.048 1.055.058 1.37.058 4.041c0 2.67-.01 2.986-.058 4.04c-.045.976-.208 1.505-.344 1.858a3.1 3.1 0 0 1-.748 1.15c-.35.35-.684.566-1.15.748c-.353.136-.882.3-1.857.344c-1.054.048-1.37.058-4.041.058c-2.67 0-2.987-.01-4.04-.058c-.976-.045-1.505-.208-1.858-.344a3.1 3.1 0 0 1-1.15-.748a3.1 3.1 0 0 1-.748-1.15c-.137-.353-.3-.882-.344-1.857c-.048-1.055-.058-1.37-.058-4.041c0-2.67.01-2.986.058-4.04c.045-.976.207-1.505.344-1.858c.182-.466.399-.8.748-1.15c.35-.35.684-.566 1.15-.748c.353-.137.882-.3 1.857-.344c1.055-.048 1.37-.058 4.041-.058m0 11.531a3.333 3.333 0 1 1 0-6.666a3.333 3.333 0 0 1 0 6.666m0-8.468a5.135 5.135 0 1 0 0 10.27a5.135 5.135 0 0 0 0-10.27m6.538-.203a1.2 1.2 0 1 1-2.4 0a1.2 1.2 0 0 1 2.4 0"/>';
+
+  /// ![preview](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjxwYXRoIGZpbGw9ImN1cnJlbnRDb2xvciIgZmlsbC1ydWxlPSJldmVub2RkIiBkPSJNMTUgMTV2NGEyIDIgMCAwIDEtMiAySDVhMiAyIDAgMCAxLTItMnYtOGEyIDIgMCAwIDEgMi0yaDRWNWEyIDIgMCAwIDEgMi0yaDhhMiAyIDAgMCAxIDIgMnY4YTIgMiAwIDAgMS0yIDJ6bS01LTFoNHYtNGgtNHoiLz48L3N2Zz4=)
+  static const intersect =
+      '<path fill="currentColor" fill-rule="evenodd" d="M15 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-8a2 2 0 0 1 2-2h4V5a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2zm-5-1h4v-4h-4z"/>';
+
+  /// ![preview](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjxwYXRoIGZpbGw9ImN1cnJlbnRDb2xvciIgZmlsbC1ydWxlPSJldmVub2RkIiBkPSJtOC45NyAxOWwzLjc1LTE0SDEwYTEgMSAwIDEgMSAwLTJoOGExIDEgMCAwIDEgMCAyaC0zLjIwOEwxMS4wNCAxOUgxNGExIDEgMCAwIDEgMCAySDZhMSAxIDAgMCAxIDAtMnoiLz48L3N2Zz4=)
+  static const italic =
+      '<path fill="currentColor" fill-rule="evenodd" d="m8.97 19l3.75-14H10a1 1 0 1 1 0-2h8a1 1 0 0 1 0 2h-3.208L11.04 19H14a1 1 0 0 1 0 2H6a1 1 0 0 1 0-2z"/>';
+
+  /// ![preview](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjxwYXRoIGZpbGw9ImN1cnJlbnRDb2xvciIgZD0iTTExLjkgMTFIMjJ2NC4wMDRjMCAuNTQ2LS40NS45OTYtMSAuOTk2cy0xLS40NS0xLS45OTZWMTNoLTJ2MmMwIC41NS0uNDUgMS0xIDFzLTEtLjQ1LTEtMXYtMmgtNC4xQTUuMDAyIDUuMDAyIDAgMCAxIDIgMTJhNSA1IDAgMCAxIDkuOS0xTTcgMTVhMyAzIDAgMSAwIDAtNmEzIDMgMCAwIDAgMCA2Ii8+PC9zdmc+)
+  static const key =
+      '<path fill="currentColor" d="M11.9 11H22v4.004c0 .546-.45.996-1 .996s-1-.45-1-.996V13h-2v2c0 .55-.45 1-1 1s-1-.45-1-1v-2h-4.1A5.002 5.002 0 0 1 2 12a5 5 0 0 1 9.9-1M7 15a3 3 0 1 0 0-6a3 3 0 0 0 0 6"/>';
+
+  /// ![preview](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjxwYXRoIGZpbGw9ImN1cnJlbnRDb2xvciIgZmlsbC1ydWxlPSJldmVub2RkIiBkPSJNMiA4YTIgMiAwIDAgMSAyLTJoMTZhMiAyIDAgMCAxIDIgMnY4YTIgMiAwIDAgMS0yIDJINGEyIDIgMCAwIDEtMi0yem0xNSA2djJoM3YtMnptLTMgMHYyaDJ2LTJ6bS03IDB2Mmg2di0yem0tMyAwdjJoMnYtMnptMTQtM3YyaDJ2LTJ6bS0zIDB2Mmgydi0yem0tMyAwdjJoMnYtMnptLTMgMHYyaDJ2LTJ6bS01IDB2Mmg0di0yem0xMi0zdjJoNFY4em0tMyAwdjJoMlY4em0tMyAwdjJoMlY4ek03IDh2MmgyVjh6TTQgOHYyaDJWOHoiLz48L3N2Zz4=)
+  static const keyboard =
+      '<path fill="currentColor" fill-rule="evenodd" d="M2 8a2 2 0 0 1 2-2h16a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2zm15 6v2h3v-2zm-3 0v2h2v-2zm-7 0v2h6v-2zm-3 0v2h2v-2zm14-3v2h2v-2zm-3 0v2h2v-2zm-3 0v2h2v-2zm-3 0v2h2v-2zm-5 0v2h4v-2zm12-3v2h4V8zm-3 0v2h2V8zm-3 0v2h2V8zM7 8v2h2V8zM4 8v2h2V8z"/>';
+
+  /// ![preview](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjxwYXRoIGZpbGw9ImN1cnJlbnRDb2xvciIgZD0iTTQuMjY4IDIwSDRhMiAyIDAgMCAxLTItMlY2YTIgMiAwIDAgMSAyLTJoMTZhMiAyIDAgMCAxIDIgMnYxMmEyIDIgMCAwIDEtMiAyaC0uMjY4YTIgMiAwIDAgMS0zLjQ2NCAwSDcuNzMyYTIgMiAwIDAgMS0zLjQ2NCAwTTQgNnYxMmgxNlY2em0yIDZoMTJ2NEg2em0wLTRoNXYySDZ6bTQgNXYxaDR2LTF6bTQtM2ExIDEgMCAxIDEgMC0yYTEgMSAwIDAgMSAwIDJtMyAwYTEgMSAwIDEgMSAwLTJhMSAxIDAgMCAxIDAgMiIvPjwvc3ZnPg==)
+  static const kitchenCooker =
+      '<path fill="currentColor" d="M4.268 20H4a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2h16a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2h-.268a2 2 0 0 1-3.464 0H7.732a2 2 0 0 1-3.464 0M4 6v12h16V6zm2 6h12v4H6zm0-4h5v2H6zm4 5v1h4v-1zm4-3a1 1 0 1 1 0-2a1 1 0 0 1 0 2m3 0a1 1 0 1 1 0-2a1 1 0 0 1 0 2"/>';
+
+  /// ![preview](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjxwYXRoIGZpbGw9ImN1cnJlbnRDb2xvciIgZD0iTTIxIDIwSDNhMSAxIDAgMCAxIDAtMmgxOGExIDEgMCAwIDEgMCAyTTUgNnY4aDE0VjZ6bTAtMmgxNGEyIDIgMCAwIDEgMiAydjhhMiAyIDAgMCAxLTIgMkg1YTIgMiAwIDAgMS0yLTJWNmEyIDIgMCAwIDEgMi0yIi8+PC9zdmc+)
+  static const laptop =
+      '<path fill="currentColor" d="M21 20H3a1 1 0 0 1 0-2h18a1 1 0 0 1 0 2M5 6v8h14V6zm0-2h14a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2"/>';
+
+  /// ![preview](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjxwYXRoIGZpbGw9ImN1cnJlbnRDb2xvciIgZD0ibTYgOGw2IDNsNi0zbC02LTN6bTYuNDg5LTQuODg0bDcuOTkzIDQuMDc2Yy40ODYuMjQ4LjY2MS44MS4zOTEgMS4yNTdhLjk3Ljk3IDAgMCAxLS4zOS4zNTlsLTcuOTk0IDQuMDc2YTEuMDkgMS4wOSAwIDAgMS0uOTc4IDBMMy41MTggOC44MDhjLS40ODYtLjI0OC0uNjYxLS44MS0uMzkxLTEuMjU3YS45Ny45NyAwIDAgMSAuMzktLjM1OWw3Ljk5NC00LjA3NmMuMzA0LS4xNTUuNjc0LS4xNTUuOTc4IDBtMCAxMy43NjZhMS4wNyAxLjA3IDAgMCAxLS45NzggMGwtNy45OTMtNC4xNDdjLS40ODYtLjI1Mi0uNjYxLS44MjQtLjM5MS0xLjI3OGExIDEgMCAwIDEgLjM5LS4zNjVhLjgyLjgyIDAgMCAxIC43NTUgMGw3LjI0IDMuNzU1Yy4zMDMuMTU4LjY3My4xNTguOTc3IDBsNy4yMzktMy43NTVhLjgyLjgyIDAgMCAxIC43NTQgMGMuNDg2LjI1Mi42NjEuODI0LjM5MSAxLjI3OGExIDEgMCAwIDEtLjM5LjM2NXptMCA0YTEuMDcgMS4wNyAwIDAgMS0uOTc4IDBsLTcuOTkzLTQuMTQ3Yy0uNDg2LS4yNTItLjY2MS0uODI0LS4zOTEtMS4yNzhhMSAxIDAgMCAxIC4zOS0uMzY1YS44Mi44MiAwIDAgMSAuNzU1IDBsNy4yNCAzLjc1NWMuMzAzLjE1OC42NzMuMTU4Ljk3NyAwbDcuMjM5LTMuNzU1YS44Mi44MiAwIDAgMSAuNzU0IDBjLjQ4Ni4yNTIuNjYxLjgyNC4zOTEgMS4yNzhhMSAxIDAgMCAxLS4zOS4zNjV6Ii8+PC9zdmc+)
+  static const layer =
+      '<path fill="currentColor" d="m6 8l6 3l6-3l-6-3zm6.489-4.884l7.993 4.076c.486.248.661.81.391 1.257a.97.97 0 0 1-.39.359l-7.994 4.076a1.09 1.09 0 0 1-.978 0L3.518 8.808c-.486-.248-.661-.81-.391-1.257a.97.97 0 0 1 .39-.359l7.994-4.076c.304-.155.674-.155.978 0m0 13.766a1.07 1.07 0 0 1-.978 0l-7.993-4.147c-.486-.252-.661-.824-.391-1.278a1 1 0 0 1 .39-.365a.82.82 0 0 1 .755 0l7.24 3.755c.303.158.673.158.977 0l7.239-3.755a.82.82 0 0 1 .754 0c.486.252.661.824.391 1.278a1 1 0 0 1-.39.365zm0 4a1.07 1.07 0 0 1-.978 0l-7.993-4.147c-.486-.252-.661-.824-.391-1.278a1 1 0 0 1 .39-.365a.82.82 0 0 1 .755 0l7.24 3.755c.303.158.673.158.977 0l7.239-3.755a.82.82 0 0 1 .754 0c.486.252.661.824.391 1.278a1 1 0 0 1-.39.365z"/>';
+
+  /// ![preview](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjxwYXRoIGZpbGw9ImN1cnJlbnRDb2xvciIgZD0iTTQgNGgxNmEyIDIgMCAwIDEgMiAydjEyYTIgMiAwIDAgMS0yIDJINGEyIDIgMCAwIDEtMi0yVjZhMiAyIDAgMCAxIDItMm0wIDJ2NWg0VjZ6bTAgN3Y1aDR2LTV6bTYtN3YxMmgxMFY2eiIvPjwvc3ZnPg==)
+  static const layout =
+      '<path fill="currentColor" d="M4 4h16a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2m0 2v5h4V6zm0 7v5h4v-5zm6-7v12h10V6z"/>';
+
+  /// ![preview](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjxwYXRoIGZpbGw9ImN1cnJlbnRDb2xvciIgZmlsbC1ydWxlPSJldmVub2RkIiBkPSJNNS44MjMgMTQuMTc3YTIgMiAwIDEgMS0xLTFsMi4zNTQtMi4zNTRhMiAyIDAgMSAxIDMuNjQ2IDBsMi4zNTQgMi4zNTRhMiAyIDAgMCAxIDEuNjQ2IDBsMy4zNTQtMy4zNTRhMiAyIDAgMSAxIDEgMWwtMy4zNTQgMy4zNTRhMiAyIDAgMSAxLTMuNjQ2IDBsLTIuMzU0LTIuMzU0YTIgMiAwIDAgMS0xLjY0NiAweiIvPjwvc3ZnPg==)
+  static const lineChart =
+      '<path fill="currentColor" fill-rule="evenodd" d="M5.823 14.177a2 2 0 1 1-1-1l2.354-2.354a2 2 0 1 1 3.646 0l2.354 2.354a2 2 0 0 1 1.646 0l3.354-3.354a2 2 0 1 1 1 1l-3.354 3.354a2 2 0 1 1-3.646 0l-2.354-2.354a2 2 0 0 1-1.646 0z"/>';
+
+  /// ![preview](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjxwYXRoIGZpbGw9ImN1cnJlbnRDb2xvciIgZmlsbC1ydWxlPSJldmVub2RkIiBkPSJNMTEuODc0IDExaC4yNTJjLjQ0NC0xLjcyNSAyLjAxLTMgMy44NzQtM2gyYTQgNCAwIDEgMSAwIDhoLTJhNCA0IDAgMCAxLTMuODc0LTNoLS4yNTJBNCA0IDAgMCAxIDggMTZINmE0IDQgMCAxIDEgMC04aDJhNCA0IDAgMCAxIDMuODc0IDNtLTIuMTI0LjAzMUEyIDIgMCAwIDAgOCAxMEg2YTIgMiAwIDEgMCAwIDRoMmEyIDIgMCAwIDAgMS43NS0xLjAzMWExIDEgMCAwIDEgMC0xLjkzOE0xNCAxMi45N0EyIDIgMCAwIDAgMTUuNzUgMTRoMmEyIDIgMCAxIDAgMC00aC0yQTIgMiAwIDAgMCAxNCAxMS4wMzFhMSAxIDAgMCAxIDAgMS45MzgiLz48L3N2Zz4=)
+  static const link =
+      '<path fill="currentColor" fill-rule="evenodd" d="M11.874 11h.252c.444-1.725 2.01-3 3.874-3h2a4 4 0 1 1 0 8h-2a4 4 0 0 1-3.874-3h-.252A4 4 0 0 1 8 16H6a4 4 0 1 1 0-8h2a4 4 0 0 1 3.874 3m-2.124.031A2 2 0 0 0 8 10H6a2 2 0 1 0 0 4h2a2 2 0 0 0 1.75-1.031a1 1 0 0 1 0-1.938M14 12.97A2 2 0 0 0 15.75 14h2a2 2 0 1 0 0-4h-2A2 2 0 0 0 14 11.031a1 1 0 0 1 0 1.938"/>';
+
+  /// ![preview](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjxwYXRoIGZpbGw9ImN1cnJlbnRDb2xvciIgZmlsbC1ydWxlPSJldmVub2RkIiBkPSJNNiA4aDV2Mkg2djhoOHYtNWgydjVhMiAyIDAgMCAxLTIgMkg2YTIgMiAwIDAgMS0yLTJ2LThhMiAyIDAgMCAxIDItMm0xMC42MTQtMkgxMlY0aDh2OGgtMlY3LjQ0MmwtNS4zMzYgNS4zMzZsLTEuNDE0LTEuNDE0eiIvPjwvc3ZnPg==)
+  static const linkExternal =
+      '<path fill="currentColor" fill-rule="evenodd" d="M6 8h5v2H6v8h8v-5h2v5a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2v-8a2 2 0 0 1 2-2m10.614-2H12V4h8v8h-2V7.442l-5.336 5.336l-1.414-1.414z"/>';
+
+  /// ![preview](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjxwYXRoIGZpbGw9ImN1cnJlbnRDb2xvciIgZmlsbC1ydWxlPSJldmVub2RkIiBkPSJNMTAgNGgxMGExIDEgMCAwIDEgMCAySDEwYTEgMSAwIDEgMSAwLTJtMCA3aDEwYTEgMSAwIDAgMSAwIDJIMTBhMSAxIDAgMCAxIDAtMm0wIDdoMTBhMSAxIDAgMCAxIDAgMkgxMGExIDEgMCAwIDEgMC0yTTUgN2EyIDIgMCAxIDEgMC00YTIgMiAwIDAgMSAwIDRtMCA3YTIgMiAwIDEgMSAwLTRhMiAyIDAgMCAxIDAgNG0wIDdhMiAyIDAgMSAxIDAtNGEyIDIgMCAwIDEgMCA0Ii8+PC9zdmc+)
+  static const listBullet =
+      '<path fill="currentColor" fill-rule="evenodd" d="M10 4h10a1 1 0 0 1 0 2H10a1 1 0 1 1 0-2m0 7h10a1 1 0 0 1 0 2H10a1 1 0 0 1 0-2m0 7h10a1 1 0 0 1 0 2H10a1 1 0 0 1 0-2M5 7a2 2 0 1 1 0-4a2 2 0 0 1 0 4m0 7a2 2 0 1 1 0-4a2 2 0 0 1 0 4m0 7a2 2 0 1 1 0-4a2 2 0 0 1 0 4"/>';
+
+  /// ![preview](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjxwYXRoIGZpbGw9ImN1cnJlbnRDb2xvciIgZmlsbC1ydWxlPSJldmVub2RkIiBkPSJNMTAgNGgxMGExIDEgMCAwIDEgMCAySDEwYTEgMSAwIDEgMSAwLTJtMCA3aDEwYTEgMSAwIDAgMSAwIDJIMTBhMSAxIDAgMCAxIDAtMm0wIDdoMTBhMSAxIDAgMCAxIDAgMkgxMGExIDEgMCAwIDEgMC0yTTQuNSA0YS41LjUgMCAwIDEgMC0xaDFjLjI4IDAgLjUuMjIuNS41djNhLjUuNSAwIDAgMS0xIDBWNC4wMTV6bTAgNmgyYy4yOCAwIC41LjIyLjUuNXYuNWwtMS43IDJoMS4yYy4yOCAwIC41LjIyLjUuNXMtLjIyNC41LS41LjVoLTJjLS4yOCAwLS41LS4yMi0uNS0uNVYxM2wxLjctMkg0LjVjLS4yOCAwLS41LS4yMi0uNS0uNXMuMTk5LS41LjUtLjVtMiAxMWgtMmEuNS41IDAgMSAxIDAtMUg2di0uNUg0LjVhLjUuNSAwIDEgMSAwLTFINlYxOEg0LjVhLjUuNSAwIDEgMSAwLTFoMmEuNS41IDAgMCAxIC41LjV2M2EuNS41IDAgMCAxLS41LjUiLz48L3N2Zz4=)
+  static const listOrder =
+      '<path fill="currentColor" fill-rule="evenodd" d="M10 4h10a1 1 0 0 1 0 2H10a1 1 0 1 1 0-2m0 7h10a1 1 0 0 1 0 2H10a1 1 0 0 1 0-2m0 7h10a1 1 0 0 1 0 2H10a1 1 0 0 1 0-2M4.5 4a.5.5 0 0 1 0-1h1c.28 0 .5.22.5.5v3a.5.5 0 0 1-1 0V4.015zm0 6h2c.28 0 .5.22.5.5v.5l-1.7 2h1.2c.28 0 .5.22.5.5s-.224.5-.5.5h-2c-.28 0-.5-.22-.5-.5V13l1.7-2H4.5c-.28 0-.5-.22-.5-.5s.199-.5.5-.5m2 11h-2a.5.5 0 1 1 0-1H6v-.5H4.5a.5.5 0 1 1 0-1H6V18H4.5a.5.5 0 1 1 0-1h2a.5.5 0 0 1 .5.5v3a.5.5 0 0 1-.5.5"/>';
+
+  /// ![preview](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjxwYXRoIGZpbGw9ImN1cnJlbnRDb2xvciIgZmlsbC1ydWxlPSJldmVub2RkIiBkPSJNOSAxM2gxMGExIDEgMCAwIDEgMCAySDlhMSAxIDAgMCAxIDAtMm0wIDRoMTBhMSAxIDAgMCAxIDAgMkg5YTEgMSAwIDAgMSAwLTJtNi04aDRhMSAxIDAgMCAxIDAgMmgtNGExIDEgMCAwIDEgMC0ybS03LjI1NyAxLjkxNEw0IDcuMTcybDEuNDE0LTEuNDE1bDIuMzI5IDIuMzI5TDEyLjgyOCAzbDEuNDE1IDEuNDE0eiIvPjwvc3ZnPg==)
+  static const listTask =
+      '<path fill="currentColor" fill-rule="evenodd" d="M9 13h10a1 1 0 0 1 0 2H9a1 1 0 0 1 0-2m0 4h10a1 1 0 0 1 0 2H9a1 1 0 0 1 0-2m6-8h4a1 1 0 0 1 0 2h-4a1 1 0 0 1 0-2m-7.257 1.914L4 7.172l1.414-1.415l2.329 2.329L12.828 3l1.415 1.414z"/>';
+
+  /// ![preview](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjxwYXRoIGZpbGw9ImN1cnJlbnRDb2xvciIgZD0iTTEyIDE5Yy40MzcgMCAxLjQ3OS0xLjE4NyAyLjQxMS0zLjMxMkMxNS4zNTcgMTMuNTM0IDE2IDEwLjg3NCAxNiA5LjM1M0MxNiA2LjkyNCAxNC4xODMgNSAxMiA1UzggNi45MjQgOCA5LjM1M2MwIDEuNTIuNjQzIDQuMTgxIDEuNTg5IDYuMzM1QzEwLjUyIDE3LjgxMyAxMS41NjMgMTkgMTIgMTltMCAyYy0zLjMxNCAwLTYtOC4xMzgtNi0xMS42NDdTOC42ODYgMyAxMiAzczYgMi44NDQgNiA2LjM1M1MxNS4zMTQgMjEgMTIgMjFtMC0xMGEyIDIgMCAxIDAgMC00YTIgMiAwIDAgMCAwIDQiLz48L3N2Zz4=)
+  static const location =
+      '<path fill="currentColor" d="M12 19c.437 0 1.479-1.187 2.411-3.312C15.357 13.534 16 10.874 16 9.353C16 6.924 14.183 5 12 5S8 6.924 8 9.353c0 1.52.643 4.181 1.589 6.335C10.52 17.813 11.563 19 12 19m0 2c-3.314 0-6-8.138-6-11.647S8.686 3 12 3s6 2.844 6 6.353S15.314 21 12 21m0-10a2 2 0 1 0 0-4a2 2 0 0 0 0 4"/>';
+
+  /// ![preview](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjxwYXRoIGZpbGw9ImN1cnJlbnRDb2xvciIgZmlsbC1ydWxlPSJldmVub2RkIiBkPSJNNyAxMFY3YTUgNSAwIDEgMSAxMCAwdjNoMWEyIDIgMCAwIDEgMiAydjhhMiAyIDAgMCAxLTIgMkg2YTIgMiAwIDAgMS0yLTJ2LThhMiAyIDAgMCAxIDItMnptLTEgMnY4aDEydi04em0zLTJoNlY3YTMgMyAwIDAgMC02IDB6bTUgNGgydjRoLTJ6Ii8+PC9zdmc+)
+  static const lock =
+      '<path fill="currentColor" fill-rule="evenodd" d="M7 10V7a5 5 0 1 1 10 0v3h1a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2v-8a2 2 0 0 1 2-2zm-1 2v8h12v-8zm3-2h6V7a3 3 0 0 0-6 0zm5 4h2v4h-2z"/>';
+
+  /// ![preview](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjxwYXRoIGZpbGw9ImN1cnJlbnRDb2xvciIgZmlsbC1ydWxlPSJldmVub2RkIiBkPSJNOS41ODYgMTFMNy4wNSA4LjQ2NEw4LjQ2NCA3LjA1bDQuOTUgNC45NWwtNC45NSA0Ljk1bC0xLjQxNC0xLjQxNEw5LjU4NiAxM0gzdi0yek0xMSAzaDhjMS4xIDAgMiAuOSAyIDJ2MTRjMCAxLjEtLjkgMi0yIDJoLTh2LTJoOFY1aC04eiIvPjwvc3ZnPg==)
+  static const login =
+      '<path fill="currentColor" fill-rule="evenodd" d="M9.586 11L7.05 8.464L8.464 7.05l4.95 4.95l-4.95 4.95l-1.414-1.414L9.586 13H3v-2zM11 3h8c1.1 0 2 .9 2 2v14c0 1.1-.9 2-2 2h-8v-2h8V5h-8z"/>';
+
+  /// ![preview](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjxwYXRoIGZpbGw9ImN1cnJlbnRDb2xvciIgZmlsbC1ydWxlPSJldmVub2RkIiBkPSJNMyA1YzAtMS4xLjktMiAyLTJoOHYySDV2MTRoOHYySDVjLTEuMSAwLTItLjktMi0yem0xNC4xNzYgNkwxNC42NCA4LjQ2NGwxLjQxNC0xLjQxNGw0Ljk1IDQuOTVsLTQuOTUgNC45NWwtMS40MTQtMS40MTRMMTcuMTc2IDEzSDEwLjU5di0yeiIvPjwvc3ZnPg==)
+  static const logout =
+      '<path fill="currentColor" fill-rule="evenodd" d="M3 5c0-1.1.9-2 2-2h8v2H5v14h8v2H5c-1.1 0-2-.9-2-2zm14.176 6L14.64 8.464l1.414-1.414l4.95 4.95l-4.95 4.95l-1.414-1.414L17.176 13H10.59v-2z"/>';
+
+  /// ![preview](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjxwYXRoIGZpbGw9ImN1cnJlbnRDb2xvciIgZmlsbC1ydWxlPSJldmVub2RkIiBkPSJNNi44NzYgMTUuMTI0QTYuMDAyIDYuMDAyIDAgMCAwIDE3LjY1OCAxNGgyLjA5YTguMDAzIDguMDAzIDAgMCAxLTE0LjMxNiAyLjU2OEwzIDE5di02aDZ6bTEwLjI0OS02LjI0OUE2LjAwNCA2LjAwNCAwIDAgMCA2LjM0IDEwSDQuMjVhOC4wMDUgOC4wMDUgMCAwIDEgMTQuMzItMi41N0wyMSA1djZoLTZ6Ii8+PC9zdmc+)
+  static const loop =
+      '<path fill="currentColor" fill-rule="evenodd" d="M6.876 15.124A6.002 6.002 0 0 0 17.658 14h2.09a8.003 8.003 0 0 1-14.316 2.568L3 19v-6h6zm10.249-6.249A6.004 6.004 0 0 0 6.34 10H4.25a8.005 8.005 0 0 1 14.32-2.57L21 5v6h-6z"/>';
+
+  /// ![preview](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjxwYXRoIGZpbGw9ImN1cnJlbnRDb2xvciIgZmlsbC1ydWxlPSJldmVub2RkIiBkPSJtMyA1bDItMmwxNiAxNmwtMiAyem0xMCAwbDEtMmwxIDJsMiAxbC0yIDFsLTEgMmwtMS0ybC0yLTF6TTUgMTVsMS0ybDEgMmwyIDFsLTIgMWwtMSAybC0xLTJsLTItMXpNNCA5bDEgMWwtMSAxbC0xLTF6bTE0IDFsMSAxbC0xIDFsLTEtMXoiLz48L3N2Zz4=)
+  static const magic =
+      '<path fill="currentColor" fill-rule="evenodd" d="m3 5l2-2l16 16l-2 2zm10 0l1-2l1 2l2 1l-2 1l-1 2l-1-2l-2-1zM5 15l1-2l1 2l2 1l-2 1l-1 2l-1-2l-2-1zM4 9l1 1l-1 1l-1-1zm14 1l1 1l-1 1l-1-1z"/>';
+
+  /// ![preview](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjxwYXRoIGZpbGw9ImN1cnJlbnRDb2xvciIgZD0iTTQgMTB2OGgxNnYtOGwtOCAzem0wLTR2Mmw4IDNsOC0zVjZ6bTAtMmgxNmEyIDIgMCAwIDEgMiAydjEyYTIgMiAwIDAgMS0yIDJINGEyIDIgMCAwIDEtMi0yVjZhMiAyIDAgMCAxIDItMiIvPjwvc3ZnPg==)
+  static const mail =
+      '<path fill="currentColor" d="M4 10v8h16v-8l-8 3zm0-4v2l8 3l8-3V6zm0-2h16a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2"/>';
+
+  /// ![preview](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjxwYXRoIGZpbGw9ImN1cnJlbnRDb2xvciIgZD0ibTkgMTdsNiAxLjk1NVY3LjA0NUw5IDV6TTMgNWw2LTJsNiAybDYtMnYxNmwtNiAybC02LTJsLTYgMnoiLz48L3N2Zz4=)
+  static const map =
+      '<path fill="currentColor" d="m9 17l6 1.955V7.045L9 5zM3 5l6-2l6 2l6-2v16l-6 2l-6-2l-6 2z"/>';
+
+  /// ![preview](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjxwYXRoIGZpbGw9ImN1cnJlbnRDb2xvciIgZmlsbC1ydWxlPSJldmVub2RkIiBkPSJNNSAzaDE0YTIgMiAwIDAgMSAyIDJ2MTRhMiAyIDAgMCAxLTIgMkg1YTIgMiAwIDAgMS0yLTJWNWEyIDIgMCAwIDEgMi0ybTE0IDE2YzAtNy43MzItNi4yNjgtMTQtMTQtMTR2MTR6Ii8+PC9zdmc+)
+  static const mask =
+      '<path fill="currentColor" fill-rule="evenodd" d="M5 3h14a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2m14 16c0-7.732-6.268-14-14-14v14z"/>';
+
+  /// ![preview](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjxwYXRoIGZpbGw9ImN1cnJlbnRDb2xvciIgZmlsbC1ydWxlPSJldmVub2RkIiBkPSJNMTIgMjJhNyA3IDAgMSAxIDAtMTRhNyA3IDAgMCAxIDAgMTRtMC0yYTUgNSAwIDEgMCAwLTEwYTUgNSAwIDAgMCAwIDEwbTAtMTJhMSAxIDAgMSAxIDAtMmExIDEgMCAwIDEgMCAyTTkgMmgydjRjLTEuMSAwLTItLjktMi0yem00IDBoMnYyYzAgMS4xLS45IDItMiAyeiIvPjwvc3ZnPg==)
+  static const medal =
+      '<path fill="currentColor" fill-rule="evenodd" d="M12 22a7 7 0 1 1 0-14a7 7 0 0 1 0 14m0-2a5 5 0 1 0 0-10a5 5 0 0 0 0 10m0-12a1 1 0 1 1 0-2a1 1 0 0 1 0 2M9 2h2v4c-1.1 0-2-.9-2-2zm4 0h2v2c0 1.1-.9 2-2 2z"/>';
+
+  /// ![preview](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjxwYXRoIGZpbGw9ImN1cnJlbnRDb2xvciIgZD0ibTQgOGwuMDQgMi4xMTdMMTkuNSA2LjA2NVExOS43NDcgNiAyMC4wMDMgNkMyMS4xMDcgNiAyMiA2Ljg5NSAyMiA3Ljk5OVYxNnEwIC4yNTYtLjA2NS41MDZhMS45OTUgMS45OTUgMCAwIDEtMi40MzYgMS40MjdMNCAxMy44ODNWMTZhMSAxIDAgMCAxLTIgMFY4YTEgMSAwIDEgMSAyIDBtMiAzLjY2NHYuNjhMMjAgMTZWOHoiLz48L3N2Zz4=)
+  static const megaphone =
+      '<path fill="currentColor" d="m4 8l.04 2.117L19.5 6.065Q19.747 6 20.003 6C21.107 6 22 6.895 22 7.999V16q0 .256-.065.506a1.995 1.995 0 0 1-2.436 1.427L4 13.883V16a1 1 0 0 1-2 0V8a1 1 0 1 1 2 0m2 3.664v.68L20 16V8z"/>';
+
+  /// ![preview](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjxwYXRoIGZpbGw9ImN1cnJlbnRDb2xvciIgZD0iTTIxIDEyYTMuNSAzLjUgMCAwIDEtNS45MDkgMi41MzlBNCA0IDAgMSAxIDE0IDguNTM1VjhoMnY0YTEuNSAxLjUgMCAwIDAgMyAwYTcgNyAwIDEgMC0zLjM5MiA2aDMuMUE5IDkgMCAxIDEgMjEgMTJtLTkgMmEyIDIgMCAxIDAgMC00YTIgMiAwIDAgMCAwIDQiLz48L3N2Zz4=)
+  static const mention =
+      '<path fill="currentColor" d="M21 12a3.5 3.5 0 0 1-5.909 2.539A4 4 0 1 1 14 8.535V8h2v4a1.5 1.5 0 0 0 3 0a7 7 0 1 0-3.392 6h3.1A9 9 0 1 1 21 12m-9 2a2 2 0 1 0 0-4a2 2 0 0 0 0 4"/>';
+
+  /// ![preview](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjxwYXRoIGZpbGw9ImN1cnJlbnRDb2xvciIgZmlsbC1ydWxlPSJldmVub2RkIiBkPSJtMTIuOTQyIDE0LjQxM2wtMi41Ni0yLjY2TDUuNDUgMTQuNDhsNS40MDYtNS43MzZsMi41NiAyLjY2bDQuOTMtMi43Mjd6TTExLjg5OSAyQzYuNDMyIDIgMiA2LjE0NCAyIDExLjI1N2MwIDIuOTA4IDEuNDM0IDUuNTAzIDMuNjc4IDcuMlYyMmwzLjM3OC0xLjg3NGMuOS4yNTIgMS44NTUuMzg4IDIuODQzLjM4OGM1LjQ2OCAwIDkuOS00LjE0NSA5LjktOS4yNTdjMC01LjExMy00LjQzMi05LjI1Ny05LjktOS4yNTciLz48L3N2Zz4=)
+  static const messanger =
+      '<path fill="currentColor" fill-rule="evenodd" d="m12.942 14.413l-2.56-2.66L5.45 14.48l5.406-5.736l2.56 2.66l4.93-2.727zM11.899 2C6.432 2 2 6.144 2 11.257c0 2.908 1.434 5.503 3.678 7.2V22l3.378-1.874c.9.252 1.855.388 2.843.388c5.468 0 9.9-4.145 9.9-9.257c0-5.113-4.432-9.257-9.9-9.257"/>';
+
+  /// ![preview](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjxwYXRoIGZpbGw9ImN1cnJlbnRDb2xvciIgZmlsbC1ydWxlPSJldmVub2RkIiBkPSJNNCAxMWgxNmExIDEgMCAwIDEgMCAySDRhMSAxIDAgMCAxIDAtMiIvPjwvc3ZnPg==)
+  static const minus =
+      '<path fill="currentColor" fill-rule="evenodd" d="M4 11h16a1 1 0 0 1 0 2H4a1 1 0 0 1 0-2"/>';
+
+  /// ![preview](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjxwYXRoIGZpbGw9ImN1cnJlbnRDb2xvciIgZD0iTTEzIDE3LjgzVjIxYTEgMSAwIDAgMS0yIDB2LTMuMTdhMy4wMDEgMy4wMDEgMCAwIDEtLjY1OS01LjMzQTMgMyAwIDAgMSA5IDEwYzAtMS4wNDMuNTMzLTEuOTYzIDEuMzQxLTIuNWEzIDMgMCAxIDEgMy4zMTggMEEzIDMgMCAwIDEgMTUgMTBhMyAzIDAgMCAxLTEuMzQxIDIuNUEzLjAwMSAzLjAwMSAwIDAgMSAxMyAxNy44MyIvPjwvc3ZnPg==)
+  static const mitarashiDango =
+      '<path fill="currentColor" d="M13 17.83V21a1 1 0 0 1-2 0v-3.17a3.001 3.001 0 0 1-.659-5.33A3 3 0 0 1 9 10c0-1.043.533-1.963 1.341-2.5a3 3 0 1 1 3.318 0A3 3 0 0 1 15 10a3 3 0 0 1-1.341 2.5A3.001 3.001 0 0 1 13 17.83"/>';
+
+  /// ![preview](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjxwYXRoIGZpbGw9ImN1cnJlbnRDb2xvciIgZD0iTTggMmg4YTIgMiAwIDAgMSAyIDJ2MTZhMiAyIDAgMCAxLTIgMkg4YTIgMiAwIDAgMS0yLTJWNGEyIDIgMCAwIDEgMi0ybTAgMnYxNWg4VjR6Ii8+PC9zdmc+)
+  static const mobile =
+      '<path fill="currentColor" d="M8 2h8a2 2 0 0 1 2 2v16a2 2 0 0 1-2 2H8a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2m0 2v15h8V4z"/>';
+
+  /// ![preview](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjxwYXRoIGZpbGw9ImN1cnJlbnRDb2xvciIgZD0iTTQgNWgxNmEyIDIgMCAwIDEgMiAydjEwYTIgMiAwIDAgMS0yIDJINGEyIDIgMCAwIDEtMi0yVjdhMiAyIDAgMCAxIDItMm0xNCAySDZhMiAyIDAgMCAxLTIgMnY2YTIgMiAwIDAgMSAyIDJoMTJhMiAyIDAgMCAxIDItMlY5YTIgMiAwIDAgMS0yLTJNOCA5aDJ2Nkg4em02IDRhMSAxIDAgMSAwIDAtMmExIDEgMCAwIDAgMCAybTAgMmEzIDMgMCAxIDEgMC02YTMgMyAwIDAgMSAwIDYiLz48L3N2Zz4=)
+  static const money =
+      '<path fill="currentColor" d="M4 5h16a2 2 0 0 1 2 2v10a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V7a2 2 0 0 1 2-2m14 2H6a2 2 0 0 1-2 2v6a2 2 0 0 1 2 2h12a2 2 0 0 1 2-2V9a2 2 0 0 1-2-2M8 9h2v6H8zm6 4a1 1 0 1 0 0-2a1 1 0 0 0 0 2m0 2a3 3 0 1 1 0-6a3 3 0 0 1 0 6"/>';
+
+  /// ![preview](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjxwYXRoIGZpbGw9ImN1cnJlbnRDb2xvciIgZmlsbC1ydWxlPSJldmVub2RkIiBkPSJNMTIuOTcgM2E4LjAyIDguMDIgMCAwIDAtNC4wNTQgN2MwIDQuNDE4IDMuNTIyIDggNy44NjYgOGMxLjE0NiAwIDIuMjM2LS4yNSAzLjIxOC0uNjk4QzE4LjM5IDE5LjU0NCAxNS43ODcgMjEgMTIuODQ5IDIxQzcuOTYyIDIxIDQgMTYuOTcgNCAxMnMzLjk2Mi05IDguODQ5LTl6Ii8+PC9zdmc+)
+  static const moon =
+      '<path fill="currentColor" fill-rule="evenodd" d="M12.97 3a8.02 8.02 0 0 0-4.054 7c0 4.418 3.522 8 7.866 8c1.146 0 2.236-.25 3.218-.698C18.39 19.544 15.787 21 12.849 21C7.962 21 4 16.97 4 12s3.962-9 8.849-9z"/>';
+
+  /// ![preview](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjxwYXRoIGZpbGw9ImN1cnJlbnRDb2xvciIgZD0iTTEyIDRhNCA0IDAgMCAwLTQgNHY4YTQgNCAwIDEgMCA4IDBWOGE0IDQgMCAwIDAtNC00bTAtMmE2IDYgMCAwIDEgNiA2djhhNiA2IDAgMSAxLTEyIDBWOGE2IDYgMCAwIDEgNi02bTEgOGExIDEgMCAwIDEtMiAwVjdhMSAxIDAgMCAxIDIgMHoiLz48L3N2Zz4=)
+  static const mouse =
+      '<path fill="currentColor" d="M12 4a4 4 0 0 0-4 4v8a4 4 0 1 0 8 0V8a4 4 0 0 0-4-4m0-2a6 6 0 0 1 6 6v8a6 6 0 1 1-12 0V8a6 6 0 0 1 6-6m1 8a1 1 0 0 1-2 0V7a1 1 0 0 1 2 0z"/>';
+
+  /// ![preview](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjxwYXRoIGZpbGw9ImN1cnJlbnRDb2xvciIgZmlsbC1ydWxlPSJldmVub2RkIiBkPSJNMjAgNHYxM2EzIDMgMCAxIDEtMi0yLjgzVjZoLTh2MTNhMyAzIDAgMSAxLTItMi44M1Y0YTIgMiAwIDAgMSAyLTJoOGEyIDIgMCAwIDEgMiAyIi8+PC9zdmc+)
+  static const music =
+      '<path fill="currentColor" fill-rule="evenodd" d="M20 4v13a3 3 0 1 1-2-2.83V6h-8v13a3 3 0 1 1-2-2.83V4a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2"/>';
+
+  /// ![preview](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjxwYXRoIGZpbGw9ImN1cnJlbnRDb2xvciIgZmlsbC1ydWxlPSJldmVub2RkIiBkPSJNMTUuMDg1IDQuODUzYTIuNTAxIDIuNTAxIDAgMSAxIDIuNTcyIDMuMTQyQTYgNiAwIDAgMSAxOCAxMHY2aDFjLjU1IDAgMSAuNDUgMSAxcy0uNDUgMS0xIDFoLTR2MWEzIDMgMCAwIDEtNiAwdi0xSDVjLS41NSAwLTEtLjQ1LTEtMXMuNDUtMSAxLTFoMXYtNmE2IDYgMCAwIDEgNS01LjkxN1YzYTEgMSAwIDAgMSAyIDB2MS4wODNhNiA2IDAgMCAxIDIuMDg1Ljc3TTEyIDIwYTEgMSAwIDAgMCAxLTF2LTFoLTJ2MWExIDEgMCAwIDAgMSAxbS00LTRoOHYtNmE0IDQgMCAxIDAtOCAweiIvPjwvc3ZnPg==)
+  static const noticeActive =
+      '<path fill="currentColor" fill-rule="evenodd" d="M15.085 4.853a2.501 2.501 0 1 1 2.572 3.142A6 6 0 0 1 18 10v6h1c.55 0 1 .45 1 1s-.45 1-1 1h-4v1a3 3 0 0 1-6 0v-1H5c-.55 0-1-.45-1-1s.45-1 1-1h1v-6a6 6 0 0 1 5-5.917V3a1 1 0 0 1 2 0v1.083a6 6 0 0 1 2.085.77M12 20a1 1 0 0 0 1-1v-1h-2v1a1 1 0 0 0 1 1m-4-4h8v-6a4 4 0 1 0-8 0z"/>';
+
+  /// ![preview](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjxwYXRoIGZpbGw9ImN1cnJlbnRDb2xvciIgZmlsbC1ydWxlPSJldmVub2RkIiBkPSJNMTUgMTh2MWEzIDMgMCAwIDEtNiAwdi0xSDVjLS41NSAwLTEtLjQ1LTEtMXMuNDUtMSAxLTFoMXYtNmE2IDYgMCAwIDEgLjI1Ny0xLjc0M0w1IDdhMS40MTQgMS40MTQgMCAxIDEgMi0ybDExIDExaDFhMSAxIDAgMCAxIDAgMnptLTMgMmExIDEgMCAwIDAgMS0xdi0xaC0ydjFhMSAxIDAgMCAwIDEgMU04Ljg3NiA0Ljg3NkE2IDYgMCAwIDEgMTEgNC4wODNWM2ExIDEgMCAwIDEgMiAwdjEuMDgzYzIuODM4LjQ3NiA1IDIuOTQ0IDUgNS45MTd2NHoiLz48L3N2Zz4=)
+  static const noticeOff =
+      '<path fill="currentColor" fill-rule="evenodd" d="M15 18v1a3 3 0 0 1-6 0v-1H5c-.55 0-1-.45-1-1s.45-1 1-1h1v-6a6 6 0 0 1 .257-1.743L5 7a1.414 1.414 0 1 1 2-2l11 11h1a1 1 0 0 1 0 2zm-3 2a1 1 0 0 0 1-1v-1h-2v1a1 1 0 0 0 1 1M8.876 4.876A6 6 0 0 1 11 4.083V3a1 1 0 0 1 2 0v1.083c2.838.476 5 2.944 5 5.917v4z"/>';
+
+  /// ![preview](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjxwYXRoIGZpbGw9ImN1cnJlbnRDb2xvciIgZmlsbC1ydWxlPSJldmVub2RkIiBkPSJNMTUgMTh2MWEzIDMgMCAwIDEtNiAwdi0xSDVjLS41NSAwLTEtLjQ1LTEtMXMuNDUtMSAxLTFoMXYtNmE2IDYgMCAwIDEgNS01LjkxN1YzYTEgMSAwIDAgMSAyIDB2MS4wODNjMi44MzguNDc2IDUgMi45NDQgNSA1LjkxN3Y2aDFjLjU1IDAgMSAuNDUgMSAxcy0uNDUgMS0xIDF6bS0zIDJhMSAxIDAgMCAwIDEtMXYtMWgtMnYxYTEgMSAwIDAgMCAxIDFtMS02di0yaDJhMSAxIDAgMCAwIDAtMmgtMlY4YTEgMSAwIDAgMC0yIDB2Mkg5YTEgMSAwIDAgMCAwIDJoMnYyYTEgMSAwIDAgMCAyIDAiLz48L3N2Zz4=)
+  static const noticeOn =
+      '<path fill="currentColor" fill-rule="evenodd" d="M15 18v1a3 3 0 0 1-6 0v-1H5c-.55 0-1-.45-1-1s.45-1 1-1h1v-6a6 6 0 0 1 5-5.917V3a1 1 0 0 1 2 0v1.083c2.838.476 5 2.944 5 5.917v6h1c.55 0 1 .45 1 1s-.45 1-1 1zm-3 2a1 1 0 0 0 1-1v-1h-2v1a1 1 0 0 0 1 1m1-6v-2h2a1 1 0 0 0 0-2h-2V8a1 1 0 0 0-2 0v2H9a1 1 0 0 0 0 2h2v2a1 1 0 0 0 2 0"/>';
+
+  /// ![preview](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjxkZWZzPjxwYXRoIGlkPSJmZU5vdGljZVB1c2gwIiBmaWxsPSJjdXJyZW50Q29sb3IiIGQ9Ik0xNyAxMWE0IDQgMCAxIDEgMC04YTQgNCAwIDAgMSAwIDhNNSA1aDZ2Mkg1djEyaDEydi02aDJ2NmEyIDIgMCAwIDEtMiAySDVhMiAyIDAgMCAxLTItMlY3YTIgMiAwIDAgMSAyLTIiLz48L2RlZnM+PHVzZSBocmVmPSIjZmVOb3RpY2VQdXNoMCIvPjwvc3ZnPg==)
+  static const noticePush =
+      '<defs><path id="feNoticePush0" fill="currentColor" d="M17 11a4 4 0 1 1 0-8a4 4 0 0 1 0 8M5 5h6v2H5v12h12v-6h2v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V7a2 2 0 0 1 2-2"/></defs><use href="#feNoticePush0"/>';
+
+  /// ![preview](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjxwYXRoIGZpbGw9ImN1cnJlbnRDb2xvciIgZmlsbC1ydWxlPSJldmVub2RkIiBkPSJNMTUgMTkuMjM2VjIxYTEgMSAwIDAgMS0yIDB2LTJoLTJ2MmExIDEgMCAwIDEtMiAwdi0xLjc2NEEzIDMgMCAwIDEgNCAxN2ExIDEgMCAwIDEgMiAwYTEgMSAwIDAgMCAyIDB2LTIuMjU1YTcgNyAwIDEgMSA4IDBWMTdhMSAxIDAgMCAwIDIgMGExIDEgMCAwIDEgMiAwYTMgMyAwIDAgMS01IDIuMjM2Ii8+PC9zdmc+)
+  static const octpus =
+      '<path fill="currentColor" fill-rule="evenodd" d="M15 19.236V21a1 1 0 0 1-2 0v-2h-2v2a1 1 0 0 1-2 0v-1.764A3 3 0 0 1 4 17a1 1 0 0 1 2 0a1 1 0 0 0 2 0v-2.255a7 7 0 1 1 8 0V17a1 1 0 0 0 2 0a1 1 0 0 1 2 0a3 3 0 0 1-5 2.236"/>';
+
+  /// ![preview](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjxwYXRoIGZpbGw9ImN1cnJlbnRDb2xvciIgZD0iTTEyIDIwYTggOCAwIDEgMCAwLTE2YTggOCAwIDAgMCAwIDE2bTAgMkM2LjQ3NyAyMiAyIDE3LjUyMyAyIDEyUzYuNDc3IDIgMTIgMnMxMCA0LjQ3NyAxMCAxMHMtNC40NzcgMTAtMTAgMTBtMC01YTIgMiAwIDEgMCAwLTRhMiAyIDAgMCAwIDAgNG0yLjUtNmExLjUgMS41IDAgMSAwIDAtM2ExLjUgMS41IDAgMCAwIDAgM20tNSAwYTEuNSAxLjUgMCAxIDAgMC0zYTEuNSAxLjUgMCAwIDAgMCAzIi8+PC9zdmc+)
+  static const openMouth =
+      '<path fill="currentColor" d="M12 20a8 8 0 1 0 0-16a8 8 0 0 0 0 16m0 2C6.477 22 2 17.523 2 12S6.477 2 12 2s10 4.477 10 10s-4.477 10-10 10m0-5a2 2 0 1 0 0-4a2 2 0 0 0 0 4m2.5-6a1.5 1.5 0 1 0 0-3a1.5 1.5 0 0 0 0 3m-5 0a1.5 1.5 0 1 0 0-3a1.5 1.5 0 0 0 0 3"/>';
+
+  /// ![preview](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjxwYXRoIGZpbGw9ImN1cnJlbnRDb2xvciIgZmlsbC1ydWxlPSJldmVub2RkIiBkPSJNMTAuNTI1IDIxLjg5MmE0IDQgMCAwIDAtNi43Ny00LjIzMkE5Ljk1IDkuOTUgMCAwIDEgMiAxMkMyIDYuNDc3IDYuNDc3IDIgMTIgMnMxMCA0LjQ3NyAxMCAxMHMtNC40NzcgMTAtMTAgMTBxLS43NTIgMC0xLjQ3NS0uMTA4TTkgOWEyIDIgMCAxIDAgMC00YTIgMiAwIDAgMCAwIDRtNiAwYTIgMiAwIDEgMCAwLTRhMiAyIDAgMCAwIDAgNG0zIDVhMiAyIDAgMSAwIDAtNGEyIDIgMCAwIDAgMCA0TTYgMTRhMiAyIDAgMSAwIDAtNGEyIDIgMCAwIDAgMCA0bTkgNWEyIDIgMCAxIDAgMC00YTIgMiAwIDAgMCAwIDQiLz48L3N2Zz4=)
+  static const palette =
+      '<path fill="currentColor" fill-rule="evenodd" d="M10.525 21.892a4 4 0 0 0-6.77-4.232A9.95 9.95 0 0 1 2 12C2 6.477 6.477 2 12 2s10 4.477 10 10s-4.477 10-10 10q-.752 0-1.475-.108M9 9a2 2 0 1 0 0-4a2 2 0 0 0 0 4m6 0a2 2 0 1 0 0-4a2 2 0 0 0 0 4m3 5a2 2 0 1 0 0-4a2 2 0 0 0 0 4M6 14a2 2 0 1 0 0-4a2 2 0 0 0 0 4m9 5a2 2 0 1 0 0-4a2 2 0 0 0 0 4"/>';
+
+  /// ![preview](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjxwYXRoIGZpbGw9ImN1cnJlbnRDb2xvciIgZD0ibTEzLjc2MSAxMi4wMWwtMTAuNzYtMS4wODRMMyA0LjA3NGExLjA3NCAxLjA3NCAwIDAgMSAxLjU1NC0uOTZsMTUuODUyIDcuOTI2YTEuMDc0IDEuMDc0IDAgMCAxIDAgMS45MmwtMTUuODUgNy45MjZhMS4wNzQgMS4wNzQgMCAwIDEtMS41NTQtLjk2di02Ljg1MnoiLz48L3N2Zz4=)
+  static const paperPlane =
+      '<path fill="currentColor" d="m13.761 12.01l-10.76-1.084L3 4.074a1.074 1.074 0 0 1 1.554-.96l15.852 7.926a1.074 1.074 0 0 1 0 1.92l-15.85 7.926a1.074 1.074 0 0 1-1.554-.96v-6.852z"/>';
+
+  /// ![preview](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjxwYXRoIGZpbGw9ImN1cnJlbnRDb2xvciIgZmlsbC1ydWxlPSJldmVub2RkIiBkPSJNMTAgMThhMSAxIDAgMCAxLTEgMUg4YTEgMSAwIDAgMS0xLTFWNmExIDEgMCAwIDEgMS0xaDFhMSAxIDAgMCAxIDEgMXptNyAwYTEgMSAwIDAgMS0xIDFoLTFhMSAxIDAgMCAxLTEtMVY2YTEgMSAwIDAgMSAxLTFoMWExIDEgMCAwIDEgMSAxeiIvPjwvc3ZnPg==)
+  static const pause =
+      '<path fill="currentColor" fill-rule="evenodd" d="M10 18a1 1 0 0 1-1 1H8a1 1 0 0 1-1-1V6a1 1 0 0 1 1-1h1a1 1 0 0 1 1 1zm7 0a1 1 0 0 1-1 1h-1a1 1 0 0 1-1-1V6a1 1 0 0 1 1-1h1a1 1 0 0 1 1 1z"/>';
+
+  /// ![preview](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjxwYXRoIGZpbGw9ImN1cnJlbnRDb2xvciIgZmlsbC1ydWxlPSJldmVub2RkIiBkPSJNMyAxOEwxNSA2bDMgM0w2IDIxSDN6TTE2IDVsMi0ybDMgM2wtMi4wMDEgMi4wMDF6Ii8+PC9zdmc+)
+  static const pencil =
+      '<path fill="currentColor" fill-rule="evenodd" d="M3 18L15 6l3 3L6 21H3zM16 5l2-2l3 3l-2.001 2.001z"/>';
+
+  /// ![preview](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjxwYXRoIGZpbGw9ImN1cnJlbnRDb2xvciIgZmlsbC1ydWxlPSJldmVub2RkIiBkPSJNNC4wMjQgOUw0IDguOTMxQzMuNDYgNy4zODQgMyA1LjI3IDMgNGMwLS41NS40NS0xIDEtMWgzYTIgMiAwIDAgMSAyIDJ2MmEyIDIgMCAwIDEtMiAyaC0uODM3QTE2LjA1IDE2LjA1IDAgMCAwIDE1IDE3LjgzN1YxN2EyIDIgMCAwIDEgMi0yaDJhMiAyIDAgMCAxIDIgMnYzYzAgLjQ1LS41NSAxLTEgMWMtMS43MjUgMC0zLjQ0LS40NTYtNS0xYy01LjExNC0xLjgzMi05LjE2OC01Ljg4Ni0xMC45NzYtMTEiLz48L3N2Zz4=)
+  static const phone =
+      '<path fill="currentColor" fill-rule="evenodd" d="M4.024 9L4 8.931C3.46 7.384 3 5.27 3 4c0-.55.45-1 1-1h3a2 2 0 0 1 2 2v2a2 2 0 0 1-2 2h-.837A16.05 16.05 0 0 0 15 17.837V17a2 2 0 0 1 2-2h2a2 2 0 0 1 2 2v3c0 .45-.55 1-1 1c-1.725 0-3.44-.456-5-1c-5.114-1.832-9.168-5.886-10.976-11"/>';
+
+  /// ![preview](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjxwYXRoIGZpbGw9ImN1cnJlbnRDb2xvciIgZD0iTTQgNnYxMmgxNlY2em0wLTJoMTZhMiAyIDAgMCAxIDIgMnYxMmEyIDIgMCAwIDEtMiAySDRhMiAyIDAgMCAxLTItMlY2YTIgMiAwIDAgMSAyLTJtMy41IDdhMS41IDEuNSAwIDEgMCAwLTNhMS41IDEuNSAwIDAgMCAwIDNNNyAxNGwyLTJsMiAybDQtNGwzIDN2M0g3eiIvPjwvc3ZnPg==)
+  static const picture =
+      '<path fill="currentColor" d="M4 6v12h16V6zm0-2h16a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2m3.5 7a1.5 1.5 0 1 0 0-3a1.5 1.5 0 0 0 0 3M7 14l2-2l2 2l4-4l3 3v3H7z"/>';
+
+  /// ![preview](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjxwYXRoIGZpbGw9ImN1cnJlbnRDb2xvciIgZD0iTTUgNXYxNGgxNFY1em0wLTJoMTRhMiAyIDAgMCAxIDIgMnYxNGEyIDIgMCAwIDEtMiAySDVhMiAyIDAgMCAxLTItMlY1YTIgMiAwIDAgMSAyLTJtMy41IDdhMS41IDEuNSAwIDEgMCAwLTNhMS41IDEuNSAwIDAgMCAwIDNNNyAxNGwyLTJsMiAybDMtM2wzIDN2M0g3eiIvPjwvc3ZnPg==)
+  static const pictureSquare =
+      '<path fill="currentColor" d="M5 5v14h14V5zm0-2h14a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2m3.5 7a1.5 1.5 0 1 0 0-3a1.5 1.5 0 0 0 0 3M7 14l2-2l2 2l3-3l3 3v3H7z"/>';
+
+  /// ![preview](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjxwYXRoIGZpbGw9ImN1cnJlbnRDb2xvciIgZmlsbC1ydWxlPSJldmVub2RkIiBkPSJNMTIgMjJDNi40NzcgMjIgMiAxNy41MjMgMiAxMlM2LjQ3NyAyIDEyIDJzMTAgNC40NzcgMTAgMTBzLTQuNDc3IDEwLTEwIDEwbTAtMThhOCA4IDAgMSAwIDggOGgtOHoiLz48L3N2Zz4=)
+  static const pieChart =
+      '<path fill="currentColor" fill-rule="evenodd" d="M12 22C6.477 22 2 17.523 2 12S6.477 2 12 2s10 4.477 10 10s-4.477 10-10 10m0-18a8 8 0 1 0 8 8h-8z"/>';
+
+  /// ![preview](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjxwYXRoIGZpbGw9ImN1cnJlbnRDb2xvciIgZmlsbC1ydWxlPSJldmVub2RkIiBkPSJNMTIgMkM2LjQ3NyAyIDIgNi40NzcgMiAxMmMwIDQuMjM2IDIuNjM2IDcuODU0IDYuMzU1IDkuMzExYy0uMDg3LS43OTEtLjE2Ni0yLjAwNC4wMzUtMi44NjhjLjE4Mi0uNzggMS4xNzMtNC45NyAxLjE3My00Ljk3cy0uMjk5LS42LS4yOTktMS40ODVjMC0xLjM5MS44MDYtMi40MjggMS44MS0yLjQyOGMuODUyIDAgMS4yNjQuNjQgMS4yNjQgMS40MDhjMCAuODU4LS41NDYgMi4xNC0uODI4IDMuMzNjLS4yMzYuOTk1LjUgMS44MDYgMS40ODEgMS44MDZjMS43NzcgMCAzLjE0My0xLjg3NCAzLjE0My00LjU3OWMwLTIuMzk0LTEuNzItNC4wNjgtNC4xNzctNC4wNjhjLTIuODQ0IDAtNC41MTUgMi4xMzQtNC41MTUgNC4zNGMwIC44NTkuMzMxIDEuNzguNzQ0IDIuMjgxYS4zLjMgMCAwIDEgLjA3LjI4N2MtLjA3Ni4zMTYtLjI0NS45OTUtLjI3OCAxLjEzNWMtLjA0NC4xODItLjE0NS4yMjEtLjMzNC4xMzNjLTEuMjUtLjU4MS0yLjAzLTIuNDA3LTIuMDMtMy44NzRjMC0zLjE1NSAyLjI5MS02LjA1MSA2LjYwNy02LjA1MWMzLjQ2OSAwIDYuMTY1IDIuNDcyIDYuMTY1IDUuNzc1YzAgMy40NDctMi4xNzMgNi4yMi01LjE5IDYuMjJjLTEuMDEyIDAtMS45NjUtLjUyNi0yLjI5MS0xLjE0OWMwIDAtLjUwMiAxLjkxLS42MjMgMi4zNzhjLS4yMjYuODY4LS44MzUgMS45NTgtMS4yNDMgMi42MjJjLjkzNi4yODkgMS45My40NDUgMi45Ni40NDVDMTcuNTI0IDIyIDIyIDE3LjUyMiAyMiAxMlMxNy41MjMgMiAxMiAyIi8+PC9zdmc+)
+  static const pinterest =
+      '<path fill="currentColor" fill-rule="evenodd" d="M12 2C6.477 2 2 6.477 2 12c0 4.236 2.636 7.854 6.355 9.311c-.087-.791-.166-2.004.035-2.868c.182-.78 1.173-4.97 1.173-4.97s-.299-.6-.299-1.485c0-1.391.806-2.428 1.81-2.428c.852 0 1.264.64 1.264 1.408c0 .858-.546 2.14-.828 3.33c-.236.995.5 1.806 1.481 1.806c1.777 0 3.143-1.874 3.143-4.579c0-2.394-1.72-4.068-4.177-4.068c-2.844 0-4.515 2.134-4.515 4.34c0 .859.331 1.78.744 2.281a.3.3 0 0 1 .07.287c-.076.316-.245.995-.278 1.135c-.044.182-.145.221-.334.133c-1.25-.581-2.03-2.407-2.03-3.874c0-3.155 2.291-6.051 6.607-6.051c3.469 0 6.165 2.472 6.165 5.775c0 3.447-2.173 6.22-5.19 6.22c-1.012 0-1.965-.526-2.291-1.149c0 0-.502 1.91-.623 2.378c-.226.868-.835 1.958-1.243 2.622c.936.289 1.93.445 2.96.445C17.524 22 22 17.522 22 12S17.523 2 12 2"/>';
+
+  /// ![preview](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjxwYXRoIGZpbGw9ImN1cnJlbnRDb2xvciIgZmlsbC1ydWxlPSJldmVub2RkIiBkPSJNMTIgMjJDNi40NzcgMjIgMiAxNy41MjMgMiAxMlM2LjQ3NyAyIDEyIDJzMTAgNC40NzcgMTAgMTBzLTQuNDc3IDEwLTEwIDEwbTAtMmE4IDggMCAxIDAgMC0xNmE4IDggMCAwIDAgMCAxNm0tNS01aDJ2MnptMTAgMGwtMiAydi0yek05IDd2Mkg3em02IDBsMiAyaC0yem0tMi41IDJhMS41IDEuNSAwIDEgMCAwLTNhMS41IDEuNSAwIDAgMCAwIDNtLTUgNGExLjUgMS41IDAgMSAwIDAtM2ExLjUgMS41IDAgMCAwIDAgM205IDFhMS41IDEuNSAwIDEgMCAwLTNhMS41IDEuNSAwIDAgMCAwIDNNMTIgMTNhMSAxIDAgMSAwIDAtMmExIDEgMCAwIDAgMCAybS0uNSA1YTEuNSAxLjUgMCAxIDAgMC0zYTEuNSAxLjUgMCAwIDAgMCAzIi8+PC9zdmc+)
+  static const pizza =
+      '<path fill="currentColor" fill-rule="evenodd" d="M12 22C6.477 22 2 17.523 2 12S6.477 2 12 2s10 4.477 10 10s-4.477 10-10 10m0-2a8 8 0 1 0 0-16a8 8 0 0 0 0 16m-5-5h2v2zm10 0l-2 2v-2zM9 7v2H7zm6 0l2 2h-2zm-2.5 2a1.5 1.5 0 1 0 0-3a1.5 1.5 0 0 0 0 3m-5 4a1.5 1.5 0 1 0 0-3a1.5 1.5 0 0 0 0 3m9 1a1.5 1.5 0 1 0 0-3a1.5 1.5 0 0 0 0 3M12 13a1 1 0 1 0 0-2a1 1 0 0 0 0 2m-.5 5a1.5 1.5 0 1 0 0-3a1.5 1.5 0 0 0 0 3"/>';
+
+  /// ![preview](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjxwYXRoIGZpbGw9ImN1cnJlbnRDb2xvciIgZD0iTTYgNS45MTJjMC0uMTU1LjAzNy0uMzA3LjEwNy0uNDQzYy4yMy0uNDQuNzUtLjU5OSAxLjE2My0uMzU0bDEwLjI5IDYuMDg4Yy4xNC4wODMuMjU1LjIwNi4zMzIuMzU1Yy4yMy40NC4wOC45OTUtLjMzMiAxLjIzOUw3LjI3IDE4Ljg4NWEuOC44IDAgMCAxLS40MTUuMTE1QzYuMzgzIDE5IDYgMTguNTkyIDYgMTguMDg5eiIvPjwvc3ZnPg==)
+  static const play =
+      '<path fill="currentColor" d="M6 5.912c0-.155.037-.307.107-.443c.23-.44.75-.599 1.163-.354l10.29 6.088c.14.083.255.206.332.355c.23.44.08.995-.332 1.239L7.27 18.885a.8.8 0 0 1-.415.115C6.383 19 6 18.592 6 18.089z"/>';
+
+  /// ![preview](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjxwYXRoIGZpbGw9ImN1cnJlbnRDb2xvciIgZmlsbC1ydWxlPSJldmVub2RkIiBkPSJNMTcgMTF2MmgzYTEgMSAwIDAgMSAwIDJoLTMuMjY4QTIgMiAwIDAgMSAxNSAxNmgtM2E0IDQgMCAwIDEtMy44NzYtMy4wMDhBMSAxIDAgMCAxIDggMTNINGExIDEgMCAwIDEgMC0yaDRxLjA2MyAwIC4xMjQuMDA4QTQgNCAwIDAgMSAxMiA4aDNhMiAyIDAgMCAxIDEuNzMyIDFIMjBhMSAxIDAgMCAxIDAgMnoiLz48L3N2Zz4=)
+  static const plug =
+      '<path fill="currentColor" fill-rule="evenodd" d="M17 11v2h3a1 1 0 0 1 0 2h-3.268A2 2 0 0 1 15 16h-3a4 4 0 0 1-3.876-3.008A1 1 0 0 1 8 13H4a1 1 0 0 1 0-2h4q.063 0 .124.008A4 4 0 0 1 12 8h3a2 2 0 0 1 1.732 1H20a1 1 0 0 1 0 2z"/>';
+
+  /// ![preview](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjxwYXRoIGZpbGw9ImN1cnJlbnRDb2xvciIgZmlsbC1ydWxlPSJldmVub2RkIiBkPSJNMTMgMTN2N2ExIDEgMCAwIDEtMiAwdi03SDRhMSAxIDAgMCAxIDAtMmg3VjRhMSAxIDAgMCAxIDIgMHY3aDdhMSAxIDAgMCAxIDAgMnoiLz48L3N2Zz4=)
+  static const plus =
+      '<path fill="currentColor" fill-rule="evenodd" d="M13 13v7a1 1 0 0 1-2 0v-7H4a1 1 0 0 1 0-2h7V4a1 1 0 0 1 2 0v7h7a1 1 0 0 1 0 2z"/>';
+
+  /// ![preview](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjxwYXRoIGZpbGw9ImN1cnJlbnRDb2xvciIgZD0iTTIxLjkwMiA0LjE5NEExLjgyIDEuODIgMCAwIDAgMjAuMTk3IDNIMy44MTNBMS44MjMgMS44MjMgMCAwIDAgMiA0LjgxNHY2LjAzNWwuMDY5IDEuMmMuMjkgMi43MyAxLjcwNyA1LjExNiAzLjkgNi43NzlsLjExOC4wODlsLjAyNS4wMThhOS45IDkuOSAwIDAgMCAzLjkxIDEuNzI3YTEwLjEgMTAuMSAwIDAgMCA0LjA1LS4wMTRhLjMuMyAwIDAgMCAuMDY0LS4wMjNhOS45IDkuOSAwIDAgMCAzLjc1My0xLjY5MWwuMDI1LS4wMThxLjA2LS4wNDMuMTE5LS4wOWMyLjE5Mi0xLjY2MyAzLjYwOS00LjA0OCAzLjg5OC02Ljc3OGwuMDY5LTEuMlY0LjgxNGExLjggMS44IDAgMCAwLS4wOTgtLjYybS00LjIzNSA2LjI4N2wtNC43MDQgNC41MTNhMS4zNyAxLjM3IDAgMCAxLTEuODk5IDBMNi4zNiAxMC40OGExLjM3MSAxLjM3MSAwIDEgMSAxLjg5OC0xLjk3OWwzLjc1NiAzLjYwMWwzLjc1Ni0zLjZhMS4zNzIgMS4zNzIgMCAwIDEgMS44OTggMS45NzgiLz48L3N2Zz4=)
+  static const pocket =
+      '<path fill="currentColor" d="M21.902 4.194A1.82 1.82 0 0 0 20.197 3H3.813A1.823 1.823 0 0 0 2 4.814v6.035l.069 1.2c.29 2.73 1.707 5.116 3.9 6.779l.118.089l.025.018a9.9 9.9 0 0 0 3.91 1.727a10.1 10.1 0 0 0 4.05-.014a.3.3 0 0 0 .064-.023a9.9 9.9 0 0 0 3.753-1.691l.025-.018q.06-.043.119-.09c2.192-1.663 3.609-4.048 3.898-6.778l.069-1.2V4.814a1.8 1.8 0 0 0-.098-.62m-4.235 6.287l-4.704 4.513a1.37 1.37 0 0 1-1.899 0L6.36 10.48a1.371 1.371 0 1 1 1.898-1.979l3.756 3.601l3.756-3.6a1.372 1.372 0 0 1 1.898 1.978"/>';
+
+  /// ![preview](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjxwYXRoIGZpbGw9ImN1cnJlbnRDb2xvciIgZmlsbC1ydWxlPSJldmVub2RkIiBkPSJNMjAgMTF2N2EyIDIgMCAwIDEtMiAySDZhMiAyIDAgMCAxLTItMnYtN0gzYTEgMSAwIDAgMSAwLTJoMThhMSAxIDAgMCAxIDAgMnpNNiAxMXY3aDEydi03em01LTVWNWExIDEgMCAwIDEgMiAwdjFoNmExIDEgMCAwIDEgMCAySDVhMSAxIDAgMSAxIDAtMnoiLz48L3N2Zz4=)
+  static const pot =
+      '<path fill="currentColor" fill-rule="evenodd" d="M20 11v7a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2v-7H3a1 1 0 0 1 0-2h18a1 1 0 0 1 0 2zM6 11v7h12v-7zm5-5V5a1 1 0 0 1 2 0v1h6a1 1 0 0 1 0 2H5a1 1 0 1 1 0-2z"/>';
+
+  /// ![preview](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjxwYXRoIGZpbGw9ImN1cnJlbnRDb2xvciIgZmlsbC1ydWxlPSJldmVub2RkIiBkPSJNNyAxMVY0YTIgMiAwIDAgMSAyLTJoNmEyIDIgMCAwIDEgMiAydjdoMWEyIDIgMCAwIDEgMiAydjNjMCAxLjEtLjkgMi0yIDJoLTF2MmEyIDIgMCAwIDEtMiAySDlhMiAyIDAgMCAxLTItMnYtMkg2Yy0xLjEgMC0yLS45LTItMnYtM2EyIDIgMCAwIDEgMi0yem0yLTd2N2g2VjR6bTUgOXYyaDJ2LTJ6bS01IDV2Mmg2di0yeiIvPjwvc3ZnPg==)
+  static const print =
+      '<path fill="currentColor" fill-rule="evenodd" d="M7 11V4a2 2 0 0 1 2-2h6a2 2 0 0 1 2 2v7h1a2 2 0 0 1 2 2v3c0 1.1-.9 2-2 2h-1v2a2 2 0 0 1-2 2H9a2 2 0 0 1-2-2v-2H6c-1.1 0-2-.9-2-2v-3a2 2 0 0 1 2-2zm2-7v7h6V4zm5 9v2h2v-2zm-5 5v2h6v-2z"/>';
+
+  /// ![preview](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjxwYXRoIGZpbGw9ImN1cnJlbnRDb2xvciIgZmlsbC1ydWxlPSJldmVub2RkIiBkPSJNOSAxMkg2LjczMmEyIDIgMCAxIDEgMC0ySDlWNWEyIDIgMCAwIDEgMi0yaDhhMiAyIDAgMCAxIDIgMnYxNGEyIDIgMCAwIDEtMiAyaC04YTIgMiAwIDAgMS0yLTJ6bTIgMHY3aDhWNWgtOHY1aDIuMjY4YTIgMiAwIDEgMSAwIDJ6Ii8+PC9zdmc+)
+  static const prototype =
+      '<path fill="currentColor" fill-rule="evenodd" d="M9 12H6.732a2 2 0 1 1 0-2H9V5a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2h-8a2 2 0 0 1-2-2zm2 0v7h8V5h-8v5h2.268a2 2 0 1 1 0 2z"/>';
+
+  /// ![preview](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjxwYXRoIGZpbGw9ImN1cnJlbnRDb2xvciIgZmlsbC1ydWxlPSJldmVub2RkIiBkPSJNMTIgMjJDNi40NzcgMjIgMiAxNy41MjMgMiAxMlM2LjQ3NyAyIDEyIDJzMTAgNC40NzcgMTAgMTBzLTQuNDc3IDEwLTEwIDEwbTAtMmE4IDggMCAxIDAgMC0xNmE4IDggMCAwIDAgMCAxNm0tMS00aDJ2MmgtMnptMC0xLjk5MnMyLS4wMDggMiAwQzEzIDEzLjAwNiAxNiAxMiAxNiAxMGMwLTIuMjEtMS43NzMtNC0zLjk5MS00QTQgNCAwIDAgMCA4IDEwaDJjMC0xLjEuOS0yIDItMnMyIC45IDIgMmMwIC45LTMgMi4zNjctMyA0LjAwOCIvPjwvc3ZnPg==)
+  static const question =
+      '<path fill="currentColor" fill-rule="evenodd" d="M12 22C6.477 22 2 17.523 2 12S6.477 2 12 2s10 4.477 10 10s-4.477 10-10 10m0-2a8 8 0 1 0 0-16a8 8 0 0 0 0 16m-1-4h2v2h-2zm0-1.992s2-.008 2 0C13 13.006 16 12 16 10c0-2.21-1.773-4-3.991-4A4 4 0 0 0 8 10h2c0-1.1.9-2 2-2s2 .9 2 2c0 .9-3 2.367-3 4.008"/>';
+
+  /// ![preview](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjxwYXRoIGZpbGw9ImN1cnJlbnRDb2xvciIgZmlsbC1ydWxlPSJldmVub2RkIiBkPSJNNyAyMWE0IDQgMCAwIDEtNC00cTAtMi4yMSA0LTE0aDJMNyAxM2E0IDQgMCAxIDEgMCA4bTEwIDBhNCA0IDAgMCAxLTQtNHEwLTIuMjEgNC0xNGgybC0yIDEwYTQgNCAwIDEgMSAwIDgiLz48L3N2Zz4=)
+  static const quoteLeft =
+      '<path fill="currentColor" fill-rule="evenodd" d="M7 21a4 4 0 0 1-4-4q0-2.21 4-14h2L7 13a4 4 0 1 1 0 8m10 0a4 4 0 0 1-4-4q0-2.21 4-14h2l-2 10a4 4 0 1 1 0 8"/>';
+
+  /// ![preview](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjxwYXRoIGZpbGw9ImN1cnJlbnRDb2xvciIgZmlsbC1ydWxlPSJldmVub2RkIiBkPSJNMTcgMTFhNCA0IDAgMSAxIDQtNHEwIDIuMjEtNCAxNGgtMnpNNyAxMWE0IDQgMCAxIDEgNC00cTAgMi4yMS00IDE0SDV6Ii8+PC9zdmc+)
+  static const quoteRight =
+      '<path fill="currentColor" fill-rule="evenodd" d="M17 11a4 4 0 1 1 4-4q0 2.21-4 14h-2zM7 11a4 4 0 1 1 4-4q0 2.21-4 14H5z"/>';
+
+  /// ![preview](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjxwYXRoIGZpbGw9ImN1cnJlbnRDb2xvciIgZmlsbC1ydWxlPSJldmVub2RkIiBkPSJNMTIgMjBhOCA4IDAgMSAwIDAtMTZhOCA4IDAgMCAwIDAgMTZtMCAyQzYuNDc3IDIyIDIgMTcuNTIzIDIgMTJTNi40NzcgMiAxMiAyczEwIDQuNDc3IDEwIDEwcy00LjQ3NyAxMC0xMCAxMG00LTVhNCA0IDAgMSAwLTggMGgxLjMzM3MuNDIzLTIuNjY3IDIuNjY3LTIuNjY3UzE0LjY2MSAxNyAxNC42NjEgMTd6bS0xLjUtNkExLjUgMS41IDAgMCAwIDE2IDkuNVY4Yy0uODI4IDAtMyAuNjcyLTMgMS41YTEuNSAxLjUgMCAwIDAgMS41IDEuNW0tNSAwQTEuNSAxLjUgMCAwIDAgMTEgOS41QzExIDguNjcyIDguODI4IDggOCA4djEuNUExLjUgMS41IDAgMCAwIDkuNSAxMSIvPjwvc3ZnPg==)
+  static const rage =
+      '<path fill="currentColor" fill-rule="evenodd" d="M12 20a8 8 0 1 0 0-16a8 8 0 0 0 0 16m0 2C6.477 22 2 17.523 2 12S6.477 2 12 2s10 4.477 10 10s-4.477 10-10 10m4-5a4 4 0 1 0-8 0h1.333s.423-2.667 2.667-2.667S14.661 17 14.661 17zm-1.5-6A1.5 1.5 0 0 0 16 9.5V8c-.828 0-3 .672-3 1.5a1.5 1.5 0 0 0 1.5 1.5m-5 0A1.5 1.5 0 0 0 11 9.5C11 8.672 8.828 8 8 8v1.5A1.5 1.5 0 0 0 9.5 11"/>';
+
+  /// ![preview](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjxwYXRoIGZpbGw9ImN1cnJlbnRDb2xvciIgZmlsbC1ydWxlPSJldmVub2RkIiBkPSJNNCAxN2ExIDEgMCAwIDEgMC0yaDJsMy0zbC0zLTNINGExLjAwMSAxLjAwMSAwIDAgMSAwLTJoM2w0IDRsNC00aDJWNWw0IDMuMDAxTDE3IDExVjloLTFsLTMgM2wzIDNoMXYtMmw0IDNsLTQgM3YtMmgtMmwtNC00bC00IDR6Ii8+PC9zdmc+)
+  static const random =
+      '<path fill="currentColor" fill-rule="evenodd" d="M4 17a1 1 0 0 1 0-2h2l3-3l-3-3H4a1.001 1.001 0 0 1 0-2h3l4 4l4-4h2V5l4 3.001L17 11V9h-1l-3 3l3 3h1v-2l4 3l-4 3v-2h-2l-4-4l-4 4z"/>';
+
+  /// ![preview](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjxwYXRoIGZpbGw9ImN1cnJlbnRDb2xvciIgZmlsbC1ydWxlPSJldmVub2RkIiBkPSJNOCAxNmg4YTEgMSAwIDAgMSAwIDJIN2ExIDEgMCAwIDEtMS0xVjRINWExIDEgMCAxIDEgMC0yaDJhMSAxIDAgMCAxIDEgMXY5aDguNzc1TDE4IDdWNS4wMDFjMS4xNDUgMCAyIC44OTQgMiAxLjk5OXEwIC4yMi0uMDUuNDM0bC0xLjE1MSA1Yy0uMjEuOTE1LTEuMDUyIDEuNTY2LTIuMDI0IDEuNTY2SDguMDczTDggMTMuOTk5em0tLjUgNmExLjUgMS41IDAgMSAxIDAtM2ExLjUgMS41IDAgMCAxIDAgM205IDBhMS41IDEuNSAwIDEgMSAwLTNhMS41IDEuNSAwIDAgMSAwIDNNMTUgNWExIDEgMCAwIDEgMCAyaC00YTEgMSAwIDAgMSAwLTJ6Ii8+PC9zdmc+)
+  static const removeCart =
+      '<path fill="currentColor" fill-rule="evenodd" d="M8 16h8a1 1 0 0 1 0 2H7a1 1 0 0 1-1-1V4H5a1 1 0 1 1 0-2h2a1 1 0 0 1 1 1v9h8.775L18 7V5.001c1.145 0 2 .894 2 1.999q0 .22-.05.434l-1.151 5c-.21.915-1.052 1.566-2.024 1.566H8.073L8 13.999zm-.5 6a1.5 1.5 0 1 1 0-3a1.5 1.5 0 0 1 0 3m9 0a1.5 1.5 0 1 1 0-3a1.5 1.5 0 0 1 0 3M15 5a1 1 0 0 1 0 2h-4a1 1 0 0 1 0-2z"/>';
+
+  /// ![preview](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjxwYXRoIGZpbGw9ImN1cnJlbnRDb2xvciIgZD0iTTEyIDIyQzYuNDc3IDIyIDIgMTcuNTIzIDIgMTJTNi40NzcgMiAxMiAyczEwIDQuNDc3IDEwIDEwcy00LjQ3NyAxMC0xMCAxMG0tNS0zLjc1NVYxM2EyIDIgMCAwIDEgMi0yaDZhMiAyIDAgMCAxIDIgMnY1LjI0NWE4IDggMCAxIDAtMTAgMCIvPjwvc3ZnPg==)
+  static const riceCracker =
+      '<path fill="currentColor" d="M12 22C6.477 22 2 17.523 2 12S6.477 2 12 2s10 4.477 10 10s-4.477 10-10 10m-5-3.755V13a2 2 0 0 1 2-2h6a2 2 0 0 1 2 2v5.245a8 8 0 1 0-10 0"/>';
+
+  /// ![preview](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjxwYXRoIGZpbGw9ImN1cnJlbnRDb2xvciIgZmlsbC1ydWxlPSJldmVub2RkIiBkPSJNMTQgMjJoLTRjLS44IDAtMS42MDItMS4xMjMtMi4yNzQtMi43MjZMNSAyMmwtMS0xdi00bDIuMzgzLTIuMzgzQzYuMTQgMTMuMzI1IDYgMTIuMDU3IDYgMTFjMC00IDMtOSA2LTlzNiA1IDYgOWMwIDEuMDU4LS4xNCAyLjMyNS0uMzgzIDMuNjE3TDIwIDE3djRsLTEgMWwtMi43MjYtMi43MjZDMTUuNjAyIDIwLjg3NyAxNC44MDEgMjIgMTQgMjJtLTItMmgtMS42MTVhMyAzIDAgMCAxLS4xNzktLjI0OWMtLjM0Ny0uNTMyLS43Mi0xLjM2NS0xLjA1OS0yLjM4M0M4LjQ1NSAxNS4yOSA4IDEyLjc1NSA4IDExYzAtMy4xOTggMi40NDQtNyA0LTdzNCAzLjgwMiA0IDdjMCAxLjc1NS0uNDU1IDQuMjkxLTEuMTQ3IDYuMzY4Yy0uMzQgMS4wMTgtLjcxMiAxLjg1LTEuMDYgMi4zODNhMyAzIDAgMCAxLS4xNzguMjQ5em0wLThhMiAyIDAgMSAwIDAtNGEyIDIgMCAwIDAgMCA0Ii8+PC9zdmc+)
+  static const rocket =
+      '<path fill="currentColor" fill-rule="evenodd" d="M14 22h-4c-.8 0-1.602-1.123-2.274-2.726L5 22l-1-1v-4l2.383-2.383C6.14 13.325 6 12.057 6 11c0-4 3-9 6-9s6 5 6 9c0 1.058-.14 2.325-.383 3.617L20 17v4l-1 1l-2.726-2.726C15.602 20.877 14.801 22 14 22m-2-2h-1.615a3 3 0 0 1-.179-.249c-.347-.532-.72-1.365-1.059-2.383C8.455 15.29 8 12.755 8 11c0-3.198 2.444-7 4-7s4 3.802 4 7c0 1.755-.455 4.291-1.147 6.368c-.34 1.018-.712 1.85-1.06 2.383a3 3 0 0 1-.178.249zm0-8a2 2 0 1 0 0-4a2 2 0 0 0 0 4"/>';
+
+  /// ![preview](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjxwYXRoIGZpbGw9ImN1cnJlbnRDb2xvciIgZmlsbC1ydWxlPSJldmVub2RkIiBkPSJNMTAuODc0IDE3Ljk5OEE0LjAwMiA0LjAwMiAwIDAgMSAzIDE3YTQgNCAwIDAgMSAzLjAwMi0zLjg3NEw2IDEzYTUgNSAwIDAgMSAzLjAzLTQuNTk3YTYgNiAwIDEgMSA2LjU2NyA2LjU2OGE1IDUgMCAwIDEtNC43MjMgMy4wMjdtLjI1Mi05Ljk5NmE1IDUgMCAwIDEgNC44NzIgNC44NzJBNC4wMDIgNC4wMDIgMCAwIDAgMTUgNWE0IDQgMCAwIDAtMy44NzQgMy4wMDJtLS4yNTMgNy45OTVRMTAuOTM2IDE2IDExIDE2YTMgMyAwIDEgMC0yLjk5Ny0yLjg3M2E0LjAxIDQuMDEgMCAwIDEgMi44NyAyLjg3TTcgMTlhMiAyIDAgMSAwIDAtNGEyIDIgMCAwIDAgMCA0Ii8+PC9zdmc+)
+  static const scale =
+      '<path fill="currentColor" fill-rule="evenodd" d="M10.874 17.998A4.002 4.002 0 0 1 3 17a4 4 0 0 1 3.002-3.874L6 13a5 5 0 0 1 3.03-4.597a6 6 0 1 1 6.567 6.568a5 5 0 0 1-4.723 3.027m.252-9.996a5 5 0 0 1 4.872 4.872A4.002 4.002 0 0 0 15 5a4 4 0 0 0-3.874 3.002m-.253 7.995Q10.936 16 11 16a3 3 0 1 0-2.997-2.873a4.01 4.01 0 0 1 2.87 2.87M7 19a2 2 0 1 0 0-4a2 2 0 0 0 0 4"/>';
+
+  /// ![preview](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjxwYXRoIGZpbGw9ImN1cnJlbnRDb2xvciIgZmlsbC1ydWxlPSJldmVub2RkIiBkPSJtMTYuMzI1IDE0Ljg5OWw1LjM4IDUuMzhhMS4wMDggMS4wMDggMCAwIDEtMS40MjcgMS40MjZsLTUuMzgtNS4zOGE4IDggMCAxIDEgMS40MjYtMS40MjZNMTAgMTZhNiA2IDAgMSAwIDAtMTJhNiA2IDAgMCAwIDAgMTIiLz48L3N2Zz4=)
+  static const search =
+      '<path fill="currentColor" fill-rule="evenodd" d="m16.325 14.899l5.38 5.38a1.008 1.008 0 0 1-1.427 1.426l-5.38-5.38a8 8 0 1 1 1.426-1.426M10 16a6 6 0 1 0 0-12a6 6 0 0 0 0 12"/>';
+
+  /// ![preview](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjxwYXRoIGZpbGw9ImN1cnJlbnRDb2xvciIgZmlsbC1ydWxlPSJldmVub2RkIiBkPSJtMTYuMzI1IDE0Ljg5OWw1LjM4IDUuMzhhMS4wMDggMS4wMDggMCAwIDEtMS40MjcgMS40MjZsLTUuMzgtNS4zOGE4IDggMCAxIDEgMS40MjYtMS40MjZNMTAgMTZhNiA2IDAgMSAwIDAtMTJhNiA2IDAgMCAwIDAgMTJtLTMtNWExIDEgMCAwIDEgMC0yaDZhMSAxIDAgMCAxIDAgMnoiLz48L3N2Zz4=)
+  static const searchMinus =
+      '<path fill="currentColor" fill-rule="evenodd" d="m16.325 14.899l5.38 5.38a1.008 1.008 0 0 1-1.427 1.426l-5.38-5.38a8 8 0 1 1 1.426-1.426M10 16a6 6 0 1 0 0-12a6 6 0 0 0 0 12m-3-5a1 1 0 0 1 0-2h6a1 1 0 0 1 0 2z"/>';
+
+  /// ![preview](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjxwYXRoIGZpbGw9ImN1cnJlbnRDb2xvciIgZmlsbC1ydWxlPSJldmVub2RkIiBkPSJtMTYuMzI1IDE0Ljg5OWw1LjM4IDUuMzhhMS4wMDggMS4wMDggMCAwIDEtMS40MjcgMS40MjZsLTUuMzgtNS4zOGE4IDggMCAxIDEgMS40MjYtMS40MjZNMTAgMTZhNiA2IDAgMSAwIDAtMTJhNiA2IDAgMCAwIDAgMTJtMy01aC0ydjJhMSAxIDAgMCAxLTIgMHYtMkg3YTEgMSAwIDAgMSAwLTJoMlY3YTEgMSAwIDEgMSAyIDB2MmgyYTEgMSAwIDAgMSAwIDIiLz48L3N2Zz4=)
+  static const searchPlus =
+      '<path fill="currentColor" fill-rule="evenodd" d="m16.325 14.899l5.38 5.38a1.008 1.008 0 0 1-1.427 1.426l-5.38-5.38a8 8 0 1 1 1.426-1.426M10 16a6 6 0 1 0 0-12a6 6 0 0 0 0 12m3-5h-2v2a1 1 0 0 1-2 0v-2H7a1 1 0 0 1 0-2h2V7a1 1 0 1 1 2 0v2h2a1 1 0 0 1 0 2"/>';
+
+  /// ![preview](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjxwYXRoIGZpbGw9ImN1cnJlbnRDb2xvciIgZmlsbC1ydWxlPSJldmVub2RkIiBkPSJNMTQuODM5IDE0LjkyYTMgMyAwIDEgMS0uOCAxLjU5OWwtNC44NzMtMi40NDNhMyAzIDAgMSAxIDAtNC4xNTFsNC44NzMtMi40NDNhMyAzIDAgMSAxIC44IDEuNTk5bC00Ljg3NyAyLjQzOGEzIDMgMCAwIDEgMCAuOTYyek0xNyA4YTEgMSAwIDEgMCAwLTJhMSAxIDAgMCAwIDAgMm0wIDEwYTEgMSAwIDEgMCAwLTJhMSAxIDAgMCAwIDAgMk03IDEzYTEgMSAwIDEgMCAwLTJhMSAxIDAgMCAwIDAgMiIvPjwvc3ZnPg==)
+  static const share =
+      '<path fill="currentColor" fill-rule="evenodd" d="M14.839 14.92a3 3 0 1 1-.8 1.599l-4.873-2.443a3 3 0 1 1 0-4.151l4.873-2.443a3 3 0 1 1 .8 1.599l-4.877 2.438a3 3 0 0 1 0 .962zM17 8a1 1 0 1 0 0-2a1 1 0 0 0 0 2m0 10a1 1 0 1 0 0-2a1 1 0 0 0 0 2M7 13a1 1 0 1 0 0-2a1 1 0 0 0 0 2"/>';
+
+  /// ![preview](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjxwYXRoIGZpbGw9ImN1cnJlbnRDb2xvciIgZD0ibTYgMTYuNzY0bDYgM1Y0SDZ6TTYgMmgxMmEyIDIgMCAwIDEgMiAydjE0bC04IDRsLTgtNFY0YTIgMiAwIDAgMSAyLTIiLz48L3N2Zz4=)
+  static const shield =
+      '<path fill="currentColor" d="m6 16.764l6 3V4H6zM6 2h12a2 2 0 0 1 2 2v14l-8 4l-8-4V4a2 2 0 0 1 2-2"/>';
+
+  /// ![preview](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjxwYXRoIGZpbGw9ImN1cnJlbnRDb2xvciIgZD0iTTggOFY1YTIgMiAwIDAgMSAyLTJoNGEyIDIgMCAwIDEgMiAydjNoM2EyIDIgMCAwIDEgMiAydjlhMiAyIDAgMCAxLTIgMkg1YTIgMiAwIDAgMS0yLTJ2LTlhMiAyIDAgMCAxIDItMnptLTMgMnY5aDE0di05aC0zLjAwMnYzSDE0di0zaC00djNIOHYtM3ptNS0yaDRWNWgtNHoiLz48L3N2Zz4=)
+  static const shoppingBag =
+      '<path fill="currentColor" d="M8 8V5a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v3h3a2 2 0 0 1 2 2v9a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-9a2 2 0 0 1 2-2zm-3 2v9h14v-9h-3.002v3H14v-3h-4v3H8v-3zm5-2h4V5h-4z"/>';
+
+  /// ![preview](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjxwYXRoIGZpbGw9ImN1cnJlbnRDb2xvciIgZD0iTTE5IDE1YTIgMiAwIDAgMSAyIDJ2MmEyIDIgMCAwIDEtMiAyaC0yYTIgMiAwIDAgMS0yLTJ2LTJhMiAyIDAgMCAxIDItMnYtMkg3djJhMiAyIDAgMCAxIDIgMnYyYTIgMiAwIDAgMS0yIDJINWEyIDIgMCAwIDEtMi0ydi0yYTIgMiAwIDAgMSAyLTJ2LTJhMiAyIDAgMCAxIDItMmg0VjlhMiAyIDAgMCAxLTItMlY1YTIgMiAwIDAgMSAyLTJoMmEyIDIgMCAwIDEgMiAydjJhMiAyIDAgMCAxLTIgMnYyaDRhMiAyIDAgMCAxIDIgMnpNNSAxN3YyaDJ2LTJ6bTEyIDB2Mmgydi0yek0xMSA1djJoMlY1eiIvPjwvc3ZnPg==)
+  static const sitemap =
+      '<path fill="currentColor" d="M19 15a2 2 0 0 1 2 2v2a2 2 0 0 1-2 2h-2a2 2 0 0 1-2-2v-2a2 2 0 0 1 2-2v-2H7v2a2 2 0 0 1 2 2v2a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-2a2 2 0 0 1 2-2v-2a2 2 0 0 1 2-2h4V9a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h2a2 2 0 0 1 2 2v2a2 2 0 0 1-2 2v2h4a2 2 0 0 1 2 2zM5 17v2h2v-2zm12 0v2h2v-2zM11 5v2h2V5z"/>';
+
+  /// ![preview](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjxwYXRoIGZpbGw9ImN1cnJlbnRDb2xvciIgZmlsbC1ydWxlPSJldmVub2RkIiBkPSJNMTIgMjJDNi40NzcgMjIgMiAxNy41MjMgMiAxMlM2LjQ3NyAyIDEyIDJzMTAgNC40NzcgMTAgMTBzLTQuNDc3IDEwLTEwIDEwbTQtOWE0IDQgMCAxIDEtOCAwem0tNCA3YTggOCAwIDEgMCAwLTE2YTggOCAwIDAgMCAwIDE2bS0yLjUtOWExLjUgMS41IDAgMSAwIDAtM2ExLjUgMS41IDAgMCAwIDAgM201IDBhMS41IDEuNSAwIDEgMCAwLTNhMS41IDEuNSAwIDAgMCAwIDMiLz48L3N2Zz4=)
+  static const smile =
+      '<path fill="currentColor" fill-rule="evenodd" d="M12 22C6.477 22 2 17.523 2 12S6.477 2 12 2s10 4.477 10 10s-4.477 10-10 10m4-9a4 4 0 1 1-8 0zm-4 7a8 8 0 1 0 0-16a8 8 0 0 0 0 16m-2.5-9a1.5 1.5 0 1 0 0-3a1.5 1.5 0 0 0 0 3m5 0a1.5 1.5 0 1 0 0-3a1.5 1.5 0 0 0 0 3"/>';
+
+  /// ![preview](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjxwYXRoIGZpbGw9ImN1cnJlbnRDb2xvciIgZmlsbC1ydWxlPSJldmVub2RkIiBkPSJNMTIgMjBhOCA4IDAgMSAwIDAtMTZhOCA4IDAgMCAwIDAgMTZtMCAyQzYuNDc3IDIyIDIgMTcuNTIzIDIgMTJTNi40NzcgMiAxMiAyczEwIDQuNDc3IDEwIDEwcy00LjQ3NyAxMC0xMCAxMG0tMy05YTMgMyAwIDAgMCA2IDBoMWE0IDQgMCAxIDEtOCAwem0uNS0yYTEuNSAxLjUgMCAxIDAgMC0zYTEuNSAxLjUgMCAwIDAgMCAzbTUgMGExLjUgMS41IDAgMSAwIDAtM2ExLjUgMS41IDAgMCAwIDAgMyIvPjwvc3ZnPg==)
+  static const smileAlt =
+      '<path fill="currentColor" fill-rule="evenodd" d="M12 20a8 8 0 1 0 0-16a8 8 0 0 0 0 16m0 2C6.477 22 2 17.523 2 12S6.477 2 12 2s10 4.477 10 10s-4.477 10-10 10m-3-9a3 3 0 0 0 6 0h1a4 4 0 1 1-8 0zm.5-2a1.5 1.5 0 1 0 0-3a1.5 1.5 0 0 0 0 3m5 0a1.5 1.5 0 1 0 0-3a1.5 1.5 0 0 0 0 3"/>';
+
+  /// ![preview](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjxwYXRoIGZpbGw9ImN1cnJlbnRDb2xvciIgZmlsbC1ydWxlPSJldmVub2RkIiBkPSJNMTAgMjJhOCA4IDAgMSAxIDAtMTZhOCA4IDAgMCAxIDAgMTZtMC0yYTYgNiAwIDEgMCAwLTEyYTYgNiAwIDAgMCAwIDEybTMtNWEzIDMgMCAwIDEtNiAwem0tNS0yYTEgMSAwIDEgMCAwLTJhMSAxIDAgMCAwIDAgMm00IDBhMSAxIDAgMSAxIDAtMmExIDEgMCAwIDEgMCAybTYuNjI1LTVjLS44MjctLjE4LTMuMzc1LTEuNTktMy4zNzUtNC4xMjVhMS44NzUgMS44NzUgMCAwIDEgMy4zNzUtMS4xMjVBMS44NzUgMS44NzUgMCAwIDEgMjIgMy44NzVDMjIgNi40MSAxOS40NTIgNy44MiAxOC42MjUgOCIvPjwvc3ZnPg==)
+  static const smileHeart =
+      '<path fill="currentColor" fill-rule="evenodd" d="M10 22a8 8 0 1 1 0-16a8 8 0 0 1 0 16m0-2a6 6 0 1 0 0-12a6 6 0 0 0 0 12m3-5a3 3 0 0 1-6 0zm-5-2a1 1 0 1 0 0-2a1 1 0 0 0 0 2m4 0a1 1 0 1 1 0-2a1 1 0 0 1 0 2m6.625-5c-.827-.18-3.375-1.59-3.375-4.125a1.875 1.875 0 0 1 3.375-1.125A1.875 1.875 0 0 1 22 3.875C22 6.41 19.452 7.82 18.625 8"/>';
+
+  /// ![preview](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjxwYXRoIGZpbGw9ImN1cnJlbnRDb2xvciIgZmlsbC1ydWxlPSJldmVub2RkIiBkPSJNMTAgMjJhOCA4IDAgMSAxIDAtMTZhOCA4IDAgMCAxIDAgMTZtMC0yYTYgNiAwIDEgMCAwLTEyYTYgNiAwIDAgMCAwIDEybTMtNWEzIDMgMCAwIDEtNiAwem0tNS0yYTEgMSAwIDEgMCAwLTJhMSAxIDAgMCAwIDAgMm00IDBhMSAxIDAgMSAwIDAtMmExIDEgMCAwIDAgMCAybTgtOWgxYTEgMSAwIDAgMSAwIDJoLTF2MWExIDEgMCAwIDEtMiAwVjZoLTFhMSAxIDAgMCAxIDAtMmgxVjNhMSAxIDAgMCAxIDIgMHoiLz48L3N2Zz4=)
+  static const smilePlus =
+      '<path fill="currentColor" fill-rule="evenodd" d="M10 22a8 8 0 1 1 0-16a8 8 0 0 1 0 16m0-2a6 6 0 1 0 0-12a6 6 0 0 0 0 12m3-5a3 3 0 0 1-6 0zm-5-2a1 1 0 1 0 0-2a1 1 0 0 0 0 2m4 0a1 1 0 1 0 0-2a1 1 0 0 0 0 2m8-9h1a1 1 0 0 1 0 2h-1v1a1 1 0 0 1-2 0V6h-1a1 1 0 0 1 0-2h1V3a1 1 0 0 1 2 0z"/>';
+
+  /// ![preview](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjxwYXRoIGZpbGw9ImN1cnJlbnRDb2xvciIgZmlsbC1ydWxlPSJldmVub2RkIiBkPSJNMTggMjBhMiAyIDAgMCAxLTIgMkg4YTIgMiAwIDAgMS0yLTJWNGEyIDIgMCAwIDEgMi0yaDhhMiAyIDAgMCAxIDIgMnptLTYtOGE0IDQgMCAxIDAgMC04YTQgNCAwIDAgMCAwIDhtMCA4YTIgMiAwIDEgMCAwLTRhMiAyIDAgMCAwIDAgNG0wLTEwYTIgMiAwIDEgMCAwLTRhMiAyIDAgMCAwIDAgNCIvPjwvc3ZnPg==)
+  static const speaker =
+      '<path fill="currentColor" fill-rule="evenodd" d="M18 20a2 2 0 0 1-2 2H8a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2zm-6-8a4 4 0 1 0 0-8a4 4 0 0 0 0 8m0 8a2 2 0 1 0 0-4a2 2 0 0 0 0 4m0-10a2 2 0 1 0 0-4a2 2 0 0 0 0 4"/>';
+
+  /// ![preview](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjxwYXRoIGZpbGw9ImN1cnJlbnRDb2xvciIgZmlsbC1ydWxlPSJldmVub2RkIiBkPSJNOCAxMEw2IDhsNi02bDYgNmwtMiAydjdhMSAxIDAgMCAwIDIgMGExIDEgMCAwIDEgMiAwYTMgMyAwIDAgMS01IDIuMjM2VjIxYTEgMSAwIDAgMS0yIDB2LTJoLTJ2MmExIDEgMCAwIDEtMiAwdi0xLjc2NEEzIDMgMCAwIDEgNCAxN2ExIDEgMCAwIDEgMiAwYTEgMSAwIDAgMCAyIDB6Ii8+PC9zdmc+)
+  static const squid =
+      '<path fill="currentColor" fill-rule="evenodd" d="M8 10L6 8l6-6l6 6l-2 2v7a1 1 0 0 0 2 0a1 1 0 0 1 2 0a3 3 0 0 1-5 2.236V21a1 1 0 0 1-2 0v-2h-2v2a1 1 0 0 1-2 0v-1.764A3 3 0 0 1 4 17a1 1 0 0 1 2 0a1 1 0 0 0 2 0z"/>';
+
+  /// ![preview](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjxwYXRoIGZpbGw9ImN1cnJlbnRDb2xvciIgZD0iTTEyLjUgMTcuOTI1TDYuNjI5IDIxbDEuMTIxLTYuNTEyTDMgOS44NzVsNi41NjQtLjk1TDEyLjUgM2wyLjkzNiA1LjkyNWw2LjU2NC45NWwtNC43NSA0LjYxM0wxOC4zNzEgMjF6Ii8+PC9zdmc+)
+  static const star =
+      '<path fill="currentColor" d="M12.5 17.925L6.629 21l1.121-6.512L3 9.875l6.564-.95L12.5 3l2.936 5.925l6.564.95l-4.75 4.613L18.371 21z"/>';
+
+  /// ![preview](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjxwYXRoIGZpbGw9ImN1cnJlbnRDb2xvciIgZD0ibTkuMjgyIDE3LjM2MmwzLjIxOC0xLjY4NWwzLjIxOCAxLjY4NWwtLjYxNS0zLjU3bDIuNjA0LTIuNTI3bC0zLjU5OC0uNTJMMTIuNSA3LjQ5NmwtMS42MDkgMy4yNDdsLTMuNTk4LjUybDIuNjA0IDIuNTI5em0zLjIxOC41NjNMNi42MjkgMjFsMS4xMjEtNi41MTJMMyA5Ljg3NWw2LjU2NC0uOTVMMTIuNSAzbDIuOTM2IDUuOTI1bDYuNTY0Ljk1bC00Ljc1IDQuNjEzTDE4LjM3MSAyMXoiLz48L3N2Zz4=)
+  static const starO =
+      '<path fill="currentColor" d="m9.282 17.362l3.218-1.685l3.218 1.685l-.615-3.57l2.604-2.527l-3.598-.52L12.5 7.496l-1.609 3.247l-3.598.52l2.604 2.529zm3.218.563L6.629 21l1.121-6.512L3 9.875l6.564-.95L12.5 3l2.936 5.925l6.564.95l-4.75 4.613L18.371 21z"/>';
+
+  /// ![preview](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjxwYXRoIGZpbGw9ImN1cnJlbnRDb2xvciIgZD0iTTExIDE1VjVINGExIDEgMCAxIDEgMC0yaDE2YTEgMSAwIDAgMSAwIDJoLTd2MTBoMi4yNGMuMTUgMCAuMjk3LjA0Mi40MjEuMTJjLjM1LjIxOS40NDQuNjYzLjIxMS45OTFsLTMuMjQgNC41N2EuNy43IDAgMCAxLS4yMS4xOTlhLjc5Ljc5IDAgMCAxLTEuMDU0LS4xOThsLTMuMjQtNC41N0EuNy43IDAgMCAxIDggMTUuNzE0YzAtLjM5NS4zNC0uNzE1Ljc2LS43MTV6bTktNmExIDEgMCAwIDEgMCAyaC01Vjl6TTggOWgxdjJINGExIDEgMCAwIDEgMC0yeiIvPjwvc3ZnPg==)
+  static const stepBackward =
+      '<path fill="currentColor" d="M11 15V5H4a1 1 0 1 1 0-2h16a1 1 0 0 1 0 2h-7v10h2.24c.15 0 .297.042.421.12c.35.219.444.663.211.991l-3.24 4.57a.7.7 0 0 1-.21.199a.79.79 0 0 1-1.054-.198l-3.24-4.57A.7.7 0 0 1 8 15.714c0-.395.34-.715.76-.715zm9-6a1 1 0 0 1 0 2h-5V9zM8 9h1v2H4a1 1 0 0 1 0-2z"/>';
+
+  /// ![preview](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjxwYXRoIGZpbGw9ImN1cnJlbnRDb2xvciIgZD0iTTEzIDl2MTBoN2ExIDEgMCAwIDEgMCAySDRhMSAxIDAgMCAxIDAtMmg3VjlIOC43NkM4LjM0IDkgOCA4LjY4IDggOC4yODVhLjcuNyAwIDAgMSAuMTI4LS4zOTZsMy4yNC00LjU3YS43OS43OSAwIDAgMSAxLjA1NC0uMTk5YS43LjcgMCAwIDEgLjIxLjE5OGwzLjI0IDQuNTdhLjY5LjY5IDAgMCAxLS4yMS45OTJhLjguOCAwIDAgMS0uNDIyLjEyem03IDRhMSAxIDAgMCAxIDAgMmgtNXYtMnpNOCAxM2gxdjJINGExIDEgMCAwIDEgMC0yeiIvPjwvc3ZnPg==)
+  static const stepForward =
+      '<path fill="currentColor" d="M13 9v10h7a1 1 0 0 1 0 2H4a1 1 0 0 1 0-2h7V9H8.76C8.34 9 8 8.68 8 8.285a.7.7 0 0 1 .128-.396l3.24-4.57a.79.79 0 0 1 1.054-.199a.7.7 0 0 1 .21.198l3.24 4.57a.69.69 0 0 1-.21.992a.8.8 0 0 1-.422.12zm7 4a1 1 0 0 1 0 2h-5v-2zM8 13h1v2H4a1 1 0 0 1 0-2z"/>';
+
+  /// ![preview](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjxwYXRoIGZpbGw9ImN1cnJlbnRDb2xvciIgZD0iTTcgNWgxMGEyIDIgMCAwIDEgMiAydjEwYTIgMiAwIDAgMS0yIDJIN2EyIDIgMCAwIDEtMi0yVjdhMiAyIDAgMCAxIDItMiIvPjwvc3ZnPg==)
+  static const stop =
+      '<path fill="currentColor" d="M7 5h10a2 2 0 0 1 2 2v10a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V7a2 2 0 0 1 2-2"/>';
+
+  /// ![preview](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjxwYXRoIGZpbGw9ImN1cnJlbnRDb2xvciIgZmlsbC1ydWxlPSJldmVub2RkIiBkPSJNMTUgMTV2NGEyIDIgMCAwIDEtMiAySDVhMiAyIDAgMCAxLTItMnYtOGEyIDIgMCAwIDEgMi0yaDRWNWEyIDIgMCAwIDEgMi0yaDhhMiAyIDAgMCAxIDIgMnY4YTIgMiAwIDAgMS0yIDJ6bS00LTJoOFY1aC04eiIvPjwvc3ZnPg==)
+  static const subtract =
+      '<path fill="currentColor" fill-rule="evenodd" d="M15 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-8a2 2 0 0 1 2-2h4V5a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2zm-4-2h8V5h-8z"/>';
+
+  /// ![preview](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjxwYXRoIGZpbGw9ImN1cnJlbnRDb2xvciIgZD0iTTEyIDE4YTYgNiAwIDEgMSAwLTEyYTYgNiAwIDAgMSAwIDEybTAtMmE0IDQgMCAxIDAgMC04YTQgNCAwIDAgMCAwIDhNMTEgMmgydjNoLTJ6bS05IDloM3YySDJ6bTE3IDBoM3YyaC0zem0tOCA4aDJ2M2gtMnptNy42MjEtMTVsMS40MTUgMS40MTRsLTIuMTIyIDIuMTIyTDE2LjUgNi4xMnpNMTYuNSAxNy40MTRMMTcuOTE0IDE2bDIuMTIyIDIuMTIxbC0xLjQxNSAxLjQxNXpNNi4xMjEgMTZsMS40MTUgMS40MTRsLTIuMTIyIDIuMTIyTDQgMTguMTJ6TTQgNS40MTRMNS40MTQgNGwyLjEyMiAyLjEyMUw2LjEyIDcuNTM2eiIvPjwvc3ZnPg==)
+  static const sunnyO =
+      '<path fill="currentColor" d="M12 18a6 6 0 1 1 0-12a6 6 0 0 1 0 12m0-2a4 4 0 1 0 0-8a4 4 0 0 0 0 8M11 2h2v3h-2zm-9 9h3v2H2zm17 0h3v2h-3zm-8 8h2v3h-2zm7.621-15l1.415 1.414l-2.122 2.122L16.5 6.12zM16.5 17.414L17.914 16l2.122 2.121l-1.415 1.415zM6.121 16l1.415 1.414l-2.122 2.122L4 18.12zM4 5.414L5.414 4l2.122 2.121L6.12 7.536z"/>';
+
+  /// ![preview](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjxwYXRoIGZpbGw9ImN1cnJlbnRDb2xvciIgZD0iTTIxIDE1SDNhMSAxIDAgMCAxIDAtMmgxYTggOCAwIDEgMSAxNiAwaDFhMSAxIDAgMCAxIDAgMm0tMyA0SDZhMSAxIDAgMCAxIDAtMmgxMmExIDEgMCAwIDEgMCAyTTYgMTNoMTJhNiA2IDAgMSAwLTEyIDAiLz48L3N2Zz4=)
+  static const sunrise =
+      '<path fill="currentColor" d="M21 15H3a1 1 0 0 1 0-2h1a8 8 0 1 1 16 0h1a1 1 0 0 1 0 2m-3 4H6a1 1 0 0 1 0-2h12a1 1 0 0 1 0 2M6 13h12a6 6 0 1 0-12 0"/>';
+
+  /// ![preview](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjxwYXRoIGZpbGw9ImN1cnJlbnRDb2xvciIgZmlsbC1ydWxlPSJldmVub2RkIiBkPSJNNi44NzYgMTUuMTI0QTYuMDAyIDYuMDAyIDAgMCAwIDE3LjY1OCAxNGgyLjA5YTguMDAzIDguMDAzIDAgMCAxLTE0LjMxNiAyLjU2OEwzIDE5di02aDZ6bTEwLjI0OS02LjI0OUE2LjAwNCA2LjAwNCAwIDAgMCA2LjM0IDEwSDQuMjVhOC4wMDUgOC4wMDUgMCAwIDEgMTQuMzItMi41N0wyMSA1djZoLTZ6Ii8+PC9zdmc+)
+  static const sync =
+      '<path fill="currentColor" fill-rule="evenodd" d="M6.876 15.124A6.002 6.002 0 0 0 17.658 14h2.09a8.003 8.003 0 0 1-14.316 2.568L3 19v-6h6zm10.249-6.249A6.004 6.004 0 0 0 6.34 10H4.25a8.005 8.005 0 0 1 14.32-2.57L21 5v6h-6z"/>';
+
+  /// ![preview](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjxwYXRoIGZpbGw9ImN1cnJlbnRDb2xvciIgZD0iTTQgNGgxNmEyIDIgMCAwIDEgMiAydjEyYTIgMiAwIDAgMS0yIDJINGEyIDIgMCAwIDEtMi0yVjZhMiAyIDAgMCAxIDItMm05IDEwdjRoN3YtNHptLTkgMHY0aDd2LTR6bTktNnY0aDdWOHpNNCA4djRoN1Y4eiIvPjwvc3ZnPg==)
+  static const table =
+      '<path fill="currentColor" d="M4 4h16a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2m9 10v4h7v-4zm-9 0v4h7v-4zm9-6v4h7V8zM4 8v4h7V8z"/>';
+
+  /// ![preview](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjxwYXRoIGZpbGw9ImN1cnJlbnRDb2xvciIgZD0iTTYgNHYxNWgxMlY0em0wLTJoMTJhMiAyIDAgMCAxIDIgMnYxNmEyIDIgMCAwIDEtMiAySDZhMiAyIDAgMCAxLTItMlY0YTIgMiAwIDAgMSAyLTIiLz48L3N2Zz4=)
+  static const tablet =
+      '<path fill="currentColor" d="M6 4v15h12V4zm0-2h12a2 2 0 0 1 2 2v16a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2"/>';
+
+  /// ![preview](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjxwYXRoIGZpbGw9ImN1cnJlbnRDb2xvciIgZD0ibTQuOTgxIDE0Ljg4N2w0LjEzMiA0LjEzMmw5LjkwNi05LjkwNlY0Ljk4MWgtNC4xMzJ6TTEzLjQ4NiAzLjU4YTEuOTggMS45OCAwIDAgMSAxLjQtLjU4aDQuMTMzQzIwLjExMyAzIDIxIDMuODg3IDIxIDQuOTgxdjQuMTMyYzAgLjUyNi0uMjA5IDEuMDMtLjU4IDEuNDAxbC05LjkwNiA5LjkwNmExLjk4IDEuOTggMCAwIDEtMi44MDIgMEwzLjU4IDE2LjI4OGExLjk4IDEuOTggMCAwIDEgMC0yLjgwMnpNMTYgOWExIDEgMCAxIDAgMC0yYTEgMSAwIDAgMCAwIDIiLz48L3N2Zz4=)
+  static const tag =
+      '<path fill="currentColor" d="m4.981 14.887l4.132 4.132l9.906-9.906V4.981h-4.132zM13.486 3.58a1.98 1.98 0 0 1 1.4-.58h4.133C20.113 3 21 3.887 21 4.981v4.132c0 .526-.209 1.03-.58 1.401l-9.906 9.906a1.98 1.98 0 0 1-2.802 0L3.58 16.288a1.98 1.98 0 0 1 0-2.802zM16 9a1 1 0 1 0 0-2a1 1 0 0 0 0 2"/>';
+
+  /// ![preview](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjxwYXRoIGZpbGw9ImN1cnJlbnRDb2xvciIgZD0iTTE5LjkzOCAxM0E4LjAwNCA4LjAwNCAwIDAgMSAxMyAxOS45MzhWMjJoLTJ2LTIuMDYyQTguMDA0IDguMDA0IDAgMCAxIDQuMDYyIDEzSDJ2LTJoMi4wNjJBOC4wMDQgOC4wMDQgMCAwIDEgMTEgNC4wNjJWMmgydjIuMDYyQTguMDA0IDguMDA0IDAgMCAxIDE5LjkzOCAxMUgyMnYyek0xMiAxOGE2IDYgMCAxIDAgMC0xMmE2IDYgMCAwIDAgMCAxMm0wLTNhMyAzIDAgMSAwIDAtNmEzIDMgMCAwIDAgMCA2Ii8+PC9zdmc+)
+  static const target =
+      '<path fill="currentColor" d="M19.938 13A8.004 8.004 0 0 1 13 19.938V22h-2v-2.062A8.004 8.004 0 0 1 4.062 13H2v-2h2.062A8.004 8.004 0 0 1 11 4.062V2h2v2.062A8.004 8.004 0 0 1 19.938 11H22v2zM12 18a6 6 0 1 0 0-12a6 6 0 0 0 0 12m0-3a3 3 0 1 0 0-6a3 3 0 0 0 0 6"/>';
+
+  /// ![preview](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjxwYXRoIGZpbGw9ImN1cnJlbnRDb2xvciIgZD0iTTguMzE0IDUuMDU5TDkgM2g2bC42ODYgMi4wNTlBNCA0IDAgMCAxIDE5IDl2M2EyIDIgMCAwIDEgMiAydjVhMiAyIDAgMSAxLTQgMEg3YTIgMiAwIDEgMS00IDB2LTVhMiAyIDAgMCAxIDItMlY5YTQgNCAwIDAgMSAzLjMxNC0zLjk0MU05IDdhMiAyIDAgMCAwLTIgMnYzaDEwVjlhMiAyIDAgMCAwLTItMnptLTMgOWExIDEgMCAxIDAgMC0yYTEgMSAwIDAgMCAwIDJtMTIgMGExIDEgMCAxIDAgMC0yYTEgMSAwIDAgMCAwIDIiLz48L3N2Zz4=)
+  static const taxi =
+      '<path fill="currentColor" d="M8.314 5.059L9 3h6l.686 2.059A4 4 0 0 1 19 9v3a2 2 0 0 1 2 2v5a2 2 0 1 1-4 0H7a2 2 0 1 1-4 0v-5a2 2 0 0 1 2-2V9a4 4 0 0 1 3.314-3.941M9 7a2 2 0 0 0-2 2v3h10V9a2 2 0 0 0-2-2zm-3 9a1 1 0 1 0 0-2a1 1 0 0 0 0 2m12 0a1 1 0 1 0 0-2a1 1 0 0 0 0 2"/>';
+
+  /// ![preview](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjxwYXRoIGZpbGw9ImN1cnJlbnRDb2xvciIgZD0iTTQgNGgxNmEyIDIgMCAwIDEgMiAydjEyYTIgMiAwIDAgMS0yIDJINGEyIDIgMCAwIDEtMi0yVjZhMiAyIDAgMCAxIDItMm0wIDJ2MTJoMTZWNnptOCA4aDZ2MmgtNnptLTEuMDE1LTIuNDI5TDcuNDUgMTUuMTA3bC0xLjQxNC0xLjQxNWwyLjEyLTIuMTJsLTIuMTItMi4xMjJMNy40NSA4LjAzNnoiLz48L3N2Zz4=)
+  static const terminal =
+      '<path fill="currentColor" d="M4 4h16a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2m0 2v12h16V6zm8 8h6v2h-6zm-1.015-2.429L7.45 15.107l-1.414-1.415l2.12-2.12l-2.12-2.122L7.45 8.036z"/>';
+
+  /// ![preview](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjxwYXRoIGZpbGw9ImN1cnJlbnRDb2xvciIgZmlsbC1ydWxlPSJldmVub2RkIiBkPSJNMTkgN0g1YTEgMSAwIDEgMSAwLTJoMTRhMSAxIDAgMCAxIDAgMm0tMiA0SDdhMSAxIDAgMCAxIDAtMmgxMGExIDEgMCAwIDEgMCAybTIgNEg1YTEgMSAwIDAgMSAwLTJoMTRhMSAxIDAgMCAxIDAgMm0tMiA0SDdhMSAxIDAgMCAxIDAtMmgxMGExIDEgMCAwIDEgMCAyIi8+PC9zdmc+)
+  static const textAlignCenter =
+      '<path fill="currentColor" fill-rule="evenodd" d="M19 7H5a1 1 0 1 1 0-2h14a1 1 0 0 1 0 2m-2 4H7a1 1 0 0 1 0-2h10a1 1 0 0 1 0 2m2 4H5a1 1 0 0 1 0-2h14a1 1 0 0 1 0 2m-2 4H7a1 1 0 0 1 0-2h10a1 1 0 0 1 0 2"/>';
+
+  /// ![preview](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjxwYXRoIGZpbGw9ImN1cnJlbnRDb2xvciIgZmlsbC1ydWxlPSJldmVub2RkIiBkPSJNMTkgN0g1YTEgMSAwIDEgMSAwLTJoMTRhMSAxIDAgMCAxIDAgMm0wIDRINWExIDEgMCAwIDEgMC0yaDE0YTEgMSAwIDAgMSAwIDJtMCA0SDVhMSAxIDAgMCAxIDAtMmgxNGExIDEgMCAwIDEgMCAybTAgNEg1YTEgMSAwIDAgMSAwLTJoMTRhMSAxIDAgMCAxIDAgMiIvPjwvc3ZnPg==)
+  static const textAlignJustify =
+      '<path fill="currentColor" fill-rule="evenodd" d="M19 7H5a1 1 0 1 1 0-2h14a1 1 0 0 1 0 2m0 4H5a1 1 0 0 1 0-2h14a1 1 0 0 1 0 2m0 4H5a1 1 0 0 1 0-2h14a1 1 0 0 1 0 2m0 4H5a1 1 0 0 1 0-2h14a1 1 0 0 1 0 2"/>';
+
+  /// ![preview](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjxwYXRoIGZpbGw9ImN1cnJlbnRDb2xvciIgZmlsbC1ydWxlPSJldmVub2RkIiBkPSJNMTkgN0g1YTEgMSAwIDEgMSAwLTJoMTRhMSAxIDAgMCAxIDAgMm0tNCA0SDVhMSAxIDAgMCAxIDAtMmgxMGExIDEgMCAwIDEgMCAybTQgNEg1YTEgMSAwIDAgMSAwLTJoMTRhMSAxIDAgMCAxIDAgMm0tNCA0SDVhMSAxIDAgMCAxIDAtMmgxMGExIDEgMCAwIDEgMCAyIi8+PC9zdmc+)
+  static const textAlignLeft =
+      '<path fill="currentColor" fill-rule="evenodd" d="M19 7H5a1 1 0 1 1 0-2h14a1 1 0 0 1 0 2m-4 4H5a1 1 0 0 1 0-2h10a1 1 0 0 1 0 2m4 4H5a1 1 0 0 1 0-2h14a1 1 0 0 1 0 2m-4 4H5a1 1 0 0 1 0-2h10a1 1 0 0 1 0 2"/>';
+
+  /// ![preview](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjxwYXRoIGZpbGw9ImN1cnJlbnRDb2xvciIgZmlsbC1ydWxlPSJldmVub2RkIiBkPSJNMTkgN0g1YTEgMSAwIDEgMSAwLTJoMTRhMSAxIDAgMCAxIDAgMm0wIDRIOWExIDEgMCAwIDEgMC0yaDEwYTEgMSAwIDAgMSAwIDJtMCA0SDVhMSAxIDAgMCAxIDAtMmgxNGExIDEgMCAwIDEgMCAybTAgNEg5YTEgMSAwIDAgMSAwLTJoMTBhMSAxIDAgMCAxIDAgMiIvPjwvc3ZnPg==)
+  static const textAlignRight =
+      '<path fill="currentColor" fill-rule="evenodd" d="M19 7H5a1 1 0 1 1 0-2h14a1 1 0 0 1 0 2m0 4H9a1 1 0 0 1 0-2h10a1 1 0 0 1 0 2m0 4H5a1 1 0 0 1 0-2h14a1 1 0 0 1 0 2m0 4H9a1 1 0 0 1 0-2h10a1 1 0 0 1 0 2"/>';
+
+  /// ![preview](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjxwYXRoIGZpbGw9ImN1cnJlbnRDb2xvciIgZmlsbC1ydWxlPSJldmVub2RkIiBkPSJtMTMuNSAxNi40OTRsMi40MDgtNy4yMjRoMi4xODJMMjEgMTcuOTk1aC0xLjk2OGwtLjU2OS0xLjkyN2gtMi45NjZsLS42NDMgMS45MjdoLS44NTNsLjAwMi4wMDVoLTIuNzA3bC0uNzgyLTIuNjVoLTQuMDhMNS41NSAxOEgzTDcgNmgzek03IDEzaDNMOC40OTYgOXptOC45MDggMS4zNmgyLjE4MmwtMS4wOTQtMi45MDl6Ii8+PC9zdmc+)
+  static const textSize =
+      '<path fill="currentColor" fill-rule="evenodd" d="m13.5 16.494l2.408-7.224h2.182L21 17.995h-1.968l-.569-1.927h-2.966l-.643 1.927h-.853l.002.005h-2.707l-.782-2.65h-4.08L5.55 18H3L7 6h3zM7 13h3L8.496 9zm8.908 1.36h2.182l-1.094-2.909z"/>';
+
+  /// ![preview](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjxwYXRoIGZpbGw9ImN1cnJlbnRDb2xvciIgZmlsbC1ydWxlPSJldmVub2RkIiBkPSJNMiAxMFY4YTIgMiAwIDAgMSAyLTJoMTZhMiAyIDAgMCAxIDIgMnYyYTIgMiAwIDEgMCAwIDR2MmEyIDIgMCAwIDEtMiAySDRhMiAyIDAgMCAxLTItMnYtMmEyIDIgMCAxIDAgMC00bTMtMnY4aDE0Vjh6bTIgMmgxMHY0SDd6Ii8+PC9zdmc+)
+  static const ticket =
+      '<path fill="currentColor" fill-rule="evenodd" d="M2 10V8a2 2 0 0 1 2-2h16a2 2 0 0 1 2 2v2a2 2 0 1 0 0 4v2a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2v-2a2 2 0 1 0 0-4m3-2v8h14V8zm2 2h10v4H7z"/>';
+
+  /// ![preview](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjxwYXRoIGZpbGw9ImN1cnJlbnRDb2xvciIgZD0iTTYgNGgxMmEyIDIgMCAwIDEgMiAydjEyYTIgMiAwIDAgMS0yIDJINmEyIDIgMCAwIDEtMi0yVjZhMiAyIDAgMCAxIDItMm03IDl2NWg1di01em0tNyAwdjVoNXYtNXptNy03djVoNVY2ek02IDZ2NWg1VjZ6Ii8+PC9zdmc+)
+  static const tiled =
+      '<path fill="currentColor" d="M6 4h12a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2m7 9v5h5v-5zm-7 0v5h5v-5zm7-7v5h5V6zM6 6v5h5V6z"/>';
+
+  /// ![preview](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjxwYXRoIGZpbGw9ImN1cnJlbnRDb2xvciIgZmlsbC1ydWxlPSJldmVub2RkIiBkPSJNOS4xNyAxN2EzLjAwMSAzLjAwMSAwIDAgMSA1LjY2IDBIMjBsMSAxbC0xIDFoLTUuMTdhMy4wMDEgMy4wMDEgMCAwIDEtNS42NiAwSDNsMS0xbC0xLTF6TTEyIDE5YTEgMSAwIDEgMCAwLTJhMSAxIDAgMCAwIDAgMm0yLTdsLTIgMmwtMi0ySDdhMiAyIDAgMCAxLTItMlY1YTIgMiAwIDAgMSAyLTJoMTBhMiAyIDAgMCAxIDIgMnY1YTIgMiAwIDAgMS0yIDJ6TTcgNXY1aDRsMSAxbDEtMWg0VjV6Ii8+PC9zdmc+)
+  static const timeline =
+      '<path fill="currentColor" fill-rule="evenodd" d="M9.17 17a3.001 3.001 0 0 1 5.66 0H20l1 1l-1 1h-5.17a3.001 3.001 0 0 1-5.66 0H3l1-1l-1-1zM12 19a1 1 0 1 0 0-2a1 1 0 0 0 0 2m2-7l-2 2l-2-2H7a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h10a2 2 0 0 1 2 2v5a2 2 0 0 1-2 2zM7 5v5h4l1 1l1-1h4V5z"/>';
+
+  /// ![preview](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjxwYXRoIGZpbGw9ImN1cnJlbnRDb2xvciIgZD0iTTEyIDIwYTggOCAwIDEgMCAwLTE2YTggOCAwIDAgMCAwIDE2bTAgMkM2LjQ3NyAyMiAyIDE3LjUyMyAyIDEyUzYuNDc3IDIgMTIgMnMxMCA0LjQ3NyAxMCAxMHMtNC40NzcgMTAtMTAgMTBNOC4yIDEwTDcgOC44bC44LS44TDkgOS4yTDEwLjIgOGwuOC44TDkuOCAxMGwxLjIgMS4ybC0uOC44TDkgMTAuOEw3LjggMTJsLS44LS44em02IDBMMTMgOC44bC44LS44TDE1IDkuMkwxNi4yIDhsLjguOGwtMS4yIDEuMmwxLjIgMS4ybC0uOC44bC0xLjItMS4ybC0xLjIgMS4ybC0uOC0uOHpNMTIgMTdhMiAyIDAgMSAwIDAtNGEyIDIgMCAwIDAgMCA0Ii8+PC9zdmc+)
+  static const tired =
+      '<path fill="currentColor" d="M12 20a8 8 0 1 0 0-16a8 8 0 0 0 0 16m0 2C6.477 22 2 17.523 2 12S6.477 2 12 2s10 4.477 10 10s-4.477 10-10 10M8.2 10L7 8.8l.8-.8L9 9.2L10.2 8l.8.8L9.8 10l1.2 1.2l-.8.8L9 10.8L7.8 12l-.8-.8zm6 0L13 8.8l.8-.8L15 9.2L16.2 8l.8.8l-1.2 1.2l1.2 1.2l-.8.8l-1.2-1.2l-1.2 1.2l-.8-.8zM12 17a2 2 0 1 0 0-4a2 2 0 0 0 0 4"/>';
+
+  /// ![preview](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjxwYXRoIGZpbGw9ImN1cnJlbnRDb2xvciIgZmlsbC1ydWxlPSJldmVub2RkIiBkPSJNMTUgMTguOTMyYy0uOTY2LjA2OC0yLjAwMi4wNjgtMy4wNC4wNjhjLTEuMDE0IDAtMi4wMjEgMC0yLjk2LS4wNjNWMjFINnYtMWwuNzExLTEuNDIzQzUuMDkgMTguMTA2IDQgMTcuMTEgNCAxNVY3YzAtNCAzLjk1NS00IDgtNHM4IDAgOCA0djhjMCAyLjA5Mi0xLjA5NSAzLjA5LTIuNzE3IDMuNTY2TDE4IDIwdjFoLTN6TTcgMTZhMSAxIDAgMSAwIDAtMmExIDEgMCAwIDAgMCAybTEwIDBhMSAxIDAgMSAwIDAtMmExIDEgMCAwIDAgMCAyTTYgNnY2aDEyVjZ6Ii8+PC9zdmc+)
+  static const train =
+      '<path fill="currentColor" fill-rule="evenodd" d="M15 18.932c-.966.068-2.002.068-3.04.068c-1.014 0-2.021 0-2.96-.063V21H6v-1l.711-1.423C5.09 18.106 4 17.11 4 15V7c0-4 3.955-4 8-4s8 0 8 4v8c0 2.092-1.095 3.09-2.717 3.566L18 20v1h-3zM7 16a1 1 0 1 0 0-2a1 1 0 0 0 0 2m10 0a1 1 0 1 0 0-2a1 1 0 0 0 0 2M6 6v6h12V6z"/>';
+
+  /// ![preview](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjxwYXRoIGZpbGw9ImN1cnJlbnRDb2xvciIgZD0iTTQgNWgzVjRhMiAyIDAgMCAxIDItMmg2YTIgMiAwIDAgMSAyIDJ2MWgzYTEgMSAwIDAgMSAwIDJoLTF2MTNhMiAyIDAgMCAxLTIgMkg3YTIgMiAwIDAgMS0yLTJWN0g0YTEgMSAwIDEgMSAwLTJtMyAydjEzaDEwVjd6bTItMmg2VjRIOXptMCA0aDJ2OUg5em00IDBoMnY5aC0yeiIvPjwvc3ZnPg==)
+  static const trash =
+      '<path fill="currentColor" d="M4 5h3V4a2 2 0 0 1 2-2h6a2 2 0 0 1 2 2v1h3a1 1 0 0 1 0 2h-1v13a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V7H4a1 1 0 1 1 0-2m3 2v13h10V7zm2-2h6V4H9zm0 4h2v9H9zm4 0h2v9h-2z"/>';
+
+  /// ![preview](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjxwYXRoIGZpbGw9ImN1cnJlbnRDb2xvciIgZmlsbC1ydWxlPSJldmVub2RkIiBkPSJNNi4yMDcgOUg2YTIgMiAwIDEgMSAwLTRWNGEyIDIgMCAwIDEgMi0yaDhhMiAyIDAgMCAxIDIgMnYxYTIgMiAwIDEgMSAwIDRoLS4yMDdBNS41IDUuNSAwIDAgMSAxMyAxMi45NzhWMTdoMWEyIDIgMCAwIDEgMiAydjFoMWExIDEgMCAwIDEgMCAySDdhMSAxIDAgMCAxIDAtMmgxdi0xYTIgMiAwIDAgMSAyLTJoMXYtNC4wMjJBNS41IDUuNSAwIDAgMSA2LjIwNyA5TTggNHYzLjVhMy41IDMuNSAwIDAgMCAzLjUgMy41aDFBMy41IDMuNSAwIDAgMCAxNiA3LjVWNHoiLz48L3N2Zz4=)
+  static const trophy =
+      '<path fill="currentColor" fill-rule="evenodd" d="M6.207 9H6a2 2 0 1 1 0-4V4a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v1a2 2 0 1 1 0 4h-.207A5.5 5.5 0 0 1 13 12.978V17h1a2 2 0 0 1 2 2v1h1a1 1 0 0 1 0 2H7a1 1 0 0 1 0-2h1v-1a2 2 0 0 1 2-2h1v-4.022A5.5 5.5 0 0 1 6.207 9M8 4v3.5a3.5 3.5 0 0 0 3.5 3.5h1A3.5 3.5 0 0 0 16 7.5V4z"/>';
+
+  /// ![preview](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjxwYXRoIGZpbGw9ImN1cnJlbnRDb2xvciIgZmlsbC1ydWxlPSJldmVub2RkIiBkPSJNMTAgMThhMyAzIDAgMCAxLTYgMGEyIDIgMCAwIDEtMi0yVjZhMiAyIDAgMCAxIDItMmgxMS4wMDFDMTYuMTA1IDQgMTcgNC44OTUgMTcgNS45OTlMMjAgNmMyIDAgMiAyLjg5NiAyIDR2NmEyIDIgMCAwIDEtMiAyaC0xYTMgMyAwIDAgMS02IDB6TTQgNnY5aDExVjZ6bTEzIDJ2NGgzVjh6bS0xIDExYTEgMSAwIDEgMCAwLTJhMSAxIDAgMCAwIDAgMm0tOSAwYTEgMSAwIDEgMCAwLTJhMSAxIDAgMCAwIDAgMiIvPjwvc3ZnPg==)
+  static const truck =
+      '<path fill="currentColor" fill-rule="evenodd" d="M10 18a3 3 0 0 1-6 0a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2h11.001C16.105 4 17 4.895 17 5.999L20 6c2 0 2 2.896 2 4v6a2 2 0 0 1-2 2h-1a3 3 0 0 1-6 0zM4 6v9h11V6zm13 2v4h3V8zm-1 11a1 1 0 1 0 0-2a1 1 0 0 0 0 2m-9 0a1 1 0 1 0 0-2a1 1 0 0 0 0 2"/>';
+
+  /// ![preview](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjxwYXRoIGZpbGw9ImN1cnJlbnRDb2xvciIgZD0iTTcgM2gxMGEyIDIgMCAwIDEgMiAydjEwYTYgNiAwIDAgMS02IDZoLTJhNiA2IDAgMCAxLTYtNlY1YTIgMiAwIDAgMSAyLTJtMCAydjloMTBWNXoiLz48L3N2Zz4=)
+  static const tumblerGlass =
+      '<path fill="currentColor" d="M7 3h10a2 2 0 0 1 2 2v10a6 6 0 0 1-6 6h-2a6 6 0 0 1-6-6V5a2 2 0 0 1 2-2m0 2v9h10V5z"/>';
+
+  /// ![preview](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjxwYXRoIGZpbGw9ImN1cnJlbnRDb2xvciIgZD0iTTguMjgzIDIwLjI2M2M3LjU0NyAwIDExLjY3Ni02LjI1OSAxMS42NzYtMTEuNjc3cS4wMDItLjI2NC0uMDA4LS41MjhBOC40IDguNCAwIDAgMCAyMiA1LjkyOGE4LjMgOC4zIDAgMCAxLTIuMzYuNjQ5YTQuMTMgNC4xMyAwIDAgMCAxLjgwOC0yLjI3M2E4LjIgOC4yIDAgMCAxLTIuNjEuOTkzQTQuMSA0LjEgMCAwIDAgMTUuODQ3IDRhNC4xMSA0LjExIDAgMCAwLTQuMTA2IDQuMTA2YzAgLjMyLjA0LjYzMi4xMDQuOTM2YTExLjY1IDExLjY1IDAgMCAxLTguNDYtNC4yOWE0LjExNSA0LjExNSAwIDAgMCAxLjI3MyA1LjQ4MkE0LjE1IDQuMTUgMCAwIDEgMi44IDkuNzIydi4wNTZhNC4xMSA0LjExIDAgMCAwIDMuMjkgNC4wMjZhNCA0IDAgMCAxLTEuMDguMTQ0cS0uMzk3IDAtLjc3LS4wNzJhNC4xIDQuMSAwIDAgMCAzLjgzNCAyLjg1YTguMjMgOC4yMyAwIDAgMS01LjA5OCAxLjc2Yy0uMzI4IDAtLjY1Ni0uMDE2LS45NzYtLjA1NmExMS42NyAxMS42NyAwIDAgMCA2LjI4MyAxLjgzMyIvPjwvc3ZnPg==)
+  static const twitter =
+      '<path fill="currentColor" d="M8.283 20.263c7.547 0 11.676-6.259 11.676-11.677q.002-.264-.008-.528A8.4 8.4 0 0 0 22 5.928a8.3 8.3 0 0 1-2.36.649a4.13 4.13 0 0 0 1.808-2.273a8.2 8.2 0 0 1-2.61.993A4.1 4.1 0 0 0 15.847 4a4.11 4.11 0 0 0-4.106 4.106c0 .32.04.632.104.936a11.65 11.65 0 0 1-8.46-4.29a4.115 4.115 0 0 0 1.273 5.482A4.15 4.15 0 0 1 2.8 9.722v.056a4.11 4.11 0 0 0 3.29 4.026a4 4 0 0 1-1.08.144q-.397 0-.77-.072a4.1 4.1 0 0 0 3.834 2.85a8.23 8.23 0 0 1-5.098 1.76c-.328 0-.656-.016-.976-.056a11.67 11.67 0 0 0 6.283 1.833"/>';
+
+  /// ![preview](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjxwYXRoIGZpbGw9ImN1cnJlbnRDb2xvciIgZmlsbC1ydWxlPSJldmVub2RkIiBkPSJNMTMgMjBhMiAyIDAgMSAxLTItMnYtNUgzYTkgOSAwIDAgMSA4LTguOTQ1VjNhMSAxIDAgMCAxIDIgMHYxLjA1NUE5IDkgMCAwIDEgMjEgMTNoLTh6bS03LjcxLTloMTMuNDJhNy4wMDMgNy4wMDMgMCAwIDAtMTMuNDIgMCIvPjwvc3ZnPg==)
+  static const umbrella =
+      '<path fill="currentColor" fill-rule="evenodd" d="M13 20a2 2 0 1 1-2-2v-5H3a9 9 0 0 1 8-8.945V3a1 1 0 0 1 2 0v1.055A9 9 0 0 1 21 13h-8zm-7.71-9h13.42a7.003 7.003 0 0 0-13.42 0"/>';
+
+  /// ![preview](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjxwYXRoIGZpbGw9ImN1cnJlbnRDb2xvciIgZmlsbC1ydWxlPSJldmVub2RkIiBkPSJNMTcgMjFIN2ExIDEgMCAwIDEgMC0yaDEwYTEgMSAwIDAgMSAwIDJtMS0xN3Y3YTYgNiAwIDEgMS0xMiAwVjRhMSAxIDAgMSAxIDIgMHY3YzAgMi4yMSAxLjc5IDQgNCA0czQtMS43OSA0LTRWNGExIDEgMCAwIDEgMiAwIi8+PC9zdmc+)
+  static const underline =
+      '<path fill="currentColor" fill-rule="evenodd" d="M17 21H7a1 1 0 0 1 0-2h10a1 1 0 0 1 0 2m1-17v7a6 6 0 1 1-12 0V4a1 1 0 1 1 2 0v7c0 2.21 1.79 4 4 4s4-1.79 4-4V4a1 1 0 0 1 2 0"/>';
+
+  /// ![preview](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjxwYXRoIGZpbGw9ImN1cnJlbnRDb2xvciIgZmlsbC1ydWxlPSJldmVub2RkIiBkPSJNMTUgMTV2NGEyIDIgMCAwIDEtMiAySDVhMiAyIDAgMCAxLTItMnYtOGEyIDIgMCAwIDEgMi0yaDRWNWEyIDIgMCAwIDEgMi0yaDhhMiAyIDAgMCAxIDIgMnY4YTIgMiAwIDAgMS0yIDJ6bS0yLTJoNlY1aC04djZINXY4aDh6Ii8+PC9zdmc+)
+  static const union =
+      '<path fill="currentColor" fill-rule="evenodd" d="M15 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-8a2 2 0 0 1 2-2h4V5a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2zm-2-2h6V5h-8v6H5v8h8z"/>';
+
+  /// ![preview](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjxwYXRoIGZpbGw9ImN1cnJlbnRDb2xvciIgZmlsbC1ydWxlPSJldmVub2RkIiBkPSJNNyAxMFY3YTUgNSAwIDEgMSAxMCAwYzAgLjU1LS40NSAxLTEgMXMtMS0uNDUtMS0xYTMgMyAwIDAgMC02IDB2M2g5YTIgMiAwIDAgMSAyIDJ2OGEyIDIgMCAwIDEtMiAySDZhMiAyIDAgMCAxLTItMnYtOGEyIDIgMCAwIDEgMi0yem0tMSAydjhoMTJ2LTh6bTggMmgydjRoLTJ6Ii8+PC9zdmc+)
+  static const unlock =
+      '<path fill="currentColor" fill-rule="evenodd" d="M7 10V7a5 5 0 1 1 10 0c0 .55-.45 1-1 1s-1-.45-1-1a3 3 0 0 0-6 0v3h9a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2v-8a2 2 0 0 1 2-2zm-1 2v8h12v-8zm8 2h2v4h-2z"/>';
+
+  /// ![preview](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjxwYXRoIGZpbGw9ImN1cnJlbnRDb2xvciIgZmlsbC1ydWxlPSJldmVub2RkIiBkPSJNMTMgNS44MjhWMTdoLTJWNS44MjhMNy43NTcgOS4wNzFMNi4zNDMgNy42NTdMMTIgMmw1LjY1NyA1LjY1N2wtMS40MTQgMS40MTR6TTUgMTloMTRhMSAxIDAgMCAxIDAgMkg1YTEgMSAwIDAgMSAwLTIiLz48L3N2Zz4=)
+  static const upload =
+      '<path fill="currentColor" fill-rule="evenodd" d="M13 5.828V17h-2V5.828L7.757 9.071L6.343 7.657L12 2l5.657 5.657l-1.414 1.414zM5 19h14a1 1 0 0 1 0 2H5a1 1 0 0 1 0-2"/>';
+
+  /// ![preview](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjxwYXRoIGZpbGw9ImN1cnJlbnRDb2xvciIgZD0iTTEwIDR2NGg2VjR6bTQgNnY0aDJ2LTR6bS00LThoNmEyIDIgMCAwIDEgMiAydjE2YTIgMiAwIDAgMS0yIDJoLTZhMiAyIDAgMCAxLTItMlY0YTIgMiAwIDAgMSAyLTIiLz48L3N2Zz4=)
+  static const usb =
+      '<path fill="currentColor" d="M10 4v4h6V4zm4 6v4h2v-4zm-4-8h6a2 2 0 0 1 2 2v16a2 2 0 0 1-2 2h-6a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2"/>';
+
+  /// ![preview](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjxwYXRoIGZpbGw9ImN1cnJlbnRDb2xvciIgZD0iTTEyIDEyYTQgNCAwIDEgMSAwLThhNCA0IDAgMCAxIDAgOG0wIDNjMy4xODYgMCA2LjA0NS41NzEgOCAzLjA2M1YyMEg0di0xLjkzN0M1Ljk1NSAxNS41NyA4LjgxNCAxNSAxMiAxNSIvPjwvc3ZnPg==)
+  static const user =
+      '<path fill="currentColor" d="M12 12a4 4 0 1 1 0-8a4 4 0 0 1 0 8m0 3c3.186 0 6.045.571 8 3.063V20H4v-1.937C5.955 15.57 8.814 15 12 15"/>';
+
+  /// ![preview](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjxwYXRoIGZpbGw9ImN1cnJlbnRDb2xvciIgZD0iTTEyIDE1YzMuMTg2IDAgNi4wNDUuNTcxIDggMy4wNjNWMjBINHYtMS45MzdDNS45NTUgMTUuNTcgOC44MTQgMTUgMTIgMTVtMC0zYTQgNCAwIDEgMSAwLThhNCA0IDAgMCAxIDAgOG01IDJhMSAxIDAgMCAxIDAtMmg0YTEgMSAwIDAgMSAwIDJ6Ii8+PC9zdmc+)
+  static const userMinus =
+      '<path fill="currentColor" d="M12 15c3.186 0 6.045.571 8 3.063V20H4v-1.937C5.955 15.57 8.814 15 12 15m0-3a4 4 0 1 1 0-8a4 4 0 0 1 0 8m5 2a1 1 0 0 1 0-2h4a1 1 0 0 1 0 2z"/>';
+
+  /// ![preview](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjxwYXRoIGZpbGw9ImN1cnJlbnRDb2xvciIgZmlsbC1ydWxlPSJldmVub2RkIiBkPSJNMTIgMTVjMy4xODYgMCA2LjA0NS41NzEgOCAzLjA2M1YyMEg0di0xLjkzN0M1Ljk1NSAxNS41NyA4LjgxNCAxNSAxMiAxNW0wLTNhNCA0IDAgMSAxIDAtOGE0IDQgMCAwIDEgMCA4bTggMmExIDEgMCAwIDEtMiAwdi0xaC0xYTEgMSAwIDAgMSAwLTJoMXYtMWExIDEgMCAwIDEgMiAwdjFoMWExIDEgMCAwIDEgMCAyaC0xeiIvPjwvc3ZnPg==)
+  static const userPlus =
+      '<path fill="currentColor" fill-rule="evenodd" d="M12 15c3.186 0 6.045.571 8 3.063V20H4v-1.937C5.955 15.57 8.814 15 12 15m0-3a4 4 0 1 1 0-8a4 4 0 0 1 0 8m8 2a1 1 0 0 1-2 0v-1h-1a1 1 0 0 1 0-2h1v-1a1 1 0 0 1 2 0v1h1a1 1 0 0 1 0 2h-1z"/>';
+
+  /// ![preview](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjxwYXRoIGZpbGw9ImN1cnJlbnRDb2xvciIgZmlsbC1ydWxlPSJldmVub2RkIiBkPSJNOCAxM2EzIDMgMCAxIDEgMC02YTMgMyAwIDAgMSAwIDZtOCAwYTMgMyAwIDEgMSAwLTZhMyAzIDAgMCAxIDAgNm0tOCAyYTcuOTggNy45OCAwIDAgMSA2IDIuNzA4VjE5SDJ2LTEuMjkyQTcuOTggNy45OCAwIDAgMSA4IDE1bTggNHYtMi4wNDhsLS41LS41NjdhMTAgMTAgMCAwIDAtMS4yNS0xLjE5M0E4IDggMCAwIDEgMTYgMTVhNy45OCA3Ljk4IDAgMCAxIDYgMi43MDhWMTl6Ii8+PC9zdmc+)
+  static const users =
+      '<path fill="currentColor" fill-rule="evenodd" d="M8 13a3 3 0 1 1 0-6a3 3 0 0 1 0 6m8 0a3 3 0 1 1 0-6a3 3 0 0 1 0 6m-8 2a7.98 7.98 0 0 1 6 2.708V19H2v-1.292A7.98 7.98 0 0 1 8 15m8 4v-2.048l-.5-.567a10 10 0 0 0-1.25-1.193A8 8 0 0 1 16 15a7.98 7.98 0 0 1 6 2.708V19z"/>';
+
+  /// ![preview](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjxwYXRoIGZpbGw9ImN1cnJlbnRDb2xvciIgZD0iTTggMjBhMiAyIDAgMCAxLTIgMkg0YTIgMiAwIDAgMS0yLTJ2LTJhMiAyIDAgMCAxIDItMlY4YTIgMiAwIDAgMS0yLTJWNGEyIDIgMCAwIDEgMi0yaDJhMiAyIDAgMCAxIDIgMmg4YTIgMiAwIDAgMSAyLTJoMmEyIDIgMCAwIDEgMiAydjJhMiAyIDAgMCAxLTIgMnY4YTIgMiAwIDAgMSAyIDJ2MmEyIDIgMCAwIDEtMiAyaC0yYTIgMiAwIDAgMS0yLTJ6TTggNmEyIDIgMCAwIDEtMiAydjhhMiAyIDAgMCAxIDIgMmg4YTIgMiAwIDAgMSAyLTJWOGEyIDIgMCAwIDEtMi0yek00IDR2MmgyVjR6bTE0IDB2MmgyVjR6bTAgMTR2Mmgydi0yek00IDE4djJoMnYtMnoiLz48L3N2Zz4=)
+  static const vector =
+      '<path fill="currentColor" d="M8 20a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2v-2a2 2 0 0 1 2-2V8a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h2a2 2 0 0 1 2 2h8a2 2 0 0 1 2-2h2a2 2 0 0 1 2 2v2a2 2 0 0 1-2 2v8a2 2 0 0 1 2 2v2a2 2 0 0 1-2 2h-2a2 2 0 0 1-2-2zM8 6a2 2 0 0 1-2 2v8a2 2 0 0 1 2 2h8a2 2 0 0 1 2-2V8a2 2 0 0 1-2-2zM4 4v2h2V4zm14 0v2h2V4zm0 14v2h2v-2zM4 18v2h2v-2z"/>';
+
+  /// ![preview](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjxwYXRoIGZpbGw9ImN1cnJlbnRDb2xvciIgZmlsbC1ydWxlPSJldmVub2RkIiBkPSJtMTUgOS42NDlsNS42NDYtMi4xMzdBMSAxIDAgMCAxIDIyIDguNDQ4djcuMTA5YTEgMSAwIDAgMS0xLjM1MS45MzZMMTUgMTQuMzc1VjE2YTIgMiAwIDAgMS0yIDJINGEyIDIgMCAwIDEtMi0yVjhhMiAyIDAgMCAxIDItMmg5YTIgMiAwIDAgMSAyIDJ6Ii8+PC9zdmc+)
+  static const video =
+      '<path fill="currentColor" fill-rule="evenodd" d="m15 9.649l5.646-2.137A1 1 0 0 1 22 8.448v7.109a1 1 0 0 1-1.351.936L15 14.375V16a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2z"/>';
+
+  /// ![preview](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjxwYXRoIGZpbGw9ImN1cnJlbnRDb2xvciIgZD0ibTE1IDE3bC0yLTJoLTJsLTIgMkg3YTIgMiAwIDAgMS0yLTJWOWEyIDIgMCAwIDEgMi0yaDEwYTIgMiAwIDAgMSAyIDJ2NmEyIDIgMCAwIDEtMiAyem03LTNhMSAxIDAgMCAxLTIgMHYtNGExIDEgMCAwIDEgMiAwek00IDE0YTEgMSAwIDAgMS0yIDB2LTRhMSAxIDAgMSAxIDIgMHoiLz48L3N2Zz4=)
+  static const vr =
+      '<path fill="currentColor" d="m15 17l-2-2h-2l-2 2H7a2 2 0 0 1-2-2V9a2 2 0 0 1 2-2h10a2 2 0 0 1 2 2v6a2 2 0 0 1-2 2zm7-3a1 1 0 0 1-2 0v-4a1 1 0 0 1 2 0zM4 14a1 1 0 0 1-2 0v-4a1 1 0 1 1 2 0z"/>';
+
+  /// ![preview](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjxwYXRoIGZpbGw9ImN1cnJlbnRDb2xvciIgZmlsbC1ydWxlPSJldmVub2RkIiBkPSJNMjAgOWMxLjEgMCAyIC45IDIgMnYyYzAgMS4xLS45IDItMiAydjNhMiAyIDAgMCAxLTIgMkg0YTIgMiAwIDAgMS0yLTJWNmEyIDIgMCAwIDEgMi0yaDE0YTIgMiAwIDAgMSAyIDJ6bS0yIDBWNkg0djEyaDE0di0zaC0yYy0xLjEgMC0yLTEuMS0yLTJ2LTEuOTY4QzE0IDkuOSAxNC45IDkgMTYgOXptLTIgNGgydi0yaC0yeiIvPjwvc3ZnPg==)
+  static const wallet =
+      '<path fill="currentColor" fill-rule="evenodd" d="M20 9c1.1 0 2 .9 2 2v2c0 1.1-.9 2-2 2v3a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2zm-2 0V6H4v12h14v-3h-2c-1.1 0-2-1.1-2-2v-1.968C14 9.9 14.9 9 16 9zm-2 4h2v-2h-2z"/>';
+
+  /// ![preview](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjxwYXRoIGZpbGw9ImN1cnJlbnRDb2xvciIgZD0iTTEyIDIwYTggOCAwIDEgMCAwLTE2YTggOCAwIDAgMCAwIDE2bTAgMkM2LjQ3NyAyMiAyIDE3LjUyMyAyIDEyUzYuNDc3IDIgMTIgMnMxMCA0LjQ3NyAxMCAxMHMtNC40NzcgMTAtMTAgMTBtLTEtNmgydjJoLTJ6bTAtMTBoMnY4aC0yeiIvPjwvc3ZnPg==)
+  static const warning =
+      '<path fill="currentColor" d="M12 20a8 8 0 1 0 0-16a8 8 0 0 0 0 16m0 2C6.477 22 2 17.523 2 12S6.477 2 12 2s10 4.477 10 10s-4.477 10-10 10m-1-6h2v2h-2zm0-10h2v8h-2z"/>';
+
+  /// ![preview](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjxwYXRoIGZpbGw9ImN1cnJlbnRDb2xvciIgZmlsbC1ydWxlPSJldmVub2RkIiBkPSJNMTUgNi44MDNBNiA2IDAgMCAxIDE4IDEyYzAgMi4yMi0xLjIwNyA0LjE2LTMgNS4xOTdWMjBhMiAyIDAgMCAxLTIgMmgtMmEyIDIgMCAwIDEtMi0ydi0yLjgwM0E2IDYgMCAwIDEgNiAxMmMwLTIuMjIgMS4yMDctNC4xNiAzLTUuMTk3VjRhMiAyIDAgMCAxIDItMmgyYTIgMiAwIDAgMSAyIDJ6TTEyIDE2YTQgNCAwIDEgMCAwLThhNCA0IDAgMCAwIDAgOG0yLTVhMSAxIDAgMCAxIDAgMmgtMWMtMS4xIDAtMi0uOS0yLTJ2LTFhMSAxIDAgMCAxIDIgMHYxeiIvPjwvc3ZnPg==)
+  static const watch =
+      '<path fill="currentColor" fill-rule="evenodd" d="M15 6.803A6 6 0 0 1 18 12c0 2.22-1.207 4.16-3 5.197V20a2 2 0 0 1-2 2h-2a2 2 0 0 1-2-2v-2.803A6 6 0 0 1 6 12c0-2.22 1.207-4.16 3-5.197V4a2 2 0 0 1 2-2h2a2 2 0 0 1 2 2zM12 16a4 4 0 1 0 0-8a4 4 0 0 0 0 8m2-5a1 1 0 0 1 0 2h-1c-1.1 0-2-.9-2-2v-1a1 1 0 0 1 2 0v1z"/>';
+
+  /// ![preview](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjxwYXRoIGZpbGw9ImN1cnJlbnRDb2xvciIgZmlsbC1ydWxlPSJldmVub2RkIiBkPSJNMTUgNmgxYTIgMiAwIDAgMSAyIDJ2OGEyIDIgMCAwIDEtMiAyaC0xdjJhMiAyIDAgMCAxLTIgMmgtMmEyIDIgMCAwIDEtMi0ydi0ySDhhMiAyIDAgMCAxLTItMlY4YTIgMiAwIDAgMSAyLTJoMVY0YTIgMiAwIDAgMSAyLTJoMmEyIDIgMCAwIDEgMiAyek04IDh2OGg4Vjh6Ii8+PC9zdmc+)
+  static const watchAlt =
+      '<path fill="currentColor" fill-rule="evenodd" d="M15 6h1a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2h-1v2a2 2 0 0 1-2 2h-2a2 2 0 0 1-2-2v-2H8a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h1V4a2 2 0 0 1 2-2h2a2 2 0 0 1 2 2zM8 8v8h8V8z"/>';
+
+  /// ![preview](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjxwYXRoIGZpbGw9ImN1cnJlbnRDb2xvciIgZmlsbC1ydWxlPSJldmVub2RkIiBkPSJNOSAyMGgydi02YTQgNCAwIDAgMS00LTRWNGEyIDIgMCAwIDEgMi0yaDZhMiAyIDAgMCAxIDIgMnY2YTQgNCAwIDAgMS00IDR2NmgyYTEgMSAwIDAgMSAwIDJIOWExIDEgMCAwIDEgMC0yTTkgNHY2YTIgMiAwIDAgMCAyIDJoMmEyIDIgMCAwIDAgMi0yVjR6Ii8+PC9zdmc+)
+  static const wineGlass =
+      '<path fill="currentColor" fill-rule="evenodd" d="M9 20h2v-6a4 4 0 0 1-4-4V4a2 2 0 0 1 2-2h6a2 2 0 0 1 2 2v6a4 4 0 0 1-4 4v6h2a1 1 0 0 1 0 2H9a1 1 0 0 1 0-2M9 4v6a2 2 0 0 0 2 2h2a2 2 0 0 0 2-2V4z"/>';
+
+  /// ![preview](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjxwYXRoIGZpbGw9ImN1cnJlbnRDb2xvciIgZmlsbC1ydWxlPSJldmVub2RkIiBkPSJNMTIgMkM2LjQ4NiAyIDIgNi40ODYgMiAxMnM0LjQ4NiAxMCAxMCAxMHMxMC00LjQ4NiAxMC0xMFMxNy41MTQgMiAxMiAybTAgMTkuNTQyYy01LjI2MSAwLTkuNTQxLTQuMjgxLTkuNTQxLTkuNTQyUzYuNzM5IDIuNDU4IDEyIDIuNDU4czkuNTQyIDQuMjggOS41NDIgOS41NDJjMCA1LjI2LTQuMjggOS41NDItOS41NDIgOS41NDJNMy40MjIgMTJhOC41OCA4LjU4IDAgMCAwIDQuODM1IDcuNzJMNC4xNjQgOC41MUE4LjU1IDguNTUgMCAwIDAgMy40MjIgMTJtMTQuMzctLjQzMmMwLTEuMDYtLjM4Mi0xLjc5NC0uNzA4LTIuMzY2Yy0uNDM1LS43MDctLjg0My0xLjMwNS0uODQzLTIuMDEyYzAtLjc4OC41OTgtMS41MjIgMS40NC0xLjUyMnEuMDU4LjAwMS4xMTIuMDA3QTguNTUgOC41NSAwIDAgMCAxMiAzLjQyYTguNTcgOC41NyAwIDAgMC03LjE2OCAzLjg2N2MuMjAyLjAwNi4zOTIuMDEuNTUzLjAxYy44OTcgMCAyLjI4Ni0uMTA5IDIuMjg2LS4xMDljLjQ2Mi0uMDI3LjUxNy42NTIuMDU1LjcwN2MwIDAtLjQ2NS4wNTUtLjk4Mi4wODJsMy4xMjQgOS4yOTJsMS44NzctNS42M2wtMS4zMzYtMy42NjJjLS40NjItLjAyNy0uOS0uMDgyLS45LS4wODJjLS40NjItLjAyNy0uNDA4LS43MzQuMDU1LS43MDdjMCAwIDEuNDE2LjExIDIuMjU5LjExYy44OTcgMCAyLjI4Ni0uMTEgMi4yODYtLjExYy40NjMtLjAyNy41MTcuNjUyLjA1NS43MDdjMCAwLS40NjUuMDU1LS45ODIuMDgybDMuMSA5LjIyMWwuODU3LTIuODU5Yy4zNy0xLjE4Ny42NTItMi4wMzkuNjUyLTIuNzczbS01LjY0IDEuMTgzbC0yLjU3NCA3LjQ4YTguNTcgOC41NyAwIDAgMCA1LjI3Mi0uMTM3YTEgMSAwIDAgMS0uMDYyLS4xMTl6bTcuMzc3LTQuODY2cS4wNTcuNDEuMDU4Ljg4MmMwIC44Ny0uMTYzIDEuODQ5LS42NTMgMy4wNzNsLTIuNjIgNy41NzZBOC41NyA4LjU3IDAgMCAwIDIwLjU3OCAxMmE4LjU0IDguNTQgMCAwIDAtMS4wNS00LjExNiIvPjwvc3ZnPg==)
+  static const wordpress =
+      '<path fill="currentColor" fill-rule="evenodd" d="M12 2C6.486 2 2 6.486 2 12s4.486 10 10 10s10-4.486 10-10S17.514 2 12 2m0 19.542c-5.261 0-9.541-4.281-9.541-9.542S6.739 2.458 12 2.458s9.542 4.28 9.542 9.542c0 5.26-4.28 9.542-9.542 9.542M3.422 12a8.58 8.58 0 0 0 4.835 7.72L4.164 8.51A8.55 8.55 0 0 0 3.422 12m14.37-.432c0-1.06-.382-1.794-.708-2.366c-.435-.707-.843-1.305-.843-2.012c0-.788.598-1.522 1.44-1.522q.058.001.112.007A8.55 8.55 0 0 0 12 3.42a8.57 8.57 0 0 0-7.168 3.867c.202.006.392.01.553.01c.897 0 2.286-.109 2.286-.109c.462-.027.517.652.055.707c0 0-.465.055-.982.082l3.124 9.292l1.877-5.63l-1.336-3.662c-.462-.027-.9-.082-.9-.082c-.462-.027-.408-.734.055-.707c0 0 1.416.11 2.259.11c.897 0 2.286-.11 2.286-.11c.463-.027.517.652.055.707c0 0-.465.055-.982.082l3.1 9.221l.857-2.859c.37-1.187.652-2.039.652-2.773m-5.64 1.183l-2.574 7.48a8.57 8.57 0 0 0 5.272-.137a1 1 0 0 1-.062-.119zm7.377-4.866q.057.41.058.882c0 .87-.163 1.849-.653 3.073l-2.62 7.576A8.57 8.57 0 0 0 20.578 12a8.54 8.54 0 0 0-1.05-4.116"/>';
+
+  /// ![preview](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjxwYXRoIGZpbGw9ImN1cnJlbnRDb2xvciIgZmlsbC1ydWxlPSJldmVub2RkIiBkPSJNMTkuODkgNy42ODZBOC45NSA4Ljk1IDAgMCAxIDIwLjk5IDEyYTguOTkgOC45OSAwIDAgMS00LjQ3IDcuNzdsMi43NDYtNy45MzljLjUxMy0xLjI4Mi42ODQtMi4zMDguNjg0LTMuMjJxLS4wMDItLjQ5NS0uMDYtLjkyNW0tNi42NTEuMDk4Yy41NDEtLjAyOCAxLjAyOS0uMDg1IDEuMDI5LS4wODVjLjQ4NC0uMDU3LjQyNy0uNzctLjA1Ny0uNzQxYzAgMC0xLjQ1Ny4xMTQtMi4zOTcuMTE0Yy0uODgzIDAtMi4zNjgtLjExNC0yLjM2OC0uMTE0Yy0uNDg1LS4wMjgtLjU0MS43MTItLjA1Ny43NGMwIDAgLjQ1OS4wNTguOTQzLjA4NmwxLjQwMSAzLjgzOGwtMS45NjggNS45MDFsLTMuMjc0LTkuNzM5Yy41NDItLjAyOCAxLjAzLS4wODUgMS4wMy0uMDg1Yy40ODMtLjA1Ny40MjYtLjc3LS4wNTgtLjc0MWMwIDAtMS40NTYuMTE0LTIuMzk2LjExNGMtLjE3IDAtLjM2OC0uMDA0LS41OC0uMDFBOC45OCA4Ljk4IDAgMCAxIDEyIDMuMDA4YzIuMzQgMCA0LjQ3Mi44OTUgNi4wNzEgMi4zNmMtLjAzOS0uMDAyLS4wNzYtLjAwNy0uMTE2LS4wMDdjLS44ODQgMC0xLjUxLjc3LTEuNTEgMS41OTZjMCAuNzQuNDI3IDEuMzY4Ljg4MyAyLjEwOWMuMzQyLjU5OC43NDEgMS4zNjguNzQxIDIuNDhjMCAuNzY5LS4yOTYgMS42NjItLjY4NCAyLjkwNmwtLjg5NyAyLjk5NnptLTEuMjQgMTMuMjA3YTkgOSAwIDAgMS0yLjU0LS4zNjZsMi42OTktNy44MzlsMi43NjMgNy41NzFxLjAyNy4wNjcuMDY0LjEyNGE5IDkgMCAwIDEtMi45ODUuNTFNMy4wMSAxMmMwLTEuMzA0LjI4LTIuNTQxLjc3OS0zLjY2bDQuMjg4IDExLjc1MUE4Ljk5IDguOTkgMCAwIDEgMy4wMSAxMk0xMiAyQzYuNDg3IDIgMiA2LjQ4NiAyIDEyczQuNDg2IDEwIDEwIDEwczEwLTQuNDg2IDEwLTEwUzE3LjUxNCAyIDEyIDIiLz48L3N2Zz4=)
+  static const wordpressAlt =
+      '<path fill="currentColor" fill-rule="evenodd" d="M19.89 7.686A8.95 8.95 0 0 1 20.99 12a8.99 8.99 0 0 1-4.47 7.77l2.746-7.939c.513-1.282.684-2.308.684-3.22q-.002-.495-.06-.925m-6.651.098c.541-.028 1.029-.085 1.029-.085c.484-.057.427-.77-.057-.741c0 0-1.457.114-2.397.114c-.883 0-2.368-.114-2.368-.114c-.485-.028-.541.712-.057.74c0 0 .459.058.943.086l1.401 3.838l-1.968 5.901l-3.274-9.739c.542-.028 1.03-.085 1.03-.085c.483-.057.426-.77-.058-.741c0 0-1.456.114-2.396.114c-.17 0-.368-.004-.58-.01A8.98 8.98 0 0 1 12 3.008c2.34 0 4.472.895 6.071 2.36c-.039-.002-.076-.007-.116-.007c-.884 0-1.51.77-1.51 1.596c0 .74.427 1.368.883 2.109c.342.598.741 1.368.741 2.48c0 .769-.296 1.662-.684 2.906l-.897 2.996zm-1.24 13.207a9 9 0 0 1-2.54-.366l2.699-7.839l2.763 7.571q.027.067.064.124a9 9 0 0 1-2.985.51M3.01 12c0-1.304.28-2.541.779-3.66l4.288 11.751A8.99 8.99 0 0 1 3.01 12M12 2C6.487 2 2 6.486 2 12s4.486 10 10 10s10-4.486 10-10S17.514 2 12 2"/>';
+
+  /// ![preview](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjxwYXRoIGZpbGw9ImN1cnJlbnRDb2xvciIgZmlsbC1ydWxlPSJldmVub2RkIiBkPSJNMTQgMTEuNTg0VjIwYTIgMiAwIDEgMS00IDB2LTguNDE2YTUuMDAxIDUuMDAxIDAgMCAxIDIuMzkxLTkuNTY5TDEwIDZsNCAybDIuMjE1LTMuNjkxQTUgNSAwIDAgMSAxNCAxMS41ODQiLz48L3N2Zz4=)
+  static const wrench =
+      '<path fill="currentColor" fill-rule="evenodd" d="M14 11.584V20a2 2 0 1 1-4 0v-8.416a5.001 5.001 0 0 1 2.391-9.569L10 6l4 2l2.215-3.691A5 5 0 0 1 14 11.584"/>';
+
+  /// ![preview](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjxwYXRoIGZpbGw9ImN1cnJlbnRDb2xvciIgZD0iTTEzIDE3LjgzVjIxYTEgMSAwIDAgMS0yIDB2LTMuMTdhMy4wMDEgMy4wMDEgMCAwIDEtLjY1OS01LjMzQTMgMyAwIDAgMSA5IDEwYzAtMS4wNDMuNTMzLTEuOTYzIDEuMzQxLTIuNWEzIDMgMCAxIDEgMy4zMTggMEEzIDMgMCAwIDEgMTUgMTBhMyAzIDAgMCAxLTEuMzQxIDIuNUEzLjAwMSAzLjAwMSAwIDAgMSAxMyAxNy44M00xMiA2YTEgMSAwIDEgMCAwLTJhMSAxIDAgMCAwIDAgMm0wIDVhMSAxIDAgMSAwIDAtMmExIDEgMCAwIDAgMCAybTAgNWExIDEgMCAxIDAgMC0yYTEgMSAwIDAgMCAwIDIiLz48L3N2Zz4=)
+  static const yakiDango =
+      '<path fill="currentColor" d="M13 17.83V21a1 1 0 0 1-2 0v-3.17a3.001 3.001 0 0 1-.659-5.33A3 3 0 0 1 9 10c0-1.043.533-1.963 1.341-2.5a3 3 0 1 1 3.318 0A3 3 0 0 1 15 10a3 3 0 0 1-1.341 2.5A3.001 3.001 0 0 1 13 17.83M12 6a1 1 0 1 0 0-2a1 1 0 0 0 0 2m0 5a1 1 0 1 0 0-2a1 1 0 0 0 0 2m0 5a1 1 0 1 0 0-2a1 1 0 0 0 0 2"/>';
+
+  /// ![preview](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjxwYXRoIGZpbGw9ImN1cnJlbnRDb2xvciIgZmlsbC1ydWxlPSJldmVub2RkIiBkPSJNOS45MzUgMTQuNjI4di01LjYybDUuNDAzIDIuODJ6TTIxLjggOC4wMzVzLS4xOTUtMS4zNzktLjc5NS0xLjk4NmMtLjc2LS43OTYtMS42MTMtLjgtMi4wMDQtLjg0N0MxNi4yMDMgNSAxMi4wMDQgNSAxMi4wMDQgNWgtLjAwOHMtNC4xOTggMC02Ljk5Ny4yMDJjLS4zOTEuMDQ3LTEuMjQzLjA1LTIuMDA0Ljg0N2MtLjYuNjA3LS43OTUgMS45ODYtLjc5NSAxLjk4NlMyIDkuNjUzIDIgMTEuMjcydjEuNTE3YzAgMS42MTguMiAzLjIzNy4yIDMuMjM3cy4xOTUgMS4zNzguNzk1IDEuOTg1Yy43Ni43OTcgMS43Ni43NzEgMi4yMDUuODU1YzEuNi4xNTMgNi44LjIgNi44LjJzNC4yMDMtLjAwNiA3LjAwMS0uMjA4Yy4zOTEtLjA0NyAxLjI0NC0uMDUgMi4wMDQtLjg0N2MuNi0uNjA3Ljc5NS0xLjk4NS43OTUtMS45ODVzLjItMS42MTkuMi0zLjIzN3YtMS41MTdjMC0xLjYxOS0uMi0zLjIzNy0uMi0zLjIzNyIvPjwvc3ZnPg==)
+  static const youtube =
+      '<path fill="currentColor" fill-rule="evenodd" d="M9.935 14.628v-5.62l5.403 2.82zM21.8 8.035s-.195-1.379-.795-1.986c-.76-.796-1.613-.8-2.004-.847C16.203 5 12.004 5 12.004 5h-.008s-4.198 0-6.997.202c-.391.047-1.243.05-2.004.847c-.6.607-.795 1.986-.795 1.986S2 9.653 2 11.272v1.517c0 1.618.2 3.237.2 3.237s.195 1.378.795 1.985c.76.797 1.76.771 2.205.855c1.6.153 6.8.2 6.8.2s4.203-.006 7.001-.208c.391-.047 1.244-.05 2.004-.847c.6-.607.795-1.985.795-1.985s.2-1.619.2-3.237v-1.517c0-1.619-.2-3.237-.2-3.237"/>';
+}

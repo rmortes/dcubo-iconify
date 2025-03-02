@@ -1,0 +1,10 @@
+name: dcubo_iconify_fluent
+description: Iconify icons for Fluent UI System Icons.
+version: 1.1.273
+lastModified: 1740899893
+repository: https://github.com/rmortes/dcubo-iconify/
+issue_tracker: https://github.com/rmortes/dcubo-iconify/issues
+resolution: workspace
+
+environment:
+  sdk: ^3.6.0

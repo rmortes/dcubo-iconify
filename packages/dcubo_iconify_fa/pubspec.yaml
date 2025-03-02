@@ -1,0 +1,10 @@
+name: dcubo_iconify_fa
+description: Iconify icons for Font Awesome 4.
+version: 4.7.0
+lastModified: 1702311954
+repository: https://github.com/rmortes/dcubo-iconify/
+issue_tracker: https://github.com/rmortes/dcubo-iconify/issues
+resolution: workspace
+
+environment:
+  sdk: ^3.6.0

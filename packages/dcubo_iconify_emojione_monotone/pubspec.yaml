@@ -1,0 +1,10 @@
+name: dcubo_iconify_emojione_monotone
+description: Iconify icons for Emoji One (Monotone).
+version: 2.2.7
+lastModified: 1722793229
+repository: https://github.com/rmortes/dcubo-iconify/
+issue_tracker: https://github.com/rmortes/dcubo-iconify/issues
+resolution: workspace
+
+environment:
+  sdk: ^3.6.0

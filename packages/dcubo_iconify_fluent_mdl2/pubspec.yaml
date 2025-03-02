@@ -1,0 +1,10 @@
+name: dcubo_iconify_fluent_mdl2
+description: Iconify icons for Fluent UI MDL2.
+version: 0.1.0
+lastModified: 1712503060
+repository: https://github.com/rmortes/dcubo-iconify/
+issue_tracker: https://github.com/rmortes/dcubo-iconify/issues
+resolution: workspace
+
+environment:
+  sdk: ^3.6.0

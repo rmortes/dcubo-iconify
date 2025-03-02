@@ -1,0 +1,10 @@
+name: dcubo_iconify_fa6_regular
+description: Iconify icons for Font Awesome Regular.
+version: 6.7.2
+lastModified: 1732030003
+repository: https://github.com/rmortes/dcubo-iconify/
+issue_tracker: https://github.com/rmortes/dcubo-iconify/issues
+resolution: workspace
+
+environment:
+  sdk: ^3.6.0
