@@ -1,0 +1,10 @@
+name: dcubo_iconify_uis
+description: Iconify icons for Unicons Solid.
+version: 4.2.0
+lastModified: 1734422340
+repository: https://github.com/rmortes/dcubo-iconify/
+issue_tracker: https://github.com/rmortes/dcubo-iconify/issues
+resolution: workspace
+
+environment:
+  sdk: ^3.6.0

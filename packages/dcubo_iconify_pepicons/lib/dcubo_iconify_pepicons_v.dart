@@ -1,0 +1,7 @@
+/// Iconify icons for pepicons.
+library;
+
+/// Class to access the icon data for Pepicons.
+/// All icons are stored as static const strings.
+/// This class contains the icons that start with "V".
+class IconifyPepiconsIconSetV {}

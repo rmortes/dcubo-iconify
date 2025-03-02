@@ -1,0 +1,7 @@
+/// Iconify icons for academicons.
+library;
+
+/// Class to access the icon data for Academicons.
+/// All icons are stored as static const strings.
+/// This class contains the icons that start with "K".
+class IconifyAcademiconsIconSetK {}

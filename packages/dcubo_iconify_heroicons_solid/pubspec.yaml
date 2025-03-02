@@ -1,0 +1,10 @@
+name: dcubo_iconify_heroicons_solid
+description: Iconify icons for HeroIcons v1 Solid.
+version: 1.0.6
+lastModified: 1722793962
+repository: https://github.com/rmortes/dcubo-iconify/
+issue_tracker: https://github.com/rmortes/dcubo-iconify/issues
+resolution: workspace
+
+environment:
+  sdk: ^3.6.0

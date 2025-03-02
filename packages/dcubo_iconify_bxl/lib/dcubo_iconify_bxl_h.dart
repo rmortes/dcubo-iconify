@@ -1,0 +1,15 @@
+/// Iconify icons for bxl.
+library;
+
+/// Class to access the icon data for BoxIcons Logo.
+/// All icons are stored as static const strings.
+/// This class contains the icons that start with "H".
+class IconifyBoxIconsLogoIconSetH {
+  /// ![preview](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjxwYXRoIGZpbGw9ImN1cnJlbnRDb2xvciIgZD0iTTE5LjE3IDJINC44M0ExLjc5IDEuNzkgMCAwIDAgMyAzLjh2MTYuNEExLjc5IDEuNzkgMCAwIDAgNC44MyAyMmgxNC4zNEExLjggMS44IDAgMCAwIDIxIDIwLjJWMy44QTEuOCAxLjggMCAwIDAgMTkuMTcgMk0yMCAyMC4yYS44LjggMCAwIDEtLjgxLjhINC44M2EuNzkuNzkgMCAwIDEtLjgtLjhWMy44YS43OS43OSAwIDAgMSAuOC0uOGgxNC4zNGEuOC44IDAgMCAxIC44MS44eiIvPjxwYXRoIGZpbGw9ImN1cnJlbnRDb2xvciIgZD0ibTcuNTMgMTlsMi4yNS0ybC0yLjI1LTJ6bTUuNjktOWExMiAxMiAwIDAgMC0zLjc1LjdWNWgtMnY4LjY1TDguODggMTNhMTIuMyAxMi4zIDAgMCAxIDQuMjktMWMxIDAgMS4yNS41NSAxLjI1IDEuMDV2NmgyVjEzYTIuNjggMi42OCAwIDAgMC0uOC0yLjFhMy4yNyAzLjI3IDAgMCAwLTIuNC0uOU0xMyA4LjI1aDJBNS45IDUuOSAwIDAgMCAxNi40NyA1aC0yQTcuMiA3LjIgMCAwIDEgMTMgOC4yNSIvPjwvc3ZnPg==)
+  static const heroku =
+      '<path fill="currentColor" d="M19.17 2H4.83A1.79 1.79 0 0 0 3 3.8v16.4A1.79 1.79 0 0 0 4.83 22h14.34A1.8 1.8 0 0 0 21 20.2V3.8A1.8 1.8 0 0 0 19.17 2M20 20.2a.8.8 0 0 1-.81.8H4.83a.79.79 0 0 1-.8-.8V3.8a.79.79 0 0 1 .8-.8h14.34a.8.8 0 0 1 .81.8z"/><path fill="currentColor" d="m7.53 19l2.25-2l-2.25-2zm5.69-9a12 12 0 0 0-3.75.7V5h-2v8.65L8.88 13a12.3 12.3 0 0 1 4.29-1c1 0 1.25.55 1.25 1.05v6h2V13a2.68 2.68 0 0 0-.8-2.1a3.27 3.27 0 0 0-2.4-.9M13 8.25h2A5.9 5.9 0 0 0 16.47 5h-2A7.2 7.2 0 0 1 13 8.25"/>';
+
+  /// ![preview](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjxwYXRoIGZpbGw9ImN1cnJlbnRDb2xvciIgZD0iTTQuMTM2IDMuMDEyaDE1LjcyOWwtMS40MzEgMTYuMTVsLTYuNDUxIDEuODI2bC02LjQxNC0xLjgyNnptNS4yNjYgNy4zMDJsLS4xNzMtMi4wMzVsNy41MzMuMDAybC4xNzMtMS45NjNsLTkuODctLjAwMmwuNTIyIDUuOTk4aDYuODM1bC0uMjQzIDIuNTY2bC0yLjE3OS42MDJsLTIuMjE0LS42MDVsLS4xNDEtMS41OEg3LjY5MWwuMjQ3IDMuMTIzTDEyIDE3LjUwNmw0LjAyOC0xLjA4bC41NTgtNi4xMTFIOS40MDJ6Ii8+PC9zdmc+)
+  static const html5 =
+      '<path fill="currentColor" d="M4.136 3.012h15.729l-1.431 16.15l-6.451 1.826l-6.414-1.826zm5.266 7.302l-.173-2.035l7.533.002l.173-1.963l-9.87-.002l.522 5.998h6.835l-.243 2.566l-2.179.602l-2.214-.605l-.141-1.58H7.691l.247 3.123L12 17.506l4.028-1.08l.558-6.111H9.402z"/>';
+}

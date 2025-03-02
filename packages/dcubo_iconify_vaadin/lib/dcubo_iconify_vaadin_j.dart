@@ -1,0 +1,7 @@
+/// Iconify icons for vaadin.
+library;
+
+/// Class to access the icon data for Vaadin Icons.
+/// All icons are stored as static const strings.
+/// This class contains the icons that start with "J".
+class IconifyVaadinIconsIconSetJ {}

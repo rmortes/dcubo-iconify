@@ -1,0 +1,23 @@
+/// Iconify icons for heroicons-outline.
+library;
+
+/// Class to access the icon data for HeroIcons v1 Outline.
+/// All icons are stored as static const strings.
+/// This class contains the icons that start with "Q".
+class IconifyHeroIconsv1OutlineIconSetQ {
+  /// ![preview](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjxnIGZpbGw9Im5vbmUiIHN0cm9rZT0iY3VycmVudENvbG9yIiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiIHN0cm9rZS13aWR0aD0iMS41Ij48cGF0aCBkPSJNMy43NSA0Ljg3NWMwLS42MjEuNTA0LTEuMTI1IDEuMTI1LTEuMTI1aDQuNWMuNjIxIDAgMS4xMjUuNTA0IDEuMTI1IDEuMTI1djQuNWMwIC42MjEtLjUwNCAxLjEyNS0xLjEyNSAxLjEyNWgtNC41QTEuMTI1IDEuMTI1IDAgMCAxIDMuNzUgOS4zNzV2LTQuNVptMCA5Ljc1YzAtLjYyMS41MDQtMS4xMjUgMS4xMjUtMS4xMjVoNC41Yy42MjEgMCAxLjEyNS41MDQgMS4xMjUgMS4xMjV2NC41YzAgLjYyMS0uNTA0IDEuMTI1LTEuMTI1IDEuMTI1aC00LjVhMS4xMjUgMS4xMjUgMCAwIDEtMS4xMjUtMS4xMjV2LTQuNVptOS43NS05Ljc1YzAtLjYyMS41MDQtMS4xMjUgMS4xMjUtMS4xMjVoNC41Yy42MjEgMCAxLjEyNS41MDQgMS4xMjUgMS4xMjV2NC41YzAgLjYyMS0uNTA0IDEuMTI1LTEuMTI1IDEuMTI1aC00LjVBMS4xMjUgMS4xMjUgMCAwIDEgMTMuNSA5LjM3NXYtNC41WiIvPjxwYXRoIGQ9Ik02Ljc1IDYuNzVoLjc1di43NWgtLjc1di0uNzVabTAgOS43NWguNzV2Ljc1aC0uNzV2LS43NVptOS43NS05Ljc1aC43NXYuNzVoLS43NXYtLjc1Wm0tMyA2Ljc1aC43NXYuNzVoLS43NXYtLjc1Wm0wIDZoLjc1di43NWgtLjc1di0uNzVabTYtNmguNzV2Ljc1aC0uNzV2LS43NVptMCA2aC43NXYuNzVoLS43NXYtLjc1Wm0tMy0zaC43NXYuNzVoLS43NXYtLjc1WiIvPjwvZz48L3N2Zz4=)
+  static const qrCode =
+      '<g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"><path d="M3.75 4.875c0-.621.504-1.125 1.125-1.125h4.5c.621 0 1.125.504 1.125 1.125v4.5c0 .621-.504 1.125-1.125 1.125h-4.5A1.125 1.125 0 0 1 3.75 9.375v-4.5Zm0 9.75c0-.621.504-1.125 1.125-1.125h4.5c.621 0 1.125.504 1.125 1.125v4.5c0 .621-.504 1.125-1.125 1.125h-4.5a1.125 1.125 0 0 1-1.125-1.125v-4.5Zm9.75-9.75c0-.621.504-1.125 1.125-1.125h4.5c.621 0 1.125.504 1.125 1.125v4.5c0 .621-.504 1.125-1.125 1.125h-4.5A1.125 1.125 0 0 1 13.5 9.375v-4.5Z"/><path d="M6.75 6.75h.75v.75h-.75v-.75Zm0 9.75h.75v.75h-.75v-.75Zm9.75-9.75h.75v.75h-.75v-.75Zm-3 6.75h.75v.75h-.75v-.75Zm0 6h.75v.75h-.75v-.75Zm6-6h.75v.75h-.75v-.75Zm0 6h.75v.75h-.75v-.75Zm-3-3h.75v.75h-.75v-.75Z"/></g>';
+
+  /// ![preview](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjxwYXRoIGZpbGw9Im5vbmUiIHN0cm9rZT0iY3VycmVudENvbG9yIiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiIHN0cm9rZS13aWR0aD0iMiIgZD0iTTEyIDR2MW02IDExaDJtLTYgMGgtMnY0bTAtMTF2M20wIDBoLjAxTTEyIDEyaDQuMDFNMTYgMjBoNE00IDEyaDRtMTIgMGguMDFNNSA4aDJhMSAxIDAgMCAwIDEtMVY1YTEgMSAwIDAgMC0xLTFINWExIDEgMCAwIDAtMSAxdjJhMSAxIDAgMCAwIDEgMW0xMiAwaDJhMSAxIDAgMCAwIDEtMVY1YTEgMSAwIDAgMC0xLTFoLTJhMSAxIDAgMCAwLTEgMXYyYTEgMSAwIDAgMCAxIDFNNSAyMGgyYTEgMSAwIDAgMCAxLTF2LTJhMSAxIDAgMCAwLTEtMUg1YTEgMSAwIDAgMC0xIDF2MmExIDEgMCAwIDAgMSAxIi8+PC9zdmc+)
+  static const qrcode =
+      '<path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 4v1m6 11h2m-6 0h-2v4m0-11v3m0 0h.01M12 12h4.01M16 20h4M4 12h4m12 0h.01M5 8h2a1 1 0 0 0 1-1V5a1 1 0 0 0-1-1H5a1 1 0 0 0-1 1v2a1 1 0 0 0 1 1m12 0h2a1 1 0 0 0 1-1V5a1 1 0 0 0-1-1h-2a1 1 0 0 0-1 1v2a1 1 0 0 0 1 1M5 20h2a1 1 0 0 0 1-1v-2a1 1 0 0 0-1-1H5a1 1 0 0 0-1 1v2a1 1 0 0 0 1 1"/>';
+
+  /// ![preview](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjxwYXRoIGZpbGw9Im5vbmUiIHN0cm9rZT0iY3VycmVudENvbG9yIiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiIHN0cm9rZS13aWR0aD0iMiIgZD0iTTguMjI4IDljLjU0OS0xLjE2NSAyLjAzLTIgMy43NzItMmMyLjIxIDAgNCAxLjM0MyA0IDNjMCAxLjQtMS4yNzggMi41NzUtMy4wMDYgMi45MDdjLS41NDIuMTA0LS45OTQuNTQtLjk5NCAxLjA5M20wIDNoLjAxTTIxIDEyYTkgOSAwIDEgMS0xOCAwYTkgOSAwIDAgMSAxOCAwIi8+PC9zdmc+)
+  static const questionMarkCircle =
+      '<path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8.228 9c.549-1.165 2.03-2 3.772-2c2.21 0 4 1.343 4 3c0 1.4-1.278 2.575-3.006 2.907c-.542.104-.994.54-.994 1.093m0 3h.01M21 12a9 9 0 1 1-18 0a9 9 0 0 1 18 0"/>';
+
+  /// ![preview](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjxwYXRoIGZpbGw9Im5vbmUiIHN0cm9rZT0iY3VycmVudENvbG9yIiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiIHN0cm9rZS13aWR0aD0iMS41IiBkPSJNMy43NSAxMmgxNi41bS0xNi41IDMuNzVoMTYuNU0zLjc1IDE5LjVoMTYuNU01LjYyNSA0LjVoMTIuNzVhMS44NzUgMS44NzUgMCAwIDEgMCAzLjc1SDUuNjI1YTEuODc1IDEuODc1IDAgMCAxIDAtMy43NVoiLz48L3N2Zz4=)
+  static const queueList =
+      '<path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M3.75 12h16.5m-16.5 3.75h16.5M3.75 19.5h16.5M5.625 4.5h12.75a1.875 1.875 0 0 1 0 3.75H5.625a1.875 1.875 0 0 1 0-3.75Z"/>';
+}

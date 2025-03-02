@@ -1,0 +1,10 @@
+name: dcubo_iconify_simple_icons
+description: Iconify icons for Simple Icons.
+version: 14.9.0
+lastModified: 1740900220
+repository: https://github.com/rmortes/dcubo-iconify/
+issue_tracker: https://github.com/rmortes/dcubo-iconify/issues
+resolution: workspace
+
+environment:
+  sdk: ^3.6.0

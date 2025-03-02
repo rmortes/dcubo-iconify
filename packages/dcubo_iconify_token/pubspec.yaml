@@ -1,0 +1,10 @@
+name: dcubo_iconify_token
+description: Iconify icons for Web3 Icons.
+version: 4.0.10
+lastModified: 1740378041
+repository: https://github.com/rmortes/dcubo-iconify/
+issue_tracker: https://github.com/rmortes/dcubo-iconify/issues
+resolution: workspace
+
+environment:
+  sdk: ^3.6.0

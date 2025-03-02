@@ -1,0 +1,23 @@
+/// Iconify icons for icon-park-twotone.
+library;
+
+/// Class to access the icon data for IconPark TwoTone.
+/// All icons are stored as static const strings.
+/// This class contains the icons that start with "J".
+class IconifyIconParkTwoToneIconSetJ {
+  /// ![preview](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjxkZWZzPjxtYXNrIGlkPSJpcFRKZXdlbHJ5MCI+PGcgZmlsbD0ibm9uZSIgc3Ryb2tlPSIjZmZmIiBzdHJva2Utd2lkdGg9IjQiPjxjaXJjbGUgY3g9IjI0IiBjeT0iMjQiIHI9IjIwIiBmaWxsPSIjNTU1Ii8+PHBhdGggZmlsbD0iIzU1NSIgZD0iTTIwIDI0YzAtNi4zNjQgMi42MjgtOC42NDYgNC05YzEuMjIuMTc3IDQgMi4yMTIgNCA5cy0yLjc4IDktNCA5Yy0xLjM3Mi0uMTc3LTQtMi42MzYtNC05WiIvPjxwYXRoIGQ9Ik0yMCAyM2MtMS41NTQtMS41MzgtNi4zODItMS4xNi04LTFjLS40ODUgMS43NjIuMzUyIDUuNDkyIDIuMjkzIDcuNDE0QzE2LjcyIDMxLjgxNyAxOC42NjEgMzMgMjQgMzNtNC0xMGMxLjQzNi0xLjUzMyA1LjUwNC0xLjE2IDctMWMuMyAxLjU5Ny4xNCA1LjE4OC0yLjM3MiA3Ljg3QzMwLjExNSAzMi41NTUgMjUuNSAzMyAyNCAzMyIvPjwvZz48L21hc2s+PC9kZWZzPjxwYXRoIGZpbGw9ImN1cnJlbnRDb2xvciIgZD0iTTAgMGg0OHY0OEgweiIgbWFzaz0idXJsKCNpcFRKZXdlbHJ5MCkiLz48L3N2Zz4=)
+  static const jewelry =
+      '<defs><mask id="ipTJewelry0"><g fill="none" stroke="#fff" stroke-width="4"><circle cx="24" cy="24" r="20" fill="#555"/><path fill="#555" d="M20 24c0-6.364 2.628-8.646 4-9c1.22.177 4 2.212 4 9s-2.78 9-4 9c-1.372-.177-4-2.636-4-9Z"/><path d="M20 23c-1.554-1.538-6.382-1.16-8-1c-.485 1.762.352 5.492 2.293 7.414C16.72 31.817 18.661 33 24 33m4-10c1.436-1.533 5.504-1.16 7-1c.3 1.597.14 5.188-2.372 7.87C30.115 32.555 25.5 33 24 33"/></g></mask></defs><path fill="currentColor" d="M0 0h48v48H0z" mask="url(#ipTJewelry0)"/>';
+
+  /// ![preview](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjxkZWZzPjxtYXNrIGlkPSJpcFRKb3lzdGljazAiPjxnIGZpbGw9Im5vbmUiIHN0cm9rZT0iI2ZmZiIgc3Ryb2tlLWxpbmVqb2luPSJyb3VuZCIgc3Ryb2tlLXdpZHRoPSI0Ij48cGF0aCBmaWxsPSIjNTU1IiBkPSJNNDQgMzNINHYxMGg0MHoiLz48cGF0aCBzdHJva2UtbGluZWNhcD0icm91bmQiIGQ9Ik0zOCAyNkgyNnY3aDEyeiIvPjxwYXRoIGZpbGw9IiM1NTUiIGQ9Ik0xOCAxNGE1IDUgMCAxIDAgMC0xMGE1IDUgMCAwIDAgMCAxMFoiLz48cGF0aCBzdHJva2UtbGluZWNhcD0icm91bmQiIGQ9Ik0xNiAxNEw5IDMzIi8+PC9nPjwvbWFzaz48L2RlZnM+PHBhdGggZmlsbD0iY3VycmVudENvbG9yIiBkPSJNMCAwaDQ4djQ4SDB6IiBtYXNrPSJ1cmwoI2lwVEpveXN0aWNrMCkiLz48L3N2Zz4=)
+  static const joystick =
+      '<defs><mask id="ipTJoystick0"><g fill="none" stroke="#fff" stroke-linejoin="round" stroke-width="4"><path fill="#555" d="M44 33H4v10h40z"/><path stroke-linecap="round" d="M38 26H26v7h12z"/><path fill="#555" d="M18 14a5 5 0 1 0 0-10a5 5 0 0 0 0 10Z"/><path stroke-linecap="round" d="M16 14L9 33"/></g></mask></defs><path fill="currentColor" d="M0 0h48v48H0z" mask="url(#ipTJoystick0)"/>';
+
+  /// ![preview](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjxkZWZzPjxtYXNrIGlkPSJpcFRKdWljZTAiPjxnIGZpbGw9Im5vbmUiIHN0cm9rZT0iI2ZmZiIgc3Ryb2tlLXdpZHRoPSI0Ij48cGF0aCBmaWxsPSIjNTU1IiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiIGQ9Ik0xNSAyNGgxOGwtMS44IDIwSDE2Ljh6Ii8+PHJlY3Qgd2lkdGg9IjI2IiBoZWlnaHQ9IjYiIHg9IjExIiB5PSIxOCIgcng9IjMiLz48cGF0aCBmaWxsPSIjNTU1IiBkPSJNMjQgOGMtNS41MjMgMC0xMCA0LjQ3Ny0xMCAxMGgyMGMwLTUuNTIzLTQuNDc3LTEwLTEwLTEwWiIvPjxwYXRoIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIgZD0ibTI4IDRsLTIgNCIvPjwvZz48L21hc2s+PC9kZWZzPjxwYXRoIGZpbGw9ImN1cnJlbnRDb2xvciIgZD0iTTAgMGg0OHY0OEgweiIgbWFzaz0idXJsKCNpcFRKdWljZTApIi8+PC9zdmc+)
+  static const juice =
+      '<defs><mask id="ipTJuice0"><g fill="none" stroke="#fff" stroke-width="4"><path fill="#555" stroke-linecap="round" stroke-linejoin="round" d="M15 24h18l-1.8 20H16.8z"/><rect width="26" height="6" x="11" y="18" rx="3"/><path fill="#555" d="M24 8c-5.523 0-10 4.477-10 10h20c0-5.523-4.477-10-10-10Z"/><path stroke-linecap="round" d="m28 4l-2 4"/></g></mask></defs><path fill="currentColor" d="M0 0h48v48H0z" mask="url(#ipTJuice0)"/>';
+
+  /// ![preview](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjxkZWZzPjxtYXNrIGlkPSJpcFRKdW1wMCI+PGcgZmlsbD0ibm9uZSIgc3Ryb2tlPSIjZmZmIiBzdHJva2Utd2lkdGg9IjQiPjxwYXRoIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIgc3Ryb2tlLWxpbmVqb2luPSJyb3VuZCIgZD0ibTggMTBsMTIgMTAuMjU0djkuNzE0TDEwLjg1NyA0NE00MCAxMEwyOCAyMC4yNTR2OS43MTRMMzcuMTQzIDQ0Ii8+PGNpcmNsZSBjeD0iMjQiIGN5PSI4IiByPSI0IiBmaWxsPSIjNTU1Ii8+PC9nPjwvbWFzaz48L2RlZnM+PHBhdGggZmlsbD0iY3VycmVudENvbG9yIiBkPSJNMCAwaDQ4djQ4SDB6IiBtYXNrPSJ1cmwoI2lwVEp1bXAwKSIvPjwvc3ZnPg==)
+  static const jump =
+      '<defs><mask id="ipTJump0"><g fill="none" stroke="#fff" stroke-width="4"><path stroke-linecap="round" stroke-linejoin="round" d="m8 10l12 10.254v9.714L10.857 44M40 10L28 20.254v9.714L37.143 44"/><circle cx="24" cy="8" r="4" fill="#555"/></g></mask></defs><path fill="currentColor" d="M0 0h48v48H0z" mask="url(#ipTJump0)"/>';
+}

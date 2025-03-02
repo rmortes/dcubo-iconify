@@ -1,0 +1,10 @@
+name: dcubo_iconify_icon_park_twotone
+description: Iconify icons for IconPark TwoTone.
+version: 1.4.2
+lastModified: 1722794072
+repository: https://github.com/rmortes/dcubo-iconify/
+issue_tracker: https://github.com/rmortes/dcubo-iconify/issues
+resolution: workspace
+
+environment:
+  sdk: ^3.6.0

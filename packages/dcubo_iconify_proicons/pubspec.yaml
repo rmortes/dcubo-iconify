@@ -1,0 +1,10 @@
+name: dcubo_iconify_proicons
+description: Iconify icons for ProIcons.
+version: 4.12.1
+lastModified: 1739427599
+repository: https://github.com/rmortes/dcubo-iconify/
+issue_tracker: https://github.com/rmortes/dcubo-iconify/issues
+resolution: workspace
+
+environment:
+  sdk: ^3.6.0

@@ -1,0 +1,10 @@
+name: dcubo_iconify_icon_park_outline
+description: Iconify icons for IconPark Outline.
+version: 1.4.2
+lastModified: 1722794037
+repository: https://github.com/rmortes/dcubo-iconify/
+issue_tracker: https://github.com/rmortes/dcubo-iconify/issues
+resolution: workspace
+
+environment:
+  sdk: ^3.6.0

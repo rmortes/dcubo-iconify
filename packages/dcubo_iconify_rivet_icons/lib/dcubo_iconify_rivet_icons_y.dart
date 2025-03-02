@@ -1,0 +1,7 @@
+/// Iconify icons for rivet-icons.
+library;
+
+/// Class to access the icon data for Rivet Icons.
+/// All icons are stored as static const strings.
+/// This class contains the icons that start with "Y".
+class IconifyRivetIconsIconSetY {}

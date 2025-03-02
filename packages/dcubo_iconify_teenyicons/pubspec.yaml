@@ -1,0 +1,10 @@
+name: dcubo_iconify_teenyicons
+description: Iconify icons for Teenyicons.
+version: 0.4.1
+lastModified: 1722795879
+repository: https://github.com/rmortes/dcubo-iconify/
+issue_tracker: https://github.com/rmortes/dcubo-iconify/issues
+resolution: workspace
+
+environment:
+  sdk: ^3.6.0

@@ -1,0 +1,10 @@
+name: dcubo_iconify_la
+description: Iconify icons for Line Awesome.
+version: 1.2.1
+lastModified: 1722794143
+repository: https://github.com/rmortes/dcubo-iconify/
+issue_tracker: https://github.com/rmortes/dcubo-iconify/issues
+resolution: workspace
+
+environment:
+  sdk: ^3.6.0

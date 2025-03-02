@@ -1,0 +1,10 @@
+name: dcubo_iconify_vscode_icons
+description: Iconify icons for VSCode Icons.
+version: 12.11.0
+lastModified: 1740378061
+repository: https://github.com/rmortes/dcubo-iconify/
+issue_tracker: https://github.com/rmortes/dcubo-iconify/issues
+resolution: workspace
+
+environment:
+  sdk: ^3.6.0

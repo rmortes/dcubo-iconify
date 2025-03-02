@@ -1,0 +1,10 @@
+name: dcubo_iconify_ooui
+description: Iconify icons for OOUI.
+version: 0.51.6
+lastModified: 1737616369
+repository: https://github.com/rmortes/dcubo-iconify/
+issue_tracker: https://github.com/rmortes/dcubo-iconify/issues
+resolution: workspace
+
+environment:
+  sdk: ^3.6.0

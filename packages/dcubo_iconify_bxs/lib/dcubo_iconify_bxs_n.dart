@@ -1,0 +1,39 @@
+/// Iconify icons for bxs.
+library;
+
+/// Class to access the icon data for BoxIcons Solid.
+/// All icons are stored as static const strings.
+/// This class contains the icons that start with "N".
+class IconifyBoxIconsSolidIconSetN {
+  /// ![preview](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjxwYXRoIGZpbGw9ImN1cnJlbnRDb2xvciIgZD0iTTIuMDAyIDkuNTM4Yy0uMDIzLjQxMS4yMDcuNzk0LjU4MS45NjZsNy41MDQgMy40NDJsMy40NDIgNy41MDNjLjE2NC4zNTYuNTIuNTgzLjkwOS41ODNsLjA1Ny0uMDAyYTEgMSAwIDAgMCAuODk0LS42ODZsNS41OTUtMTcuMDMyYy4xMTctLjM1OC4wMjMtLjc1My0uMjQzLTEuMDJzLS42Ni0uMzU4LTEuMDItLjI0M0wyLjY4OCA4LjY0NWExIDEgMCAwIDAtLjY4Ni44OTMiLz48L3N2Zz4=)
+  static const navigation =
+      '<path fill="currentColor" d="M2.002 9.538c-.023.411.207.794.581.966l7.504 3.442l3.442 7.503c.164.356.52.583.909.583l.057-.002a1 1 0 0 0 .894-.686l5.595-17.032c.117-.358.023-.753-.243-1.02s-.66-.358-1.02-.243L2.688 8.645a1 1 0 0 0-.686.893"/>';
+
+  /// ![preview](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjxwYXRoIGZpbGw9ImN1cnJlbnRDb2xvciIgZD0iTTE5LjUgM0EyLjUgMi41IDAgMCAwIDE3IDUuNWMwIC4zNTcuMDc4LjY5Ni4yMTQgMS4wMDVsLTEuOTU1IDIuMTk5QTQgNCAwIDAgMCAxMyA4Yy0uNzQgMC0xLjQyNC4yMTYtMi4wMTkuNTY2TDguNzA3IDYuMjkzbC0uMDIzLjAyM0M4Ljg4IDUuOTE4IDkgNS40NzUgOSA1YTMgMyAwIDEgMC0zIDNjLjQ3NSAwIC45MTctLjEyIDEuMzE2LS4zMTZsLS4wMjMuMDIzTDkuNTY3IDkuOThBMy45NiAzLjk2IDAgMCAwIDkgMTJjMCAuOTk3LjM4IDEuODk5Ljk4NSAyLjYwMWwtMi41NzcgMi41NzZBMi41IDIuNSAwIDAgMCA2LjUgMTdDNS4xMjIgMTcgNCAxOC4xMjEgNCAxOS41UzUuMTIyIDIyIDYuNSAyMlM5IDIwLjg3OSA5IDE5LjVjMC0uMzIxLS4wNjYtLjYyNi0uMTc3LS45MDlsMi44MzgtMi44MzhjLjQyMS4xNS44NjcuMjQ3IDEuMzM5LjI0N2MyLjIwNiAwIDQtMS43OTQgNC00YzAtLjYzNi0uMTYzLTEuMjI5LS40MjgtMS43NjRsMi4xMTctMi4zODNjLjI1Ni4wODguNTI2LjE0Ny44MTEuMTQ3QzIwLjg3OSA4IDIyIDYuODc5IDIyIDUuNVMyMC44NzkgMyAxOS41IDNNMTMgMTRjLTEuMTAzIDAtMi0uODk3LTItMnMuODk3LTIgMi0yczIgLjg5NyAyIDJzLS44OTcgMi0yIDIiLz48L3N2Zz4=)
+  static const networkChart =
+      '<path fill="currentColor" d="M19.5 3A2.5 2.5 0 0 0 17 5.5c0 .357.078.696.214 1.005l-1.955 2.199A4 4 0 0 0 13 8c-.74 0-1.424.216-2.019.566L8.707 6.293l-.023.023C8.88 5.918 9 5.475 9 5a3 3 0 1 0-3 3c.475 0 .917-.12 1.316-.316l-.023.023L9.567 9.98A3.96 3.96 0 0 0 9 12c0 .997.38 1.899.985 2.601l-2.577 2.576A2.5 2.5 0 0 0 6.5 17C5.122 17 4 18.121 4 19.5S5.122 22 6.5 22S9 20.879 9 19.5c0-.321-.066-.626-.177-.909l2.838-2.838c.421.15.867.247 1.339.247c2.206 0 4-1.794 4-4c0-.636-.163-1.229-.428-1.764l2.117-2.383c.256.088.526.147.811.147C20.879 8 22 6.879 22 5.5S20.879 3 19.5 3M13 14c-1.103 0-2-.897-2-2s.897-2 2-2s2 .897 2 2s-.897 2-2 2"/>';
+
+  /// ![preview](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjxwYXRoIGZpbGw9ImN1cnJlbnRDb2xvciIgZD0iTTIwIDE3YTEgMSAwIDAgMS0yIDBWNWExIDEgMCAwIDAtMS0xSDNhMSAxIDAgMCAwLTEgMXYxM2EyIDIgMCAwIDAgMiAyaDE1YzEuNjU0IDAgMy0xLjM0NiAzLTNWN2gtMnpNMTIgN2gzdjJoLTN6bTAgNGgzdjJoLTN6TTUgN2g1djZINXptMCAxMHYtMmgxMHYyeiIvPjwvc3ZnPg==)
+  static const news =
+      '<path fill="currentColor" d="M20 17a1 1 0 0 1-2 0V5a1 1 0 0 0-1-1H3a1 1 0 0 0-1 1v13a2 2 0 0 0 2 2h15c1.654 0 3-1.346 3-3V7h-2zM12 7h3v2h-3zm0 4h3v2h-3zM5 7h5v6H5zm0 10v-2h10v2z"/>';
+
+  /// ![preview](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjxwYXRoIGZpbGw9ImN1cnJlbnRDb2xvciIgZD0iTTEyIDJDNi40ODYgMiAyIDYuNDg2IDIgMTJzNC40ODYgMTAgMTAgMTBzMTAtNC40ODYgMTAtMTBTMTcuNTE0IDIgMTIgMm01IDEySDd2LTRoMTB6Ii8+PC9zdmc+)
+  static const noEntry =
+      '<path fill="currentColor" d="M12 2C6.486 2 2 6.486 2 12s4.486 10 10 10s10-4.486 10-10S17.514 2 12 2m5 12H7v-4h10z"/>';
+
+  /// ![preview](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjxwYXRoIGZpbGw9ImN1cnJlbnRDb2xvciIgZD0iTTE5IDNINWEyIDIgMCAwIDAtMiAydjE0YTIgMiAwIDAgMCAyIDJoOGw4LThWNWEyIDIgMCAwIDAtMi0ybS03IDE2di03aDd6Ii8+PC9zdmc+)
+  static const note =
+      '<path fill="currentColor" d="M19 3H5a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h8l8-8V5a2 2 0 0 0-2-2m-7 16v-7h7z"/>';
+
+  /// ![preview](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjxwYXRoIGZpbGw9ImN1cnJlbnRDb2xvciIgZD0iTTE5IDRoLTNWMmgtMnYyaC00VjJIOHYySDVjLTEuMTAzIDAtMiAuODk3LTIgMnYxNGMwIDEuMTAzLjg5NyAyIDIgMmgxNGMxLjEwMyAwIDItLjg5NyAyLTJWNmMwLTEuMTAzLS44OTctMi0yLTJtLTcgMTBIN3YtMmg1em01LTRIN1Y4aDEweiIvPjwvc3ZnPg==)
+  static const notepad =
+      '<path fill="currentColor" d="M19 4h-3V2h-2v2h-4V2H8v2H5c-1.103 0-2 .897-2 2v14c0 1.103.897 2 2 2h14c1.103 0 2-.897 2-2V6c0-1.103-.897-2-2-2m-7 10H7v-2h5zm5-4H7V8h10z"/>';
+
+  /// ![preview](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjxjaXJjbGUgY3g9IjE4IiBjeT0iNiIgcj0iMyIgZmlsbD0iY3VycmVudENvbG9yIi8+PHBhdGggZmlsbD0iY3VycmVudENvbG9yIiBkPSJNMTMgNmMwLS43MTIuMTUzLTEuMzg3LjQyMi0ySDZjLTEuMTAzIDAtMiAuODk3LTIgMnYxMmMwIDEuMTAzLjg5NyAyIDIgMmgxMmMxLjEwMyAwIDItLjg5NyAyLTJ2LTcuNDIyQTUgNSAwIDAgMSAxOCAxMWE1IDUgMCAwIDEtNS01Ii8+PC9zdmc+)
+  static const notification =
+      '<circle cx="18" cy="6" r="3" fill="currentColor"/><path fill="currentColor" d="M13 6c0-.712.153-1.387.422-2H6c-1.103 0-2 .897-2 2v12c0 1.103.897 2 2 2h12c1.103 0 2-.897 2-2v-7.422A5 5 0 0 1 18 11a5 5 0 0 1-5-5"/>';
+
+  /// ![preview](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjxjaXJjbGUgY3g9IjE4IiBjeT0iNiIgcj0iMyIgZmlsbD0iY3VycmVudENvbG9yIi8+PHBhdGggZmlsbD0iY3VycmVudENvbG9yIiBkPSJNMjAgMTh2LTcuNDIyQTUgNSAwIDAgMSAxOCAxMWE1IDUgMCAwIDEtNS01YzAtLjcxMi4xNTMtMS4zODcuNDIyLTJINmMtLjE3OCAwLS4zNDcuMDMxLS41MS4wNzZMMy43MDcgMi4yOTNMMi4yOTMgMy43MDdsMTggMThsMS40MTQtMS40MTRsLTEuNzgzLTEuNzgzYy4wNDUtLjE2My4wNzYtLjMzMi4wNzYtLjUxTTQgMThjMCAxLjEwMy44OTcgMiAyIDJoOS44NzlMNCA4LjEyMXoiLz48L3N2Zz4=)
+  static const notificationOff =
+      '<circle cx="18" cy="6" r="3" fill="currentColor"/><path fill="currentColor" d="M20 18v-7.422A5 5 0 0 1 18 11a5 5 0 0 1-5-5c0-.712.153-1.387.422-2H6c-.178 0-.347.031-.51.076L3.707 2.293L2.293 3.707l18 18l1.414-1.414l-1.783-1.783c.045-.163.076-.332.076-.51M4 18c0 1.103.897 2 2 2h9.879L4 8.121z"/>';
+}

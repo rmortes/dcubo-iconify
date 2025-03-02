@@ -1,0 +1,10 @@
+name: dcubo_iconify_map
+description: Iconify icons for Map Icons.
+version: 3.0.2
+lastModified: 1722794702
+repository: https://github.com/rmortes/dcubo-iconify/
+issue_tracker: https://github.com/rmortes/dcubo-iconify/issues
+resolution: workspace
+
+environment:
+  sdk: ^3.6.0

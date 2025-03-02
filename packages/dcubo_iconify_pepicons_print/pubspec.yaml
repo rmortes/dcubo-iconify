@@ -1,0 +1,10 @@
+name: dcubo_iconify_pepicons_print
+description: Iconify icons for Pepicons Print.
+version: 3.1.1
+lastModified: 1722795444
+repository: https://github.com/rmortes/dcubo-iconify/
+issue_tracker: https://github.com/rmortes/dcubo-iconify/issues
+resolution: workspace
+
+environment:
+  sdk: ^3.6.0

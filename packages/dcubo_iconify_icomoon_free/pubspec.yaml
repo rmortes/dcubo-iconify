@@ -1,0 +1,10 @@
+name: dcubo_iconify_icomoon_free
+description: Iconify icons for IcoMoon Free.
+version: 0.1.0
+lastModified: 1722794021
+repository: https://github.com/rmortes/dcubo-iconify/
+issue_tracker: https://github.com/rmortes/dcubo-iconify/issues
+resolution: workspace
+
+environment:
+  sdk: ^3.6.0

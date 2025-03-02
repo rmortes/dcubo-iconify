@@ -1,0 +1,10 @@
+name: dcubo_iconify_topcoat
+description: Iconify icons for TopCoat Icons.
+version: 0.2.0
+lastModified: 1722795927
+repository: https://github.com/rmortes/dcubo-iconify/
+issue_tracker: https://github.com/rmortes/dcubo-iconify/issues
+resolution: workspace
+
+environment:
+  sdk: ^3.6.0

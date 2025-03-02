@@ -1,0 +1,10 @@
+name: dcubo_iconify_oui
+description: Iconify icons for OpenSearch UI.
+version: 2.0.0
+lastModified: 1730554314
+repository: https://github.com/rmortes/dcubo-iconify/
+issue_tracker: https://github.com/rmortes/dcubo-iconify/issues
+resolution: workspace
+
+environment:
+  sdk: ^3.6.0

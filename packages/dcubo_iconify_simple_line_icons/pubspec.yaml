@@ -1,0 +1,10 @@
+name: dcubo_iconify_simple_line_icons
+description: Iconify icons for Simple line icons.
+version: 2.5.5
+lastModified: 1722795692
+repository: https://github.com/rmortes/dcubo-iconify/
+issue_tracker: https://github.com/rmortes/dcubo-iconify/issues
+resolution: workspace
+
+environment:
+  sdk: ^3.6.0

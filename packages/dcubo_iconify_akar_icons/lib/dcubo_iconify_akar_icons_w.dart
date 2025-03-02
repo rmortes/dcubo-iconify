@@ -1,0 +1,35 @@
+/// Iconify icons for akar-icons.
+library;
+
+/// Class to access the icon data for Akar Icons.
+/// All icons are stored as static const strings.
+/// This class contains the icons that start with "W".
+class IconifyAkarIconsIconSetW {
+  /// ![preview](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjxnIGZpbGw9Im5vbmUiIHN0cm9rZT0iY3VycmVudENvbG9yIiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiIHN0cm9rZS13aWR0aD0iMiI+PHBhdGggZD0iTTIgNmEyIDIgMCAwIDEgMi0yaDE2YTIgMiAwIDAgMSAyIDJ2MTJhMiAyIDAgMCAxLTIgMkg0YTIgMiAwIDAgMS0yLTJ6bTAgMmgyMCIvPjxwYXRoIGQ9Ik0yIDEyaDdjMCAxIC42IDMgMyAzczMtMiAzLTNoNyIvPjwvZz48L3N2Zz4=)
+  static const wallet =
+      '<g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"><path d="M2 6a2 2 0 0 1 2-2h16a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2zm0 2h20"/><path d="M2 12h7c0 1 .6 3 3 3s3-2 3-3h7"/></g>';
+
+  /// ![preview](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjxwYXRoIGZpbGw9Im5vbmUiIHN0cm9rZT0iY3VycmVudENvbG9yIiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiIHN0cm9rZS13aWR0aD0iMiIgZD0iTTUgN2EyIDIgMCAwIDEgMi0yaDEwYTIgMiAwIDAgMSAyIDJ2MTBhMiAyIDAgMCAxLTIgMkg3YTIgMiAwIDAgMS0yLTJ6bTQgMTVoNk05IDJoNiIvPjwvc3ZnPg==)
+  static const watchDevice =
+      '<path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 7a2 2 0 0 1 2-2h10a2 2 0 0 1 2 2v10a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2zm4 15h6M9 2h6"/>';
+
+  /// ![preview](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjxwYXRoIGZpbGw9Im5vbmUiIHN0cm9rZT0iY3VycmVudENvbG9yIiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiIHN0cm9rZS13aWR0aD0iMiIgZD0iTTEyIDIyYTggOCAwIDAgMS04LThjMC0zLjUwMiAyLjcxLTYuMzAzIDUuMDkzLTguODdMMTIgMmwyLjkwNyAzLjEzQzE3LjI5IDcuNjk4IDIwIDEwLjQ5OSAyMCAxNGE4IDggMCAwIDEtOCA4Ii8+PC9zdmc+)
+  static const water =
+      '<path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 22a8 8 0 0 1-8-8c0-3.502 2.71-6.303 5.093-8.87L12 2l2.907 3.13C17.29 7.698 20 10.499 20 14a8 8 0 0 1-8 8"/>';
+
+  /// ![preview](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjxnIGZpbGw9Im5vbmUiPjxnIGNsaXAtcGF0aD0idXJsKCNha2FySWNvbnNXaGF0c2FwcEZpbGwwKSI+PHBhdGggZmlsbD0iY3VycmVudENvbG9yIiBmaWxsLXJ1bGU9ImV2ZW5vZGQiIGQ9Ik0xNy40MTUgMTQuMzgyYy0uMjk4LS4xNDktMS43NTktLjg2Ny0yLjAzMS0uOTY3cy0uNDctLjE0OC0uNjY5LjE1Yy0uMTk4LjI5Ny0uNzY3Ljk2Ni0uOTQgMS4xNjRjLS4xNzQuMTk5LS4zNDcuMjIzLS42NDQuMDc1Yy0uMjk3LS4xNS0xLjI1NS0uNDYzLTIuMzktMS40NzVjLS44ODMtLjc4OC0xLjQ4LTEuNzYxLTEuNjUzLTIuMDU5Yy0uMTczLS4yOTctLjAxOS0uNDU4LjEzLS42MDZjLjEzNC0uMTMzLjI5Ny0uMzQ3LjQ0Ni0uNTJzLjE5OC0uMjk4LjI5Ny0uNDk3Yy4xLS4xOTguMDUtLjM3MS0uMDI1LS41MmMtLjA3NC0uMTQ5LS42NjgtMS42MTItLjkxNi0yLjIwN2MtLjI0MS0uNTc5LS40ODYtLjUtLjY2OC0uNTFjLS4xNzQtLjAwOC0uMzcyLS4wMS0uNTctLjAxcy0uNTIuMDc0LS43OTIuMzcyYy0uMjczLjI5Ny0xLjA0IDEuMDE2LTEuMDQgMi40NzljMCAxLjQ2MiAxLjA2NCAyLjg3NSAxLjIxMyAzLjA3NHMyLjA5NSAzLjIgNS4wNzYgNC40ODdjLjcxLjMwNiAxLjI2My40ODkgMS42OTQuNjI1Yy43MTIuMjI3IDEuMzYuMTk1IDEuODcyLjExOGMuNTctLjA4NSAxLjc1OC0uNzE5IDIuMDA2LTEuNDEzcy4yNDctMS4yODkuMTczLTEuNDEzcy0uMjcyLS4xOTgtLjU3LS4zNDdtLTUuNDIyIDcuNDAzaC0uMDA0YTkuODcgOS44NyAwIDAgMS01LjAzMi0xLjM3OGwtLjM2LS4yMTRsLTMuNzQyLjk4MmwuOTk5LTMuNjQ4bC0uMjM1LS4zNzRhOS44NiA5Ljg2IDAgMCAxLTEuNTExLTUuMjZjLjAwMi01LjQ1IDQuNDM2LTkuODg0IDkuODg5LTkuODg0YTkuOCA5LjggMCAwIDEgNi45ODggMi44OTlhOS44MiA5LjgyIDAgMCAxIDIuODkyIDYuOTkyYy0uMDAyIDUuNDUtNC40MzYgOS44ODUtOS44ODQgOS44ODVtOC40MTItMTguMjk3QTExLjgyIDExLjgyIDAgMCAwIDExLjk5MiAwQzUuNDM4IDAgLjEwMiA1LjMzNS4xIDExLjg5MmExMS44NiAxMS44NiAwIDAgMCAxLjU4NyA1Ljk0NUwwIDI0bDYuMzA0LTEuNjU0YTExLjkgMTEuOSAwIDAgMCA1LjY4NCAxLjQ0OGguMDA1YzYuNTU0IDAgMTEuODktNS4zMzUgMTEuODkyLTExLjg5M2ExMS44MiAxMS44MiAwIDAgMC0zLjQ4LTguNDEzIiBjbGlwLXJ1bGU9ImV2ZW5vZGQiLz48L2c+PGRlZnM+PGNsaXBQYXRoIGlkPSJha2FySWNvbnNXaGF0c2FwcEZpbGwwIj48cGF0aCBmaWxsPSIjZmZmIiBkPSJNMCAwaDI0djI0SDB6Ii8+PC9jbGlwUGF0aD48L2RlZnM+PC9nPjwvc3ZnPg==)
+  static const whatsappFill =
+      '<g fill="none"><g clip-path="url(#akarIconsWhatsappFill0)"><path fill="currentColor" fill-rule="evenodd" d="M17.415 14.382c-.298-.149-1.759-.867-2.031-.967s-.47-.148-.669.15c-.198.297-.767.966-.94 1.164c-.174.199-.347.223-.644.075c-.297-.15-1.255-.463-2.39-1.475c-.883-.788-1.48-1.761-1.653-2.059c-.173-.297-.019-.458.13-.606c.134-.133.297-.347.446-.52s.198-.298.297-.497c.1-.198.05-.371-.025-.52c-.074-.149-.668-1.612-.916-2.207c-.241-.579-.486-.5-.668-.51c-.174-.008-.372-.01-.57-.01s-.52.074-.792.372c-.273.297-1.04 1.016-1.04 2.479c0 1.462 1.064 2.875 1.213 3.074s2.095 3.2 5.076 4.487c.71.306 1.263.489 1.694.625c.712.227 1.36.195 1.872.118c.57-.085 1.758-.719 2.006-1.413s.247-1.289.173-1.413s-.272-.198-.57-.347m-5.422 7.403h-.004a9.87 9.87 0 0 1-5.032-1.378l-.36-.214l-3.742.982l.999-3.648l-.235-.374a9.86 9.86 0 0 1-1.511-5.26c.002-5.45 4.436-9.884 9.889-9.884a9.8 9.8 0 0 1 6.988 2.899a9.82 9.82 0 0 1 2.892 6.992c-.002 5.45-4.436 9.885-9.884 9.885m8.412-18.297A11.82 11.82 0 0 0 11.992 0C5.438 0 .102 5.335.1 11.892a11.86 11.86 0 0 0 1.587 5.945L0 24l6.304-1.654a11.9 11.9 0 0 0 5.684 1.448h.005c6.554 0 11.89-5.335 11.892-11.893a11.82 11.82 0 0 0-3.48-8.413" clip-rule="evenodd"/></g><defs><clipPath id="akarIconsWhatsappFill0"><path fill="#fff" d="M0 0h24v24H0z"/></clipPath></defs></g>';
+
+  /// ![preview](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjxwYXRoIGZpbGw9Im5vbmUiIHN0cm9rZT0iY3VycmVudENvbG9yIiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiIHN0cm9rZS13aWR0aD0iMiIgZD0iTTIyIDEySDJtMjAgMGwtNCA0bTQtNGwtNC00TTIgMTJsNCA0bS00LTRsNC00Ii8+PC9zdmc+)
+  static const width =
+      '<path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M22 12H2m20 0l-4 4m4-4l-4-4M2 12l4 4m-4-4l4-4"/>';
+
+  /// ![preview](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjxnIGZpbGw9Im5vbmUiIHN0cm9rZT0iY3VycmVudENvbG9yIiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiIHN0cm9rZS13aWR0aD0iMiI+PHBhdGggZD0iTTIgMTBjNi02LjY2NyAxNC02LjY2NyAyMCAwTTYgMTRjMy42LTQgOC40LTQgMTIgMCIvPjxjaXJjbGUgY3g9IjEyIiBjeT0iMTgiIHI9IjEiLz48L2c+PC9zdmc+)
+  static const wifi =
+      '<g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"><path d="M2 10c6-6.667 14-6.667 20 0M6 14c3.6-4 8.4-4 12 0"/><circle cx="12" cy="18" r="1"/></g>';
+
+  /// ![preview](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjxwYXRoIGZpbGw9Im5vbmUiIHN0cm9rZT0iY3VycmVudENvbG9yIiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiIHN0cm9rZS13aWR0aD0iMiIgZD0iTTEyIDEzYzYgMCA4LTQuNDc3IDgtMTBINGMwIDUuNTIzIDIgMTAgOCAxMG0wIDB2N001IDhoMTRNOCAyMmg4bC00LTJ6Ii8+PC9zdmc+)
+  static const wineGlass =
+      '<path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 13c6 0 8-4.477 8-10H4c0 5.523 2 10 8 10m0 0v7M5 8h14M8 22h8l-4-2z"/>';
+}

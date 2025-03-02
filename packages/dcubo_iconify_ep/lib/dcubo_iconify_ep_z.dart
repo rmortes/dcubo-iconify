@@ -1,0 +1,15 @@
+/// Iconify icons for ep.
+library;
+
+/// Class to access the icon data for Element Plus.
+/// All icons are stored as static const strings.
+/// This class contains the icons that start with "Z".
+class IconifyElementPlusIconSetZ {
+  /// ![preview](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjxwYXRoIGZpbGw9ImN1cnJlbnRDb2xvciIgZD0ibTc5NS45MDQgNzUwLjcybDEyNC45OTIgMTI0LjkyOGEzMiAzMiAwIDAgMS00NS4yNDggNDUuMjQ4TDc1MC42NTYgNzk1LjkwNGE0MTYgNDE2IDAgMSAxIDQ1LjI0OC00NS4yNDh6TTQ4MCA4MzJhMzUyIDM1MiAwIDEgMCAwLTcwNGEzNTIgMzUyIDAgMCAwIDAgNzA0bS0zMi0zODR2LTk2YTMyIDMyIDAgMCAxIDY0IDB2OTZoOTZhMzIgMzIgMCAwIDEgMCA2NGgtOTZ2OTZhMzIgMzIgMCAwIDEtNjQgMHYtOTZoLTk2YTMyIDMyIDAgMCAxIDAtNjR6Ii8+PC9zdmc+)
+  static const zoomIn =
+      '<path fill="currentColor" d="m795.904 750.72l124.992 124.928a32 32 0 0 1-45.248 45.248L750.656 795.904a416 416 0 1 1 45.248-45.248zM480 832a352 352 0 1 0 0-704a352 352 0 0 0 0 704m-32-384v-96a32 32 0 0 1 64 0v96h96a32 32 0 0 1 0 64h-96v96a32 32 0 0 1-64 0v-96h-96a32 32 0 0 1 0-64z"/>';
+
+  /// ![preview](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjxwYXRoIGZpbGw9ImN1cnJlbnRDb2xvciIgZD0ibTc5NS45MDQgNzUwLjcybDEyNC45OTIgMTI0LjkyOGEzMiAzMiAwIDAgMS00NS4yNDggNDUuMjQ4TDc1MC42NTYgNzk1LjkwNGE0MTYgNDE2IDAgMSAxIDQ1LjI0OC00NS4yNDh6TTQ4MCA4MzJhMzUyIDM1MiAwIDEgMCAwLTcwNGEzNTIgMzUyIDAgMCAwIDAgNzA0TTM1MiA0NDhoMjU2YTMyIDMyIDAgMCAxIDAgNjRIMzUyYTMyIDMyIDAgMCAxIDAtNjQiLz48L3N2Zz4=)
+  static const zoomOut =
+      '<path fill="currentColor" d="m795.904 750.72l124.992 124.928a32 32 0 0 1-45.248 45.248L750.656 795.904a416 416 0 1 1 45.248-45.248zM480 832a352 352 0 1 0 0-704a352 352 0 0 0 0 704M352 448h256a32 32 0 0 1 0 64H352a32 32 0 0 1 0-64"/>';
+}

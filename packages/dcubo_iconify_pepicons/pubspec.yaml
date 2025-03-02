@@ -1,0 +1,10 @@
+name: dcubo_iconify_pepicons
+description: Iconify icons for Pepicons.
+version: 1.2.7
+lastModified: 1672668343
+repository: https://github.com/rmortes/dcubo-iconify/
+issue_tracker: https://github.com/rmortes/dcubo-iconify/issues
+resolution: workspace
+
+environment:
+  sdk: ^3.6.0

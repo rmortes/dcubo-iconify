@@ -1,0 +1,63 @@
+/// Iconify icons for gg.
+library;
+
+/// Class to access the icon data for css.gg.
+/// All icons are stored as static const strings.
+/// This class contains the icons that start with "I".
+class Iconifycss.ggIconSetI {
+  
+  /// ![preview](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjxwYXRoIGZpbGw9ImN1cnJlbnRDb2xvciIgZmlsbC1ydWxlPSJldmVub2RkIiBkPSJNMTUgMTdoNFY4QTcgNyAwIDEgMCA1IDh2OWg0djNhMyAzIDAgMSAwIDYgMHptMi0yVjhBNSA1IDAgMCAwIDcgOHY3aDR2NWExIDEgMCAxIDAgMiAwdi01eiIgY2xpcC1ydWxlPSJldmVub2RkIi8+PC9zdmc+)
+  static const icecream = '<path fill="currentColor" fill-rule="evenodd" d="M15 17h4V8A7 7 0 1 0 5 8v9h4v3a3 3 0 1 0 6 0zm2-2V8A5 5 0 0 0 7 8v7h4v5a1 1 0 1 0 2 0v-5z" clip-rule="evenodd"/>';
+  
+  /// ![preview](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjxwYXRoIGZpbGw9ImN1cnJlbnRDb2xvciIgZD0iTTEwIDVoNHYxNGgtNHpNNSAxOXYtOWg0djl6TTcgNWEyIDIgMCAxIDAgMCA0YTIgMiAwIDAgMCAwLTRtOCAwaDR2NGgtNHptNCA1aC00djRoNHoiLz48L3N2Zz4=)
+  static const ifDesign = '<path fill="currentColor" d="M10 5h4v14h-4zM5 19v-9h4v9zM7 5a2 2 0 1 0 0 4a2 2 0 0 0 0-4m8 0h4v4h-4zm4 5h-4v4h4z"/>';
+  
+  /// ![preview](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjxnIGZpbGw9ImN1cnJlbnRDb2xvciIgZmlsbC1ydWxlPSJldmVub2RkIiBjbGlwLXJ1bGU9ImV2ZW5vZGQiPjxwYXRoIGQ9Ik03IDdhMyAzIDAgMSAwIDAgNmEzIDMgMCAwIDAgMC02bS0xIDNhMSAxIDAgMSAxIDIgMGExIDEgMCAwIDEtMiAwIi8+PHBhdGggZD0iTTMgM2EzIDMgMCAwIDAtMyAzdjEyYTMgMyAwIDAgMCAzIDNoMThhMyAzIDAgMCAwIDMtM1Y2YTMgMyAwIDAgMC0zLTN6bTE4IDJIM2ExIDEgMCAwIDAtMSAxdjEyYTEgMSAwIDAgMCAxIDFoNC4zMTRsNi44NzgtNi44NzlhMyAzIDAgMCAxIDQuMjQzIDBMMjIgMTUuNjg2VjZhMSAxIDAgMCAwLTEtMW0wIDE0SDEwLjE0Mmw1LjQ2NS01LjQ2NGExIDEgMCAwIDEgMS40MTQgMGw0Ljg4NiA0Ljg4NkExIDEgMCAwIDEgMjEgMTkiLz48L2c+PC9zdmc+)
+  static const image = '<g fill="currentColor" fill-rule="evenodd" clip-rule="evenodd"><path d="M7 7a3 3 0 1 0 0 6a3 3 0 0 0 0-6m-1 3a1 1 0 1 1 2 0a1 1 0 0 1-2 0"/><path d="M3 3a3 3 0 0 0-3 3v12a3 3 0 0 0 3 3h18a3 3 0 0 0 3-3V6a3 3 0 0 0-3-3zm18 2H3a1 1 0 0 0-1 1v12a1 1 0 0 0 1 1h4.314l6.878-6.879a3 3 0 0 1 4.243 0L22 15.686V6a1 1 0 0 0-1-1m0 14H10.142l5.465-5.464a1 1 0 0 1 1.414 0l4.886 4.886A1 1 0 0 1 21 19"/></g>';
+  
+  /// ![preview](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjxnIGZpbGw9ImN1cnJlbnRDb2xvciI+PHBhdGggZD0iTTUgOS45ODJ2MTBoMTR2LTEwaC00di0yaDZ2MTRIM3YtMTRoNnYyeiIvPjxwYXRoIGQ9Ik0xMyAyaC0ydjEyLjA1M2wtMi41MzUtMi41MzZsLTEuNDE1IDEuNDE1bDQuOTUgNC45NWw0Ljk1LTQuOTVsLTEuNDE0LTEuNDE1TDEzIDE0LjA1NHoiLz48L2c+PC9zdmc+)
+  static const import = '<g fill="currentColor"><path d="M5 9.982v10h14v-10h-4v-2h6v14H3v-14h6v2z"/><path d="M13 2h-2v12.053l-2.535-2.536l-1.415 1.415l4.95 4.95l4.95-4.95l-1.414-1.415L13 14.054z"/></g>';
+  
+  /// ![preview](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjxwYXRoIGZpbGw9ImN1cnJlbnRDb2xvciIgZmlsbC1ydWxlPSJldmVub2RkIiBkPSJNMiA1YTMgMyAwIDAgMSAzLTNoMTRhMyAzIDAgMCAxIDMgM3YxNWEyIDIgMCAwIDEtMiAySDguMTQ4YTIgMiAwIDAgMS0uMTQ4LjAwNUg0YTIgMiAwIDAgMS0yLTJ6bTMtMWgxNGExIDEgMCAwIDEgMSAxdjloLTRhMiAyIDAgMCAwLTIgMnYxaC00di0uOTk1YTIgMiAwIDAgMC0yLTJINFY1YTEgMSAwIDAgMSAxLTEiIGNsaXAtcnVsZT0iZXZlbm9kZCIvPjwvc3ZnPg==)
+  static const inbox = '<path fill="currentColor" fill-rule="evenodd" d="M2 5a3 3 0 0 1 3-3h14a3 3 0 0 1 3 3v15a2 2 0 0 1-2 2H8.148a2 2 0 0 1-.148.005H4a2 2 0 0 1-2-2zm3-1h14a1 1 0 0 1 1 1v9h-4a2 2 0 0 0-2 2v1h-4v-.995a2 2 0 0 0-2-2H4V5a1 1 0 0 1 1-1" clip-rule="evenodd"/>';
+  
+  /// ![preview](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjxwYXRoIGZpbGw9ImN1cnJlbnRDb2xvciIgZD0iTTQgNmgzdjEySDR6bTYgMGgzdjQuNWg0VjZoM3YxMmgtM3YtNC41aC00VjE4aC0zeiIvPjwvc3ZnPg==)
+  static const indieHackers = '<path fill="currentColor" d="M4 6h3v12H4zm6 0h3v4.5h4V6h3v12h-3v-4.5h-4V18h-3z"/>';
+  
+  /// ![preview](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjxwYXRoIGZpbGw9ImN1cnJlbnRDb2xvciIgZD0ibTguMTIxIDkuODc5bDIuMDgzIDIuMDgzbC4wMDctLjAwNmwxLjQ1MiAxLjQ1MmwuMDA2LjAwNmwyLjEyMiAyLjEyMmE1IDUgMCAxIDAgMC03LjA3MmwtLjcxNC43MTRsMS40MTUgMS40MTRsLjcxMy0uNzEzYTMgMyAwIDEgMSAwIDQuMjQybC0yLjA3Mi0yLjA3MmwtLjAwNy4wMDZsLTMuNTktMy41OWE1IDUgMCAxIDAgMCA3LjA3bC43MTMtLjcxM2wtMS40MTQtMS40MTRsLS43MTQuNzEzYTMgMyAwIDEgMSAwLTQuMjQyIi8+PC9zdmc+)
+  static const infinity = '<path fill="currentColor" d="m8.121 9.879l2.083 2.083l.007-.006l1.452 1.452l.006.006l2.122 2.122a5 5 0 1 0 0-7.072l-.714.714l1.415 1.414l.713-.713a3 3 0 1 1 0 4.242l-2.072-2.072l-.007.006l-3.59-3.59a5 5 0 1 0 0 7.07l.713-.713l-1.414-1.414l-.714.713a3 3 0 1 1 0-4.242"/>';
+  
+  /// ![preview](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjxnIGZpbGw9ImN1cnJlbnRDb2xvciI+PHBhdGggZD0iTTExIDEwLjk4YTEgMSAwIDEgMSAyIDB2NmExIDEgMCAxIDEtMiAwem0xLTQuOTI5YTEgMSAwIDEgMCAwIDJhMSAxIDAgMCAwIDAtMiIvPjxwYXRoIGZpbGwtcnVsZT0iZXZlbm9kZCIgZD0iTTEyIDJDNi40NzcgMiAyIDYuNDc3IDIgMTJzNC40NzcgMTAgMTAgMTBzMTAtNC40NzcgMTAtMTBTMTcuNTIzIDIgMTIgMk00IDEyYTggOCAwIDEgMCAxNiAwYTggOCAwIDAgMC0xNiAwIiBjbGlwLXJ1bGU9ImV2ZW5vZGQiLz48L2c+PC9zdmc+)
+  static const info = '<g fill="currentColor"><path d="M11 10.98a1 1 0 1 1 2 0v6a1 1 0 1 1-2 0zm1-4.929a1 1 0 1 0 0 2a1 1 0 0 0 0-2"/><path fill-rule="evenodd" d="M12 2C6.477 2 2 6.477 2 12s4.477 10 10 10s10-4.477 10-10S17.523 2 12 2M4 12a8 8 0 1 0 16 0a8 8 0 0 0-16 0" clip-rule="evenodd"/></g>';
+  
+  /// ![preview](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjxnIGZpbGw9ImN1cnJlbnRDb2xvciI+PHBhdGggZD0iTTIwIDEyaC02djVoNnoiLz48cGF0aCBmaWxsLXJ1bGU9ImV2ZW5vZGQiIGQ9Ik0xIDZhMiAyIDAgMCAxIDItMmgxOGEyIDIgMCAwIDEgMiAydjEyYTIgMiAwIDAgMS0yIDJIM2EyIDIgMCAwIDEtMi0yem0yIDBoMTh2MTJIM3oiIGNsaXAtcnVsZT0iZXZlbm9kZCIvPjwvZz48L3N2Zz4=)
+  static const inpicture = '<g fill="currentColor"><path d="M20 12h-6v5h6z"/><path fill-rule="evenodd" d="M1 6a2 2 0 0 1 2-2h18a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2zm2 0h18v12H3z" clip-rule="evenodd"/></g>';
+  
+  /// ![preview](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjxwYXRoIGZpbGw9ImN1cnJlbnRDb2xvciIgZD0iTTEyIDRhMSAxIDAgMCAxIDEgMXYzaDNhMSAxIDAgMSAxIDAgMmgtM3YzYTEgMSAwIDEgMS0yIDB2LTNIOGExIDEgMCAwIDEgMC0yaDNWNWExIDEgMCAwIDEgMS0xTTMgMTlhMSAxIDAgMCAxIDEtMWgxNmExIDEgMCAxIDEgMCAySDRhMSAxIDAgMCAxLTEtMSIvPjwvc3ZnPg==)
+  static const insertAfter = '<path fill="currentColor" d="M12 4a1 1 0 0 1 1 1v3h3a1 1 0 1 1 0 2h-3v3a1 1 0 1 1-2 0v-3H8a1 1 0 0 1 0-2h3V5a1 1 0 0 1 1-1M3 19a1 1 0 0 1 1-1h16a1 1 0 1 1 0 2H4a1 1 0 0 1-1-1"/>';
+  
+  /// ![preview](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjxnIGZpbGw9ImN1cnJlbnRDb2xvciI+PHBhdGggZD0iTTkgOGExIDEgMCAwIDAgMCAyaDJ2MmExIDEgMCAxIDAgMiAwdi0yaDJhMSAxIDAgMSAwIDAtMmgtMlY2YTEgMSAwIDEgMC0yIDB2MnoiLz48cGF0aCBmaWxsLXJ1bGU9ImV2ZW5vZGQiIGQ9Ik00IDlhOCA4IDAgMSAxIDE2IDBBOCA4IDAgMCAxIDQgOW04IDZhNiA2IDAgMSAxIDAtMTJhNiA2IDAgMCAxIDAgMTIiIGNsaXAtcnVsZT0iZXZlbm9kZCIvPjxwYXRoIGQ9Ik01IDIwYTEgMSAwIDEgMCAwIDJoMTRhMSAxIDAgMSAwIDAtMnoiLz48L2c+PC9zdmc+)
+  static const insertAfterO = '<g fill="currentColor"><path d="M9 8a1 1 0 0 0 0 2h2v2a1 1 0 1 0 2 0v-2h2a1 1 0 1 0 0-2h-2V6a1 1 0 1 0-2 0v2z"/><path fill-rule="evenodd" d="M4 9a8 8 0 1 1 16 0A8 8 0 0 1 4 9m8 6a6 6 0 1 1 0-12a6 6 0 0 1 0 12" clip-rule="evenodd"/><path d="M5 20a1 1 0 1 0 0 2h14a1 1 0 1 0 0-2z"/></g>';
+  
+  /// ![preview](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjxnIGZpbGw9ImN1cnJlbnRDb2xvciI+PHBhdGggZD0iTTkgOGExIDEgMCAwIDAgMCAyaDJ2MmExIDEgMCAxIDAgMiAwdi0yaDJhMSAxIDAgMSAwIDAtMmgtMlY2YTEgMSAwIDEgMC0yIDB2MnoiLz48cGF0aCBmaWxsLXJ1bGU9ImV2ZW5vZGQiIGQ9Ik00IDRhMyAzIDAgMCAxIDMtM2gxMGEzIDMgMCAwIDEgMyAzdjEwYTMgMyAwIDAgMS0zIDNIN2EzIDMgMCAwIDEtMy0zem0zLTFoMTBhMSAxIDAgMCAxIDEgMXYxMGExIDEgMCAwIDEtMSAxSDdhMSAxIDAgMCAxLTEtMVY0YTEgMSAwIDAgMSAxLTEiIGNsaXAtcnVsZT0iZXZlbm9kZCIvPjxwYXRoIGQ9Ik01IDIwYTEgMSAwIDEgMCAwIDJoMTRhMSAxIDAgMSAwIDAtMnoiLz48L2c+PC9zdmc+)
+  static const insertAfterR = '<g fill="currentColor"><path d="M9 8a1 1 0 0 0 0 2h2v2a1 1 0 1 0 2 0v-2h2a1 1 0 1 0 0-2h-2V6a1 1 0 1 0-2 0v2z"/><path fill-rule="evenodd" d="M4 4a3 3 0 0 1 3-3h10a3 3 0 0 1 3 3v10a3 3 0 0 1-3 3H7a3 3 0 0 1-3-3zm3-1h10a1 1 0 0 1 1 1v10a1 1 0 0 1-1 1H7a1 1 0 0 1-1-1V4a1 1 0 0 1 1-1" clip-rule="evenodd"/><path d="M5 20a1 1 0 1 0 0 2h14a1 1 0 1 0 0-2z"/></g>';
+  
+  /// ![preview](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjxwYXRoIGZpbGw9ImN1cnJlbnRDb2xvciIgZD0iTTMgNWExIDEgMCAwIDAgMSAxaDE2YTEgMSAwIDEgMCAwLTJINGExIDEgMCAwIDAtMSAxbTkgMTVhMSAxIDAgMCAwIDEtMXYtM2gzYTEgMSAwIDEgMCAwLTJoLTN2LTNhMSAxIDAgMSAwLTIgMHYzSDhhMSAxIDAgMSAwIDAgMmgzdjNhMSAxIDAgMCAwIDEgMSIvPjwvc3ZnPg==)
+  static const insertBefore = '<path fill="currentColor" d="M3 5a1 1 0 0 0 1 1h16a1 1 0 1 0 0-2H4a1 1 0 0 0-1 1m9 15a1 1 0 0 0 1-1v-3h3a1 1 0 1 0 0-2h-3v-3a1 1 0 1 0-2 0v3H8a1 1 0 1 0 0 2h3v3a1 1 0 0 0 1 1"/>';
+  
+  /// ![preview](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjxnIGZpbGw9ImN1cnJlbnRDb2xvciI+PHBhdGggZD0iTTUgM2ExIDEgMCAwIDEgMC0yaDE0YTEgMSAwIDEgMSAwIDJ6bTQgMTJhMSAxIDAgMSAxIDAtMmgydi0yYTEgMSAwIDEgMSAyIDB2MmgyYTEgMSAwIDEgMSAwIDJoLTJ2MmExIDEgMCAxIDEtMiAwdi0yeiIvPjxwYXRoIGZpbGwtcnVsZT0iZXZlbm9kZCIgZD0iTTQgMTRhOCA4IDAgMSAwIDE2IDBhOCA4IDAgMCAwLTE2IDBtOC02YTYgNiAwIDEgMCAwIDEyYTYgNiAwIDAgMCAwLTEyIiBjbGlwLXJ1bGU9ImV2ZW5vZGQiLz48L2c+PC9zdmc+)
+  static const insertBeforeO = '<g fill="currentColor"><path d="M5 3a1 1 0 0 1 0-2h14a1 1 0 1 1 0 2zm4 12a1 1 0 1 1 0-2h2v-2a1 1 0 1 1 2 0v2h2a1 1 0 1 1 0 2h-2v2a1 1 0 1 1-2 0v-2z"/><path fill-rule="evenodd" d="M4 14a8 8 0 1 0 16 0a8 8 0 0 0-16 0m8-6a6 6 0 1 0 0 12a6 6 0 0 0 0-12" clip-rule="evenodd"/></g>';
+  
+  /// ![preview](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjxnIGZpbGw9ImN1cnJlbnRDb2xvciI+PHBhdGggZD0iTTUgM2ExIDEgMCAwIDEgMC0yaDE0YTEgMSAwIDEgMSAwIDJ6bTQgMTJhMSAxIDAgMSAxIDAtMmgydi0yYTEgMSAwIDEgMSAyIDB2MmgyYTEgMSAwIDEgMSAwIDJoLTJ2MmExIDEgMCAxIDEtMiAwdi0yeiIvPjxwYXRoIGZpbGwtcnVsZT0iZXZlbm9kZCIgZD0iTTQgMTlhMyAzIDAgMCAwIDMgM2gxMGEzIDMgMCAwIDAgMy0zVjlhMyAzIDAgMCAwLTMtM0g3YTMgMyAwIDAgMC0zIDN6bTEzIDFhMSAxIDAgMCAwIDEtMVY5YTEgMSAwIDAgMC0xLTFIN2ExIDEgMCAwIDAtMSAxdjEwYTEgMSAwIDAgMCAxIDF6IiBjbGlwLXJ1bGU9ImV2ZW5vZGQiLz48L2c+PC9zdmc+)
+  static const insertBeforeR = '<g fill="currentColor"><path d="M5 3a1 1 0 0 1 0-2h14a1 1 0 1 1 0 2zm4 12a1 1 0 1 1 0-2h2v-2a1 1 0 1 1 2 0v2h2a1 1 0 1 1 0 2h-2v2a1 1 0 1 1-2 0v-2z"/><path fill-rule="evenodd" d="M4 19a3 3 0 0 0 3 3h10a3 3 0 0 0 3-3V9a3 3 0 0 0-3-3H7a3 3 0 0 0-3 3zm13 1a1 1 0 0 0 1-1V9a1 1 0 0 0-1-1H7a1 1 0 0 0-1 1v10a1 1 0 0 0 1 1z" clip-rule="evenodd"/></g>';
+  
+  /// ![preview](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjxwYXRoIGZpbGw9ImN1cnJlbnRDb2xvciIgZmlsbC1ydWxlPSJldmVub2RkIiBkPSJNMTUgOGg0djEySDVWMTBoNFY0aDZ6bS0yLTJoLTJ2MTJoMnptMiA0djhoMnYtOHptLTYgMnY2SDd2LTZ6IiBjbGlwLXJ1bGU9ImV2ZW5vZGQiLz48L3N2Zz4=)
+  static const insights = '<path fill="currentColor" fill-rule="evenodd" d="M15 8h4v12H5V10h4V4h6zm-2-2h-2v12h2zm2 4v8h2v-8zm-6 2v6H7v-6z" clip-rule="evenodd"/>';
+  
+  /// ![preview](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjxnIGZpbGw9ImN1cnJlbnRDb2xvciI+PHBhdGggZmlsbC1ydWxlPSJldmVub2RkIiBkPSJNMTIgN2E1IDUgMCAxIDAgMCAxMGE1IDUgMCAwIDAgMC0xMG0tMyA1YTMgMyAwIDEgMCA2IDBhMyAzIDAgMCAwLTYgMCIgY2xpcC1ydWxlPSJldmVub2RkIi8+PHBhdGggZD0iTTE4IDVhMSAxIDAgMSAwIDAgMmExIDEgMCAwIDAgMC0yIi8+PHBhdGggZmlsbC1ydWxlPSJldmVub2RkIiBkPSJNNSAxYTQgNCAwIDAgMC00IDR2MTRhNCA0IDAgMCAwIDQgNGgxNGE0IDQgMCAwIDAgNC00VjVhNCA0IDAgMCAwLTQtNHptMTQgMkg1YTIgMiAwIDAgMC0yIDJ2MTRhMiAyIDAgMCAwIDIgMmgxNGEyIDIgMCAwIDAgMi0yVjVhMiAyIDAgMCAwLTItMiIgY2xpcC1ydWxlPSJldmVub2RkIi8+PC9nPjwvc3ZnPg==)
+  static const instagram = '<g fill="currentColor"><path fill-rule="evenodd" d="M12 7a5 5 0 1 0 0 10a5 5 0 0 0 0-10m-3 5a3 3 0 1 0 6 0a3 3 0 0 0-6 0" clip-rule="evenodd"/><path d="M18 5a1 1 0 1 0 0 2a1 1 0 0 0 0-2"/><path fill-rule="evenodd" d="M5 1a4 4 0 0 0-4 4v14a4 4 0 0 0 4 4h14a4 4 0 0 0 4-4V5a4 4 0 0 0-4-4zm14 2H5a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V5a2 2 0 0 0-2-2" clip-rule="evenodd"/></g>';
+  
+  /// ![preview](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjxnIGZpbGw9ImN1cnJlbnRDb2xvciI+PHBhdGggZD0ibTIwLjcwOCA0LjQxMmwtMTAuMjUgMTAuMjg3aDMuNTl2MmgtN3YtN2gydjMuNThMMTkuMjkzIDN6Ii8+PHBhdGggZD0iTTExIDQuNzA2djJINXYxMmgxMnYtNmgydjhIM3YtMTZ6Ii8+PC9nPjwvc3ZnPg==)
+  static const internal = '<g fill="currentColor"><path d="m20.708 4.412l-10.25 10.287h3.59v2h-7v-7h2v3.58L19.293 3z"/><path d="M11 4.706v2H5v12h12v-6h2v8H3v-16z"/></g>';
+  
+}

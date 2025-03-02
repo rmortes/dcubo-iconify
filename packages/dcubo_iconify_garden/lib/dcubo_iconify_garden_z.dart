@@ -1,0 +1,27 @@
+/// Iconify icons for garden.
+library;
+
+/// Class to access the icon data for Garden SVG Icons.
+/// All icons are stored as static const strings.
+/// This class contains the icons that start with "Z".
+class IconifyGardenSVGIconsIconSetZ {
+  /// ![preview](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjxwYXRoIGZpbGw9ImN1cnJlbnRDb2xvciIgZD0iTTEyIDguMnYxNC41SDB6TTEyIDNjMCAzLjMtMi43IDYtNiA2UzAgNi4zIDAgM3ptMiAxOS43YzAtMy4zIDIuNy02IDYtNnM2IDIuNyA2IDZ6bTAtNS4yVjNoMTJ6Ii8+PC9zdmc+)
+  static const zendesk26 =
+      '<path fill="currentColor" d="M12 8.2v14.5H0zM12 3c0 3.3-2.7 6-6 6S0 6.3 0 3zm2 19.7c0-3.3 2.7-6 6-6s6 2.7 6 6zm0-5.2V3h12z"/>';
+
+  /// ![preview](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjxwYXRoIGZpbGw9ImN1cnJlbnRDb2xvciIgZD0iTTExIDBhMSAxIDAgMCAxIDEgMXYxMGExIDEgMCAwIDEtMSAxSDFhMSAxIDAgMCAxLTEtMVYxYTEgMSAwIDAgMSAxLTF6TTUuNjkyIDQuNTg0TDIgOWgzLjY5MnptMi40NjIgMi41ODlBMS44NCAxLjg0IDAgMCAwIDYuMzA4IDlIMTBjMC0xLjAwNS0uODMtMS44MjctMS44NDYtMS44MjdNMTAgM0g2LjMwOHY0LjQxNnpNNS42OTIgM0gyYzAgMS4wMDUuODMgMS44MjcgMS44NDYgMS44MjdBMS44NCAxLjg0IDAgMCAwIDUuNjkyIDMiLz48L3N2Zz4=)
+  static const zendeskFill12 =
+      '<path fill="currentColor" d="M11 0a1 1 0 0 1 1 1v10a1 1 0 0 1-1 1H1a1 1 0 0 1-1-1V1a1 1 0 0 1 1-1zM5.692 4.584L2 9h3.692zm2.462 2.589A1.84 1.84 0 0 0 6.308 9H10c0-1.005-.83-1.827-1.846-1.827M10 3H6.308v4.416zM5.692 3H2c0 1.005.83 1.827 1.846 1.827A1.84 1.84 0 0 0 5.692 3"/>';
+
+  /// ![preview](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjxwYXRoIGZpbGw9ImN1cnJlbnRDb2xvciIgZD0iTTE0LjY2NyAwQzE1LjQwMyAwIDE2IC41OTcgMTYgMS4zMzN2MTMuMzM0YzAgLjczNi0uNTk3IDEuMzMzLTEuMzMzIDEuMzMzSDEuMzMzQTEuMzMzIDEuMzMzIDAgMCAxIDAgMTQuNjY3VjEuMzMzQzAgLjU5Ny41OTcgMCAxLjMzMyAwek03LjYxNSA2LjM0OEwzIDExLjVoNC42MTV6bTMuMDc3IDMuMDJjLTEuMjE0IDAtMi4yMTcuODc4LTIuMzAyIDEuOThsLS4wMDUuMTUySDEzYzAtMS4xNzMtMS4wMzgtMi4xMzItMi4zMDgtMi4xMzJNMTMgNC41SDguMzg1djUuMTUyem0tNS4zODUgMEgzYzAgMS4xNzMgMS4wMzggMi4xMzIgMi4zMDggMi4xMzJjMS4yMTQgMCAyLjIxNy0uODc4IDIuMzAyLTEuOTh6Ii8+PC9zdmc+)
+  static const zendeskFill16 =
+      '<path fill="currentColor" d="M14.667 0C15.403 0 16 .597 16 1.333v13.334c0 .736-.597 1.333-1.333 1.333H1.333A1.333 1.333 0 0 1 0 14.667V1.333C0 .597.597 0 1.333 0zM7.615 6.348L3 11.5h4.615zm3.077 3.02c-1.214 0-2.217.878-2.302 1.98l-.005.152H13c0-1.173-1.038-2.132-2.308-2.132M13 4.5H8.385v5.152zm-5.385 0H3c0 1.173 1.038 2.132 2.308 2.132c1.214 0 2.217-.878 2.302-1.98z"/>';
+
+  /// ![preview](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjxwYXRoIGZpbGw9ImN1cnJlbnRDb2xvciIgZD0iTTUuNTM4IDMuMzc2VjEwSDB6bTAtMi4zNzZjMCAxLjUwOC0xLjI0NiAyLjc0MS0yLjc2OSAyLjc0MVMwIDIuNTA4IDAgMXptLjkyNCA5YzAtMS41MDggMS4yNDYtMi43NDEgMi43NjktMi43NDFTMTIgOC40OTIgMTIgMTB6bTAtMi4zNzZWMUgxMnoiLz48L3N2Zz4=)
+  static const zendeskStroke12 =
+      '<path fill="currentColor" d="M5.538 3.376V10H0zm0-2.376c0 1.508-1.246 2.741-2.769 2.741S0 2.508 0 1zm.924 9c0-1.508 1.246-2.741 2.769-2.741S12 8.492 12 10zm0-2.376V1H12z"/>';
+
+  /// ![preview](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjxwYXRoIGZpbGw9ImN1cnJlbnRDb2xvciIgZD0iTTcuMzg1IDUuMTY4VjE0SDB6bTAtMy4xNjhjMCAyLjAxLTEuNjYyIDMuNjU1LTMuNjkzIDMuNjU1QzEuNjYyIDUuNjU1IDAgNC4wMSAwIDJ6bTEuMjMgMTJjMC0yLjAxIDEuNjYyLTMuNjU1IDMuNjkzLTMuNjU1QzE0LjMzOCAxMC4zNDUgMTYgMTEuOTkgMTYgMTR6bTAtMy4xNjhWMkgxNnoiLz48L3N2Zz4=)
+  static const zendeskStroke16 =
+      '<path fill="currentColor" d="M7.385 5.168V14H0zm0-3.168c0 2.01-1.662 3.655-3.693 3.655C1.662 5.655 0 4.01 0 2zm1.23 12c0-2.01 1.662-3.655 3.693-3.655C14.338 10.345 16 11.99 16 14zm0-3.168V2H16z"/>';
+}

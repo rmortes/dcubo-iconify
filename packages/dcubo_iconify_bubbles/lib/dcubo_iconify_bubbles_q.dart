@@ -1,0 +1,15 @@
+/// Iconify icons for bubbles.
+library;
+
+/// Class to access the icon data for Bubbles.
+/// All icons are stored as static const strings.
+/// This class contains the icons that start with "Q".
+class IconifyBubblesIconSetQ {
+  /// ![preview](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjxwYXRoIGZpbGw9Im5vbmUiIHN0cm9rZT0iY3VycmVudENvbG9yIiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiIHN0cm9rZS13aWR0aD0iMS41IiBkPSJNNS4yNSA1LjI1aDN2M2gtM3ptMCAxMC41aDN2M2gtM3ptMTAuNS0xMC41aDN2M2gtM3ptLTEwLjUgNy41aDZ2MS41bTMgMHY0LjVoNC41di00LjVoLTEuNW0tNiAzdjEuNW0wLTEzLjV2NC41aDEuNW0zIDEuNWgzTS43NSA2VjIuMjVhMS41IDEuNSAwIDAgMSAxLjUtMS41SDZtMTIgMGgzLjc1YTEuNSAxLjUgMCAwIDEgMS41IDEuNVY2bTAgMTJ2My43NWExLjUgMS41IDAgMCAxLTEuNSAxLjVIMThtLTEyIDBIMi4yNWExLjUgMS41IDAgMCAxLTEuNS0xLjVWMTgiLz48L3N2Zz4=)
+  static const qrCodeScanOutline =
+      '<path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M5.25 5.25h3v3h-3zm0 10.5h3v3h-3zm10.5-10.5h3v3h-3zm-10.5 7.5h6v1.5m3 0v4.5h4.5v-4.5h-1.5m-6 3v1.5m0-13.5v4.5h1.5m3 1.5h3M.75 6V2.25a1.5 1.5 0 0 1 1.5-1.5H6m12 0h3.75a1.5 1.5 0 0 1 1.5 1.5V6m0 12v3.75a1.5 1.5 0 0 1-1.5 1.5H18m-12 0H2.25a1.5 1.5 0 0 1-1.5-1.5V18"/>';
+
+  /// ![preview](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjxnIGZpbGw9Im5vbmUiPjxnIHN0cm9rZT0iY3VycmVudENvbG9yIiBjbGlwLXBhdGg9InVybCgjYnViYmxlc1F1ZXN0aW9uRXhjbGFtYXRpb25PdXRsaW5lMCkiPjxwYXRoIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIgc3Ryb2tlLWxpbmVqb2luPSJyb3VuZCIgc3Ryb2tlLXdpZHRoPSIxLjUiIGQ9Ik05LjQyNSAyMC4wNzVMNy41IDIydi00aC02YTEgMSAwIDAgMS0xLTFWMmExIDEgMCAwIDEgMS0xaDE4YTEgMSAwIDAgMSAxIDF2NyIvPjxwYXRoIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIgc3Ryb2tlLWxpbmVqb2luPSJyb3VuZCIgc3Ryb2tlLXdpZHRoPSIxLjUiIGQ9Ik0xMS41IDE5YTEgMSAwIDAgMCAxIDFoNGw0IDR2LTRoMmExIDEgMCAwIDAgMS0xdi03YTEgMSAwIDAgMC0xLTFoLTEwYTEgMSAwIDAgMC0xIDF6bS00LTEyLjVhMiAyIDAgMSAxIDIuNjY3IDEuODg2YTEgMSAwIDAgMC0uNjY3Ljk0M3YuNjcybTggNC45OTl2LTIiLz48cGF0aCBzdHJva2Utd2lkdGg9IjEuNSIgZD0iTTkuNSAxMi41YS4yNS4yNSAwIDEgMSAwLS41bTAgLjVhLjI1LjI1IDAgMSAwIDAtLjUiLz48cGF0aCBkPSJNMTcuNSAxNy41YS4yNS4yNSAwIDEgMSAwLS41bTAgLjVhLjI1LjI1IDAgMSAwIDAtLjUiLz48L2c+PGRlZnM+PGNsaXBQYXRoIGlkPSJidWJibGVzUXVlc3Rpb25FeGNsYW1hdGlvbk91dGxpbmUwIj48cGF0aCBmaWxsPSIjZmZmIiBkPSJNMCAuNWgyNHYyNEgweiIvPjwvY2xpcFBhdGg+PC9kZWZzPjwvZz48L3N2Zz4=)
+  static const questionExclamationOutline =
+      '<g fill="none"><g stroke="currentColor" clip-path="url(#bubblesQuestionExclamationOutline0)"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M9.425 20.075L7.5 22v-4h-6a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1h18a1 1 0 0 1 1 1v7"/><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M11.5 19a1 1 0 0 0 1 1h4l4 4v-4h2a1 1 0 0 0 1-1v-7a1 1 0 0 0-1-1h-10a1 1 0 0 0-1 1zm-4-12.5a2 2 0 1 1 2.667 1.886a1 1 0 0 0-.667.943v.672m8 4.999v-2"/><path stroke-width="1.5" d="M9.5 12.5a.25.25 0 1 1 0-.5m0 .5a.25.25 0 1 0 0-.5"/><path d="M17.5 17.5a.25.25 0 1 1 0-.5m0 .5a.25.25 0 1 0 0-.5"/></g><defs><clipPath id="bubblesQuestionExclamationOutline0"><path fill="#fff" d="M0 .5h24v24H0z"/></clipPath></defs></g>';
+}

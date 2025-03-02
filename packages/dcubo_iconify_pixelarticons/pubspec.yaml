@@ -1,0 +1,10 @@
+name: dcubo_iconify_pixelarticons
+description: Iconify icons for Pixelarticons.
+version: 1.8.1
+lastModified: 1713419144
+repository: https://github.com/rmortes/dcubo-iconify/
+issue_tracker: https://github.com/rmortes/dcubo-iconify/issues
+resolution: workspace
+
+environment:
+  sdk: ^3.6.0

@@ -1,0 +1,10 @@
+name: dcubo_iconify_vs
+description: Iconify icons for Vesper Icons.
+version: 5.11.2
+lastModified: 1702314220
+repository: https://github.com/rmortes/dcubo-iconify/
+issue_tracker: https://github.com/rmortes/dcubo-iconify/issues
+resolution: workspace
+
+environment:
+  sdk: ^3.6.0

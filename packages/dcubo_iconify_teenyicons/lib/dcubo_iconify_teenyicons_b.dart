@@ -1,0 +1,431 @@
+/// Iconify icons for teenyicons.
+library;
+
+/// Class to access the icon data for Teenyicons.
+/// All icons are stored as static const strings.
+/// This class contains the icons that start with "B".
+class IconifyTeenyiconsIconSetB {
+  /// ![preview](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjxwYXRoIGZpbGw9ImN1cnJlbnRDb2xvciIgZD0ibTQuNSAxMi41bC0uMzkuMzEyQS41LjUgMCAwIDAgNC41IDEzem0tNC01bC0uMzktLjMxMmEuNS41IDAgMCAwIDAgLjYyNHptNC01VjJhLjUuNSAwIDAgMC0uMzkuMTg4em05LjUgMXY4aDF2LTh6bS0uNSA4LjVoLTl2MWg5em0tOC42MS4xODhsLTQtNWwtLjc4LjYyNGw0IDV6bS00LTQuMzc2bDQtNWwtLjc4LS42MjRsLTQgNXpNNC41IDNoOVYyaC05em05LjUgOC41YS41LjUgMCAwIDEtLjUuNXYxYTEuNSAxLjUgMCAwIDAgMS41LTEuNXptMS04QTEuNSAxLjUgMCAwIDAgMTMuNSAydjFhLjUuNSAwIDAgMSAuNS41ek02LjE0NiA1Ljg1NGw0IDRsLjcwOC0uNzA4bC00LTR6bTQtLjcwOGwtNCA0bC43MDguNzA4bDQtNHoiLz48L3N2Zz4=)
+  static const backspaceOutline =
+      '<path fill="currentColor" d="m4.5 12.5l-.39.312A.5.5 0 0 0 4.5 13zm-4-5l-.39-.312a.5.5 0 0 0 0 .624zm4-5V2a.5.5 0 0 0-.39.188zm9.5 1v8h1v-8zm-.5 8.5h-9v1h9zm-8.61.188l-4-5l-.78.624l4 5zm-4-4.376l4-5l-.78-.624l-4 5zM4.5 3h9V2h-9zm9.5 8.5a.5.5 0 0 1-.5.5v1a1.5 1.5 0 0 0 1.5-1.5zm1-8A1.5 1.5 0 0 0 13.5 2v1a.5.5 0 0 1 .5.5zM6.146 5.854l4 4l.708-.708l-4-4zm4-.708l-4 4l.708.708l4-4z"/>';
+
+  /// ![preview](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjxwYXRoIGZpbGw9ImN1cnJlbnRDb2xvciIgZmlsbC1ydWxlPSJldmVub2RkIiBkPSJNNC4xMSAyLjE4OEEuNS41IDAgMCAxIDQuNSAyaDlBMS41IDEuNSAwIDAgMSAxNSAzLjV2OGExLjUgMS41IDAgMCAxLTEuNSAxLjVoLTlhLjUuNSAwIDAgMS0uMzktLjE4OGwtNC01YS41LjUgMCAwIDEgMC0uNjI0em02LjAzNiA3LjY2Nkw4LjUgOC4yMDdMNi44NTQgOS44NTRsLS43MDgtLjcwOEw3Ljc5MyA3LjVMNi4xNDYgNS44NTRsLjcwOC0uNzA4TDguNSA2Ljc5M2wxLjY0Ni0xLjY0N2wuNzA4LjcwOEw5LjIwNyA3LjVsMS42NDcgMS42NDZ6IiBjbGlwLXJ1bGU9ImV2ZW5vZGQiLz48L3N2Zz4=)
+  static const backspaceSolid =
+      '<path fill="currentColor" fill-rule="evenodd" d="M4.11 2.188A.5.5 0 0 1 4.5 2h9A1.5 1.5 0 0 1 15 3.5v8a1.5 1.5 0 0 1-1.5 1.5h-9a.5.5 0 0 1-.39-.188l-4-5a.5.5 0 0 1 0-.624zm6.036 7.666L8.5 8.207L6.854 9.854l-.708-.708L7.793 7.5L6.146 5.854l.708-.708L8.5 6.793l1.646-1.647l.708.708L9.207 7.5l1.647 1.646z" clip-rule="evenodd"/>';
+
+  /// ![preview](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjxwYXRoIGZpbGw9Im5vbmUiIHN0cm9rZT0iY3VycmVudENvbG9yIiBkPSJNMTAuNSAydjIuNWEzIDMgMCAwIDEtNiAwVjJtLTMtLjV2MTJhMSAxIDAgMCAwIDEgMWgxMGExIDEgMCAwIDAgMS0xdi0xMmExIDEgMCAwIDAtMS0xaC0xMGExIDEgMCAwIDAtMSAxWiIvPjwvc3ZnPg==)
+  static const bagAltOutline =
+      '<path fill="none" stroke="currentColor" d="M10.5 2v2.5a3 3 0 0 1-6 0V2m-3-.5v12a1 1 0 0 0 1 1h10a1 1 0 0 0 1-1v-12a1 1 0 0 0-1-1h-10a1 1 0 0 0-1 1Z"/>';
+
+  /// ![preview](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjxwYXRoIGZpbGw9ImN1cnJlbnRDb2xvciIgZmlsbC1ydWxlPSJldmVub2RkIiBkPSJNMSAxLjVBMS41IDEuNSAwIDAgMSAyLjUgMGgxMEExLjUgMS41IDAgMCAxIDE0IDEuNXYxMmExLjUgMS41IDAgMCAxLTEuNSAxLjVoLTEwQTEuNSAxLjUgMCAwIDEgMSAxMy41em05IDNhMi41IDIuNSAwIDAgMS01IDBWMkg0djIuNWEzLjUgMy41IDAgMSAwIDcgMFYyaC0xeiIgY2xpcC1ydWxlPSJldmVub2RkIi8+PC9zdmc+)
+  static const bagAltSolid =
+      '<path fill="currentColor" fill-rule="evenodd" d="M1 1.5A1.5 1.5 0 0 1 2.5 0h10A1.5 1.5 0 0 1 14 1.5v12a1.5 1.5 0 0 1-1.5 1.5h-10A1.5 1.5 0 0 1 1 13.5zm9 3a2.5 2.5 0 0 1-5 0V2H4v2.5a3.5 3.5 0 1 0 7 0V2h-1z" clip-rule="evenodd"/>';
+
+  /// ![preview](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjxwYXRoIGZpbGw9Im5vbmUiIHN0cm9rZT0iY3VycmVudENvbG9yIiBkPSJNNC41IDR2LS41YTMgMyAwIDAgMSA2IDBWNE01IDkuNWg1TTIuNDAxIDYuMzlsLS43NzggN2ExIDEgMCAwIDAgLjk5NCAxLjExaDkuNzY2YTEgMSAwIDAgMCAuOTk0LTEuMTFsLS43NzgtN2ExIDEgMCAwIDAtLjk5NC0uODloLTguMjFhMSAxIDAgMCAwLS45OTQuODlaIi8+PC9zdmc+)
+  static const bagMinusOutline =
+      '<path fill="none" stroke="currentColor" d="M4.5 4v-.5a3 3 0 0 1 6 0V4M5 9.5h5M2.401 6.39l-.778 7a1 1 0 0 0 .994 1.11h9.766a1 1 0 0 0 .994-1.11l-.778-7a1 1 0 0 0-.994-.89h-8.21a1 1 0 0 0-.994.89Z"/>';
+
+  /// ![preview](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjxwYXRoIGZpbGw9ImN1cnJlbnRDb2xvciIgZD0iTTcuNSAxQTIuNSAyLjUgMCAwIDAgNSAzLjVWNEg0di0uNWEzLjUgMy41IDAgMSAxIDcgMFY0aC0xdi0uNUEyLjUgMi41IDAgMCAwIDcuNSAxIi8+PHBhdGggZmlsbD0iY3VycmVudENvbG9yIiBmaWxsLXJ1bGU9ImV2ZW5vZGQiIGQ9Ik0zLjM5NSA1YTEuNSAxLjUgMCAwIDAtMS40OSAxLjMzNGwtLjc3OCA3QTEuNSAxLjUgMCAwIDAgMi42MTcgMTVoOS43NjZhMS41IDEuNSAwIDAgMCAxLjQ5LTEuNjY2bC0uNzc3LTdBMS41IDEuNSAwIDAgMCAxMS42MDYgNXpNNSA5djFoNVY5eiIgY2xpcC1ydWxlPSJldmVub2RkIi8+PC9zdmc+)
+  static const bagMinusSolid =
+      '<path fill="currentColor" d="M7.5 1A2.5 2.5 0 0 0 5 3.5V4H4v-.5a3.5 3.5 0 1 1 7 0V4h-1v-.5A2.5 2.5 0 0 0 7.5 1"/><path fill="currentColor" fill-rule="evenodd" d="M3.395 5a1.5 1.5 0 0 0-1.49 1.334l-.778 7A1.5 1.5 0 0 0 2.617 15h9.766a1.5 1.5 0 0 0 1.49-1.666l-.777-7A1.5 1.5 0 0 0 11.606 5zM5 9v1h5V9z" clip-rule="evenodd"/>';
+
+  /// ![preview](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjxwYXRoIGZpbGw9ImN1cnJlbnRDb2xvciIgZD0ibTIuNDAxIDYuMzlsLS40OTctLjA1NnptLS43NzggN2wuNDk3LjA1NXptMTEuNzU0IDBsLS40OTcuMDU1em0tLjc3OC03bC40OTctLjA1NnpNMS45MDQgNi4zMzRsLS43NzggN2wuOTk0LjExbC43NzgtN3pNMi42MTcgMTVoOS43NjZ2LTFIMi42MTd6bTExLjI1Ny0xLjY2NmwtLjc3OC03bC0uOTk0LjExbC43NzggN3pNMTEuNjA0IDVIMy4zOTZ2MWg4LjIxem0xLjQ5MiAxLjMzNEExLjUgMS41IDAgMCAwIDExLjYwNSA1djFhLjUuNSAwIDAgMSAuNDk3LjQ0NXpNMTIuMzgzIDE1YTEuNSAxLjUgMCAwIDAgMS40OS0xLjY2NmwtLjk5My4xMWEuNS41IDAgMCAxLS40OTcuNTU2ek0xLjEyNiAxMy4zMzRBMS41IDEuNSAwIDAgMCAyLjYxNyAxNXYtMWEuNS41IDAgMCAxLS40OTctLjU1NXptMS43NzItNi44OUEuNS41IDAgMCAxIDMuMzk1IDZWNWExLjUgMS41IDAgMCAwLTEuNDkgMS4zMzR6TTUgNHYtLjVINFY0em01LS41VjRoMXYtLjV6TTcuNSAxQTIuNSAyLjUgMCAwIDEgMTAgMy41aDFBMy41IDMuNSAwIDAgMCA3LjUgMHpNNSAzLjVBMi41IDIuNSAwIDAgMSA3LjUgMVYwQTMuNSAzLjUgMCAwIDAgNCAzLjV6Ii8+PC9zdmc+)
+  static const bagOutline =
+      '<path fill="currentColor" d="m2.401 6.39l-.497-.056zm-.778 7l.497.055zm11.754 0l-.497.055zm-.778-7l.497-.056zM1.904 6.334l-.778 7l.994.11l.778-7zM2.617 15h9.766v-1H2.617zm11.257-1.666l-.778-7l-.994.11l.778 7zM11.604 5H3.396v1h8.21zm1.492 1.334A1.5 1.5 0 0 0 11.605 5v1a.5.5 0 0 1 .497.445zM12.383 15a1.5 1.5 0 0 0 1.49-1.666l-.993.11a.5.5 0 0 1-.497.556zM1.126 13.334A1.5 1.5 0 0 0 2.617 15v-1a.5.5 0 0 1-.497-.555zm1.772-6.89A.5.5 0 0 1 3.395 6V5a1.5 1.5 0 0 0-1.49 1.334zM5 4v-.5H4V4zm5-.5V4h1v-.5zM7.5 1A2.5 2.5 0 0 1 10 3.5h1A3.5 3.5 0 0 0 7.5 0zM5 3.5A2.5 2.5 0 0 1 7.5 1V0A3.5 3.5 0 0 0 4 3.5z"/>';
+
+  /// ![preview](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjxwYXRoIGZpbGw9Im5vbmUiIHN0cm9rZT0iY3VycmVudENvbG9yIiBkPSJNNC41IDR2LS41YTMgMyAwIDAgMSA2IDBWNG0tMyAzdjVNNSA5LjVoNU0yLjQwMSA2LjM5bC0uNzc4IDdhMSAxIDAgMCAwIC45OTQgMS4xMWg5Ljc2NmExIDEgMCAwIDAgLjk5NC0xLjExbC0uNzc4LTdhMSAxIDAgMCAwLS45OTQtLjg5aC04LjIxYTEgMSAwIDAgMC0uOTk0Ljg5WiIvPjwvc3ZnPg==)
+  static const bagPlusOutline =
+      '<path fill="none" stroke="currentColor" d="M4.5 4v-.5a3 3 0 0 1 6 0V4m-3 3v5M5 9.5h5M2.401 6.39l-.778 7a1 1 0 0 0 .994 1.11h9.766a1 1 0 0 0 .994-1.11l-.778-7a1 1 0 0 0-.994-.89h-8.21a1 1 0 0 0-.994.89Z"/>';
+
+  /// ![preview](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjxwYXRoIGZpbGw9ImN1cnJlbnRDb2xvciIgZD0iTTUgMy41YTIuNSAyLjUgMCAwIDEgNSAwVjRoMXYtLjVhMy41IDMuNSAwIDEgMC03IDBWNGgxeiIvPjxwYXRoIGZpbGw9ImN1cnJlbnRDb2xvciIgZmlsbC1ydWxlPSJldmVub2RkIiBkPSJNMS45MDQgNi4zMzRBMS41IDEuNSAwIDAgMSAzLjM5NSA1aDguMjFhMS41IDEuNSAwIDAgMSAxLjQ5IDEuMzM0bC43NzkgN0ExLjUgMS41IDAgMCAxIDEyLjM4MyAxNUgyLjYxN2ExLjUgMS41IDAgMCAxLTEuNDktMS42NjZ6TTcgOVY3aDF2MmgydjFIOHYySDd2LTJINVY5eiIgY2xpcC1ydWxlPSJldmVub2RkIi8+PC9zdmc+)
+  static const bagPlusSolid =
+      '<path fill="currentColor" d="M5 3.5a2.5 2.5 0 0 1 5 0V4h1v-.5a3.5 3.5 0 1 0-7 0V4h1z"/><path fill="currentColor" fill-rule="evenodd" d="M1.904 6.334A1.5 1.5 0 0 1 3.395 5h8.21a1.5 1.5 0 0 1 1.49 1.334l.779 7A1.5 1.5 0 0 1 12.383 15H2.617a1.5 1.5 0 0 1-1.49-1.666zM7 9V7h1v2h2v1H8v2H7v-2H5V9z" clip-rule="evenodd"/>';
+
+  /// ![preview](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjxwYXRoIGZpbGw9ImN1cnJlbnRDb2xvciIgZD0iTTUgMy41YTIuNSAyLjUgMCAwIDEgNSAwVjRoMXYtLjVhMy41IDMuNSAwIDEgMC03IDBWNGgxek0xLjkwNCA2LjMzNEExLjUgMS41IDAgMCAxIDMuMzk1IDVoOC4yMWExLjUgMS41IDAgMCAxIDEuNDkgMS4zMzRsLjc3OSA3QTEuNSAxLjUgMCAwIDEgMTIuMzgzIDE1SDIuNjE3YTEuNSAxLjUgMCAwIDEtMS40OS0xLjY2NnoiLz48L3N2Zz4=)
+  static const bagSolid =
+      '<path fill="currentColor" d="M5 3.5a2.5 2.5 0 0 1 5 0V4h1v-.5a3.5 3.5 0 1 0-7 0V4h1zM1.904 6.334A1.5 1.5 0 0 1 3.395 5h8.21a1.5 1.5 0 0 1 1.49 1.334l.779 7A1.5 1.5 0 0 1 12.383 15H2.617a1.5 1.5 0 0 1-1.49-1.666z"/>';
+
+  /// ![preview](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjxwYXRoIGZpbGw9ImN1cnJlbnRDb2xvciIgZD0ibTcuNS41bC4yMjQtLjQ0N2EuNS41IDAgMCAwLS40NDggMHpNMCAxNWgxNXYtMUgwek03LjI3Ni4wNTNsLTYgM2wuNDQ4Ljg5NGw2LTN6TTAgNmgxNVY1SDB6bTEzLjcyNC0yLjk0N2wtNi0zbC0uNDQ4Ljg5NGw2IDN6TTUgOHY0aDFWOHptNCAwdjRoMVY4ek0xIDUuNXY5aDF2LTl6bTEyIDB2OWgxdi05eiIvPjwvc3ZnPg==)
+  static const bankOutline =
+      '<path fill="currentColor" d="m7.5.5l.224-.447a.5.5 0 0 0-.448 0zM0 15h15v-1H0zM7.276.053l-6 3l.448.894l6-3zM0 6h15V5H0zm13.724-2.947l-6-3l-.448.894l6 3zM5 8v4h1V8zm4 0v4h1V8zM1 5.5v9h1v-9zm12 0v9h1v-9z"/>';
+
+  /// ![preview](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjxwYXRoIGZpbGw9ImN1cnJlbnRDb2xvciIgZD0iTTcuNzI0LjA1M2EuNS41IDAgMCAwLS40NDggMGwtNiAzbC40NDguODk0TDcuNSAxLjA2bDUuNzc2IDIuODg4bC40NDgtLjg5NHoiLz48cGF0aCBmaWxsPSJjdXJyZW50Q29sb3IiIGZpbGwtcnVsZT0iZXZlbm9kZCIgZD0iTTE0IDZoMVY1SDB2MWgxdjhIMHYxaDE1di0xaC0xem0tOSA2VjhoMXY0em00IDBWOGgxdjR6IiBjbGlwLXJ1bGU9ImV2ZW5vZGQiLz48L3N2Zz4=)
+  static const bankSolid =
+      '<path fill="currentColor" d="M7.724.053a.5.5 0 0 0-.448 0l-6 3l.448.894L7.5 1.06l5.776 2.888l.448-.894z"/><path fill="currentColor" fill-rule="evenodd" d="M14 6h1V5H0v1h1v8H0v1h15v-1h-1zm-9 6V8h1v4zm4 0V8h1v4z" clip-rule="evenodd"/>';
+
+  /// ![preview](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjxwYXRoIGZpbGw9Im5vbmUiIHN0cm9rZT0iY3VycmVudENvbG9yIiBkPSJNMCAxNC41aDE1TTUuNSAxMlY2bTQgNlYzbTQgOVYwbS0xMiA5djMiLz48L3N2Zz4=)
+  static const barChartOutline =
+      '<path fill="none" stroke="currentColor" d="M0 14.5h15M5.5 12V6m4 6V3m4 9V0m-12 9v3"/>';
+
+  /// ![preview](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjxwYXRoIGZpbGw9ImN1cnJlbnRDb2xvciIgZmlsbC1ydWxlPSJldmVub2RkIiBkPSJNMTMgMGgxdjEyaC0xem0tMyAzdjlIOVYzek02IDZ2Nkg1VjZ6bS01IDZWOWgxdjN6bTE0IDNIMHYtMWgxNXoiIGNsaXAtcnVsZT0iZXZlbm9kZCIvPjwvc3ZnPg==)
+  static const barChartSolid =
+      '<path fill="currentColor" fill-rule="evenodd" d="M13 0h1v12h-1zm-3 3v9H9V3zM6 6v6H5V6zm-5 6V9h1v3zm14 3H0v-1h15z" clip-rule="evenodd"/>';
+
+  /// ![preview](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjxwYXRoIGZpbGw9Im5vbmUiIHN0cm9rZT0iY3VycmVudENvbG9yIiBkPSJNLjUgMnYxMW01LTExdjExbTItMTF2MTFtNy0xMXYxMW0tNC0xMXYxMSIvPjwvc3ZnPg==)
+  static const barcodeOutline =
+      '<path fill="none" stroke="currentColor" d="M.5 2v11m5-11v11m2-11v11m7-11v11m-4-11v11"/>';
+
+  /// ![preview](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjxwYXRoIGZpbGw9ImN1cnJlbnRDb2xvciIgZmlsbC1ydWxlPSJldmVub2RkIiBkPSJNMCAxM1YyaDF2MTF6bTUgMFYyaDF2MTF6bTIgMFYyaDF2MTF6bTMgMFYyaDF2MTF6bTQgMFYyaDF2MTF6IiBjbGlwLXJ1bGU9ImV2ZW5vZGQiLz48L3N2Zz4=)
+  static const barcodeSolid =
+      '<path fill="currentColor" fill-rule="evenodd" d="M0 13V2h1v11zm5 0V2h1v11zm2 0V2h1v11zm3 0V2h1v11zm4 0V2h1v11z" clip-rule="evenodd"/>';
+
+  /// ![preview](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjxwYXRoIGZpbGw9ImN1cnJlbnRDb2xvciIgZD0ibTIuNDQ5IDE0LjM5OGwuNDQ3LS4yMjR6bTEwLjEwMiAwbC40NDcuMjI0ek0uNzAzIDZoMTMuNTk0VjVILjcwM3pNMTQgNS43MDN2LjQzOWgxdi0uNDM5ek0xMi4zODYgMTRIMi42MTR2MWg5Ljc3MnpNMSA2LjE0MnYtLjQzOUgwdi40Mzl6bTEuODk2IDguMDMyQTE3Ljk2IDE3Ljk2IDAgMCAxIDEgNi4xNDJIMGMwIDIuOTQ0LjY4NSA1Ljg0NyAyLjAwMiA4LjQ4ek0yLjYxNCAxNGMuMTIgMCAuMjI5LjA2OC4yODIuMTc0bC0uODk0LjQ0OGEuNjkuNjkgMCAwIDAgLjYxMi4zNzh6bTkuNDkuMTc0YS4zMi4zMiAwIDAgMSAuMjgyLS4xNzR2MWMuMjYgMCAuNDk2LS4xNDYuNjEyLS4zNzh6TTE0IDYuMTQyYzAgMi43ODgtLjY1IDUuNTM4LTEuODk2IDguMDMybC44OTQuNDQ4QTE4Ljk2IDE4Ljk2IDAgMCAwIDE1IDYuMTQyek0xNC4yOTcgNkEuMjk3LjI5NyAwIDAgMSAxNCA1LjcwM2gxQS43MDMuNzAzIDAgMCAwIDE0LjI5NyA1ek0uNzAzIDVBLjcwMy43MDMgMCAwIDAgMCA1LjcwM2gxQS4yOTcuMjk3IDAgMCAxIC43MDMgNnptMy4yMjYuNzU3bDMtNUw2LjA3LjI0M2wtMyA1em00LjE0Mi01bDMgNWwuODU4LS41MTRsLTMtNXpNNSAxMGg1VjlINXoiLz48L3N2Zz4=)
+  static const basketMinusOutline =
+      '<path fill="currentColor" d="m2.449 14.398l.447-.224zm10.102 0l.447.224zM.703 6h13.594V5H.703zM14 5.703v.439h1v-.439zM12.386 14H2.614v1h9.772zM1 6.142v-.439H0v.439zm1.896 8.032A17.96 17.96 0 0 1 1 6.142H0c0 2.944.685 5.847 2.002 8.48zM2.614 14c.12 0 .229.068.282.174l-.894.448a.69.69 0 0 0 .612.378zm9.49.174a.32.32 0 0 1 .282-.174v1c.26 0 .496-.146.612-.378zM14 6.142c0 2.788-.65 5.538-1.896 8.032l.894.448A18.96 18.96 0 0 0 15 6.142zM14.297 6A.297.297 0 0 1 14 5.703h1A.703.703 0 0 0 14.297 5zM.703 5A.703.703 0 0 0 0 5.703h1A.297.297 0 0 1 .703 6zm3.226.757l3-5L6.07.243l-3 5zm4.142-5l3 5l.858-.514l-3-5zM5 10h5V9H5z"/>';
+
+  /// ![preview](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjxwYXRoIGZpbGw9ImN1cnJlbnRDb2xvciIgZmlsbC1ydWxlPSJldmVub2RkIiBkPSJNNC4zODMgNUw2LjkzLjc1N0w2LjA3LjI0M0wzLjIxNyA1SC43MDNBLjcwMy43MDMgMCAwIDAgMCA1LjcwM3YuNDM5YzAgMi45NDQuNjg1IDUuODQ3IDIuMDAyIDguNDhhLjY5LjY5IDAgMCAwIC42MTIuMzc4aDkuNzcyYy4yNiAwIC40OTYtLjE0Ni42MTItLjM3OUExOC45NiAxOC45NiAwIDAgMCAxNSA2LjE0MXYtLjQzOEEuNzAzLjcwMyAwIDAgMCAxNC4yOTcgNWgtMi41MTRMOC45My4yNDNsLS44Ni41MTRMMTAuNjE3IDV6TTUgMTBoNVY5SDV6IiBjbGlwLXJ1bGU9ImV2ZW5vZGQiLz48L3N2Zz4=)
+  static const basketMinusSolid =
+      '<path fill="currentColor" fill-rule="evenodd" d="M4.383 5L6.93.757L6.07.243L3.217 5H.703A.703.703 0 0 0 0 5.703v.439c0 2.944.685 5.847 2.002 8.48a.69.69 0 0 0 .612.378h9.772c.26 0 .496-.146.612-.379A18.96 18.96 0 0 0 15 6.141v-.438A.703.703 0 0 0 14.297 5h-2.514L8.93.243l-.86.514L10.617 5zM5 10h5V9H5z" clip-rule="evenodd"/>';
+
+  /// ![preview](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjxwYXRoIGZpbGw9ImN1cnJlbnRDb2xvciIgZD0ibTIuNDQ5IDE0LjM5OGwuNDQ3LS4yMjR6bTEwLjEwMiAwbC40NDcuMjI0ek0uNzAzIDZoMTMuNTk0VjVILjcwM3pNMTQgNS43MDN2LjQzOWgxdi0uNDM5ek0xMi4zODYgMTRIMi42MTR2MWg5Ljc3MnpNMSA2LjE0MnYtLjQzOUgwdi40Mzl6bTEuODk2IDguMDMyQTE3Ljk2IDE3Ljk2IDAgMCAxIDEgNi4xNDJIMGMwIDIuOTQ0LjY4NSA1Ljg0NyAyLjAwMiA4LjQ4ek0yLjYxNCAxNGMuMTIgMCAuMjI5LjA2OC4yODIuMTc0bC0uODk0LjQ0OGEuNjkuNjkgMCAwIDAgLjYxMi4zNzh6bTkuNDkuMTc0YS4zMi4zMiAwIDAgMSAuMjgyLS4xNzR2MWMuMjYgMCAuNDk2LS4xNDYuNjEyLS4zNzh6TTE0IDYuMTQyYzAgMi43ODgtLjY1IDUuNTM4LTEuODk2IDguMDMybC44OTQuNDQ4QTE4Ljk2IDE4Ljk2IDAgMCAwIDE1IDYuMTQyek0xNC4yOTcgNkEuMjk3LjI5NyAwIDAgMSAxNCA1LjcwM2gxQS43MDMuNzAzIDAgMCAwIDE0LjI5NyA1ek0uNzAzIDVBLjcwMy43MDMgMCAwIDAgMCA1LjcwM2gxQS4yOTcuMjk3IDAgMCAxIC43MDMgNnptMy4yMjYuNzU3bDMtNUw2LjA3LjI0M2wtMyA1em00LjE0Mi01bDMgNWwuODU4LS41MTRsLTMtNXoiLz48L3N2Zz4=)
+  static const basketOutline =
+      '<path fill="currentColor" d="m2.449 14.398l.447-.224zm10.102 0l.447.224zM.703 6h13.594V5H.703zM14 5.703v.439h1v-.439zM12.386 14H2.614v1h9.772zM1 6.142v-.439H0v.439zm1.896 8.032A17.96 17.96 0 0 1 1 6.142H0c0 2.944.685 5.847 2.002 8.48zM2.614 14c.12 0 .229.068.282.174l-.894.448a.69.69 0 0 0 .612.378zm9.49.174a.32.32 0 0 1 .282-.174v1c.26 0 .496-.146.612-.378zM14 6.142c0 2.788-.65 5.538-1.896 8.032l.894.448A18.96 18.96 0 0 0 15 6.142zM14.297 6A.297.297 0 0 1 14 5.703h1A.703.703 0 0 0 14.297 5zM.703 5A.703.703 0 0 0 0 5.703h1A.297.297 0 0 1 .703 6zm3.226.757l3-5L6.07.243l-3 5zm4.142-5l3 5l.858-.514l-3-5z"/>';
+
+  /// ![preview](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjxwYXRoIGZpbGw9ImN1cnJlbnRDb2xvciIgZD0ibTIuNDQ5IDE0LjM5OGwuNDQ3LS4yMjR6bTEwLjEwMiAwbC40NDcuMjI0ek0uNzAzIDZoMTMuNTk0VjVILjcwM3pNMTQgNS43MDN2LjQzOWgxdi0uNDM5ek0xMi4zODYgMTRIMi42MTR2MWg5Ljc3MnpNMSA2LjE0MnYtLjQzOUgwdi40Mzl6bTEuODk2IDguMDMyQTE3Ljk2IDE3Ljk2IDAgMCAxIDEgNi4xNDJIMGMwIDIuOTQ0LjY4NSA1Ljg0NyAyLjAwMiA4LjQ4ek0yLjYxNCAxNGMuMTIgMCAuMjI5LjA2OC4yODIuMTc0bC0uODk0LjQ0OGEuNjkuNjkgMCAwIDAgLjYxMi4zNzh6bTkuNDkuMTc0YS4zMi4zMiAwIDAgMSAuMjgyLS4xNzR2MWMuMjYgMCAuNDk2LS4xNDYuNjEyLS4zNzh6TTE0IDYuMTQyYzAgMi43ODgtLjY1IDUuNTM4LTEuODk2IDguMDMybC44OTQuNDQ4QTE4Ljk2IDE4Ljk2IDAgMCAwIDE1IDYuMTQyek0xNC4yOTcgNkEuMjk3LjI5NyAwIDAgMSAxNCA1LjcwM2gxQS43MDMuNzAzIDAgMCAwIDE0LjI5NyA1ek0uNzAzIDVBLjcwMy43MDMgMCAwIDAgMCA1LjcwM2gxQS4yOTcuMjk3IDAgMCAxIC43MDMgNnptMy4yMjYuNzU3bDMtNUw2LjA3LjI0M2wtMyA1em00LjE0Mi01bDMgNWwuODU4LS41MTRsLTMtNXpNNyA3djVoMVY3em0tMiAzaDVWOUg1eiIvPjwvc3ZnPg==)
+  static const basketPlusOutline =
+      '<path fill="currentColor" d="m2.449 14.398l.447-.224zm10.102 0l.447.224zM.703 6h13.594V5H.703zM14 5.703v.439h1v-.439zM12.386 14H2.614v1h9.772zM1 6.142v-.439H0v.439zm1.896 8.032A17.96 17.96 0 0 1 1 6.142H0c0 2.944.685 5.847 2.002 8.48zM2.614 14c.12 0 .229.068.282.174l-.894.448a.69.69 0 0 0 .612.378zm9.49.174a.32.32 0 0 1 .282-.174v1c.26 0 .496-.146.612-.378zM14 6.142c0 2.788-.65 5.538-1.896 8.032l.894.448A18.96 18.96 0 0 0 15 6.142zM14.297 6A.297.297 0 0 1 14 5.703h1A.703.703 0 0 0 14.297 5zM.703 5A.703.703 0 0 0 0 5.703h1A.297.297 0 0 1 .703 6zm3.226.757l3-5L6.07.243l-3 5zm4.142-5l3 5l.858-.514l-3-5zM7 7v5h1V7zm-2 3h5V9H5z"/>';
+
+  /// ![preview](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjxwYXRoIGZpbGw9ImN1cnJlbnRDb2xvciIgZmlsbC1ydWxlPSJldmVub2RkIiBkPSJNNC4zODMgNUw2LjkzLjc1N0w2LjA3LjI0M0wzLjIxNyA1SC43MDNBLjcwMy43MDMgMCAwIDAgMCA1LjcwM3YuNDM5YzAgMi45NDQuNjg1IDUuODQ3IDIuMDAyIDguNDhhLjY5LjY5IDAgMCAwIC42MTIuMzc4aDkuNzcyYy4yNiAwIC40OTYtLjE0Ni42MTItLjM3OUExOC45NiAxOC45NiAwIDAgMCAxNSA2LjE0MXYtLjQzOEEuNzAzLjcwMyAwIDAgMCAxNC4yOTcgNWgtMi41MTRMOC45My4yNDNsLS44Ni41MTRMMTAuNjE3IDV6TTcgMTJ2LTJINVY5aDJWN2gxdjJoMnYxSDh2MnoiIGNsaXAtcnVsZT0iZXZlbm9kZCIvPjwvc3ZnPg==)
+  static const basketPlusSolid =
+      '<path fill="currentColor" fill-rule="evenodd" d="M4.383 5L6.93.757L6.07.243L3.217 5H.703A.703.703 0 0 0 0 5.703v.439c0 2.944.685 5.847 2.002 8.48a.69.69 0 0 0 .612.378h9.772c.26 0 .496-.146.612-.379A18.96 18.96 0 0 0 15 6.141v-.438A.703.703 0 0 0 14.297 5h-2.514L8.93.243l-.86.514L10.617 5zM7 12v-2H5V9h2V7h1v2h2v1H8v2z" clip-rule="evenodd"/>';
+
+  /// ![preview](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjxwYXRoIGZpbGw9ImN1cnJlbnRDb2xvciIgZD0iTTYuOTI5Ljc1N0w0LjM4MyA1aDYuMjM0TDguMDcuNzU3bC44Ni0uNTE0TDExLjc4MyA1aDIuNTE0Yy4zODggMCAuNzAzLjMxNS43MDMuNzAzdi40MzlhMTguOTYgMTguOTYgMCAwIDEtMi4wMDIgOC40OGEuNjguNjggMCAwIDEtLjYxMi4zNzhIMi42MTRhLjY5LjY5IDAgMCAxLS42MTItLjM3OUExOC45NiAxOC45NiAwIDAgMSAwIDYuMTQxdi0uNDM4QzAgNS4zMTUuMzE1IDUgLjcwMyA1aDIuNTE0TDYuMDcuMjQzeiIvPjwvc3ZnPg==)
+  static const basketSolid =
+      '<path fill="currentColor" d="M6.929.757L4.383 5h6.234L8.07.757l.86-.514L11.783 5h2.514c.388 0 .703.315.703.703v.439a18.96 18.96 0 0 1-2.002 8.48a.68.68 0 0 1-.612.378H2.614a.69.69 0 0 1-.612-.379A18.96 18.96 0 0 1 0 6.141v-.438C0 5.315.315 5 .703 5h2.514L6.07.243z"/>';
+
+  /// ![preview](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjxwYXRoIGZpbGw9Im5vbmUiIHN0cm9rZT0iY3VycmVudENvbG9yIiBkPSJNMCA3LjVoMTVtLTEwLjUgNWg2bS02IDBhMyAzIDAgMCAxLTMtM3YtNmEzIDMgMCAwIDEgMy0zaDJWMm0tMiAxMC41VjE1bTYtMi41YTMgMyAwIDAgMCAzLTN2LTJtLTMgNVYxNU01IDMuNWgzIi8+PC9zdmc+)
+  static const bathOutline =
+      '<path fill="none" stroke="currentColor" d="M0 7.5h15m-10.5 5h6m-6 0a3 3 0 0 1-3-3v-6a3 3 0 0 1 3-3h2V2m-2 10.5V15m6-2.5a3 3 0 0 0 3-3v-2m-3 5V15M5 3.5h3"/>';
+
+  /// ![preview](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjxwYXRoIGZpbGw9ImN1cnJlbnRDb2xvciIgZD0iTTIgMy41QTIuNSAyLjUgMCAwIDEgNC41IDFINnYxaDFWMEg0LjVBMy41IDMuNSAwIDAgMCAxIDMuNVY3SDB2MWgxdjEuNWEzLjUgMy41IDAgMCAwIDMgMy40NjVWMTVoMXYtMmg1djJoMXYtMi4wMzVBMy41IDMuNSAwIDAgMCAxNCA5LjVWOGgxVjdIMnoiLz48cGF0aCBmaWxsPSJjdXJyZW50Q29sb3IiIGQ9Ik04IDRINVYzaDN6Ii8+PC9zdmc+)
+  static const bathSolid =
+      '<path fill="currentColor" d="M2 3.5A2.5 2.5 0 0 1 4.5 1H6v1h1V0H4.5A3.5 3.5 0 0 0 1 3.5V7H0v1h1v1.5a3.5 3.5 0 0 0 3 3.465V15h1v-2h5v2h1v-2.035A3.5 3.5 0 0 0 14 9.5V8h1V7H2z"/><path fill="currentColor" d="M8 4H5V3h3z"/>';
+
+  /// ![preview](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjxwYXRoIGZpbGw9Im5vbmUiIHN0cm9rZT0iY3VycmVudENvbG9yIiBkPSJNMTQuNSAxMFY1bS0yIDYuNXYtOGExIDEgMCAwIDAtMS0xaC0xMGExIDEgMCAwIDAtMSAxdjhhMSAxIDAgMCAwIDEgMWgxMGExIDEgMCAwIDAgMS0xWiIvPjwvc3ZnPg==)
+  static const battery0Outline =
+      '<path fill="none" stroke="currentColor" d="M14.5 10V5m-2 6.5v-8a1 1 0 0 0-1-1h-10a1 1 0 0 0-1 1v8a1 1 0 0 0 1 1h10a1 1 0 0 0 1-1Z"/>';
+
+  /// ![preview](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjxwYXRoIGZpbGw9ImN1cnJlbnRDb2xvciIgZD0iTTEuNSAxM0ExLjUgMS41IDAgMCAxIDAgMTEuNXYtOEExLjUgMS41IDAgMCAxIDEuNSAyaDEwQTEuNSAxLjUgMCAwIDEgMTMgMy41djhhMS41IDEuNSAwIDAgMS0xLjUgMS41ek0xNSAxMFY1aC0xdjV6Ii8+PC9zdmc+)
+  static const battery0Solid =
+      '<path fill="currentColor" d="M1.5 13A1.5 1.5 0 0 1 0 11.5v-8A1.5 1.5 0 0 1 1.5 2h10A1.5 1.5 0 0 1 13 3.5v8a1.5 1.5 0 0 1-1.5 1.5zM15 10V5h-1v5z"/>';
+
+  /// ![preview](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjxwYXRoIGZpbGw9Im5vbmUiIHN0cm9rZT0iY3VycmVudENvbG9yIiBkPSJNMTQuNSAxMFY1bS0xMiA2VjRtMTAgNy41di04YTEgMSAwIDAgMC0xLTFoLTEwYTEgMSAwIDAgMC0xIDF2OGExIDEgMCAwIDAgMSAxaDEwYTEgMSAwIDAgMCAxLTFaIi8+PC9zdmc+)
+  static const battery1Outline =
+      '<path fill="none" stroke="currentColor" d="M14.5 10V5m-12 6V4m10 7.5v-8a1 1 0 0 0-1-1h-10a1 1 0 0 0-1 1v8a1 1 0 0 0 1 1h10a1 1 0 0 0 1-1Z"/>';
+
+  /// ![preview](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjxwYXRoIGZpbGw9ImN1cnJlbnRDb2xvciIgZmlsbC1ydWxlPSJldmVub2RkIiBkPSJNMCAxMS41QTEuNSAxLjUgMCAwIDAgMS41IDEzaDEwYTEuNSAxLjUgMCAwIDAgMS41LTEuNXYtOEExLjUgMS41IDAgMCAwIDExLjUgMmgtMTBBMS41IDEuNSAwIDAgMCAwIDMuNXptMy0uNVY0SDJ2N3oiIGNsaXAtcnVsZT0iZXZlbm9kZCIvPjxwYXRoIGZpbGw9ImN1cnJlbnRDb2xvciIgZD0iTTE1IDV2NWgtMVY1eiIvPjwvc3ZnPg==)
+  static const battery1Solid =
+      '<path fill="currentColor" fill-rule="evenodd" d="M0 11.5A1.5 1.5 0 0 0 1.5 13h10a1.5 1.5 0 0 0 1.5-1.5v-8A1.5 1.5 0 0 0 11.5 2h-10A1.5 1.5 0 0 0 0 3.5zm3-.5V4H2v7z" clip-rule="evenodd"/><path fill="currentColor" d="M15 5v5h-1V5z"/>';
+
+  /// ![preview](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjxwYXRoIGZpbGw9Im5vbmUiIHN0cm9rZT0iY3VycmVudENvbG9yIiBkPSJNMTQuNSAxMFY1bS0xMiA2VjRtMiA3VjRtOCA3LjV2LThhMSAxIDAgMCAwLTEtMWgtMTBhMSAxIDAgMCAwLTEgMXY4YTEgMSAwIDAgMCAxIDFoMTBhMSAxIDAgMCAwIDEtMVoiLz48L3N2Zz4=)
+  static const battery2Outline =
+      '<path fill="none" stroke="currentColor" d="M14.5 10V5m-12 6V4m2 7V4m8 7.5v-8a1 1 0 0 0-1-1h-10a1 1 0 0 0-1 1v8a1 1 0 0 0 1 1h10a1 1 0 0 0 1-1Z"/>';
+
+  /// ![preview](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjxwYXRoIGZpbGw9ImN1cnJlbnRDb2xvciIgZmlsbC1ydWxlPSJldmVub2RkIiBkPSJNMCAxMS41QTEuNSAxLjUgMCAwIDAgMS41IDEzaDEwYTEuNSAxLjUgMCAwIDAgMS41LTEuNXYtOEExLjUgMS41IDAgMCAwIDExLjUgMmgtMTBBMS41IDEuNSAwIDAgMCAwIDMuNXpNMyA0djdIMlY0em0yIDB2N0g0VjR6IiBjbGlwLXJ1bGU9ImV2ZW5vZGQiLz48cGF0aCBmaWxsPSJjdXJyZW50Q29sb3IiIGQ9Ik0xNSA1djVoLTFWNXoiLz48L3N2Zz4=)
+  static const battery2Solid =
+      '<path fill="currentColor" fill-rule="evenodd" d="M0 11.5A1.5 1.5 0 0 0 1.5 13h10a1.5 1.5 0 0 0 1.5-1.5v-8A1.5 1.5 0 0 0 11.5 2h-10A1.5 1.5 0 0 0 0 3.5zM3 4v7H2V4zm2 0v7H4V4z" clip-rule="evenodd"/><path fill="currentColor" d="M15 5v5h-1V5z"/>';
+
+  /// ![preview](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjxwYXRoIGZpbGw9Im5vbmUiIHN0cm9rZT0iY3VycmVudENvbG9yIiBkPSJNMTQuNSAxMFY1bS0xMiA2VjRtMiA3VjRtMiA3VjRtNiA3LjV2LThhMSAxIDAgMCAwLTEtMWgtMTBhMSAxIDAgMCAwLTEgMXY4YTEgMSAwIDAgMCAxIDFoMTBhMSAxIDAgMCAwIDEtMVoiLz48L3N2Zz4=)
+  static const battery3Outline =
+      '<path fill="none" stroke="currentColor" d="M14.5 10V5m-12 6V4m2 7V4m2 7V4m6 7.5v-8a1 1 0 0 0-1-1h-10a1 1 0 0 0-1 1v8a1 1 0 0 0 1 1h10a1 1 0 0 0 1-1Z"/>';
+
+  /// ![preview](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjxwYXRoIGZpbGw9ImN1cnJlbnRDb2xvciIgZmlsbC1ydWxlPSJldmVub2RkIiBkPSJNMCAxMS41QTEuNSAxLjUgMCAwIDAgMS41IDEzaDEwYTEuNSAxLjUgMCAwIDAgMS41LTEuNXYtOEExLjUgMS41IDAgMCAwIDExLjUgMmgtMTBBMS41IDEuNSAwIDAgMCAwIDMuNXptMy0uNVY0SDJ2N3ptMiAwVjRINHY3em0yLTd2N0g2VjR6IiBjbGlwLXJ1bGU9ImV2ZW5vZGQiLz48cGF0aCBmaWxsPSJjdXJyZW50Q29sb3IiIGQ9Ik0xNSA1djVoLTFWNXoiLz48L3N2Zz4=)
+  static const battery3Solid =
+      '<path fill="currentColor" fill-rule="evenodd" d="M0 11.5A1.5 1.5 0 0 0 1.5 13h10a1.5 1.5 0 0 0 1.5-1.5v-8A1.5 1.5 0 0 0 11.5 2h-10A1.5 1.5 0 0 0 0 3.5zm3-.5V4H2v7zm2 0V4H4v7zm2-7v7H6V4z" clip-rule="evenodd"/><path fill="currentColor" d="M15 5v5h-1V5z"/>';
+
+  /// ![preview](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjxwYXRoIGZpbGw9Im5vbmUiIHN0cm9rZT0iY3VycmVudENvbG9yIiBkPSJNMTQuNSAxMFY1bS0xMiA2VjRtMiA3VjRtMiA3VjRtMiA3VjRtNCA3LjV2LThhMSAxIDAgMCAwLTEtMWgtMTBhMSAxIDAgMCAwLTEgMXY4YTEgMSAwIDAgMCAxIDFoMTBhMSAxIDAgMCAwIDEtMVoiLz48L3N2Zz4=)
+  static const battery4Outline =
+      '<path fill="none" stroke="currentColor" d="M14.5 10V5m-12 6V4m2 7V4m2 7V4m2 7V4m4 7.5v-8a1 1 0 0 0-1-1h-10a1 1 0 0 0-1 1v8a1 1 0 0 0 1 1h10a1 1 0 0 0 1-1Z"/>';
+
+  /// ![preview](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjxwYXRoIGZpbGw9ImN1cnJlbnRDb2xvciIgZmlsbC1ydWxlPSJldmVub2RkIiBkPSJNMCAxMS41QTEuNSAxLjUgMCAwIDAgMS41IDEzaDEwYTEuNSAxLjUgMCAwIDAgMS41LTEuNXYtOEExLjUgMS41IDAgMCAwIDExLjUgMmgtMTBBMS41IDEuNSAwIDAgMCAwIDMuNXpNMyA0djdIMlY0em0yIDB2N0g0VjR6bTIgN1Y0SDZ2N3ptMi03djdIOFY0eiIgY2xpcC1ydWxlPSJldmVub2RkIi8+PHBhdGggZmlsbD0iY3VycmVudENvbG9yIiBkPSJNMTUgNXY1aC0xVjV6Ii8+PC9zdmc+)
+  static const battery4Solid =
+      '<path fill="currentColor" fill-rule="evenodd" d="M0 11.5A1.5 1.5 0 0 0 1.5 13h10a1.5 1.5 0 0 0 1.5-1.5v-8A1.5 1.5 0 0 0 11.5 2h-10A1.5 1.5 0 0 0 0 3.5zM3 4v7H2V4zm2 0v7H4V4zm2 7V4H6v7zm2-7v7H8V4z" clip-rule="evenodd"/><path fill="currentColor" d="M15 5v5h-1V5z"/>';
+
+  /// ![preview](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjxwYXRoIGZpbGw9Im5vbmUiIHN0cm9rZT0iY3VycmVudENvbG9yIiBkPSJNMTQuNSAxMFY1bS0xMiA2VjRtMiA3VjRtMiA3VjRtMiA3VjRtMiA3VjRtMiA3LjV2LThhMSAxIDAgMCAwLTEtMWgtMTBhMSAxIDAgMCAwLTEgMXY4YTEgMSAwIDAgMCAxIDFoMTBhMSAxIDAgMCAwIDEtMVoiLz48L3N2Zz4=)
+  static const battery5Outline =
+      '<path fill="none" stroke="currentColor" d="M14.5 10V5m-12 6V4m2 7V4m2 7V4m2 7V4m2 7V4m2 7.5v-8a1 1 0 0 0-1-1h-10a1 1 0 0 0-1 1v8a1 1 0 0 0 1 1h10a1 1 0 0 0 1-1Z"/>';
+
+  /// ![preview](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjxwYXRoIGZpbGw9ImN1cnJlbnRDb2xvciIgZmlsbC1ydWxlPSJldmVub2RkIiBkPSJNMCAxMS41QTEuNSAxLjUgMCAwIDAgMS41IDEzaDEwYTEuNSAxLjUgMCAwIDAgMS41LTEuNXYtOEExLjUgMS41IDAgMCAwIDExLjUgMmgtMTBBMS41IDEuNSAwIDAgMCAwIDMuNXptMy0uNVY0SDJ2N3ptMiAwVjRINHY3em0yLTd2N0g2VjR6bTIgN1Y0SDh2N3ptMi03djdoLTFWNHoiIGNsaXAtcnVsZT0iZXZlbm9kZCIvPjxwYXRoIGZpbGw9ImN1cnJlbnRDb2xvciIgZD0iTTE1IDV2NWgtMVY1eiIvPjwvc3ZnPg==)
+  static const battery5Solid =
+      '<path fill="currentColor" fill-rule="evenodd" d="M0 11.5A1.5 1.5 0 0 0 1.5 13h10a1.5 1.5 0 0 0 1.5-1.5v-8A1.5 1.5 0 0 0 11.5 2h-10A1.5 1.5 0 0 0 0 3.5zm3-.5V4H2v7zm2 0V4H4v7zm2-7v7H6V4zm2 7V4H8v7zm2-7v7h-1V4z" clip-rule="evenodd"/><path fill="currentColor" d="M15 5v5h-1V5z"/>';
+
+  /// ![preview](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjxwYXRoIGZpbGw9ImN1cnJlbnRDb2xvciIgZD0iTTEyLjUgMTEuNUgxMnptLTEgMXYuNXptMC0xMFYyem0xIDFoLjV6bS0xMiAwSDB6bTEtMVYzem0tMSA5SDF6bTEgMVYxMnptNS0zbC0uMjI0LjQ0N0EuNS41IDAgMCAwIDcgOS41em0wLTRsLjIyNC0uNDQ3QS41LjUgMCAwIDAgNiA1LjV6bS01LjUgNnYtOEgwdjh6TTEuNSAzaDEwVjJoLTEwem0xMC41LjV2OGgxdi04em0tLjUgOC41aC0xMHYxaDEwem0uNS0uNWEuNS41IDAgMCAxLS41LjV2MWExLjUgMS41IDAgMCAwIDEuNS0xLjV6TTExLjUgM2EuNS41IDAgMCAxIC41LjVoMUExLjUgMS41IDAgMCAwIDExLjUgMnpNMSAzLjVhLjUuNSAwIDAgMSAuNS0uNVYyQTEuNSAxLjUgMCAwIDAgMCAzLjV6bS0xIDhBMS41IDEuNSAwIDAgMCAxLjUgMTN2LTFhLjUuNSAwIDAgMS0uNS0uNXpNMTUgMTBWNWgtMXY1ek0yLjI3NiA3Ljk0N2w0IDJsLjQ0OC0uODk0bC00LTJ6TTcgOS41di00SDZ2NHptLS43MjQtMy41NTNsNCAybC40NDgtLjg5NGwtNC0yeiIvPjwvc3ZnPg==)
+  static const batteryChargeOutline =
+      '<path fill="currentColor" d="M12.5 11.5H12zm-1 1v.5zm0-10V2zm1 1h.5zm-12 0H0zm1-1V3zm-1 9H1zm1 1V12zm5-3l-.224.447A.5.5 0 0 0 7 9.5zm0-4l.224-.447A.5.5 0 0 0 6 5.5zm-5.5 6v-8H0v8zM1.5 3h10V2h-10zm10.5.5v8h1v-8zm-.5 8.5h-10v1h10zm.5-.5a.5.5 0 0 1-.5.5v1a1.5 1.5 0 0 0 1.5-1.5zM11.5 3a.5.5 0 0 1 .5.5h1A1.5 1.5 0 0 0 11.5 2zM1 3.5a.5.5 0 0 1 .5-.5V2A1.5 1.5 0 0 0 0 3.5zm-1 8A1.5 1.5 0 0 0 1.5 13v-1a.5.5 0 0 1-.5-.5zM15 10V5h-1v5zM2.276 7.947l4 2l.448-.894l-4-2zM7 9.5v-4H6v4zm-.724-3.553l4 2l.448-.894l-4-2z"/>';
+
+  /// ![preview](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjxwYXRoIGZpbGw9ImN1cnJlbnRDb2xvciIgZmlsbC1ydWxlPSJldmVub2RkIiBkPSJNMCAxMS41QTEuNSAxLjUgMCAwIDAgMS41IDEzaDEwYTEuNSAxLjUgMCAwIDAgMS41LTEuNXYtOEExLjUgMS41IDAgMCAwIDExLjUgMmgtMTBBMS41IDEuNSAwIDAgMCAwIDMuNXptNi43MjQtNi40NDdBLjUuNSAwIDAgMCA2IDUuNXYzLjE5MUwyLjcyNCA3LjA1M2wtLjQ0OC44OTRsNCAyQS41LjUgMCAwIDAgNyA5LjVWNi4zMDlsMy4yNzYgMS42MzhsLjQ0OC0uODk0eiIgY2xpcC1ydWxlPSJldmVub2RkIi8+PHBhdGggZmlsbD0iY3VycmVudENvbG9yIiBkPSJNMTUgNXY1aC0xVjV6Ii8+PC9zdmc+)
+  static const batteryChargeSolid =
+      '<path fill="currentColor" fill-rule="evenodd" d="M0 11.5A1.5 1.5 0 0 0 1.5 13h10a1.5 1.5 0 0 0 1.5-1.5v-8A1.5 1.5 0 0 0 11.5 2h-10A1.5 1.5 0 0 0 0 3.5zm6.724-6.447A.5.5 0 0 0 6 5.5v3.191L2.724 7.053l-.448.894l4 2A.5.5 0 0 0 7 9.5V6.309l3.276 1.638l.448-.894z" clip-rule="evenodd"/><path fill="currentColor" d="M15 5v5h-1V5z"/>';
+
+  /// ![preview](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjxwYXRoIGZpbGw9Im5vbmUiIHN0cm9rZT0iY3VycmVudENvbG9yIiBkPSJNMTQuNSA3djhNLjUgN3Y4TTAgMTAuNWgxNW0tMTUtM2gxNW0tMTMtMmg0bTMgMGg0TS41IDZWLjVoMTRWNiIvPjwvc3ZnPg==)
+  static const bedDoubleOutline =
+      '<path fill="none" stroke="currentColor" d="M14.5 7v8M.5 7v8M0 10.5h15m-15-3h15m-13-2h4m3 0h4M.5 6V.5h14V6"/>';
+
+  /// ![preview](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjxwYXRoIGZpbGw9ImN1cnJlbnRDb2xvciIgZD0iTTAgMGgxNXY2aC0xVjFIMXY1SDB6Ii8+PHBhdGggZmlsbD0iY3VycmVudENvbG9yIiBkPSJNNiA2SDJWNWg0em0tNiA5aDF2LTRoMTN2NGgxVjdIMHptOS05aDRWNUg5eiIvPjwvc3ZnPg==)
+  static const bedDoubleSolid =
+      '<path fill="currentColor" d="M0 0h15v6h-1V1H1v5H0z"/><path fill="currentColor" d="M6 6H2V5h4zm-6 9h1v-4h13v4h1V7H0zm9-9h4V5H9z"/>';
+
+  /// ![preview](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjxwYXRoIGZpbGw9Im5vbmUiIHN0cm9rZT0iY3VycmVudENvbG9yIiBkPSJNMTQuNSA0djExTS41IDB2MTVNMCAxMC41aDE1bS0xNS0zaDE1bS0xMy0yaDQiLz48L3N2Zz4=)
+  static const bedSingleOutline =
+      '<path fill="none" stroke="currentColor" d="M14.5 4v11M.5 0v15M0 10.5h15m-15-3h15m-13-2h4"/>';
+
+  /// ![preview](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjxwYXRoIGZpbGw9ImN1cnJlbnRDb2xvciIgZD0iTTAgMTVoMXYtNGgxM3Y0aDFWNGgtMXYzSDFWMEgweiIvPjxwYXRoIGZpbGw9ImN1cnJlbnRDb2xvciIgZD0iTTYgNkgyVjVoNHoiLz48L3N2Zz4=)
+  static const bedSingleSolid =
+      '<path fill="currentColor" d="M0 15h1v-4h13v4h1V4h-1v3H1V0H0z"/><path fill="currentColor" d="M6 6H2V5h4z"/>';
+
+  /// ![preview](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjxwYXRoIGZpbGw9ImN1cnJlbnRDb2xvciIgZD0iTTE0LjUgOS41di41aC41di0uNXptLTE0LTdWMkgwdi41em0wIDEwSDB2LjVoLjV6bTcuNS0zYTMuNSAzLjUgMCAwIDAgMy41IDMuNXYtMUEyLjUgMi41IDAgMCAxIDkgOS41ek0xMS41IDZBMy41IDMuNSAwIDAgMCA4IDkuNWgxQTIuNSAyLjUgMCAwIDEgMTEuNSA3ek0xNSA5LjVBMy41IDMuNSAwIDAgMCAxMS41IDZ2MUEyLjUgMi41IDAgMCAxIDE0IDkuNXptLTEuNDczIDEuNDY0QTIuNSAyLjUgMCAwIDEgMTEuNSAxMnYxYTMuNSAzLjUgMCAwIDAgMi44MzctMS40NXpNLjUgM0gzVjJILjV6TTMgN0guNXYxSDN6bS0yIC41di01SDB2NXpNNSA1YTIgMiAwIDAgMS0yIDJ2MWEzIDMgMCAwIDAgMy0zek0zIDNhMiAyIDAgMCAxIDIgMmgxYTMgMyAwIDAgMC0zLTN6TS41IDhINFY3SC41ek00IDEySC41djFINHptLTMgLjV2LTVIMHY1ek02IDEwYTIgMiAwIDAgMS0yIDJ2MWEzIDMgMCAwIDAgMy0zek00IDhhMiAyIDAgMCAxIDIgMmgxYTMgMyAwIDAgMC0zLTN6bTQuNSAyaDZWOWgtNnpNOSA0aDVWM0g5eiIvPjwvc3ZnPg==)
+  static const behanceOutline =
+      '<path fill="currentColor" d="M14.5 9.5v.5h.5v-.5zm-14-7V2H0v.5zm0 10H0v.5h.5zm7.5-3a3.5 3.5 0 0 0 3.5 3.5v-1A2.5 2.5 0 0 1 9 9.5zM11.5 6A3.5 3.5 0 0 0 8 9.5h1A2.5 2.5 0 0 1 11.5 7zM15 9.5A3.5 3.5 0 0 0 11.5 6v1A2.5 2.5 0 0 1 14 9.5zm-1.473 1.464A2.5 2.5 0 0 1 11.5 12v1a3.5 3.5 0 0 0 2.837-1.45zM.5 3H3V2H.5zM3 7H.5v1H3zm-2 .5v-5H0v5zM5 5a2 2 0 0 1-2 2v1a3 3 0 0 0 3-3zM3 3a2 2 0 0 1 2 2h1a3 3 0 0 0-3-3zM.5 8H4V7H.5zM4 12H.5v1H4zm-3 .5v-5H0v5zM6 10a2 2 0 0 1-2 2v1a3 3 0 0 0 3-3zM4 8a2 2 0 0 1 2 2h1a3 3 0 0 0-3-3zm4.5 2h6V9h-6zM9 4h5V3H9z"/>';
+
+  /// ![preview](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjxwYXRoIGZpbGw9ImN1cnJlbnRDb2xvciIgZmlsbC1ydWxlPSJldmVub2RkIiBkPSJNMCAyaDNhMyAzIDAgMCAxIDIuMDUxIDUuMTlBMy4wMDEgMy4wMDEgMCAwIDEgNCAxM0gwem0xIDZ2NGgzYTIgMiAwIDEgMCAwLTR6bTAtMWgyYTIgMiAwIDEgMCAwLTRIMXptMTMtM0g5VjNoNXpNOCA5LjVhMy41IDMuNSAwIDEgMSA3IDB2LjVIOS4wNWEyLjUgMi41IDAgMCAwIDQuNDc3Ljk2NGwuODEuNTg2QTMuNSAzLjUgMCAwIDEgOCA5LjVNOS4wNSA5aDQuOWEyLjUgMi41IDAgMCAwLTQuOSAwIiBjbGlwLXJ1bGU9ImV2ZW5vZGQiLz48L3N2Zz4=)
+  static const behanceSolid =
+      '<path fill="currentColor" fill-rule="evenodd" d="M0 2h3a3 3 0 0 1 2.051 5.19A3.001 3.001 0 0 1 4 13H0zm1 6v4h3a2 2 0 1 0 0-4zm0-1h2a2 2 0 1 0 0-4H1zm13-3H9V3h5zM8 9.5a3.5 3.5 0 1 1 7 0v.5H9.05a2.5 2.5 0 0 0 4.477.964l.81.586A3.5 3.5 0 0 1 8 9.5M9.05 9h4.9a2.5 2.5 0 0 0-4.9 0" clip-rule="evenodd"/>';
+
+  /// ![preview](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjxwYXRoIGZpbGw9Im5vbmUiIHN0cm9rZT0iY3VycmVudENvbG9yIiBkPSJNMSAxMC41aDEzbS0xMS41IDB2LTVhNSA1IDAgMCAxIDEwIDB2NW0tNyAxLjV2LjVhMiAyIDAgMSAwIDQgMFYxMiIvPjwvc3ZnPg==)
+  static const bellOutline =
+      '<path fill="none" stroke="currentColor" d="M1 10.5h13m-11.5 0v-5a5 5 0 0 1 10 0v5m-7 1.5v.5a2 2 0 1 0 4 0V12"/>';
+
+  /// ![preview](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjxwYXRoIGZpbGw9ImN1cnJlbnRDb2xvciIgZD0iTTcuNSAwQTUuNSA1LjUgMCAwIDAgMiA1LjVWMTBIMXYxaDEzdi0xaC0xVjUuNUE1LjUgNS41IDAgMCAwIDcuNSAwTTUgMTIuNVYxMmg1di41YTIuNSAyLjUgMCAwIDEtNSAwIi8+PC9zdmc+)
+  static const bellSolid =
+      '<path fill="currentColor" d="M7.5 0A5.5 5.5 0 0 0 2 5.5V10H1v1h13v-1h-1V5.5A5.5 5.5 0 0 0 7.5 0M5 12.5V12h5v.5a2.5 2.5 0 0 1-5 0"/>';
+
+  /// ![preview](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjxwYXRoIGZpbGw9Im5vbmUiIHN0cm9rZT0iY3VycmVudENvbG9yIiBkPSJNNC41IDNWMS41YTEgMSAwIDAgMSAxLTFoNGExIDEgMCAwIDEgMSAxVjNNMCAzLjVoMTVtLTEzLjUgMHYxMGExIDEgMCAwIDAgMSAxaDEwYTEgMSAwIDAgMCAxLTF2LTEwTTcuNSA3djVtLTMtM3YzbTYtM3YzIi8+PC9zdmc+)
+  static const binOutline =
+      '<path fill="none" stroke="currentColor" d="M4.5 3V1.5a1 1 0 0 1 1-1h4a1 1 0 0 1 1 1V3M0 3.5h15m-13.5 0v10a1 1 0 0 0 1 1h10a1 1 0 0 0 1-1v-10M7.5 7v5m-3-3v3m6-3v3"/>';
+
+  /// ![preview](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjxwYXRoIGZpbGw9ImN1cnJlbnRDb2xvciIgZmlsbC1ydWxlPSJldmVub2RkIiBkPSJNMTEgM1YxLjVBMS41IDEuNSAwIDAgMCA5LjUgMGgtNEExLjUgMS41IDAgMCAwIDQgMS41VjNIMHYxaDF2OS41QTEuNSAxLjUgMCAwIDAgMi41IDE1aDEwYTEuNSAxLjUgMCAwIDAgMS41LTEuNVY0aDFWM3pNNSAxLjVhLjUuNSAwIDAgMSAuNS0uNWg0YS41LjUgMCAwIDEgLjUuNVYzSDV6TTcgN3Y1aDFWN3ptLTMgNVY5aDF2M3ptNi0zdjNoMVY5eiIgY2xpcC1ydWxlPSJldmVub2RkIi8+PC9zdmc+)
+  static const binSolid =
+      '<path fill="currentColor" fill-rule="evenodd" d="M11 3V1.5A1.5 1.5 0 0 0 9.5 0h-4A1.5 1.5 0 0 0 4 1.5V3H0v1h1v9.5A1.5 1.5 0 0 0 2.5 15h10a1.5 1.5 0 0 0 1.5-1.5V4h1V3zM5 1.5a.5.5 0 0 1 .5-.5h4a.5.5 0 0 1 .5.5V3H5zM7 7v5h1V7zm-3 5V9h1v3zm6-3v3h1V9z" clip-rule="evenodd"/>';
+
+  /// ![preview](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjxwYXRoIGZpbGw9ImN1cnJlbnRDb2xvciIgZD0iTS41LjVWMGEuNS41IDAgMCAwLS40OTUuNTd6bTE0IDBsLjQ5NS4wN0EuNS41IDAgMCAwIDE0LjUgMHptLTIgMTR2LjVhLjUuNSAwIDAgMCAuNDk1LS40M3ptLTEwIDBsLS40OTUuMDdBLjUuNSAwIDAgMCAyLjUgMTV6TTUgNC41VjRhLjUuNSAwIDAgMC0uNDk4LjU0MnptNC41IDZ2LjVhLjUuNSAwIDAgMCAuNDk4LS40NTl6bS00IDBsLS40OTguMDQxQS41LjUgMCAwIDAgNS41IDExek0uNSAxaDE0VjBILjV6TTE0LjAwNS40M2wtMiAxNGwuOTkuMTRsMi0xNHpNMTIuNSAxNGgtMTB2MWgxMHptLTkuNTA1LjQzbC0yLTE0bC0uOTkuMTRsMiAxNHpNNSA1aDVWNEg1em00LjUwMi0uNTQybC0uNSA2bC45OTYuMDgzbC41LTZ6TTkuNSAxMGgtNHYxaDR6bS0zLjUwMi40NTlsLS41LTZsLS45OTYuMDgzbC41IDZ6TTEwIDVoNFY0aC00eiIvPjwvc3ZnPg==)
+  static const bitbucketOutline =
+      '<path fill="currentColor" d="M.5.5V0a.5.5 0 0 0-.495.57zm14 0l.495.07A.5.5 0 0 0 14.5 0zm-2 14v.5a.5.5 0 0 0 .495-.43zm-10 0l-.495.07A.5.5 0 0 0 2.5 15zM5 4.5V4a.5.5 0 0 0-.498.542zm4.5 6v.5a.5.5 0 0 0 .498-.459zm-4 0l-.498.041A.5.5 0 0 0 5.5 11zM.5 1h14V0H.5zM14.005.43l-2 14l.99.14l2-14zM12.5 14h-10v1h10zm-9.505.43l-2-14l-.99.14l2 14zM5 5h5V4H5zm4.502-.542l-.5 6l.996.083l.5-6zM9.5 10h-4v1h4zm-3.502.459l-.5-6l-.996.083l.5 6zM10 5h4V4h-4z"/>';
+
+  /// ![preview](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjxwYXRoIGZpbGw9ImN1cnJlbnRDb2xvciIgZD0iTS41IDBhLjUuNSAwIDAgMC0uNDk1LjU3bDIgMTRBLjUuNSAwIDAgMCAyLjUgMTVoMTBhLjUuNSAwIDAgMCAuNDk1LS40M0wxNC4yMTkgNkg5LjM3M2wtLjMzMyA0SDUuOTZsLS40MTctNWg4LjgybC42MzItNC40M0EuNS41IDAgMCAwIDE0LjUgMHoiLz48L3N2Zz4=)
+  static const bitbucketSolid =
+      '<path fill="currentColor" d="M.5 0a.5.5 0 0 0-.495.57l2 14A.5.5 0 0 0 2.5 15h10a.5.5 0 0 0 .495-.43L14.219 6H9.373l-.333 4H5.96l-.417-5h8.82l.632-4.43A.5.5 0 0 0 14.5 0z"/>';
+
+  /// ![preview](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjxwYXRoIGZpbGw9Im5vbmUiIHN0cm9rZT0iY3VycmVudENvbG9yIiBkPSJNMy41IDEuNWg1YTMgMyAwIDEgMSAwIDZoLTVtMC02djZtMC02SDJtMS41IDBWMG0wIDcuNWg2YTMgMyAwIDEgMSAwIDZoLTZtMC02djZtMC02SDJtMS41IDZIMm0xLjUgMFYxNW00LTE1djEuNW0wIDEyVjE1Ii8+PC9zdmc+)
+  static const bitcoinOutline =
+      '<path fill="none" stroke="currentColor" d="M3.5 1.5h5a3 3 0 1 1 0 6h-5m0-6v6m0-6H2m1.5 0V0m0 7.5h6a3 3 0 1 1 0 6h-6m0-6v6m0-6H2m1.5 6H2m1.5 0V15m4-15v1.5m0 12V15"/>';
+
+  /// ![preview](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjxwYXRoIGZpbGw9ImN1cnJlbnRDb2xvciIgZmlsbC1ydWxlPSJldmVub2RkIiBkPSJNMyAxVjBoMXYxaDNWMGgxdjFoLjVhMy41IDMuNSAwIDAgMSAyLjIxIDYuMjE1QTMuNTAxIDMuNTAxIDAgMCAxIDkuNSAxNEg4djFIN3YtMUg0djFIM3YtMUgydi0xaDFWOEgyVjdoMVYySDJWMXptMSAxdjVoNC41YTIuNSAyLjUgMCAwIDAgMC01em0wIDZoNS41YTIuNSAyLjUgMCAwIDEgMCA1SDR6IiBjbGlwLXJ1bGU9ImV2ZW5vZGQiLz48L3N2Zz4=)
+  static const bitcoinSolid =
+      '<path fill="currentColor" fill-rule="evenodd" d="M3 1V0h1v1h3V0h1v1h.5a3.5 3.5 0 0 1 2.21 6.215A3.501 3.501 0 0 1 9.5 14H8v1H7v-1H4v1H3v-1H2v-1h1V8H2V7h1V2H2V1zm1 1v5h4.5a2.5 2.5 0 0 0 0-5zm0 6h5.5a2.5 2.5 0 0 1 0 5H4z" clip-rule="evenodd"/>';
+
+  /// ![preview](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjxwYXRoIGZpbGw9ImN1cnJlbnRDb2xvciIgZD0iTTcuNSAxNC41SDdhLjUuNSAwIDAgMCAuNzg3LjQxem0wLTE0bC4yODctLjQxQS41LjUgMCAwIDAgNyAuNXptNSAzLjVsLjI4Mi40MTNhLjUuNSAwIDAgMCAuMDA1LS44MjN6bTAgN2wuMjg3LjQxYS41LjUgMCAwIDAtLjAwNS0uODIzek04IDE0LjVWNy40MUg3djcuMDl6bTAtNy4wOVYuNUg3djYuOTF6TTcuMjEzLjkxbDUgMy41bC41NzQtLjgybC01LTMuNXptNS4wMDUgMi42NzdsLTUgMy40MDlsLjU2NC44MjZsNS0zLjQwOXptLTUgMy40MDlsLTYgNC4wOWwuNTY0LjgyN2w2LTQuMDl6bS41NjkgNy45MTRsNS0zLjVsLS41NzQtLjgybC01IDMuNXptNC45OTUtNC4zMjNsLTExLTcuNWwtLjU2NC44MjZsMTEgNy41eiIvPjwvc3ZnPg==)
+  static const bluetoothOutline =
+      '<path fill="currentColor" d="M7.5 14.5H7a.5.5 0 0 0 .787.41zm0-14l.287-.41A.5.5 0 0 0 7 .5zm5 3.5l.282.413a.5.5 0 0 0 .005-.823zm0 7l.287.41a.5.5 0 0 0-.005-.823zM8 14.5V7.41H7v7.09zm0-7.09V.5H7v6.91zM7.213.91l5 3.5l.574-.82l-5-3.5zm5.005 2.677l-5 3.409l.564.826l5-3.409zm-5 3.409l-6 4.09l.564.827l6-4.09zm.569 7.914l5-3.5l-.574-.82l-5 3.5zm4.995-4.323l-11-7.5l-.564.826l11 7.5z"/>';
+
+  /// ![preview](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjxwYXRoIGZpbGw9ImN1cnJlbnRDb2xvciIgZmlsbC1ydWxlPSJldmVub2RkIiBkPSJNNy4yNy4wNTdhLjUuNSAwIDAgMSAuNTE3LjAzM2w1IDMuNWEuNS41IDAgMCAxLS4wMDUuODIzTDguMjU0IDcuNWw0LjUyOCAzLjA4N2EuNS41IDAgMCAxIC4wMDUuODIzbC01IDMuNUEuNS41IDAgMCAxIDcgMTQuNVY4LjM1NWwtNS4yMTggMy41NThsLS41NjQtLjgyNkw2LjQ4IDcuNUwxLjIyIDMuOTEzbC41NjMtLjgyNkw3IDYuNjQ1Vi41YS41LjUgMCAwIDEgLjI3LS40NDNNOCA4LjUzN2wzLjYyIDIuNDY4TDggMTMuNTR6bTAtMi4wNzRWMS40NmwzLjYyIDIuNTM1eiIgY2xpcC1ydWxlPSJldmVub2RkIi8+PC9zdmc+)
+  static const bluetoothSolid =
+      '<path fill="currentColor" fill-rule="evenodd" d="M7.27.057a.5.5 0 0 1 .517.033l5 3.5a.5.5 0 0 1-.005.823L8.254 7.5l4.528 3.087a.5.5 0 0 1 .005.823l-5 3.5A.5.5 0 0 1 7 14.5V8.355l-5.218 3.558l-.564-.826L6.48 7.5L1.22 3.913l.563-.826L7 6.645V.5a.5.5 0 0 1 .27-.443M8 8.537l3.62 2.468L8 13.54zm0-2.074V1.46l3.62 2.535z" clip-rule="evenodd"/>';
+
+  /// ![preview](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjxwYXRoIGZpbGw9Im5vbmUiIHN0cm9rZT0iY3VycmVudENvbG9yIiBkPSJNMy41IDcuNWg1YTMgMyAwIDEgMCAwLTZIMy41OGEuMDguMDggMCAwIDAtLjA4LjA4em0wIDBoNmEzIDMgMCAxIDEgMCA2SDMuNTlhLjA5LjA5IDAgMCAxLS4wOS0uMDl6Ii8+PC9zdmc+)
+  static const boldOutline =
+      '<path fill="none" stroke="currentColor" d="M3.5 7.5h5a3 3 0 1 0 0-6H3.58a.08.08 0 0 0-.08.08zm0 0h6a3 3 0 1 1 0 6H3.59a.09.09 0 0 1-.09-.09z"/>';
+
+  /// ![preview](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjxwYXRoIGZpbGw9ImN1cnJlbnRDb2xvciIgZmlsbC1ydWxlPSJldmVub2RkIiBkPSJNMyAxLjU4YzAtLjMyLjI2LS41OC41OC0uNThIOC41YTMuNSAzLjUgMCAwIDEgMi4yMSA2LjIxNUEzLjUwMSAzLjUwMSAwIDAgMSA5LjUgMTRIMy41OWEuNTkuNTkgMCAwIDEtLjU5LS41OXpNNCA4djVoNS41YTIuNSAyLjUgMCAwIDAgMC01em0wLTFoNC41YTIuNSAyLjUgMCAwIDAgMC01SDR6IiBjbGlwLXJ1bGU9ImV2ZW5vZGQiLz48L3N2Zz4=)
+  static const boldSolid =
+      '<path fill="currentColor" fill-rule="evenodd" d="M3 1.58c0-.32.26-.58.58-.58H8.5a3.5 3.5 0 0 1 2.21 6.215A3.501 3.501 0 0 1 9.5 14H3.59a.59.59 0 0 1-.59-.59zM4 8v5h5.5a2.5 2.5 0 0 0 0-5zm0-1h4.5a2.5 2.5 0 0 0 0-5H4z" clip-rule="evenodd"/>';
+
+  /// ![preview](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjxwYXRoIGZpbGw9ImN1cnJlbnRDb2xvciIgZD0iTTEuNS41VjBhLjUuNSAwIDAgMC0uNS41em0wIDEzSDFhLjUuNSAwIDAgMCAuNS41ek00IDB2MTVoMVYwek0xLjUgMWgxMFYwaC0xMHpNMTMgMi41djloMXYtOXpNMTEuNSAxM2gtMTB2MWgxMHptLTkuNS41Vi41SDF2MTN6bTExLTJhMS41IDEuNSAwIDAgMS0xLjUgMS41djFhMi41IDIuNSAwIDAgMCAyLjUtMi41ek0xMS41IDFBMS41IDEuNSAwIDAgMSAxMyAyLjVoMUEyLjUgMi41IDAgMCAwIDExLjUgMHpNNyA1aDRWNEg3eiIvPjwvc3ZnPg==)
+  static const bookOutline =
+      '<path fill="currentColor" d="M1.5.5V0a.5.5 0 0 0-.5.5zm0 13H1a.5.5 0 0 0 .5.5zM4 0v15h1V0zM1.5 1h10V0h-10zM13 2.5v9h1v-9zM11.5 13h-10v1h10zm-9.5.5V.5H1v13zm11-2a1.5 1.5 0 0 1-1.5 1.5v1a2.5 2.5 0 0 0 2.5-2.5zM11.5 1A1.5 1.5 0 0 1 13 2.5h1A2.5 2.5 0 0 0 11.5 0zM7 5h4V4H7z"/>';
+
+  /// ![preview](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjxwYXRoIGZpbGw9ImN1cnJlbnRDb2xvciIgZD0iTTEuNSAwYS41LjUgMCAwIDAtLjUuNXYxM2EuNS41IDAgMCAwIC41LjVIM1YweiIvPjxwYXRoIGZpbGw9ImN1cnJlbnRDb2xvciIgZmlsbC1ydWxlPSJldmVub2RkIiBkPSJNNCAxNWgxdi0xaDYuNWEyLjUgMi41IDAgMCAwIDIuNS0yLjV2LTlBMi41IDIuNSAwIDAgMCAxMS41IDBINHptNy0xMEg3VjRoNHoiIGNsaXAtcnVsZT0iZXZlbm9kZCIvPjwvc3ZnPg==)
+  static const bookSolid =
+      '<path fill="currentColor" d="M1.5 0a.5.5 0 0 0-.5.5v13a.5.5 0 0 0 .5.5H3V0z"/><path fill="currentColor" fill-rule="evenodd" d="M4 15h1v-1h6.5a2.5 2.5 0 0 0 2.5-2.5v-9A2.5 2.5 0 0 0 11.5 0H4zm7-10H7V4h4z" clip-rule="evenodd"/>';
+
+  /// ![preview](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjxwYXRoIGZpbGw9ImN1cnJlbnRDb2xvciIgZD0ibTEyLjUgMTQuNWwtLjMxMi4zOUEuNS41IDAgMCAwIDEzIDE0LjV6bTAtMTRoLjVWMGgtLjV6bS0xMCAwVjBIMnYuNXptMCAxNEgyYS41LjUgMCAwIDAgLjgxMi4zOXptNS00bC4zMTItLjM5YS41LjUgMCAwIDAtLjYyNCAwem01LjUgNFYuNWgtMXYxNHpNMiAuNXYxNGgxVi41em0uODEyIDE0LjM5bDUtNGwtLjYyNC0uNzhsLTUgNHptNC4zNzYtNGw1IDRsLjYyNC0uNzhsLTUtNHpNMTIuNSAwaC0xMHYxaDEweiIvPjwvc3ZnPg==)
+  static const bookmarkOutline =
+      '<path fill="currentColor" d="m12.5 14.5l-.312.39A.5.5 0 0 0 13 14.5zm0-14h.5V0h-.5zm-10 0V0H2v.5zm0 14H2a.5.5 0 0 0 .812.39zm5-4l.312-.39a.5.5 0 0 0-.624 0zm5.5 4V.5h-1v14zM2 .5v14h1V.5zm.812 14.39l5-4l-.624-.78l-5 4zm4.376-4l5 4l.624-.78l-5-4zM12.5 0h-10v1h10z"/>';
+
+  /// ![preview](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjxwYXRoIGZpbGw9ImN1cnJlbnRDb2xvciIgZD0iTTEzIDBIMnYxNC41YS41LjUgMCAwIDAgLjgxMi4zOUw3LjUgMTEuMTRsNC42ODggMy43NUEuNS41IDAgMCAwIDEzIDE0LjV6Ii8+PC9zdmc+)
+  static const bookmarkSolid =
+      '<path fill="currentColor" d="M13 0H2v14.5a.5.5 0 0 0 .812.39L7.5 11.14l4.688 3.75A.5.5 0 0 0 13 14.5z"/>';
+
+  /// ![preview](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjxwYXRoIGZpbGw9Im5vbmUiIHN0cm9rZT0iY3VycmVudENvbG9yIiBkPSJNNy41IDEuNXYxMm0tNi02aDEybS0xMi02aDEydjEyaC0xMnoiLz48L3N2Zz4=)
+  static const borderAllOutline =
+      '<path fill="none" stroke="currentColor" d="M7.5 1.5v12m-6-6h12m-12-6h12v12h-12z"/>';
+
+  /// ![preview](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjxwYXRoIGZpbGw9ImN1cnJlbnRDb2xvciIgZmlsbC1ydWxlPSJldmVub2RkIiBkPSJNMSAxaDEzdjEzSDF6bTEgMXY1aDVWMnptNiAwdjVoNVYyem01IDZIOHY1aDV6bS02IDVWOEgydjV6IiBjbGlwLXJ1bGU9ImV2ZW5vZGQiLz48L3N2Zz4=)
+  static const borderAllSolid =
+      '<path fill="currentColor" fill-rule="evenodd" d="M1 1h13v13H1zm1 1v5h5V2zm6 0v5h5V2zm5 6H8v5h5zm-6 5V8H2v5z" clip-rule="evenodd"/>';
+
+  /// ![preview](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjxwYXRoIGZpbGw9Im5vbmUiIHN0cm9rZT0iY3VycmVudENvbG9yIiBkPSJNMSAxLjVoMW01IDBoMW0yIDBoMW0yIDBoMW0tMSAzaDFtLTcgMGgxbTUgM2gxbS00IDBoMW0tNCAwaDFtNSAzaDFtLTcgMGgxbS03IDBoMW0tMS0zaDFtMiAwaDFtLTQtM2gxbTItM2gxbS00IDEyaDEzIi8+PC9zdmc+)
+  static const borderBottomOutline =
+      '<path fill="none" stroke="currentColor" d="M1 1.5h1m5 0h1m2 0h1m2 0h1m-1 3h1m-7 0h1m5 3h1m-4 0h1m-4 0h1m5 3h1m-7 0h1m-7 0h1m-1-3h1m2 0h1m-4-3h1m2-3h1m-4 12h13"/>';
+
+  /// ![preview](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjxwYXRoIGZpbGw9ImN1cnJlbnRDb2xvciIgZmlsbC1ydWxlPSJldmVub2RkIiBkPSJNMiAySDFWMWgxem0zIDBINFYxaDF6bTMgMEg3VjFoMXptMyAwaC0xVjFoMXptMyAwaC0xVjFoMXpNMiA1SDFWNGgxem02IDBIN1Y0aDF6bTYgMGgtMVY0aDF6TTIgOEgxVjdoMXptMyAwSDRWN2gxem0zIDBIN1Y3aDF6bTMgMGgtMVY3aDF6bTMgMGgtMVY3aDF6TTIgMTFIMXYtMWgxem02IDBIN3YtMWgxem02IDBoLTF2LTFoMXptMCAzSDF2LTFoMTN6IiBjbGlwLXJ1bGU9ImV2ZW5vZGQiLz48L3N2Zz4=)
+  static const borderBottomSolid =
+      '<path fill="currentColor" fill-rule="evenodd" d="M2 2H1V1h1zm3 0H4V1h1zm3 0H7V1h1zm3 0h-1V1h1zm3 0h-1V1h1zM2 5H1V4h1zm6 0H7V4h1zm6 0h-1V4h1zM2 8H1V7h1zm3 0H4V7h1zm3 0H7V7h1zm3 0h-1V7h1zm3 0h-1V7h1zM2 11H1v-1h1zm6 0H7v-1h1zm6 0h-1v-1h1zm0 3H1v-1h13z" clip-rule="evenodd"/>';
+
+  /// ![preview](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjxwYXRoIGZpbGw9Im5vbmUiIHN0cm9rZT0iY3VycmVudENvbG9yIiBkPSJNMSAxLjVoMW01IDBoMW0yIDBoMW0yIDBoMW0tMSAzaDFtLTcgMGgxbTUgNmgxbS03IDBoMW01IDNoMW0tNCAwaDFtLTQgMGgxbS00IDBoMW0tNCAwaDFtLTEtM2gxbS0xLTZoMW0yLTNoMW0tNCA2aDEzIi8+PC9zdmc+)
+  static const borderHorizontalOutline =
+      '<path fill="none" stroke="currentColor" d="M1 1.5h1m5 0h1m2 0h1m2 0h1m-1 3h1m-7 0h1m5 6h1m-7 0h1m5 3h1m-4 0h1m-4 0h1m-4 0h1m-4 0h1m-1-3h1m-1-6h1m2-3h1m-4 6h13"/>';
+
+  /// ![preview](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjxwYXRoIGZpbGw9ImN1cnJlbnRDb2xvciIgZmlsbC1ydWxlPSJldmVub2RkIiBkPSJNMiAySDFWMWgxem0zIDBINFYxaDF6bTMgMEg3VjFoMXptMyAwaC0xVjFoMXptMyAwaC0xVjFoMXpNMiA1SDFWNGgxem02IDBIN1Y0aDF6bTYgMGgtMVY0aDF6bTAgM0gxVjdoMTN6TTIgMTFIMXYtMWgxem02IDBIN3YtMWgxem02IDBoLTF2LTFoMXpNMiAxNEgxdi0xaDF6bTMgMEg0di0xaDF6bTMgMEg3di0xaDF6bTMgMGgtMXYtMWgxem0zIDBoLTF2LTFoMXoiIGNsaXAtcnVsZT0iZXZlbm9kZCIvPjwvc3ZnPg==)
+  static const borderHorizontalSolid =
+      '<path fill="currentColor" fill-rule="evenodd" d="M2 2H1V1h1zm3 0H4V1h1zm3 0H7V1h1zm3 0h-1V1h1zm3 0h-1V1h1zM2 5H1V4h1zm6 0H7V4h1zm6 0h-1V4h1zm0 3H1V7h13zM2 11H1v-1h1zm6 0H7v-1h1zm6 0h-1v-1h1zM2 14H1v-1h1zm3 0H4v-1h1zm3 0H7v-1h1zm3 0h-1v-1h1zm3 0h-1v-1h1z" clip-rule="evenodd"/>';
+
+  /// ![preview](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjxwYXRoIGZpbGw9Im5vbmUiIHN0cm9rZT0iY3VycmVudENvbG9yIiBkPSJNMSAxLjVoMW04IDBoMW0yIDBoMW0tMSAzaDFtLTEgNmgxbS0xIDNoMW0tNCAwaDFtLTcgMGgxbS00IDBoMW0tMS0zaDFtLTEtNmgxbTItM2gxbS00IDZoMTNNNy41IDF2MTMiLz48L3N2Zz4=)
+  static const borderInnerOutline =
+      '<path fill="none" stroke="currentColor" d="M1 1.5h1m8 0h1m2 0h1m-1 3h1m-1 6h1m-1 3h1m-4 0h1m-7 0h1m-4 0h1m-1-3h1m-1-6h1m2-3h1m-4 6h13M7.5 1v13"/>';
+
+  /// ![preview](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjxwYXRoIGZpbGw9ImN1cnJlbnRDb2xvciIgZmlsbC1ydWxlPSJldmVub2RkIiBkPSJNMiAySDFWMWgxem0zIDBINFYxaDF6bTIgNUgxdjFoNnY2aDFWOGg2VjdIOFYxSDd6bTQtNWgtMVYxaDF6bTMgMGgtMVYxaDF6TTIgNUgxVjRoMXptMTIgMGgtMVY0aDF6TTIgMTFIMXYtMWgxem0xMiAwaC0xdi0xaDF6TTIgMTRIMXYtMWgxem0zIDBINHYtMWgxem02IDBoLTF2LTFoMXptMyAwaC0xdi0xaDF6IiBjbGlwLXJ1bGU9ImV2ZW5vZGQiLz48L3N2Zz4=)
+  static const borderInnerSolid =
+      '<path fill="currentColor" fill-rule="evenodd" d="M2 2H1V1h1zm3 0H4V1h1zm2 5H1v1h6v6h1V8h6V7H8V1H7zm4-5h-1V1h1zm3 0h-1V1h1zM2 5H1V4h1zm12 0h-1V4h1zM2 11H1v-1h1zm12 0h-1v-1h1zM2 14H1v-1h1zm3 0H4v-1h1zm6 0h-1v-1h1zm3 0h-1v-1h1z" clip-rule="evenodd"/>';
+
+  /// ![preview](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjxwYXRoIGZpbGw9Im5vbmUiIHN0cm9rZT0iY3VycmVudENvbG9yIiBkPSJNNyAxLjVoMW0yIDBoMW0yIDBoMW0tMSAzaDFtLTcgMGgxbTUgM2gxbS00IDBoMW0tNCAwaDFtNSAzaDFtLTcgMGgxbTUgM2gxbS00IDBoMW0tNCAwaDFtLTQgMGgxbS0xLTZoMW0tMS02aDFNMS41IDF2MTMiLz48L3N2Zz4=)
+  static const borderLeftOutline =
+      '<path fill="none" stroke="currentColor" d="M7 1.5h1m2 0h1m2 0h1m-1 3h1m-7 0h1m5 3h1m-4 0h1m-4 0h1m5 3h1m-7 0h1m5 3h1m-4 0h1m-4 0h1m-4 0h1m-1-6h1m-1-6h1M1.5 1v13"/>';
+
+  /// ![preview](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjxwYXRoIGZpbGw9ImN1cnJlbnRDb2xvciIgZmlsbC1ydWxlPSJldmVub2RkIiBkPSJNMSAxNFYxaDF2MTN6TTUgMkg0VjFoMXptMyAwSDdWMWgxem0zIDBoLTFWMWgxem0zIDBoLTFWMWgxek04IDVIN1Y0aDF6bTYgMGgtMVY0aDF6TTUgOEg0VjdoMXptMyAwSDdWN2gxem0zIDBoLTFWN2gxem0zIDBoLTFWN2gxem0tNiAzSDd2LTFoMXptNiAwaC0xdi0xaDF6bS05IDNINHYtMWgxem0zIDBIN3YtMWgxem0zIDBoLTF2LTFoMXptMyAwaC0xdi0xaDF6IiBjbGlwLXJ1bGU9ImV2ZW5vZGQiLz48L3N2Zz4=)
+  static const borderLeftSolid =
+      '<path fill="currentColor" fill-rule="evenodd" d="M1 14V1h1v13zM5 2H4V1h1zm3 0H7V1h1zm3 0h-1V1h1zm3 0h-1V1h1zM8 5H7V4h1zm6 0h-1V4h1zM5 8H4V7h1zm3 0H7V7h1zm3 0h-1V7h1zm3 0h-1V7h1zm-6 3H7v-1h1zm6 0h-1v-1h1zm-9 3H4v-1h1zm3 0H7v-1h1zm3 0h-1v-1h1zm3 0h-1v-1h1z" clip-rule="evenodd"/>';
+
+  /// ![preview](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjxwYXRoIGZpbGw9Im5vbmUiIHN0cm9rZT0iY3VycmVudENvbG9yIiBkPSJNMSAxLjVoMW01IDBoMW0yIDBoMW0yIDBoMW0tMSAzaDFtLTcgMGgxbTUgM2gxbS00IDBoMW0tNCAwaDFtNSAzaDFtLTcgMGgxbTUgM2gxbS00IDBoMW0tNCAwaDFtLTQgMGgxbS00IDBoMW0tMS0zaDFtLTEtM2gxbTIgMGgxbS00LTNoMW0yLTNoMSIvPjwvc3ZnPg==)
+  static const borderNoneOutline =
+      '<path fill="none" stroke="currentColor" d="M1 1.5h1m5 0h1m2 0h1m2 0h1m-1 3h1m-7 0h1m5 3h1m-4 0h1m-4 0h1m5 3h1m-7 0h1m5 3h1m-4 0h1m-4 0h1m-4 0h1m-4 0h1m-1-3h1m-1-3h1m2 0h1m-4-3h1m2-3h1"/>';
+
+  /// ![preview](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjxwYXRoIGZpbGw9ImN1cnJlbnRDb2xvciIgZmlsbC1ydWxlPSJldmVub2RkIiBkPSJNMiAySDFWMWgxem0zIDBINFYxaDF6bTMgMEg3VjFoMXptMyAwaC0xVjFoMXptMyAwaC0xVjFoMXpNMiA1SDFWNGgxem02IDBIN1Y0aDF6bTYgMGgtMVY0aDF6TTIgOEgxVjdoMXptMyAwSDRWN2gxem0zIDBIN1Y3aDF6bTMgMGgtMVY3aDF6bTMgMGgtMVY3aDF6TTIgMTFIMXYtMWgxem02IDBIN3YtMWgxem02IDBoLTF2LTFoMXpNMiAxNEgxdi0xaDF6bTMgMEg0di0xaDF6bTMgMEg3di0xaDF6bTMgMGgtMXYtMWgxem0zIDBoLTF2LTFoMXoiIGNsaXAtcnVsZT0iZXZlbm9kZCIvPjwvc3ZnPg==)
+  static const borderNoneSolid =
+      '<path fill="currentColor" fill-rule="evenodd" d="M2 2H1V1h1zm3 0H4V1h1zm3 0H7V1h1zm3 0h-1V1h1zm3 0h-1V1h1zM2 5H1V4h1zm6 0H7V4h1zm6 0h-1V4h1zM2 8H1V7h1zm3 0H4V7h1zm3 0H7V7h1zm3 0h-1V7h1zm3 0h-1V7h1zM2 11H1v-1h1zm6 0H7v-1h1zm6 0h-1v-1h1zM2 14H1v-1h1zm3 0H4v-1h1zm3 0H7v-1h1zm3 0h-1v-1h1zm3 0h-1v-1h1z" clip-rule="evenodd"/>';
+
+  /// ![preview](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjxwYXRoIGZpbGw9Im5vbmUiIHN0cm9rZT0iY3VycmVudENvbG9yIiBkPSJNNyA0LjVoMW0yIDNoMW0tNCAwaDFtLTEgM2gxbS00LTNoMW0tMy41LTZoMTJ2MTJoLTEyeiIvPjwvc3ZnPg==)
+  static const borderOuterOutline =
+      '<path fill="none" stroke="currentColor" d="M7 4.5h1m2 3h1m-4 0h1m-1 3h1m-4-3h1m-3.5-6h12v12h-12z"/>';
+
+  /// ![preview](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjxwYXRoIGZpbGw9ImN1cnJlbnRDb2xvciIgZmlsbC1ydWxlPSJldmVub2RkIiBkPSJNMSAxaDEzdjEzSDF6bTEgMXYxMWgxMVYyem02IDNIN1Y0aDF6TTUgOEg0VjdoMXptMyAwSDdWN2gxem0zIDBoLTFWN2gxem0tMyAzSDd2LTFoMXoiIGNsaXAtcnVsZT0iZXZlbm9kZCIvPjwvc3ZnPg==)
+  static const borderOuterSolid =
+      '<path fill="currentColor" fill-rule="evenodd" d="M1 1h13v13H1zm1 1v11h11V2zm6 3H7V4h1zM5 8H4V7h1zm3 0H7V7h1zm3 0h-1V7h1zm-3 3H7v-1h1z" clip-rule="evenodd"/>';
+
+  /// ![preview](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjxwYXRoIGZpbGw9Im5vbmUiIHN0cm9rZT0iY3VycmVudENvbG9yIiBkPSJNMTAgMS41aDFtMiAwaDFtLTEgM2gxbS0xIDNoMW0tMSAzaDFtLTEgM2gxbS00IDBoMW0tNCAwaDFtLTQgMGgxbS00IDBoMW0tMS0zaDFNMS41IDhWNS41YTQgNCAwIDAgMSA0LTRIOCIvPjwvc3ZnPg==)
+  static const borderRadiusOutline =
+      '<path fill="none" stroke="currentColor" d="M10 1.5h1m2 0h1m-1 3h1m-1 3h1m-1 3h1m-1 3h1m-4 0h1m-4 0h1m-4 0h1m-4 0h1m-1-3h1M1.5 8V5.5a4 4 0 0 1 4-4H8"/>';
+
+  /// ![preview](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjxwYXRoIGZpbGw9ImN1cnJlbnRDb2xvciIgZmlsbC1ydWxlPSJldmVub2RkIiBkPSJNNS41IDJBMy41IDMuNSAwIDAgMCAyIDUuNVY4SDFWNS41QTQuNSA0LjUgMCAwIDEgNS41IDFIOHYxek0xMSAyaC0xVjFoMXptMyAwaC0xVjFoMXptMCAzaC0xVjRoMXptMCAzaC0xVjdoMXpNMiAxMUgxdi0xaDF6bTEyIDBoLTF2LTFoMXpNMiAxNEgxdi0xaDF6bTMgMEg0di0xaDF6bTMgMEg3di0xaDF6bTMgMGgtMXYtMWgxem0zIDBoLTF2LTFoMXoiIGNsaXAtcnVsZT0iZXZlbm9kZCIvPjwvc3ZnPg==)
+  static const borderRadiusSolid =
+      '<path fill="currentColor" fill-rule="evenodd" d="M5.5 2A3.5 3.5 0 0 0 2 5.5V8H1V5.5A4.5 4.5 0 0 1 5.5 1H8v1zM11 2h-1V1h1zm3 0h-1V1h1zm0 3h-1V4h1zm0 3h-1V7h1zM2 11H1v-1h1zm12 0h-1v-1h1zM2 14H1v-1h1zm3 0H4v-1h1zm3 0H7v-1h1zm3 0h-1v-1h1zm3 0h-1v-1h1z" clip-rule="evenodd"/>';
+
+  /// ![preview](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjxwYXRoIGZpbGw9Im5vbmUiIHN0cm9rZT0iY3VycmVudENvbG9yIiBkPSJNMSAxLjVoMW01IDBoMW0yIDBoMW0tNCAzaDFtMiAzaDFtLTQgMGgxbS0xIDNoMW0yIDNoMW0tNCAwaDFtLTQgMGgxbS00IDBoMW0tMS0zaDFtLTEtM2gxbTIgMGgxbS00LTNoMW0yLTNoMW04LjUtLjV2MTMiLz48L3N2Zz4=)
+  static const borderRightOutline =
+      '<path fill="none" stroke="currentColor" d="M1 1.5h1m5 0h1m2 0h1m-4 3h1m2 3h1m-4 0h1m-1 3h1m2 3h1m-4 0h1m-4 0h1m-4 0h1m-1-3h1m-1-3h1m2 0h1m-4-3h1m2-3h1m8.5-.5v13"/>';
+
+  /// ![preview](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjxwYXRoIGZpbGw9ImN1cnJlbnRDb2xvciIgZmlsbC1ydWxlPSJldmVub2RkIiBkPSJNMiAySDFWMWgxem0zIDBINFYxaDF6bTMgMEg3VjFoMXptMyAwaC0xVjFoMXptMiAxMlYxaDF2MTN6TTIgNUgxVjRoMXptNiAwSDdWNGgxek0yIDhIMVY3aDF6bTMgMEg0VjdoMXptMyAwSDdWN2gxem0zIDBoLTFWN2gxem0tOSAzSDF2LTFoMXptNiAwSDd2LTFoMXptLTYgM0gxdi0xaDF6bTMgMEg0di0xaDF6bTMgMEg3di0xaDF6bTMgMGgtMXYtMWgxeiIgY2xpcC1ydWxlPSJldmVub2RkIi8+PC9zdmc+)
+  static const borderRightSolid =
+      '<path fill="currentColor" fill-rule="evenodd" d="M2 2H1V1h1zm3 0H4V1h1zm3 0H7V1h1zm3 0h-1V1h1zm2 12V1h1v13zM2 5H1V4h1zm6 0H7V4h1zM2 8H1V7h1zm3 0H4V7h1zm3 0H7V7h1zm3 0h-1V7h1zm-9 3H1v-1h1zm6 0H7v-1h1zm-6 3H1v-1h1zm3 0H4v-1h1zm3 0H7v-1h1zm3 0h-1v-1h1z" clip-rule="evenodd"/>';
+
+  /// ![preview](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjxwYXRoIGZpbGw9Im5vbmUiIHN0cm9rZT0iY3VycmVudENvbG9yIiBkPSJNMTMgNC41aDFtLTcgMGgxbTUgM2gxbS00IDBoMW0tNCAwaDFtNSAzaDFtLTcgMGgxbTUgM2gxbS00IDBoMW0tNCAwaDFtLTQgMGgxbS00IDBoMW0tMS0zaDFtLTEtM2gxbTIgMGgxbS00LTNoMW0tMS0zaDEzIi8+PC9zdmc+)
+  static const borderTopOutline =
+      '<path fill="none" stroke="currentColor" d="M13 4.5h1m-7 0h1m5 3h1m-4 0h1m-4 0h1m5 3h1m-7 0h1m5 3h1m-4 0h1m-4 0h1m-4 0h1m-4 0h1m-1-3h1m-1-3h1m2 0h1m-4-3h1m-1-3h13"/>';
+
+  /// ![preview](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjxwYXRoIGZpbGw9ImN1cnJlbnRDb2xvciIgZmlsbC1ydWxlPSJldmVub2RkIiBkPSJNMTQgMkgxVjFoMTN6TTIgNUgxVjRoMXptNiAwSDdWNGgxem02IDBoLTFWNGgxek0yIDhIMVY3aDF6bTMgMEg0VjdoMXptMyAwSDdWN2gxem0zIDBoLTFWN2gxem0zIDBoLTFWN2gxek0yIDExSDF2LTFoMXptNiAwSDd2LTFoMXptNiAwaC0xdi0xaDF6TTIgMTRIMXYtMWgxem0zIDBINHYtMWgxem0zIDBIN3YtMWgxem0zIDBoLTF2LTFoMXptMyAwaC0xdi0xaDF6IiBjbGlwLXJ1bGU9ImV2ZW5vZGQiLz48L3N2Zz4=)
+  static const borderTopSolid =
+      '<path fill="currentColor" fill-rule="evenodd" d="M14 2H1V1h13zM2 5H1V4h1zm6 0H7V4h1zm6 0h-1V4h1zM2 8H1V7h1zm3 0H4V7h1zm3 0H7V7h1zm3 0h-1V7h1zm3 0h-1V7h1zM2 11H1v-1h1zm6 0H7v-1h1zm6 0h-1v-1h1zM2 14H1v-1h1zm3 0H4v-1h1zm3 0H7v-1h1zm3 0h-1v-1h1zm3 0h-1v-1h1z" clip-rule="evenodd"/>';
+
+  /// ![preview](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjxwYXRoIGZpbGw9Im5vbmUiIHN0cm9rZT0iY3VycmVudENvbG9yIiBkPSJNMSAxLjVoMW04IDBoMW0yIDBoMW0tMSAzaDFtLTEgM2gxbS00IDBoMW0yIDNoMW0tMSAzaDFtLTQgMGgxbS03IDBoMW0tNCAwaDFtLTEtM2gxbS0xLTNoMW0yIDBoMW0tNC0zaDFtMi0zaDFNNy41IDF2MTMiLz48L3N2Zz4=)
+  static const borderVerticalOutline =
+      '<path fill="none" stroke="currentColor" d="M1 1.5h1m8 0h1m2 0h1m-1 3h1m-1 3h1m-4 0h1m2 3h1m-1 3h1m-4 0h1m-7 0h1m-4 0h1m-1-3h1m-1-3h1m2 0h1m-4-3h1m2-3h1M7.5 1v13"/>';
+
+  /// ![preview](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjxwYXRoIGZpbGw9ImN1cnJlbnRDb2xvciIgZmlsbC1ydWxlPSJldmVub2RkIiBkPSJNMiAySDFWMWgxem0zIDBINFYxaDF6bTIgMTJWMWgxdjEzem00LTEyaC0xVjFoMXptMyAwaC0xVjFoMXpNMiA1SDFWNGgxem0xMiAwaC0xVjRoMXpNMiA4SDFWN2gxem0zIDBINFY3aDF6bTYgMGgtMVY3aDF6bTMgMGgtMVY3aDF6TTIgMTFIMXYtMWgxem0xMiAwaC0xdi0xaDF6TTIgMTRIMXYtMWgxem0zIDBINHYtMWgxem02IDBoLTF2LTFoMXptMyAwaC0xdi0xaDF6IiBjbGlwLXJ1bGU9ImV2ZW5vZGQiLz48L3N2Zz4=)
+  static const borderVerticalSolid =
+      '<path fill="currentColor" fill-rule="evenodd" d="M2 2H1V1h1zm3 0H4V1h1zm2 12V1h1v13zm4-12h-1V1h1zm3 0h-1V1h1zM2 5H1V4h1zm12 0h-1V4h1zM2 8H1V7h1zm3 0H4V7h1zm6 0h-1V7h1zm3 0h-1V7h1zM2 11H1v-1h1zm12 0h-1v-1h1zM2 14H1v-1h1zm3 0H4v-1h1zm6 0h-1v-1h1zm3 0h-1v-1h1z" clip-rule="evenodd"/>';
+
+  /// ![preview](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjxwYXRoIGZpbGw9ImN1cnJlbnRDb2xvciIgZD0iTTEuNSAxMy41SDFhLjUuNSAwIDAgMCAuNS41em0wIC41SDd2LTFIMS41em0uNS0uNVY4SDF2NS41em0tLjE0Ni4zNTRsMTItMTJsLS43MDgtLjcwOGwtMTIgMTJ6Ii8+PC9zdmc+)
+  static const bottomLeftOutline =
+      '<path fill="currentColor" d="M1.5 13.5H1a.5.5 0 0 0 .5.5zm0 .5H7v-1H1.5zm.5-.5V8H1v5.5zm-.146.354l12-12l-.708-.708l-12 12z"/>';
+
+  /// ![preview](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjxwYXRoIGZpbGw9ImN1cnJlbnRDb2xvciIgZmlsbC1ydWxlPSJldmVub2RkIiBkPSJNMTMuODU0IDEuODU0TDIuNzA3IDEzSDd2MUgxVjhoMXY0LjI5M0wxMy4xNDYgMS4xNDZ6IiBjbGlwLXJ1bGU9ImV2ZW5vZGQiLz48L3N2Zz4=)
+  static const bottomLeftSolid =
+      '<path fill="currentColor" fill-rule="evenodd" d="M13.854 1.854L2.707 13H7v1H1V8h1v4.293L13.146 1.146z" clip-rule="evenodd"/>';
+
+  /// ![preview](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjxwYXRoIGZpbGw9ImN1cnJlbnRDb2xvciIgZD0iTTEzLjUgMTMuNXYuNWEuNS41IDAgMCAwIC41LS41em0wLS41SDh2MWg1LjV6bS41LjVWOGgtMXY1LjV6bS0uMTQ2LS4zNTRsLTEyLTEybC0uNzA4LjcwOGwxMiAxMnoiLz48L3N2Zz4=)
+  static const bottomRightOutline =
+      '<path fill="currentColor" d="M13.5 13.5v.5a.5.5 0 0 0 .5-.5zm0-.5H8v1h5.5zm.5.5V8h-1v5.5zm-.146-.354l-12-12l-.708.708l12 12z"/>';
+
+  /// ![preview](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjxwYXRoIGZpbGw9ImN1cnJlbnRDb2xvciIgZmlsbC1ydWxlPSJldmVub2RkIiBkPSJNMS44NTQgMS4xNDZMMTMgMTIuMjkzVjhoMXY2SDh2LTFoNC4yOTNMMS4xNDYgMS44NTR6IiBjbGlwLXJ1bGU9ImV2ZW5vZGQiLz48L3N2Zz4=)
+  static const bottomRightSolid =
+      '<path fill="currentColor" fill-rule="evenodd" d="M1.854 1.146L13 12.293V8h1v6H8v-1h4.293L1.146 1.854z" clip-rule="evenodd"/>';
+
+  /// ![preview](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjxwYXRoIGZpbGw9Im5vbmUiIHN0cm9rZT0iY3VycmVudENvbG9yIiBzdHJva2UtbGluZWpvaW49InJvdW5kIiBkPSJNLjUgMy40OThMNy41LjVsNyAyLjk5OG0tMTQgMGw3IDIuOTk4bS03LTIuOTk4VjMuNW0xNC0uMDAybC03IDIuOTk4bTctMi45OThWMTEuNWwtNyAzbTctMTEuMDAyTDcuNSA2LjV2OG0wLTguMDA0VjE0LjVtMC04LjAwNEwuNSAzLjVtNyAxMWwtNy0zdi04Ii8+PC9zdmc+)
+  static const boxOutline =
+      '<path fill="none" stroke="currentColor" stroke-linejoin="round" d="M.5 3.498L7.5.5l7 2.998m-14 0l7 2.998m-7-2.998V3.5m14-.002l-7 2.998m7-2.998V11.5l-7 3m7-11.002L7.5 6.5v8m0-8.004V14.5m0-8.004L.5 3.5m7 11l-7-3v-8"/>';
+
+  /// ![preview](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjxwYXRoIGZpbGw9ImN1cnJlbnRDb2xvciIgZD0iTTcuMzAzLjA0YS41LjUgMCAwIDEgLjM5NCAwTDE0LjUgMi45NTZsLTcgM2wtNy0zek0wIDMuODN2Ny42N2MwIC4yLjEyLjM4LjMwMy40Nkw3IDE0Ljgzdi04em04IDNsNy0zdjcuNjdhLjUuNSAwIDAgMS0uMzAzLjQ2TDggMTQuODN6Ii8+PC9zdmc+)
+  static const boxSolid =
+      '<path fill="currentColor" d="M7.303.04a.5.5 0 0 1 .394 0L14.5 2.956l-7 3l-7-3zM0 3.83v7.67c0 .2.12.38.303.46L7 14.83v-8zm8 3l7-3v7.67a.5.5 0 0 1-.303.46L8 14.83z"/>';
+
+  /// ![preview](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjxwYXRoIGZpbGw9Im5vbmUiIHN0cm9rZT0iY3VycmVudENvbG9yIiBkPSJNMCA3LjVoMm0xMyAwaC0ybS04IDdIMy41YTIgMiAwIDAgMS0yLTJ2LTEwYTIgMiAwIDAgMSAyLTJINW01IDE0aDEuNWEyIDIgMCAwIDAgMi0ydi0xMGEyIDIgMCAwIDAtMi0ySDEwIi8+PC9zdmc+)
+  static const bracketOutline =
+      '<path fill="none" stroke="currentColor" d="M0 7.5h2m13 0h-2m-8 7H3.5a2 2 0 0 1-2-2v-10a2 2 0 0 1 2-2H5m5 14h1.5a2 2 0 0 0 2-2v-10a2 2 0 0 0-2-2H10"/>';
+
+  /// ![preview](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjxwYXRoIGZpbGw9ImN1cnJlbnRDb2xvciIgZmlsbC1ydWxlPSJldmVub2RkIiBkPSJNMy41IDFBMS41IDEuNSAwIDAgMCAyIDIuNXYxMEExLjUgMS41IDAgMCAwIDMuNSAxNEg1djFIMy41QTIuNSAyLjUgMCAwIDEgMSAxMi41VjhIMFY3aDFWMi41QTIuNSAyLjUgMCAwIDEgMy41IDBINXYxek0xMCAwaDEuNUEyLjUgMi41IDAgMCAxIDE0IDIuNVY3aDF2MWgtMXY0LjVhMi41IDIuNSAwIDAgMS0yLjUgMi41SDEwdi0xaDEuNWExLjUgMS41IDAgMCAwIDEuNS0xLjV2LTEwQTEuNSAxLjUgMCAwIDAgMTEuNSAxSDEweiIgY2xpcC1ydWxlPSJldmVub2RkIi8+PC9zdmc+)
+  static const bracketSolid =
+      '<path fill="currentColor" fill-rule="evenodd" d="M3.5 1A1.5 1.5 0 0 0 2 2.5v10A1.5 1.5 0 0 0 3.5 14H5v1H3.5A2.5 2.5 0 0 1 1 12.5V8H0V7h1V2.5A2.5 2.5 0 0 1 3.5 0H5v1zM10 0h1.5A2.5 2.5 0 0 1 14 2.5V7h1v1h-1v4.5a2.5 2.5 0 0 1-2.5 2.5H10v-1h1.5a1.5 1.5 0 0 0 1.5-1.5v-10A1.5 1.5 0 0 0 11.5 1H10z" clip-rule="evenodd"/>';
+
+  /// ![preview](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjxwYXRoIGZpbGw9Im5vbmUiIHN0cm9rZT0iY3VycmVudENvbG9yIiBkPSJNNS41IDN2LS41YTIgMiAwIDEgMSA0IDBWM20tOSAzLjVjMy43MDYgNC4yMzUgMTAuMjk0IDQuMjM1IDE0IDBtLTEzLTNoMTJhMSAxIDAgMCAxIDEgMXY5YTEgMSAwIDAgMS0xIDFoLTEyYTEgMSAwIDAgMS0xLTF2LTlhMSAxIDAgMCAxIDEtMVoiLz48L3N2Zz4=)
+  static const briefcaseAltOutline =
+      '<path fill="none" stroke="currentColor" d="M5.5 3v-.5a2 2 0 1 1 4 0V3m-9 3.5c3.706 4.235 10.294 4.235 14 0m-13-3h12a1 1 0 0 1 1 1v9a1 1 0 0 1-1 1h-12a1 1 0 0 1-1-1v-9a1 1 0 0 1 1-1Z"/>';
+
+  /// ![preview](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjxwYXRoIGZpbGw9ImN1cnJlbnRDb2xvciIgZmlsbC1ydWxlPSJldmVub2RkIiBkPSJNNSAyLjVWM0gxLjVBMS41IDEuNSAwIDAgMCAwIDQuNXY5QTEuNSAxLjUgMCAwIDAgMS41IDE1aDEyYTEuNSAxLjUgMCAwIDAgMS41LTEuNXYtOUExLjUgMS41IDAgMCAwIDEzLjUgM0gxMHYtLjVhMi41IDIuNSAwIDAgMC01IDBNNy41IDFBMS41IDEuNSAwIDAgMCA2IDIuNVYzaDN2LS41QTEuNSAxLjUgMCAwIDAgNy41IDFNLjY2IDcuMzY3YTEwLjA4MyAxMC4wODMgMCAwIDAgMTMuNjggMGwtLjY4LS43MzRhOS4wODMgOS4wODMgMCAwIDEtMTIuMzIgMHoiIGNsaXAtcnVsZT0iZXZlbm9kZCIvPjwvc3ZnPg==)
+  static const briefcaseAltSolid =
+      '<path fill="currentColor" fill-rule="evenodd" d="M5 2.5V3H1.5A1.5 1.5 0 0 0 0 4.5v9A1.5 1.5 0 0 0 1.5 15h12a1.5 1.5 0 0 0 1.5-1.5v-9A1.5 1.5 0 0 0 13.5 3H10v-.5a2.5 2.5 0 0 0-5 0M7.5 1A1.5 1.5 0 0 0 6 2.5V3h3v-.5A1.5 1.5 0 0 0 7.5 1M.66 7.367a10.083 10.083 0 0 0 13.68 0l-.68-.734a9.083 9.083 0 0 1-12.32 0z" clip-rule="evenodd"/>';
+
+  /// ![preview](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjxwYXRoIGZpbGw9Im5vbmUiIHN0cm9rZT0iY3VycmVudENvbG9yIiBkPSJNNS41IDN2LS41YTIgMiAwIDEgMSA0IDBWM20tOSA4LjVoMTRtLTEzLThoMTJhMSAxIDAgMCAxIDEgMXY5YTEgMSAwIDAgMS0xIDFoLTEyYTEgMSAwIDAgMS0xLTF2LTlhMSAxIDAgMCAxIDEtMVoiLz48L3N2Zz4=)
+  static const briefcaseOutline =
+      '<path fill="none" stroke="currentColor" d="M5.5 3v-.5a2 2 0 1 1 4 0V3m-9 8.5h14m-13-8h12a1 1 0 0 1 1 1v9a1 1 0 0 1-1 1h-12a1 1 0 0 1-1-1v-9a1 1 0 0 1 1-1Z"/>';
+
+  /// ![preview](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjxwYXRoIGZpbGw9ImN1cnJlbnRDb2xvciIgZmlsbC1ydWxlPSJldmVub2RkIiBkPSJNNSAyLjVWM0gxLjVBMS41IDEuNSAwIDAgMCAwIDQuNVYxMWgxNVY0LjVBMS41IDEuNSAwIDAgMCAxMy41IDNIMTB2LS41YTIuNSAyLjUgMCAwIDAtNSAwTTcuNSAxQTEuNSAxLjUgMCAwIDAgNiAyLjVWM2gzdi0uNUExLjUgMS41IDAgMCAwIDcuNSAxIiBjbGlwLXJ1bGU9ImV2ZW5vZGQiLz48cGF0aCBmaWxsPSJjdXJyZW50Q29sb3IiIGQ9Ik0xNSAxMkgwdjEuNUExLjUgMS41IDAgMCAwIDEuNSAxNWgxMmExLjUgMS41IDAgMCAwIDEuNS0xLjV6Ii8+PC9zdmc+)
+  static const briefcaseSolid =
+      '<path fill="currentColor" fill-rule="evenodd" d="M5 2.5V3H1.5A1.5 1.5 0 0 0 0 4.5V11h15V4.5A1.5 1.5 0 0 0 13.5 3H10v-.5a2.5 2.5 0 0 0-5 0M7.5 1A1.5 1.5 0 0 0 6 2.5V3h3v-.5A1.5 1.5 0 0 0 7.5 1" clip-rule="evenodd"/><path fill="currentColor" d="M15 12H0v1.5A1.5 1.5 0 0 0 1.5 15h12a1.5 1.5 0 0 0 1.5-1.5z"/>';
+
+  /// ![preview](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjxwYXRoIGZpbGw9Im5vbmUiIHN0cm9rZT0iY3VycmVudENvbG9yIiBkPSJNMTMuNSA3LjV2LTVhMiAyIDAgMCAwLTItMmgtOGEyIDIgMCAwIDAtMiAydjVtMTIgMGgtMTJtMTIgMHYyYTIgMiAwIDAgMS0yIDJoLTN2MmExIDEgMCAxIDEtMiAwdi0yaC0zYTIgMiAwIDAgMS0yLTJ2LTJtNC03VjVtMi00LjVWMyIvPjwvc3ZnPg==)
+  static const brushOutline =
+      '<path fill="none" stroke="currentColor" d="M13.5 7.5v-5a2 2 0 0 0-2-2h-8a2 2 0 0 0-2 2v5m12 0h-12m12 0v2a2 2 0 0 1-2 2h-3v2a1 1 0 1 1-2 0v-2h-3a2 2 0 0 1-2-2v-2m4-7V5m2-4.5V3"/>';
+
+  /// ![preview](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjxwYXRoIGZpbGw9ImN1cnJlbnRDb2xvciIgZmlsbC1ydWxlPSJldmVub2RkIiBkPSJNMSAyLjVBMi41IDIuNSAwIDAgMSAzLjUgMEg1djVoMVYwaDF2M2gxVjBoMy41QTIuNSAyLjUgMCAwIDEgMTQgMi41djdhMi41IDIuNSAwIDAgMS0yLjUgMi41SDl2MS41YTEuNSAxLjUgMCAwIDEtMyAwVjEySDMuNUEyLjUgMi41IDAgMCAxIDEgOS41ek0yIDh2MS41QTEuNSAxLjUgMCAwIDAgMy41IDExSDd2Mi41YS41LjUgMCAwIDAgMSAwVjExaDMuNUExLjUgMS41IDAgMCAwIDEzIDkuNVY4eiIgY2xpcC1ydWxlPSJldmVub2RkIi8+PC9zdmc+)
+  static const brushSolid =
+      '<path fill="currentColor" fill-rule="evenodd" d="M1 2.5A2.5 2.5 0 0 1 3.5 0H5v5h1V0h1v3h1V0h3.5A2.5 2.5 0 0 1 14 2.5v7a2.5 2.5 0 0 1-2.5 2.5H9v1.5a1.5 1.5 0 0 1-3 0V12H3.5A2.5 2.5 0 0 1 1 9.5zM2 8v1.5A1.5 1.5 0 0 0 3.5 11H7v2.5a.5.5 0 0 0 1 0V11h3.5A1.5 1.5 0 0 0 13 9.5V8z" clip-rule="evenodd"/>';
+
+  /// ![preview](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjxwYXRoIGZpbGw9Im5vbmUiIHN0cm9rZT0iY3VycmVudENvbG9yIiBkPSJNNC41IDQuNWg2bS02IDBsLS4zNjcuNzMzQTYgNiAwIDAgMCAzLjUgNy45MTZWMTAuNWE0IDQgMCAwIDAgOCAwVjcuOTE2YTYgNiAwIDAgMC0uNjMzLTIuNjgzTDEwLjUgNC41bS02IDB2LTFhMyAzIDAgMCAxIDYgMHYxTTAgOC41aDMuNW0xMS41IDBoLTMuNU0xIDE0bDMtMS41TTE0IDE0bC0zLTEuNU0xIDNsMyAxLjVNMTQgM2wtMyAxLjUiLz48L3N2Zz4=)
+  static const bugOutline =
+      '<path fill="none" stroke="currentColor" d="M4.5 4.5h6m-6 0l-.367.733A6 6 0 0 0 3.5 7.916V10.5a4 4 0 0 0 8 0V7.916a6 6 0 0 0-.633-2.683L10.5 4.5m-6 0v-1a3 3 0 0 1 6 0v1M0 8.5h3.5m11.5 0h-3.5M1 14l3-1.5M14 14l-3-1.5M1 3l3 1.5M14 3l-3 1.5"/>';
+
+  /// ![preview](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjxwYXRoIGZpbGw9ImN1cnJlbnRDb2xvciIgZmlsbC1ydWxlPSJldmVub2RkIiBkPSJNNCAzLjk0MVYzLjVhMy41IDMuNSAwIDEgMSA3IDB2LjQ0MWwyLjc3Ni0xLjM4OGwuNDQ4Ljg5NGwtMi45NTMgMS40NzdsLjA0My4wODZBNi41IDYuNSAwIDAgMSAxMiA3LjkxNlY4aDN2MWgtM3YxLjVjMCAuNjI1LS4xMjcgMS4yMi0uMzU4IDEuNzYybDIuNTgyIDEuMjlsLS40NDguODk1bC0yLjYyNy0xLjMxM0E0LjUgNC41IDAgMCAxIDcuNSAxNWE0LjUgNC41IDAgMCAxLTMuNjUtMS44NjZsLTIuNjI2IDEuMzEzbC0uNDQ4LS44OTRsMi41ODItMS4yOTFBNC41IDQuNSAwIDAgMSAzIDEwLjVWOUgwVjhoM3YtLjA4NGE2LjUgNi41IDAgMCAxIC42ODYtMi45MDZsLjA0My0uMDg2TC43NzYgMy40NDdsLjQ0OC0uODk0ek01IDMuNWEyLjUgMi41IDAgMCAxIDUgMFY0SDV6IiBjbGlwLXJ1bGU9ImV2ZW5vZGQiLz48L3N2Zz4=)
+  static const bugSolid =
+      '<path fill="currentColor" fill-rule="evenodd" d="M4 3.941V3.5a3.5 3.5 0 1 1 7 0v.441l2.776-1.388l.448.894l-2.953 1.477l.043.086A6.5 6.5 0 0 1 12 7.916V8h3v1h-3v1.5c0 .625-.127 1.22-.358 1.762l2.582 1.29l-.448.895l-2.627-1.313A4.5 4.5 0 0 1 7.5 15a4.5 4.5 0 0 1-3.65-1.866l-2.626 1.313l-.448-.894l2.582-1.291A4.5 4.5 0 0 1 3 10.5V9H0V8h3v-.084a6.5 6.5 0 0 1 .686-2.906l.043-.086L.776 3.447l.448-.894zM5 3.5a2.5 2.5 0 0 1 5 0V4H5z" clip-rule="evenodd"/>';
+
+  /// ![preview](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjxwYXRoIGZpbGw9ImN1cnJlbnRDb2xvciIgZD0ibTcuNS41bC4yMjQtLjQ0N2EuNS41IDAgMCAwLS40NDggMHptLTMgOFY4SDR2LjV6bTQgMEg5VjhoLS41ek0wIDE1aDE1di0xSDB6TTcuMjc2LjA1M2wtNiAzbC40NDguODk0bDYtM3pNMCA2aDE1VjVIMHptMTMuNzI0LTIuOTQ3bC02LTNsLS40NDguODk0bDYgM3pNMSA1LjV2OWgxdi05em0xMiAwdjloMXYtOXptLTggOXYtNkg0djZ6TTQuNSA5aDRWOGgtNHpNOCA4LjV2Nmgxdi02eiIvPjwvc3ZnPg==)
+  static const buildingOutline =
+      '<path fill="currentColor" d="m7.5.5l.224-.447a.5.5 0 0 0-.448 0zm-3 8V8H4v.5zm4 0H9V8h-.5zM0 15h15v-1H0zM7.276.053l-6 3l.448.894l6-3zM0 6h15V5H0zm13.724-2.947l-6-3l-.448.894l6 3zM1 5.5v9h1v-9zm12 0v9h1v-9zm-8 9v-6H4v6zM4.5 9h4V8h-4zM8 8.5v6h1v-6z"/>';
+
+  /// ![preview](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjxwYXRoIGZpbGw9ImN1cnJlbnRDb2xvciIgZD0iTTcuNzI0LjA1M2EuNS41IDAgMCAwLS40NDggMGwtNiAzbC40NDguODk0TDcuNSAxLjA2bDUuNzc2IDIuODg4bC40NDgtLjg5NHpNMTQgNmgxVjVIMHYxaDF2OEgwdjFoNFY4aDV2N2g2di0xaC0xeiIvPjxwYXRoIGZpbGw9ImN1cnJlbnRDb2xvciIgZD0iTTggMTVWOUg1djZ6Ii8+PC9zdmc+)
+  static const buildingSolid =
+      '<path fill="currentColor" d="M7.724.053a.5.5 0 0 0-.448 0l-6 3l.448.894L7.5 1.06l5.776 2.888l.448-.894zM14 6h1V5H0v1h1v8H0v1h4V8h5v7h6v-1h-1z"/><path fill="currentColor" d="M8 15V9H5v6z"/>';
+
+  /// ![preview](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjxwYXRoIGZpbGw9ImN1cnJlbnRDb2xvciIgZD0iTTQuMDc2IDYuNDdMMy41OCA2LjR6bS0uMDEuMDdsLjQ5NS4wN3ptNi44NTgtLjA3bC0uNDk1LjA3em0uMDEuMDdsLjQ5NS0uMDd6TTkuNSAxMi41di41YS41LjUgMCAwIDAgLjUtLjV6bS00IDBINWEuNS41IDAgMCAwIC41LjV6bS0uNzQ1LTMuMzQ3bC4zOTYtLjMwNnptNS40OSAwbC0uMzk2LS4zMDZ6TTYgMTVoM3YtMUg2ek0zLjU4IDYuNGwtLjAxLjA3bC45OS4xNGwuMDEtLjA3ek03LjUgM2EzLjk2IDMuOTYgMCAwIDAtMy45MiAzLjRsLjk5LjE0QTIuOTYgMi45NiAwIDAgMSA3LjUgNHptMy45MiAzLjRBMy45NiAzLjk2IDAgMCAwIDcuNSAzdjFhMi45NiAyLjk2IDAgMCAxIDIuOTMgMi41NHptLjAxLjA3bC0uMDEtLjA3bC0uOTkuMTRsLjAxLjA3em0tLjc5IDIuOTg5Yy42My0uODE0Ljk0OC0xLjg3NS43OS0yLjk5bC0uOTkuMTQyYTIuOTUgMi45NSAwIDAgMS0uNTkgMi4yMzZ6TTkgMTAuOXYxLjZoMXYtMS41OTl6bS41IDEuMWgtNHYxaDR6bS0zLjUuNXYtMS41OTlINVYxMi41ek0zLjU3IDYuNDdhMy45NSAzLjk1IDAgMCAwIC43OSAyLjk4OWwuNzktLjYxMmEyLjk1IDIuOTUgMCAwIDEtLjU5LTIuMjM2ek02IDEwLjljMC0uODIzLS40MzgtMS41MjMtLjg1LTIuMDU0bC0uNzkuNjEyYy4zODMuNDk1LjY0Ljk2OC42NCAxLjQ0MnptMy44NS0yLjA1NEM5LjQzNyA5LjM3OCA5IDEwLjA3NyA5IDEwLjloMWMwLS40NzQuMjU3LS45NDcuNjQtMS40NDJ6Ii8+PC9zdmc+)
+  static const bulbOffOutline =
+      '<path fill="currentColor" d="M4.076 6.47L3.58 6.4zm-.01.07l.495.07zm6.858-.07l-.495.07zm.01.07l.495-.07zM9.5 12.5v.5a.5.5 0 0 0 .5-.5zm-4 0H5a.5.5 0 0 0 .5.5zm-.745-3.347l.396-.306zm5.49 0l-.396-.306zM6 15h3v-1H6zM3.58 6.4l-.01.07l.99.14l.01-.07zM7.5 3a3.96 3.96 0 0 0-3.92 3.4l.99.14A2.96 2.96 0 0 1 7.5 4zm3.92 3.4A3.96 3.96 0 0 0 7.5 3v1a2.96 2.96 0 0 1 2.93 2.54zm.01.07l-.01-.07l-.99.14l.01.07zm-.79 2.989c.63-.814.948-1.875.79-2.99l-.99.142a2.95 2.95 0 0 1-.59 2.236zM9 10.9v1.6h1v-1.599zm.5 1.1h-4v1h4zm-3.5.5v-1.599H5V12.5zM3.57 6.47a3.95 3.95 0 0 0 .79 2.989l.79-.612a2.95 2.95 0 0 1-.59-2.236zM6 10.9c0-.823-.438-1.523-.85-2.054l-.79.612c.383.495.64.968.64 1.442zm3.85-2.054C9.437 9.378 9 10.077 9 10.9h1c0-.474.257-.947.64-1.442z"/>';
+
+  /// ![preview](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjxwYXRoIGZpbGw9ImN1cnJlbnRDb2xvciIgZD0iTTcuNSAzYTMuOTYgMy45NiAwIDAgMC0zLjkyIDMuNGwtLjAxLjA3YTMuOTUgMy45NSAwIDAgMCAuNzkgMi45ODljLjM4My40OTUuNjQuOTY4LjY0IDEuNDQyVjEyLjVhLjUuNSAwIDAgMCAuNS41aDRhLjUuNSAwIDAgMCAuNS0uNXYtMS41OTljMC0uNDc0LjI1Ni0uOTQ3LjY0LTEuNDQyYy42My0uODE0Ljk0OC0xLjg3NS43OS0yLjk5bC0uMDEtLjA3QTMuOTYgMy45NiAwIDAgMCA3LjUgM002IDE1aDN2LTFINnoiLz48L3N2Zz4=)
+  static const bulbOffSolid =
+      '<path fill="currentColor" d="M7.5 3a3.96 3.96 0 0 0-3.92 3.4l-.01.07a3.95 3.95 0 0 0 .79 2.989c.383.495.64.968.64 1.442V12.5a.5.5 0 0 0 .5.5h4a.5.5 0 0 0 .5-.5v-1.599c0-.474.256-.947.64-1.442c.63-.814.948-1.875.79-2.99l-.01-.07A3.96 3.96 0 0 0 7.5 3M6 15h3v-1H6z"/>';
+
+  /// ![preview](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjxwYXRoIGZpbGw9ImN1cnJlbnRDb2xvciIgZD0ibTQuMDc2IDYuNDdsLjQ5NS4wN3ptLS4wMS4wN2wtLjQ5NS0uMDd6bTYuODU4LS4wN2wuNDk1LS4wN3ptLjAxLjA3bC0uNDk1LjA3ek05LjUgMTIuNXYuNWEuNS41IDAgMCAwIC41LS41em0tNCAwSDVhLjUuNSAwIDAgMCAuNS41em0tLjc0NS0zLjM0N2wuMzk2LS4zMDZ6bTUuNDkgMGwtLjM5Ni0uMzA2ek02IDE1aDN2LTFINnpNMy41OCA2LjRsLS4wMS4wN2wuOTkuMTRsLjAxLS4wN3pNNy41IDNhMy45NiAzLjk2IDAgMCAwLTMuOTIgMy40bC45OS4xNEEyLjk2IDIuOTYgMCAwIDEgNy41IDR6bTMuOTIgMy40QTMuOTYgMy45NiAwIDAgMCA3LjUgM3YxYTIuOTYgMi45NiAwIDAgMSAyLjkzIDIuNTR6bS4wMS4wN2wtLjAxLS4wN2wtLjk5LjE0bC4wMS4wN3ptLS43OSAyLjk4OWMuNjMtLjgxNC45NDgtMS44NzUuNzktMi45OWwtLjk5LjE0MmEyLjk1IDIuOTUgMCAwIDEtLjU5IDIuMjM2ek05IDEwLjl2MS42aDF2LTEuNTk5em0uNSAxLjFoLTR2MWg0em0tMy41LjV2LTEuNTk5SDVWMTIuNXpNMy41NyA2LjQ3YTMuOTUgMy45NSAwIDAgMCAuNzkgMi45ODlsLjc5LS42MTJhMi45NSAyLjk1IDAgMCAxLS41OS0yLjIzNnpNNiAxMC45YzAtLjgyMy0uNDM4LTEuNTIzLS44NS0yLjA1NGwtLjc5LjYxMmMuMzgzLjQ5NS42NC45NjguNjQgMS40NDJ6bTMuODUtMi4wNTRDOS40MzcgOS4zNzggOSAxMC4wNzcgOSAxMC45aDFjMC0uNDc0LjI1Ny0uOTQ3LjY0LTEuNDQyek03IDB2MmgxVjB6TTAgOGgyVjdIMHptMTMgMGgyVjdoLTJ6TTMuMzU0IDMuNjQ2bC0xLjUtMS41bC0uNzA4LjcwOGwxLjUgMS41em05IC43MDhsMS41LTEuNWwtLjcwOC0uNzA4bC0xLjUgMS41eiIvPjwvc3ZnPg==)
+  static const bulbOnOutline =
+      '<path fill="currentColor" d="m4.076 6.47l.495.07zm-.01.07l-.495-.07zm6.858-.07l.495-.07zm.01.07l-.495.07zM9.5 12.5v.5a.5.5 0 0 0 .5-.5zm-4 0H5a.5.5 0 0 0 .5.5zm-.745-3.347l.396-.306zm5.49 0l-.396-.306zM6 15h3v-1H6zM3.58 6.4l-.01.07l.99.14l.01-.07zM7.5 3a3.96 3.96 0 0 0-3.92 3.4l.99.14A2.96 2.96 0 0 1 7.5 4zm3.92 3.4A3.96 3.96 0 0 0 7.5 3v1a2.96 2.96 0 0 1 2.93 2.54zm.01.07l-.01-.07l-.99.14l.01.07zm-.79 2.989c.63-.814.948-1.875.79-2.99l-.99.142a2.95 2.95 0 0 1-.59 2.236zM9 10.9v1.6h1v-1.599zm.5 1.1h-4v1h4zm-3.5.5v-1.599H5V12.5zM3.57 6.47a3.95 3.95 0 0 0 .79 2.989l.79-.612a2.95 2.95 0 0 1-.59-2.236zM6 10.9c0-.823-.438-1.523-.85-2.054l-.79.612c.383.495.64.968.64 1.442zm3.85-2.054C9.437 9.378 9 10.077 9 10.9h1c0-.474.257-.947.64-1.442zM7 0v2h1V0zM0 8h2V7H0zm13 0h2V7h-2zM3.354 3.646l-1.5-1.5l-.708.708l1.5 1.5zm9 .708l1.5-1.5l-.708-.708l-1.5 1.5z"/>';
+
+  /// ![preview](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjxwYXRoIGZpbGw9ImN1cnJlbnRDb2xvciIgZD0iTTcgMHYyaDFWMHpNMy4zNTQgMy42NDZsLTEuNS0xLjVsLS43MDguNzA4bDEuNSAxLjV6bTkgLjcwOGwxLjUtMS41bC0uNzA4LS43MDhsLTEuNSAxLjV6TTcuNSAzYTMuOTYgMy45NiAwIDAgMC0zLjkyIDMuNGwtLjAxLjA3YTMuOTUgMy45NSAwIDAgMCAuNzkgMi45ODljLjM4My40OTUuNjQuOTY4LjY0IDEuNDQyVjEyLjVhLjUuNSAwIDAgMCAuNS41aDRhLjUuNSAwIDAgMCAuNS0uNXYtMS41OTljMC0uNDc0LjI1Ny0uOTQ3LjY0LTEuNDQyYy42My0uODE0Ljk0OC0xLjg3NS43OS0yLjk5bC0uMDEtLjA3QTMuOTYgMy45NiAwIDAgMCA3LjUgM00wIDhoMlY3SDB6bTEzIDBoMlY3aC0yem0tNyA3aDN2LTFINnoiLz48L3N2Zz4=)
+  static const bulbOnSolid =
+      '<path fill="currentColor" d="M7 0v2h1V0zM3.354 3.646l-1.5-1.5l-.708.708l1.5 1.5zm9 .708l1.5-1.5l-.708-.708l-1.5 1.5zM7.5 3a3.96 3.96 0 0 0-3.92 3.4l-.01.07a3.95 3.95 0 0 0 .79 2.989c.383.495.64.968.64 1.442V12.5a.5.5 0 0 0 .5.5h4a.5.5 0 0 0 .5-.5v-1.599c0-.474.257-.947.64-1.442c.63-.814.948-1.875.79-2.99l-.01-.07A3.96 3.96 0 0 0 7.5 3M0 8h2V7H0zm13 0h2V7h-2zm-7 7h3v-1H6z"/>';
+
+  /// ![preview](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjxwYXRoIGZpbGw9Im5vbmUiIHN0cm9rZT0iY3VycmVudENvbG9yIiBkPSJNNS41IDEwVjguNW0wIDB2LTVhMSAxIDAgMCAxIDIgMHY0aDMuMzUzYy45MSAwIDEuNjQ3LjczNyAxLjY0NyAxLjY0N1YxMEE0LjUgNC41IDAgMCAxIDggMTQuNWgtLjVhNCA0IDAgMCAxLTQtNGEyIDIgMCAwIDEgMi0yWm0zLjUtM2gyYTIuNSAyLjUgMCAwIDAgMC01SDRhMi41IDIuNSAwIDAgMCAwIDUiLz48L3N2Zz4=)
+  static const buttonOutline =
+      '<path fill="none" stroke="currentColor" d="M5.5 10V8.5m0 0v-5a1 1 0 0 1 2 0v4h3.353c.91 0 1.647.737 1.647 1.647V10A4.5 4.5 0 0 1 8 14.5h-.5a4 4 0 0 1-4-4a2 2 0 0 1 2-2Zm3.5-3h2a2.5 2.5 0 0 0 0-5H4a2.5 2.5 0 0 0 0 5"/>';
+
+  /// ![preview](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjxwYXRoIGZpbGw9ImN1cnJlbnRDb2xvciIgZD0iTTQgNmEzIDMgMCAwIDEgMC02aDdhMyAzIDAgMSAxIDAgNkg5VjMuNWEyLjUgMi41IDAgMCAwLTUgMHoiLz48cGF0aCBmaWxsPSJjdXJyZW50Q29sb3IiIGQ9Ik02LjUgMkExLjUgMS41IDAgMCAwIDUgMy41djQuNTVhMi41IDIuNSAwIDAgMC0yIDIuNDVBNC41IDQuNSAwIDAgMCA3LjUgMTVIOGE1IDUgMCAwIDAgNS01di0uODUzQTIuMTQ3IDIuMTQ3IDAgMCAwIDEwLjg1MyA3SDhWMy41QTEuNSAxLjUgMCAwIDAgNi41IDIiLz48L3N2Zz4=)
+  static const buttonSolid =
+      '<path fill="currentColor" d="M4 6a3 3 0 0 1 0-6h7a3 3 0 1 1 0 6H9V3.5a2.5 2.5 0 0 0-5 0z"/><path fill="currentColor" d="M6.5 2A1.5 1.5 0 0 0 5 3.5v4.55a2.5 2.5 0 0 0-2 2.45A4.5 4.5 0 0 0 7.5 15H8a5 5 0 0 0 5-5v-.853A2.147 2.147 0 0 0 10.853 7H8V3.5A1.5 1.5 0 0 0 6.5 2"/>';
+}

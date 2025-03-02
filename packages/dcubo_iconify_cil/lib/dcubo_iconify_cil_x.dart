@@ -1,0 +1,15 @@
+/// Iconify icons for cil.
+library;
+
+/// Class to access the icon data for CoreUI Free.
+/// All icons are stored as static const strings.
+/// This class contains the icons that start with "X".
+class IconifyCoreUIFreeIconSetX {
+  /// ![preview](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjxwYXRoIGZpbGw9ImN1cnJlbnRDb2xvciIgZD0ibTQyNy4zMTQgMTA3LjMxM2wtMjIuNjI4LTIyLjYyNkwyNTYgMjMzLjM3M0wxMDcuMzE0IDg0LjY4N2wtMjIuNjI4IDIyLjYyNkwyMzMuMzczIDI1Nkw4NC42ODYgNDA0LjY4N2wyMi42MjggMjIuNjI2TDI1NiAyNzguNjI3bDE0OC42ODYgMTQ4LjY4NmwyMi42MjgtMjIuNjI2TDI3OC42MjcgMjU2eiIvPjwvc3ZnPg==)
+  static const x =
+      '<path fill="currentColor" d="m427.314 107.313l-22.628-22.626L256 233.373L107.314 84.687l-22.628 22.626L233.373 256L84.686 404.687l22.628 22.626L256 278.627l148.686 148.686l22.628-22.626L278.627 256z"/>';
+
+  /// ![preview](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjxwYXRoIGZpbGw9ImN1cnJlbnRDb2xvciIgZD0ibTM0OC4wNzEgMTQxLjMwMmwtODcuNzYzIDg3Ljc2M2wtODcuNzYzLTg3Ljc2M2wtMjIuNjI4IDIyLjYyN2w4Ny43NjQgODcuNzYzbC04Ny43NjQgODcuNzY0bDIyLjYyOCAyMi42MjdsODcuNzYzLTg3Ljc2M2w4Ny43NjMgODcuNzYzbDIyLjYyOC0yMi42MjdsLTg3Ljc2NC04Ny43NjRsODcuNzY0LTg3Ljc2M3oiLz48cGF0aCBmaWxsPSJjdXJyZW50Q29sb3IiIGQ9Ik00MjUuNzA2IDg2LjI5NEEyNDAgMjQwIDAgMCAwIDg2LjI5NCA0MjUuNzA2QTI0MCAyNDAgMCAwIDAgNDI1LjcwNiA4Ni4yOTRNMjU2IDQ2NGMtMTE0LjY5MSAwLTIwOC05My4zMDktMjA4LTIwOFMxNDEuMzA5IDQ4IDI1NiA0OHMyMDggOTMuMzA5IDIwOCAyMDhzLTkzLjMwOSAyMDgtMjA4IDIwOCIvPjwvc3ZnPg==)
+  static const xCircle =
+      '<path fill="currentColor" d="m348.071 141.302l-87.763 87.763l-87.763-87.763l-22.628 22.627l87.764 87.763l-87.764 87.764l22.628 22.627l87.763-87.763l87.763 87.763l22.628-22.627l-87.764-87.764l87.764-87.763z"/><path fill="currentColor" d="M425.706 86.294A240 240 0 0 0 86.294 425.706A240 240 0 0 0 425.706 86.294M256 464c-114.691 0-208-93.309-208-208S141.309 48 256 48s208 93.309 208 208s-93.309 208-208 208"/>';
+}

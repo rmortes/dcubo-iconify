@@ -1,0 +1,19 @@
+/// Iconify icons for prime.
+library;
+
+/// Class to access the icon data for Prime Icons.
+/// All icons are stored as static const strings.
+/// This class contains the icons that start with "Q".
+class IconifyPrimeIconsIconSetQ {
+  /// ![preview](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjxwYXRoIGZpbGw9ImN1cnJlbnRDb2xvciIgZD0iTTEyLjM4IDMuODh2N2g3di03Wm01LjUgNS41aC00di00aDRabS0xNCAxLjVoN3YtN2gtN1ptMS41LTUuNWg0djRoLTRabS0xLjUgMTRoN3YtN2gtN1ptMS41LTUuNWg0djRoLTRabTctMS41aDEuNzV2MS43NWgtMS43NXptMy41IDBoMS43NXYxLjc1aC0xLjc1em0tMS43NSAxLjc1aDEuNzV2MS43NWgtMS43NXptMy41IDBoMS43NXYxLjc1aC0xLjc1em0tNS4yNSAxLjc1aDEuNzV2MS43NWgtMS43NXptMy41IDBoMS43NXYxLjc1aC0xLjc1em0tMS43NSAxLjc1aDEuNzV2MS43NWgtMS43NXptMy41IDBoMS43NXYxLjc1aC0xLjc1eiIvPjwvc3ZnPg==)
+  static const qrcode =
+      '<path fill="currentColor" d="M12.38 3.88v7h7v-7Zm5.5 5.5h-4v-4h4Zm-14 1.5h7v-7h-7Zm1.5-5.5h4v4h-4Zm-1.5 14h7v-7h-7Zm1.5-5.5h4v4h-4Zm7-1.5h1.75v1.75h-1.75zm3.5 0h1.75v1.75h-1.75zm-1.75 1.75h1.75v1.75h-1.75zm3.5 0h1.75v1.75h-1.75zm-5.25 1.75h1.75v1.75h-1.75zm3.5 0h1.75v1.75h-1.75zm-1.75 1.75h1.75v1.75h-1.75zm3.5 0h1.75v1.75h-1.75z"/>';
+
+  /// ![preview](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjxwYXRoIGZpbGw9ImN1cnJlbnRDb2xvciIgZD0iTTE2LjA3IDQuOTNBNS43NSA1Ljc1IDAgMCAwIDYuMjUgOWEuNzUuNzUgMCAwIDAgMS41IDBBNC4yNiA0LjI2IDAgMSAxIDEyIDEzLjI1YS43Ni43NiAwIDAgMC0uNzUuNzV2MmEuNzUuNzUgMCAwIDAgMS41IDB2LTEuM2E1Ljc2IDUuNzYgMCAwIDAgMy4zMi05Ljc3Ii8+PGNpcmNsZSBjeD0iMTIiIGN5PSIxOS41IiByPSIxLjI1IiBmaWxsPSJjdXJyZW50Q29sb3IiLz48L3N2Zz4=)
+  static const question =
+      '<path fill="currentColor" d="M16.07 4.93A5.75 5.75 0 0 0 6.25 9a.75.75 0 0 0 1.5 0A4.26 4.26 0 1 1 12 13.25a.76.76 0 0 0-.75.75v2a.75.75 0 0 0 1.5 0v-1.3a5.76 5.76 0 0 0 3.32-9.77"/><circle cx="12" cy="19.5" r="1.25" fill="currentColor"/>';
+
+  /// ![preview](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjxwYXRoIGZpbGw9ImN1cnJlbnRDb2xvciIgZD0iTTEyIDNjLTQuOTYgMC05IDQuMDQtOSA5czQuMDQgOSA5IDlzOS00LjA0IDktOXMtNC4wNC05LTktOW0wIDE2LjVjLTQuMTQgMC03LjUtMy4zNi03LjUtNy41UzcuODYgNC41IDEyIDQuNXM3LjUgMy4zNiA3LjUgNy41cy0zLjM2IDcuNS03LjUgNy41bTIuMy0xMS44Yy42MS42MS45NSAxLjQzLjk1IDIuM3MtLjM0IDEuNjgtLjk1IDIuM2MtLjQzLjQzLS45Ny43My0xLjU1Ljg2di4zNGMwIC40MS0uMzQuNzUtLjc1Ljc1cy0uNzUtLjM0LS43NS0uNzV2LTFjMC0uNDEuMzQtLjc1Ljc1LS43NUExLjc0IDEuNzQgMCAwIDAgMTMuNzUgMTBjMC0uNDctLjE4LS45MS0uNTEtMS4yNGMtLjY2LS42Ni0xLjgxLS42Ni0yLjQ3IDBjLS4zMy4zMy0uNTEuNzctLjUxIDEuMjRjMCAuNDEtLjM0Ljc1LS43NS43NXMtLjc1LS4zNC0uNzUtLjc1YzAtLjg3LjM0LTEuNjguOTUtMi4zYzEuMjMtMS4yMyAzLjM3LTEuMjMgNC42IDBaTTEzIDE2LjI1YzAgLjU1LS40NSAxLTEgMXMtMS0uNDUtMS0xcy40NS0xIDEtMXMxIC40NSAxIDEiLz48L3N2Zz4=)
+  static const questionCircle =
+      '<path fill="currentColor" d="M12 3c-4.96 0-9 4.04-9 9s4.04 9 9 9s9-4.04 9-9s-4.04-9-9-9m0 16.5c-4.14 0-7.5-3.36-7.5-7.5S7.86 4.5 12 4.5s7.5 3.36 7.5 7.5s-3.36 7.5-7.5 7.5m2.3-11.8c.61.61.95 1.43.95 2.3s-.34 1.68-.95 2.3c-.43.43-.97.73-1.55.86v.34c0 .41-.34.75-.75.75s-.75-.34-.75-.75v-1c0-.41.34-.75.75-.75A1.74 1.74 0 0 0 13.75 10c0-.47-.18-.91-.51-1.24c-.66-.66-1.81-.66-2.47 0c-.33.33-.51.77-.51 1.24c0 .41-.34.75-.75.75s-.75-.34-.75-.75c0-.87.34-1.68.95-2.3c1.23-1.23 3.37-1.23 4.6 0ZM13 16.25c0 .55-.45 1-1 1s-1-.45-1-1s.45-1 1-1s1 .45 1 1"/>';
+}
