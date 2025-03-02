@@ -1,0 +1,10 @@
+name: dcubo_iconify_cryptocurrency
+description: Iconify icons for Cryptocurrency Icons.
+version: 0.18.1
+lastModified: 1722793174
+repository: https://github.com/rmortes/dcubo-iconify/
+issue_tracker: https://github.com/rmortes/dcubo-iconify/issues
+resolution: workspace
+
+environment:
+  sdk: ^3.6.0

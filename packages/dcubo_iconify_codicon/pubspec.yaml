@@ -1,0 +1,10 @@
+name: dcubo_iconify_codicon
+description: Iconify icons for Codicons.
+version: 0.0.37
+lastModified: 1740377626
+repository: https://github.com/rmortes/dcubo-iconify/
+issue_tracker: https://github.com/rmortes/dcubo-iconify/issues
+resolution: workspace
+
+environment:
+  sdk: ^3.6.0

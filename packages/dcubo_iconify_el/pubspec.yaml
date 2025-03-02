@@ -1,0 +1,10 @@
+name: dcubo_iconify_el
+description: Iconify icons for Elusive Icons.
+version: 2.0.0
+lastModified: 1722793217
+repository: https://github.com/rmortes/dcubo-iconify/
+issue_tracker: https://github.com/rmortes/dcubo-iconify/issues
+resolution: workspace
+
+environment:
+  sdk: ^3.6.0

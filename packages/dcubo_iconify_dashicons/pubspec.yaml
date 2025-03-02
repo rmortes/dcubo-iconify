@@ -1,0 +1,10 @@
+name: dcubo_iconify_dashicons
+description: Iconify icons for Dashicons.
+version: 0.9.0
+lastModified: 1716788160
+repository: https://github.com/rmortes/dcubo-iconify/
+issue_tracker: https://github.com/rmortes/dcubo-iconify/issues
+resolution: workspace
+
+environment:
+  sdk: ^3.6.0

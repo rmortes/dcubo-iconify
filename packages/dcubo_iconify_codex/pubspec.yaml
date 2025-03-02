@@ -1,0 +1,10 @@
+name: dcubo_iconify_codex
+description: Iconify icons for CodeX Icons.
+version: 0.1.0
+lastModified: 1735333178
+repository: https://github.com/rmortes/dcubo-iconify/
+issue_tracker: https://github.com/rmortes/dcubo-iconify/issues
+resolution: workspace
+
+environment:
+  sdk: ^3.6.0

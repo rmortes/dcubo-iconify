@@ -1,0 +1,10 @@
+name: dcubo_iconify_ei
+description: Iconify icons for Evil Icons.
+version: 1.10.1
+lastModified: 1722793211
+repository: https://github.com/rmortes/dcubo-iconify/
+issue_tracker: https://github.com/rmortes/dcubo-iconify/issues
+resolution: workspace
+
+environment:
+  sdk: ^3.6.0

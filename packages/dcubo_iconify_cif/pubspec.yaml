@@ -1,0 +1,10 @@
+name: dcubo_iconify_cif
+description: Iconify icons for CoreUI Flags.
+version: 2.0.1
+lastModified: 1721920982
+repository: https://github.com/rmortes/dcubo-iconify/
+issue_tracker: https://github.com/rmortes/dcubo-iconify/issues
+resolution: workspace
+
+environment:
+  sdk: ^3.6.0
