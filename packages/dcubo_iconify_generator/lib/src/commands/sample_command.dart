@@ -155,8 +155,10 @@ class SampleCommand extends Command<int> {
       await Directory(newFolder).rename(targetPath);
 
       // 8. If the release flag is set, run `pub publish`
-      print(argResults?.flag('release'));
       if (argResults?.flag('release') ?? false) {
+        // 8.1 Updating the workspace pubspec is required before publishing
+        progress.update('Updating workspace pubspec');
+        await updateWorkspace();
         progress.update('Publishing');
         await Process.run(
           'flutter',

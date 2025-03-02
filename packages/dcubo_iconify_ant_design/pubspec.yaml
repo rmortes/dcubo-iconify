@@ -1,0 +1,10 @@
+name: dcubo_iconify_ant_design
+description: Iconify icons for Ant Design Icons.
+version: 4.4.2
+lastModified: 1734358579
+repository: https://github.com/rmortes/dcubo-iconify/
+issue_tracker: https://github.com/rmortes/dcubo-iconify/issues
+resolution: workspace
+
+environment:
+  sdk: ^3.6.0
