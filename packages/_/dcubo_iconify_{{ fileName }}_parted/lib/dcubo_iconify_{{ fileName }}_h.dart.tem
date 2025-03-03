@@ -1,0 +1,12 @@
+/// Iconify icons for {{ prefix }}.
+library;
+
+/// Class to access the icon data for {{ info.name }}.
+/// All icons are stored as static const strings.
+/// This class contains the icons that start with "H".
+class Iconify{{ className }}IconSetH {
+  {% for icon in startingHIcons %}
+  /// ![preview]({{ icon.iconPreview }})
+  static const {{ icon.variableName }} = '{{ icon.body }}';
+  {% endfor %}
+}

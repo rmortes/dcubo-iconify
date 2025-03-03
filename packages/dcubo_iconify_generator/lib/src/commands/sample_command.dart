@@ -7,6 +7,8 @@ import 'package:mason_logger/mason_logger.dart';
 
 /// This variable may change if the template path changes
 const templatePath = 'packages/_/dcubo_iconify_{{ fileName }}/';
+const templatePartedPath = 'packages/_/dcubo_iconify_{{ fileName }}_parted/';
+const partedThreshold = 2000;
 
 /// The path the rendered packages will be moved into
 const templateTargetPath = 'packages/dcubo_iconify_{{ fileName }}/';
@@ -88,6 +90,12 @@ class SampleCommand extends Command<int> {
         set.downloadUrl,
         globalResults?.option('token') ?? '',
       );
+      final usesParted = iconSetData.icons.length > partedThreshold;
+      if (usesParted) {
+        _logger.info(
+            '${set.name} has more than $partedThreshold icons (${iconSetData.icons.length}). Using parted template');
+      }
+      final thisTemplatePath = usesParted ? templatePartedPath : templatePath;
 
       // 2.1 If the iconset data lastModified and the local
       // lastModified are the same, skip
@@ -111,8 +119,8 @@ class SampleCommand extends Command<int> {
       }
 
       // 3. Get the files and folders to process
-      final templateUri = Uri.file(templatePath);
-      final newFolder = await render(templatePath, iconSetData);
+      final templateUri = Uri.file(thisTemplatePath);
+      final newFolder = await render(thisTemplatePath, iconSetData);
       final templateFolders = getAllFolders(templateUri);
       final templateFiles = getTemplateFiles(templateUri);
 
