@@ -7,6 +7,6 @@ library;
 class Iconify{{ className }}IconSetI {
   {% for icon in startingIIcons %}
   /// ![preview]({{ icon.iconPreview }})
-  static const {{ icon.variableName }} = '{{ icon.body }}';
+  static const {{ icon.variableName }} = '<svg xmlns="http://www.w3.org/2000/svg"{% if info.height %} width="{{ info.height }}" height="{{ info.height }}" viewBox="0 0 {{ info.height }} {{ info.height }}"{% endif %}>{{ icon.body }}</svg>';
   {% endfor %}
 }
