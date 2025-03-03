@@ -22,6 +22,17 @@ Then, install the `dcubo_iconify_logos` package:
 dart pub add dcubo_iconify_logos
 ```
 
+In case this package has not been published yet, you can add it as a dependency in your `pubspec.yaml` file:
+
+```yaml
+dependencies:
+  dcubo_iconify: ^latest_version
+  dcubo_iconify_logos:
+    git:
+      url: git@github.com:rmortes/dcubo-iconify.git
+      path: packages/dcubo_iconify_logos
+```
+
 [dart_install_link]: https://dart.dev/get-dart
 [github_actions_link]: https://docs.github.com/en/actions/learn-github-actions
 [license_badge]: https://img.shields.io/badge/license-MIT-blue.svg
