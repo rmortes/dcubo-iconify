@@ -38,6 +38,12 @@ class SampleCommand extends Command<int> {
         'force',
         help: 'Force generation of the package, even if it is up to date',
         abbr: 'f',
+      )
+      ..addOption(
+        'throttle',
+        abbr: 't',
+        help: 'Throttle the requests (in seconds)',
+        defaultsTo: '0',
       );
   }
 
@@ -174,6 +180,15 @@ class SampleCommand extends Command<int> {
       }
 
       progress.complete('${set.name} generated');
+
+      if (int.parse(argResults?['throttle'] as String? ?? '0') > 0) {
+        _logger.info('Throttling for ${argResults?['throttle']} seconds');
+        await Future.delayed(
+          Duration(
+            seconds: int.parse(argResults?['throttle'] as String? ?? '0'),
+          ),
+        );
+      }
     }
 
     // Finally, update the workspace pubspec
